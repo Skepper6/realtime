@@ -1,4 +1,4 @@
-import About12 from "@/components/sections/About/About12";
+import About12 from "@/components/sections/about/About12";
 import Cta1 from "@/components/sections/cta/Cta1";
 import HeroInner from "@/components/sections/heros/HeroInner";
 import History1 from "@/components/sections/history/History1";

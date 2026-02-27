@@ -1,4 +1,4 @@
-// import About11 from "@/components/sections/About/About11";
+// import About11 from "@/components/sections/about/About11";
 // import Brands1 from "@/components/sections/brands/Brands1";
 // import Cta1 from "@/components/sections/cta/Cta1";
 // import Features from "@/components/sections/features/Features";

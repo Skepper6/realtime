@@ -1,4 +1,4 @@
-import About3 from "@/components/sections/About/About3";
+import About3 from "@/components/sections/about/About3";
 import Blogs3 from "@/components/sections/blogs/Blogs3";
 import Brands2 from "@/components/sections/brands/Brands2";
 import Cta2 from "@/components/sections/cta/Cta2";
