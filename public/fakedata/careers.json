@@ -1,0 +1,82 @@
+[
+	{
+		"id": 1,
+		"title": "Project Coordinator",
+		"iconName": "tji-strategy",
+		"price": "$400-&550",
+		"duration": "week",
+		"location": "Bangalore, India",
+		"category": "Full time job/on site",
+		"need": "Urgent"
+	},
+	{
+		"id": 2,
+		"title": "HVAC Design Engineer",
+		"iconName": "tji-manage",
+		"price": "$400-$550",
+		"duration": "week",
+		"location": "Bangalore, India",
+		"category": "Full time job/on site",
+		"need": "Urgent"
+	},
+	{
+		"id": 3,
+		"title": "Site Engineer",
+		"iconName": "tji-process-1",
+		"price": "$400-$550",
+		"duration": "week",
+		"location": "Bangalore, India",
+		"category": "Full time job/on site",
+		"need": "Urgent"
+	},
+	{
+		"id": 4,
+		"title": "Project Manager",
+		"iconName": "tji-operations",
+		"price": "$400-$550",
+		"duration": "week",
+		"location": "Bangalore, India",
+		"category": "Full time job/on site",
+		"need": "Urgent"
+	},
+	{
+		"id": 5,
+		"title": "Technical Support",
+		"iconName": "tji-organize",
+		"price": "$400-$550",
+		"duration": "week",
+		"location": "Bangalore, India",
+		"category": "Full time job/on site",
+		"need": "Urgent"
+	},
+	{
+		"id": 6,
+		"title": "HVAC Engineer",
+		"iconName": "tji-performance",
+		"price": "$400-$550",
+		"duration": "week",
+		"location": "Bangalore, India",
+		"category": "Full time job/on site",
+		"need": "Urgent"
+	},
+	{
+		"id": 8,
+		"title": "Technical Support",
+		"iconName": "tji-organize",
+		"price": "$400-$550",
+		"duration": "week",
+		"location": "Bangalore, India",
+		"category": "Full time job/on site",
+		"need": "Urgent"
+	},
+	{
+		"id": 9,
+		"title": "HVAC Engineer",
+		"iconName": "tji-performance",
+		"price": "$400-$550",
+		"duration": "week",
+		"location": "Bangalore, India",
+		"category": "Full time job/on site",
+		"need": "Urgent"
+	}
+]

@@ -1,0 +1,234 @@
+export default [
+	{
+		"id": 1,
+		"title": "Innovate consultancy",
+		"title2": "Project Description",
+		"titleLarge": "Transforming operational efficiency with start edge Solutions for businesses",
+		"img": "https://theskepper.com/000_Skepper_test/real/innovate_consultancy.jpg",
+		"img2": "https://theskepper.com/000_Skepper_test/real/innovate_consultancy.jpg",
+		"img3": "/images/project/h7-project-1.webp",
+		"img4": "/images/project/h8-project-1.webp",
+		"img5": "/images/project/h9-project-1.webp",
+		"img6": "/images/project/h10-project-img-1.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+		"desc": "From VRF setups to complex chiller plants, we install every system with precision, safety, and seamless integration into your building’s infrastructure. ",
+		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+
+		"category": "Branding",
+		"featured": true,
+		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
+		"featuredImg": "/img/project/project-2.png",
+		"employee": {
+			"name": "Jeremy Doughlas",
+			"desig": "UI & UX designer",
+			"img": "/img/project/project-1.png"
+		},
+		"tags": ["Strategy", "Growth"],
+		"dataFilter": "branding",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Web Design"
+			},
+			{
+				"title": "Client",
+				"desc": "Artboard Studio"
+			},
+			{
+				"title": "Start Date",
+				"desc": "August 20, 2023"
+			},
+			{
+				"title": "Designer",
+				"desc": "ThemeJunction"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+			}
+		]
+	},
+	{
+		"id": 2,
+		"title": "Prime strategy partners",
+		"title2": "Project Description",
+		"titleLarge": "Transforming operational efficiency with start edge Solutions for businesses",
+		"img": "https://theskepper.com/000_Skepper_test/real/prime_strategy.jpg",
+		"img2": "https://theskepper.com/000_Skepper_test/real/prime_strategy.jpg",
+		"img3": "/images/project/h7-project-2.webp",
+		"img4": "/images/project/h8-project-2.webp",
+		"img5": "/images/project/h9-project-2.webp",
+		"img6": "/images/project/h10-project-img-2.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
+		"desc": "Regular servicing, preventive checks, and performance tuning to ensure your HVAC system works smoothly, efficiently, and without interruptions.",
+		"shortDesc": "Project was about precision and information",
+		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+
+		"category": "UX/UI",
+		"featured": true,
+		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
+		"featuredImg": "/img/project/project-3.png",
+		"employee": {
+			"name": "",
+			"desig": "",
+			"img": ""
+		},
+		"tags": ["Strategy", "Growth"],
+		"dataFilter": "uxui",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Web Design"
+			},
+			{
+				"title": "Client",
+				"desc": "Artboard Studio"
+			},
+			{
+				"title": "Start Date",
+				"desc": "August 20, 2023"
+			},
+			{
+				"title": "Designer",
+				"desc": "ThemeJunction"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+			}
+		]
+	},
+	{
+		"id": 3,
+		"title": "Elevate enterprise",
+		"title2": "Project Description",
+		"titleLarge": "Transforming operational efficiency with start edge Solutions for businesses",
+		"img": "https://theskepper.com/000_Skepper_test/real/elevate.jpg",
+		"img2": "https://theskepper.com/000_Skepper_test/real/elevate.jpg",
+		"img3": "/images/project/h7-project-3.webp",
+		"img4": "/images/project/h8-project-3.webp",
+		"img5": "/images/project/h9-project-3.webp",
+		"img6": "/images/project/h10-project-img-3.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-3.jpg",
+		"desc": "We engineer HVAC layouts based on load, airflow behavior, and architectural needs, ensuring comfort, efficiency, and long-term reliability.",
+		"shortDesc": "Project was about precision and information",
+		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+
+		"category": "Apps",
+		"featured": true,
+		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
+		"featuredImg": "/img/project/project-4.png",
+		"employee": {
+			"name": "",
+			"desig": "",
+			"img": ""
+		},
+		"tags": ["Strategy", "Growth"],
+		"dataFilter": "mobile-app",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Web Design"
+			},
+			{
+				"title": "Client",
+				"desc": "Artboard Studio"
+			},
+			{
+				"title": "Start Date",
+				"desc": "August 20, 2023"
+			},
+			{
+				"title": "Designer",
+				"desc": "ThemeJunction"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+			}
+		]
+	},
+	{
+		"id": 4,
+		"title": "Strat edge solutions",
+		"title2": "Project Description",
+		"titleLarge": "Transforming operational efficiency with start edge Solutions for businesses",
+		"img": "https://theskepper.com/000_Skepper_test/real/strate_edge.jpg",
+		"img2": "https://theskepper.com/000_Skepper_test/real/strate_edge.jpg",
+		"img3": "/images/project/h7-project-1.webp",
+		"img4": "/images/project/h8-project-4.webp",
+		"img5": "/images/project/h9-project-4.webp",
+		"img6": "/images/project/h10-project-img-1.webp",
+		"imgLarge": "/images/project/tj-project-1.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-4.jpg",
+		"desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
+		"shortDesc": "Project was about precision and information",
+		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+
+		"category": "Branding",
+		"featured": false,
+		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
+		"featuredImg": "/img/project/project-2.png",
+		"employee": {
+			"name": "",
+			"desig": "",
+			"img": ""
+		},
+		"tags": ["Strategy", "Growth"],
+		"dataFilter": "branding",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Web Design"
+			},
+			{
+				"title": "Client",
+				"desc": "Artboard Studio"
+			},
+			{
+				"title": "Start Date",
+				"desc": "August 20, 2023"
+			},
+			{
+				"title": "Designer",
+				"desc": "ThemeJunction"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+			}
+		]
+	}
+
+]
