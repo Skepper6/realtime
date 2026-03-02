@@ -37,7 +37,7 @@ export default function SubServiceHeader() {
       <div className="rt-hero__shade" />
 
       {/* Dynamic Fade Overlay */}
-      <div 
+      {/* <div 
         className="rt-hero__fade-overlay"
         style={{
           position: 'absolute',
@@ -47,7 +47,7 @@ export default function SubServiceHeader() {
           opacity: opacity,
           pointerEvents: 'none'
         }}
-      />
+      /> */}
 
       <div className="container">
         <div className="top_bar">

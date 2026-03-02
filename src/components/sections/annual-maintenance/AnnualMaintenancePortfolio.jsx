@@ -7,25 +7,25 @@ const AnnualMaintenancePortfolioData = [
   {
     id: 1,
     title: "Design",
-    img2: "https://nexalearning.com/wp-content/uploads/2024/08/employee-dissatisfaction-scaled.jpeg",
+    img2: "/images/amc_card1.jpg",
     desc: "We develop performance-ready systems built for reliability from day one. Every solution is thoughtfully engineered and precisely executed, creating a strong operational foundation that supports long-term efficiency, safety, and compliance.",
   },
   {
     id: 2,
     title: "Build",
-    img2: "https://nexalearning.com/wp-content/uploads/2024/08/employee-dissatisfaction-scaled.jpeg",
+    img2: "/images/amc_card2.jpg",
     desc: "Premium components and precision engineering deliver consistent, high-performance power distribution.",
   },
   {
     id: 3,
     title: "Monitor",
-    img2: "https://nexalearning.com/wp-content/uploads/2024/08/employee-dissatisfaction-scaled.jpeg",
+    img2: "/images/amc_card3.jpg",
     desc: "Through real-time oversight and intelligent diagnostics, we continuously evaluate system health. Early detection of performance deviations enables timely intervention, preventing disruptions and safeguarding uptime.",
   },
   {
     id: 4,
     title: "Optimise",
-    img2: "https://nexalearning.com/wp-content/uploads/2024/08/employee-dissatisfaction-scaled.jpeg",
+    img2: "/images/amc_card4.jpg",
     desc: "Using data-driven analysis and ongoing performance reviews, we fine-tune systems for maximum efficiency. From energy optimisation to load balancing, we enhance output, extend asset life, and reduce long-term operational costs.",
   },
 ];

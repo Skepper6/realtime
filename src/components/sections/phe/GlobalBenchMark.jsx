@@ -8,7 +8,7 @@ const GlobalBenchMark = () => {
         {/* Top Header Area */}
         <div className="header-area">
           <div className="header-left">
-            <span className="pill-tag">HVAC Solutions</span>
+            <span className="pill-tag">PHE Services</span>
             <h2 className="main-heading">
               Compliance That<br />
               Meets Global<br />
@@ -18,7 +18,7 @@ const GlobalBenchMark = () => {
           <div className="header-right">
             <p className="description-text">
               Every system we design adheres to more than codes, it upholds responsibility.<br />
-              Our PHE solutions comply with CPHEEO, NBC, and ASHRAE standards, while supporting<br />
+              Our PHE services comply with CPHEEO, NBC, and ASHRAE standards, while supporting<br />
               sustainability benchmarks such as LEED, IGBC, and WELL certifications.
             </p>
             <p className="description-text">
@@ -35,7 +35,7 @@ const GlobalBenchMark = () => {
           <div className="compliance-card">
             <div className="card-logo-circle">
               {/* Placeholder SVG matching LEED visual weight */}
-             <img src="https://theskepper.com/000_Skepper_test/real/leed.png" />
+             <img src="/images/leed.png" />
             </div>
             <h4 className="card-title">LEED</h4>
             <p className="card-desc">Leadership in Energy and<br/>Environmental Design</p>

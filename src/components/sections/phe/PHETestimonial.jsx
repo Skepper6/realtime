@@ -13,7 +13,7 @@ const PHETestimonial = () => {
         {/* Main Quote Text with exact line break matching the image */}
         <p className="text">
           Their water treatment systems significantly improved hygiene<br />
-          standards while reducing maintenance issues.”
+          standards while reducing maintenance issues.
         </p>
 
         {/* Divider Line */}

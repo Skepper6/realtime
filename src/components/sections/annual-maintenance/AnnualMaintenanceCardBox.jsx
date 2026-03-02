@@ -5,13 +5,13 @@ import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 const AnnualMaintenanceCardBox = () => {
   // Replace these with your real images
   const leftBg =
-    "https://theskepper.com/000_Skepper_test/real/architectural-details.jpg"; // vent/ceiling style
+    "/images/amc_box1.jpg"; // vent/ceiling style
   const img1 =
-    "https://theskepper.com/000_Skepper_test/real/card1.jpg"; // think clearer
+    "/images/amc_box2.jpg"; // think clearer
   const img2 =
-    "https://theskepper.com/000_Skepper_test/real/card1.jpg"; // stay balanced
+    "/images/amc_box3.jpg"; // stay balanced
   const img3 =
-    "https://theskepper.com/000_Skepper_test/real/card1.jpg"; // feel better
+    "/images/amc_box4.jpg"; // feel better
 
   return (
     <section className="hs-wrap section-space bg-white">

@@ -128,11 +128,11 @@ const AnnualMaintenanceCenterZoomCards = () => {
             <div className={`szc-overlay ${vars.q > 0.15 ? "is-active" : ""}`}>
               <div className="szc-overlayInner">
                 <h2 className="szc-title szc-step szc-step1 font48">
-                  Maintenance That Adapts to Every Load.
+                  The Power of Proactive Care
                 </h2>
 
                 <p className="szc-sub szc-step szc-step2 font18 text-white">
-                  We continuously inspect, test, and fine-tune AnnualMaintenance infrastructure to ensure stable power distribution, reduced risk, and consistent performance across every operating condition.
+                See how we sustain performance and protect infrastructure every single day. 
                 </p>
                 <div
                   className="szc-step szc-step3"

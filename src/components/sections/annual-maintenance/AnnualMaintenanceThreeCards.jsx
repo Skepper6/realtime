@@ -11,7 +11,7 @@ const AnnualMaintenanceThreeCards = () => {
     },
     {
       title: "20–25% reduction",
-      desc: "in maintenance-\nrelated costs"
+      desc: "in maintenance-related costs"
     },
     {
       title: "Zero unplanned\nfailures",
@@ -21,7 +21,7 @@ const AnnualMaintenanceThreeCards = () => {
 
   return (
     <section className="impact-highlight-wrap" >
-      <div className="impact-highlight-bg" />
+      <div className="impact-highlight-bg amc_impact_bg" />
 
       <div className="impact-highlight-card impact-highlight-card--three">
         <div className="impact-highlight-header w-100">

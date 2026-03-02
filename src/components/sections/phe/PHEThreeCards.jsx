@@ -32,7 +32,7 @@ const PHEThreeCards = () => {
                     {cards.map((card, idx) => (
                         <div key={idx} className="impact-green-box">
                             <h3 className="green-box-title font24 Aleo-Bold">{card.title}</h3>
-                            <p className="green-box-desc font16">{card.desc}</p>
+                            <p className="green-box-desc font18">{card.desc}</p>
                         </div>
                     ))}
                 </div>

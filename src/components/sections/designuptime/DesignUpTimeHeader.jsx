@@ -35,7 +35,7 @@ export default function DesignUpTimeHeader() {
       <div className="rt-hero__shade" />
 
       {/* NEW: Dynamic Black Overlay for Fade Effect */}
-      <div 
+      {/* <div 
         className="rt-hero__fade-overlay"
         style={{
           position: 'absolute',
@@ -46,7 +46,7 @@ export default function DesignUpTimeHeader() {
           pointerEvents: 'none',
           transition: 'opacity 0.1s linear'
         }}
-      />
+      /> */}
 
       <div className="container">
         <div className="top_bar">

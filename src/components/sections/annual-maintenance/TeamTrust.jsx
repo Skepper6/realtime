@@ -10,7 +10,7 @@ const TeamTrust = () => {
   const testimonials = getTestimonials()?.slice(0, 4);
   const { isRtl } = {};
   const slides = [
-    "https://theskepper.com/000_Skepper_test/real/we_slider1.jpg",
+    "images/slider1.jpg",
     // "https://theskepper.com/000_Skepper_test/real/we_slider2.jpg"
   ];
 
@@ -55,7 +55,7 @@ const TeamTrust = () => {
             <div className="pricing-left-content ">
               <div className="sec-heading mb-0">
                 <h2 className="sec-title text-anim">
-                  Predictive & <span className="d-block">Preventive Care That</span> <span className="d-block">Keeps Systems Ahead </span> 
+                  Predictive & <span className="d-xl-block d-block">Preventive Care That</span> <span className="d-xl-block d-block">Keeps Systems Ahead </span> 
                 </h2>
                 <div className="desc mb-30 wow fadeInUp" data-wow-delay="0.3s">
                   <p>

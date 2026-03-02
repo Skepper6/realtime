@@ -5,13 +5,13 @@ import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 const PHECardBox = () => {
     // Replace these with your real images
     const leftBg =
-        "https://theskepper.com/000_Skepper_test/real/architectural-details.jpg"; // vent/ceiling style
+        "/images/phe_card1.jpg"; // vent/ceiling style
     const img1 =
-        "https://theskepper.com/000_Skepper_test/real/card1.jpg"; // think clearer
+        "/images/phe_card2.jpg"; // think clearer
     const img2 =
-        "https://theskepper.com/000_Skepper_test/real/card1.jpg"; // stay balanced
+        "/images/phe_card3.jpg"; // stay balanced
     const img3 =
-        "https://theskepper.com/000_Skepper_test/real/card1.jpg"; // feel better
+        "/images/phe_card4.jpg"; // feel better
 
     return (
         <section className="hs-wrap section-space bg-white smart_system_phe">
@@ -24,9 +24,9 @@ const PHECardBox = () => {
                             <span className="hs-pill font12">Smart Systems. Real Comfort.</span>
 
                             <h2 className="hs-title font48 text-white">
-                                Wellness Begins
+                                Wellness Begins 
                                 <br />
-                                Wellness Begins
+                                 {" "} with Water
                             </h2>
 
                             <p className="hs-desc font18">

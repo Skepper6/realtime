@@ -10,7 +10,7 @@ export default function PHEEfficiency() {
                     {/* Left column */}
                     <div className="design__col design__col--left">
                         <div className="design__imgCard">
-                            <img className="design__img" src="https://theskepper.com/000_Skepper_test/real/water_left.jpg" alt="Interior space" />
+                            <img className="design__img" src="/images/water.jpg" alt="Interior space" />
                         </div>
 
                         <div className="design_wrap">

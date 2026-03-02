@@ -65,7 +65,7 @@ useGSAP(() => {
 						<div className="hero-wrapper">
 							<div className="hero-content">
 								<h1 className="hero-title text-anim font72">
-									From Design to <span className="d-lg-block american_regular">Uptime</span>{" "}
+									From Design to <span className="d-lg-block ">Uptime</span>{" "}
 									{/* <span className="active-color">Uptime</span> */}
 								</h1>
 								<div className="desc wow fadeInUp" data-wow-delay="0.1s">

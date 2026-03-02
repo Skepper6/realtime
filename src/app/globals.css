@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/typewriter?styles=150237');
 
-@font-face {
+/* @font-face {
     font-family: 'American_Typewriter_Bold';
     src: url('/fonts/American_Typewriter_Bold.ttf') format('truetype');
     font-weight: bold;
@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: 'American_Typewriter_SemiBold';
-    src: url('/fonts/Typewriter-SemiBold.otf') format('opentype');
+    src: url('/fonts/American_Typewriter_Bold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -47,4 +47,4 @@
     font-size: 62px;
     line-height: 1.2;
     letter-spacing: -1px;
-}
+} */

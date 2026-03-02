@@ -31,13 +31,13 @@ export default function PHEHero() {
             {/* Background image */}
             <img
                 className="rt-hero__bg"
-                src="https://theskepper.com/000_Skepper_test/real/hvac_header_img.jpg"
+                src="/images/hvac_header_img.jpg"
                 alt="PHE unit"
             />
             <div className="rt-hero__shade" />
 
             {/* Dynamic Fade Overlay */}
-            <div
+            {/* <div
                 className="rt-hero__fade-overlay"
                 style={{
                     position: 'absolute',
@@ -47,7 +47,7 @@ export default function PHEHero() {
                     opacity: opacity,
                     pointerEvents: 'none'
                 }}
-            />
+            /> */}
 
             <div className="container">
                 <div className="top_bar">
@@ -65,7 +65,7 @@ export default function PHEHero() {
                     </div>
 
                     <div className="rt-hero__content" style={{ zIndex: 3, position: 'relative' }}>
-                        <span className="hvacHero__pill font12">PHE Service</span>
+                        <span className="hvacHero__pill font12">PHE Services</span>
                         <h1 className="rt-hero__title font72 sec-title text-anim">
                             The Flow That<br />Sustains Life
                         </h1>

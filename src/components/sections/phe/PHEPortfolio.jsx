@@ -49,20 +49,20 @@ const PHECard = ({
 const phePortfolioData = [
     {
         id: 1,
-        title: "UV Sterilisation",
-        img2: "https://nexalearning.com/wp-content/uploads/2024/08/employee-dissatisfaction-scaled.jpeg",
-        desc: "Integrated UV sterilisation units designed for continuous, energy-efficient microbial control within commercial and industrial water systems.",
+        title: "UV Sterilization",
+        img2: "/images/sterilization.jpg",
+        desc: "Integrated UV sterilization units designed for continuous, energy-efficient microbial control within commercial and industrial water systems.",
     },
     {
         id: 2,
         title: "Filtration Units",
-        img2: "https://nexalearning.com/wp-content/uploads/2024/08/employee-dissatisfaction-scaled.jpeg",
+        img2: "/images/filtration.jpg",
         desc: "Multi-stage filtration units are engineered to enhance water clarity, safeguard system components, and ensure long-term operational efficiency.",
     },
     {
         id: 3,
         title: "Reuse Systems",
-        img2: "https://nexalearning.com/wp-content/uploads/2024/08/employee-dissatisfaction-scaled.jpeg",
+        img2: "/images/reuse.jpg",
         desc: "Smart reuse systems that maximize water efficiency, lower consumption, and support sustainable building operations.",
     },
 ];
@@ -82,7 +82,7 @@ const PHEPortfolio = () => {
                 </div>
                 <div className="pill_text_desc">
                     <h2 className="aleo-semibold font48 text-center">Hygiene Systems Built to Protect Health</h2>
-                    <p>Public Health Engineering is where infrastructure directly impacts wellbeing.Our systems are designed to uphold hygiene at every level, from clean water supply and safe waste disposal to advanced treatment and disinfection solutions. </p>
+                    <p>Public Health Engineering is where infrastructure directly impacts wellbeing. Our systems are designed to uphold hygiene at every level, from clean water supply and safe waste disposal to advanced treatment and disinfection solutions. </p>
                 </div>
                 <div className="row">
                     <div className="col-12">

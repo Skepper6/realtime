@@ -35,7 +35,7 @@ export default function WellbeingHeader() {
             <div className="rt-hero__shade" />
 
             {/* NEW: Dynamic Black Overlay for Fade Effect */}
-            <div
+            {/* <div
                 className="rt-hero__fade-overlay"
                 style={{
                     position: 'absolute',
@@ -46,7 +46,7 @@ export default function WellbeingHeader() {
                     pointerEvents: 'none',
                     transition: 'opacity 0.1s linear'
                 }}
-            />
+            /> */}
 
             <div className="container">
                 <div className="top_bar">
@@ -64,7 +64,7 @@ export default function WellbeingHeader() {
                             At Realtime Infra, we believe buildings should care for their occupants as much as they serve their functionality. Our systems don’t just run — they enhance health, focus, and satisfaction for everyone inside.
                         </p>
 
-                        <div className="wow fadeInUp " data-wow-delay="0.4s">
+                        <div className="wow fadeInUp  mt-4" data-wow-delay="0.4s">
                             <ButtonPrimary text={"Consult Now"} url={"/contact"} className={"hero-button"} />
                         </div>
                     </div>

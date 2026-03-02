@@ -14,7 +14,7 @@ export default function PowerEfficiency() {
           {/* Left column */}
           <div className="design__col design__col--left">
             <div className="design__imgCard">
-              <img className="design__img" src="https://theskepper.com/000_Skepper_test/real/support_left.jpg" alt="Interior space" />
+              <img className="design__img" src="/images/support_left.jpg" alt="Interior space" />
             </div>
 
           <div className="design_wrap">
@@ -23,7 +23,7 @@ export default function PowerEfficiency() {
             </h3>
 
             <p className="design__body">
-              <span className="green_text">Our 24×7 uptime assurance model</span> ensures your systems remain stable, monitored, and supported at all times. With real-time dashboards and a dedicated response team, deviations are addressed the moment they appear. We don’t wait for failures to happen. We ensure they never interrupt operations.
+              <span className="green_text">Our 24×7 uptime assurance model</span> ensures your systems remain<br/> stable, monitored, and supported at all times. With real-time dashboards and a dedicated response team, deviations are<br/> addressed the moment they appear. We don’t wait for failures to happen. We ensure they never interrupt operations.
             </p>
             </div>
           </div>
@@ -31,7 +31,7 @@ export default function PowerEfficiency() {
           {/* Right column */}
           <div className="design__col design__col--right">
             <div className="design__imgCard design__imgCard--tall">
-              <img className="design__img" src="https://theskepper.com/000_Skepper_test/real/support_right.jpg" alt="Building exterior" />
+              <img className="design__img" src="images/support_right.jpg" alt="Building exterior" />
             </div>
           </div>
         </div>

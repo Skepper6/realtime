@@ -25,7 +25,7 @@ const PHEFAQ = () => {
                                                 data-bs-target="#collapsePHE-1"
                                                 aria-expanded="false"
                                             >
-                                                What is a water treatment system?
+                                                What does PHE (Public Health Engineering) include?
                                             </button>
                                         </h2>
                                         {/* <!-- content --> */}
@@ -36,7 +36,7 @@ const PHEFAQ = () => {
                                         >
                                             <div className="accordion-body">
                                                 <p>
-                                                    Yes, we handle complete PHE design. This includes water demand calculations, equipment selection, piping layouts, drainage design, and system optimization, ensuring efficiency, compliance, and long-term performance.
+                                                    PHE services cover the design, installation, and maintenance of water supply, drainage, sewage, stormwater, and water treatment systems that ensure safe and efficient building operations. 
                                                 </p>
                                             </div>
                                         </div>
@@ -53,7 +53,7 @@ const PHEFAQ = () => {
                                                 data-bs-target="#collapsePHE-2"
                                                 aria-expanded="false"
                                             >
-                                                What types of water treatment systems are commonly used?
+                                               Do you handle both design and execution of PHE systems?
                                             </button>
                                         </h2>
                                         {/* <!-- content --> */}
@@ -64,7 +64,7 @@ const PHEFAQ = () => {
                                         >
                                             <div className="accordion-body">
                                                 <p>
-                                                    We follow structured project planning with clear timelines, site coordination, and cross-team alignment. This ensures smooth execution alongside civil, electrical, and other MEP services.
+                                                 Yes. We provide end-to-end solutions, from load calculations and hydraulic design to installation, testing, and commissioning, ensuring performance and compliance at every stage.
                                                 </p>
                                             </div>
                                         </div>
@@ -81,7 +81,7 @@ const PHEFAQ = () => {
                                                 data-bs-target="#collapsePHE-3"
                                                 aria-expanded="false"
                                             >
-                                                Why is water treatment important for commercial and residential buildings?
+                                                Are your PHE systems compliant with international standards?
                                             </button>
                                         </h2>
                                         {/* <!-- content --> */}
@@ -92,11 +92,12 @@ const PHEFAQ = () => {
                                         >
                                             <div className="accordion-body">
                                                 <p>
-                                                    Our installations follow strict quality checks at every stage - material inspection, execution standards, safety compliance, and performance testing. Every system undergoes proper testing and commissioning before handover.
+                                                  All systems are designed and installed in accordance with recognized global codes and regulatory frameworks, ensuring safety, performance, reliability, and approval readiness. 
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
+
                                     <div
                                         className="accordion-item wow fadeInUp"
                                         data-wow-delay="0.7s"
@@ -109,7 +110,7 @@ const PHEFAQ = () => {
                                                 data-bs-target="#collapsePHE-4"
                                                 aria-expanded="false"
                                             >
-                                                How often should a water treatment system be maintained?
+                                              How do you ensure water quality and safety?
                                             </button>
                                         </h2>
                                         {/* <!-- content --> */}
@@ -120,12 +121,40 @@ const PHEFAQ = () => {
                                         >
                                             <div className="accordion-body">
                                                 <p>
-                                                    We serve a wide range of sectors, including commercial buildings &amp; offices, industrial facilities, hospitals &amp; healthcare spaces, retail &amp; hospitality and educational institutions.
+                                                 We integrate filtration units, UV sterilization, pressure management, and reuse systems to maintain water integrity and safeguard public health within commercial and industrial environments. 
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
-                               
+                                  
+                                    <div
+                                        className="accordion-item wow fadeInUp"
+                                        data-wow-delay="0.7s"
+                                    >
+                                        <h2 className="accordion-header ">
+                                            {/* <!-- button --> */}
+                                            <button
+                                                className="accordion-button collapsed"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapsePHE-5"
+                                                aria-expanded="false"
+                                            >
+                                              Do you provide sustainable water management solutions?
+                                            </button>
+                                        </h2>
+                                        {/* <!-- content --> */}
+                                        <div
+                                            id="collapsePHE-5"
+                                            className="accordion-collapse collapse"
+                                            data-bs-parent="#accordionPHEExample"
+                                        >
+                                            <div className="accordion-body">
+                                                <p>
+                                                Yes. Our solutions include water reuse systems, optimized distribution planning, and efficient system design to reduce water consumption and support sustainability goals. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </Accordion>

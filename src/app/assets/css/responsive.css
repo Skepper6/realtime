@@ -131,6 +131,10 @@ text-align: center;
 
 @media only screen and (min-width:768px) and (max-width:991.98px){
 
+
+  .phe-service_page .design_wrap {
+    margin-top: 50px;
+}
 .compliance_section{
   padding-bottom: 100px;
 }
@@ -159,6 +163,7 @@ text-align: center;
   }
 .phe_testimonial{
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 .voices-slider-wrapper{
   margin-top: 50px;
@@ -469,7 +474,7 @@ margin-top: 0px;
     height: 95vh;
   }
 .szc-stage{
-  height: 85%;
+  height: 100%;
   background-color: #f7f7f7;
 }
   .szc-section{
@@ -518,13 +523,14 @@ margin-top: 0px;
 }
   .design__quote{
     margin: 40px 0px 0px;
+      font-size: 23px;
   }
   .design__body{
     margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
   }
 .design .design__grid{
-  display: block;
+  /* display: block; */
 }
  .rt-hero__bg{
   top: 164px;
@@ -619,6 +625,17 @@ padding-bottom: 100px;
 }
 
 @media only screen and (min-width:992px) and (max-width:1299.98px){
+
+  .rt-hero__content .hvacHero__pill{
+    display: inline;
+  }
+.phe-service_page .design_wrap {
+    margin-top: 30px;
+}
+.szc-overlayInner {
+    width: 100%;
+}
+
 
 
 .compliance_section{
@@ -742,7 +759,7 @@ gap: 20px;
   }
 .hs-wrap .hs-inner .hs-leftCard, .roi_sec .hs-leftCard {
     width: 400px;
-    height: 704px;
+    height: 654px;
 }
   .mission-card .card-content p {
     max-width: 330px;
@@ -1135,6 +1152,9 @@ gap: 20px;
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
 
+.phe-service_page .design_wrap {
+    margin-top: 60px;
+}
 .project-style-3 .project-content-box .project-text .title {
     font-size: 25px;
     margin-bottom: 10px;
@@ -1744,7 +1764,8 @@ margin-top: 0px;
   height: 100%;
 }
 .built_sec .col-lg-6:first-child{
-  padding-right: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 .built_sec .pricing-left-content {
     padding-top: 0px;
@@ -1882,7 +1903,7 @@ padding-right: 15px;
     padding-right: 0px;
   }
   .center_full_img .sec-title {
-    margin: 17px 0px 10px !important;
+    margin: 27px 0px 10px !important;
   }
   .center_full_img .pricing-left-content{
             margin-top: 0px;

@@ -31,13 +31,13 @@ export default function AnnualMaintenanceHero() {
       {/* Background image */}
       <img
         className="rt-hero__bg"
-        src="https://theskepper.com/000_Skepper_test/real/hvac_header_img.jpg"
-        alt="HVAC unit"
+        src="/images/amc_header.jpg"
+        alt="AMC unit"
       />
       <div className="rt-hero__shade" />
 
       {/* Dynamic Fade Overlay */}
-      <div 
+      {/* <div 
         className="rt-hero__fade-overlay"
         style={{
           position: 'absolute',
@@ -47,7 +47,7 @@ export default function AnnualMaintenanceHero() {
           opacity: opacity,
           pointerEvents: 'none'
         }}
-      />
+      /> */}
 
       <div className="container">
         <div className="top_bar">

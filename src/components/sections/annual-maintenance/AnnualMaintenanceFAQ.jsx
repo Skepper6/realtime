@@ -25,7 +25,7 @@ const AnnualMaintenanceFAQ = () => {
 												data-bs-target="#collapseOne-1"
 												aria-expanded="false"
 											>
-												What does your Annual Maintenance Service include?
+												What does your Annual Maintenance Service include
 											</button>
 										</h2>
 										{/* <!-- content --> */}
@@ -36,7 +36,7 @@ const AnnualMaintenanceFAQ = () => {
 										>
 											<div className="accordion-body">
 												<p>
-													Yes, we handle complete HVAC design. This includes heat load calculations, equipment selection, ducting layouts, piping design, and system optimization, ensuring efficiency, compliance, and long-term performance.
+													Our AMC covers routine inspections, preventive maintenance, performance-based servicing, and system diagnostics to ensure the continuous, efficient operation of critical infrastructure. 
 												</p>
 											</div>
 										</div>
@@ -64,7 +64,7 @@ const AnnualMaintenanceFAQ = () => {
 										>
 											<div className="accordion-body">
 												<p>
-													We follow structured project planning with clear timelines, site coordination, and cross-team alignment. This ensures smooth execution alongside civil, AnnualMaintenance, and other MEP services.
+													Yes. Our remote monitoring solutions track system performance in real time, enabling faster diagnostics, proactive intervention, and reduced downtime. 
 												</p>
 											</div>
 										</div>
@@ -92,7 +92,7 @@ const AnnualMaintenanceFAQ = () => {
 										>
 											<div className="accordion-body">
 												<p>
-													Our installations follow strict quality checks at every stage - material inspection, execution standards, safety compliance, and performance testing. Every system undergoes proper testing and commissioning before handover.
+											Maintenance schedules are customized based on system type, usage intensity, and operational requirements, ensuring optimal performance throughout the year. 
 												</p>
 											</div>
 										</div>
@@ -109,7 +109,7 @@ const AnnualMaintenanceFAQ = () => {
 												data-bs-target="#collapseOne-4"
 												aria-expanded="false"
 											>
-												Which systems are covered under your AMC services?
+												Can AMC help reduce operational costs? 
 											</button>
 										</h2>
 										{/* <!-- content --> */}
@@ -120,7 +120,7 @@ const AnnualMaintenanceFAQ = () => {
 										>
 											<div className="accordion-body">
 												<p>
-													We serve a wide range of sectors, including commercial buildings & offices, industrial facilities, hospitals & healthcare spaces, retail & hospitality and educational institutions. 
+												Yes. Preventive and predictive maintenance reduces unexpected breakdowns, extends equipment life, and improves energy efficiency, resulting in lower long-term operational expenses. 
 												</p>
 											</div>
 										</div>
@@ -137,7 +137,7 @@ const AnnualMaintenanceFAQ = () => {
 												data-bs-target="#collapseOne-5"
 												aria-expanded="false"
 											>
-												How do you ensure safety and compliance?
+											 Which systems are covered under your AMC services? 
 											</button>
 										</h2>
 										{/* <!-- content --> */}
@@ -148,7 +148,7 @@ const AnnualMaintenanceFAQ = () => {
 										>
 											<div className="accordion-body">
 												<p>
-													You can reach out to us for a consultation. Our team will understand your requirement, assess the site (if needed), and propose the most efficient HVAC solution aligned with your project goals. 
+												We support HVAC, electrical systems, PHE networks, automation systems, and other critical building infrastructure components. 
 												</p>
 											</div>
 										</div>

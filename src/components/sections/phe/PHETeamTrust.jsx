@@ -50,7 +50,7 @@ const PHETeamTrust = () => {
                                 </h2>
                                 <div className="desc mb-30 wow fadeInUp" data-wow-delay="0.3s">
                                     <p>
-                                        The best drainage systems are never noticed. They simply work. We engineer sanitary, stormwater, and wastewater networks that operate silently behind the scenes, optimised for flow capacity, safety, and long-term durability.</p>
+                                        The best drainage systems are never noticed. They simply work. We engineer sanitary, stormwater, and wastewater networks that operate silently behind the scenes, optimized for flow capacity, safety, and long-term durability.</p>
                                 </div>
                                 <div className="about-button">
                                     <ButtonPrimary url="/about" text={"Contact Us"} />

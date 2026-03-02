@@ -62,22 +62,20 @@ const Footer = ({ footerType, isRtl }) => {
 								<div className="widget-menu">
 									<ul>
 										<li>
-											<Link href="/contact">Contact us</Link>
+											<Link href="/contact">About Us</Link>
 										</li>
 										<li>
-											<Link href="/contact">Privacy policy</Link>
+											<Link href="/contact">Blog</Link>
+										</li>
+										<li>
+											<Link href="/about">Case Study</Link>
+										</li>
+										<li>
+											<Link href="/careers">Contact Us</Link>
 										</li>
 										{/* <li>
-											<Link href="/about">Recognitions</Link>
-										</li> */}
-										<li>
-											<Link href="/careers">
-												Careers <span>New</span>
-											</Link>
-										</li>
-										<li>
 											<Link href="/blogs">Blog</Link>
-										</li>
+										</li> */}
 										{/* <li>
 											<Link href="/team">Feedback</Link>
 										</li> */}
@@ -107,7 +105,9 @@ const Footer = ({ footerType, isRtl }) => {
 										<li>
 											<Link href="/services/4">Annual Maintenance</Link>
 										</li>
-										
+											<li>
+											<Link href="/services/4">Building Management System</Link>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -146,10 +146,10 @@ const Footer = ({ footerType, isRtl }) => {
 								<div className="copyright-text">
 									<p className="font16">
 										© {currentYear}{" "}
-										<Link href="/" target="_blank" className="font16">
+										
 											{" "}
 											RealTime{" "}
-										</Link>{" "}
+										{" "}
 										All right reserved.
 									</p>
 								</div>
