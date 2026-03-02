@@ -30,7 +30,7 @@ const VoicesSlider = () => {
     ];
 
     return (
-        <section className="voices-section bg-white">
+        <section id="voices-slider" className="voices-section bg-white">
             <div className="container">
                 <h2 className="voices-title text-center font48">
                     Voices from <span className='green_text'>HR & Facilities</span>
