@@ -40512,7 +40512,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   /* background: rgba(0, 0, 0, 0.25); */
   /* backdrop-filter: blur(6px); */
   margin-bottom: 22px;
-  height: 32px;
+  height: 36px;
   letter-spacing: 0.6px;
 }
 
@@ -41465,9 +41465,10 @@ padding-right: 20px;
 
 .rt-hero__content .hvacHero__pill {
   border: 1px solid #fff;
-  width: 33%;
+  min-width: 30%;
+  width: auto;
   text-align: center;
-  display: flex;
+  display: inline-block;
   justify-content: center;
   color: #fff;
 }
@@ -41856,7 +41857,7 @@ padding-right: 20px;
   /* ðŸ”§ Tune these 3 to match XD perfectly */
   --frame-top: 220px;
   /* XD vertical placement */
-  --frame-left: 118px;
+  --frame-left: 198px;
   /* XD horizontal placement */
   --frame-width: 980px;
   /* XD frame width */
@@ -41995,7 +41996,7 @@ sup {
 }
 
 .about_page .hvacHero__pill {
-  width: 18%;
+  /* width: 18%; */
 }
 
 :root {
@@ -43210,7 +43211,7 @@ sup {
 }
 
 .rt-hero-career .rt-hero__content .hvacHero__pill {
-  width: 22%;
+  /* width: 22%; */
 }
 
 .rt-hero-career .top_bar {
@@ -43599,7 +43600,7 @@ sup {
 }
 
 .designup .rt-hero__content .hvacHero__pill {
-  width: 138px;
+  /* width: 138px; */
 }
 
 /* Base Parent Component */
@@ -44005,10 +44006,10 @@ sup {
 }
 
 .wellbeing .rt-hero__content .hvacHero__pill {
-  width: 204px;
+  /* width: 204px;
   height: 40px;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 500; */
 }
 
 /* Maintenance Monitoring V2 Styles */

@@ -82,24 +82,25 @@ const Header = ({ option, isStickyHeader }) => {
 										""
 									)}
 									{headerType !== 2 ? (
-										<ButtonPrimary
-											text={
-												headerType === 8 ? "Free consultation" : "Schedule a Consultation"
-											}
-											url={"/contact"}
-											className={
-												(headerType === 3 ||
-													headerType == 4 ||
-													headerType == 5 ||
-													headerType == 6 ||
-													headerType == 9) &&
-												!isStickyHeader
-													? ""
-													: headerType == 9
-													? ""
-													: "header_btn"
-											}
-										/>
+										""
+										// <ButtonPrimary
+										// 	text={
+										// 		headerType === 8 ? "Free consultation" : "Schedule a Consultation"
+										// 	}
+										// 	url={"/contact"}
+										// 	className={
+										// 		(headerType === 3 ||
+										// 			headerType == 4 ||
+										// 			headerType == 5 ||
+										// 			headerType == 6 ||
+										// 			headerType == 9) &&
+										// 		!isStickyHeader
+										// 			? ""
+										// 			: headerType == 9
+										// 			? ""
+										// 			: "header_btn"
+										// 	}
+										// />
 									) : (
 										""
 									)}{" "}

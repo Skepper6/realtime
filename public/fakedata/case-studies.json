@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Uptime Upgrade for a Multi-Tower IT Campus",
+    "excerpt": "Reworked HVAC zoning and BMS controls to stabilize comfort and reduce hot-zone complaints during peak occupancy.",
+    "image": "/images/project/portfolio1.jpg",
+    "service": "HVAC",
+    "industry": "IT Parks",
+    "path": "/portfolios"
+  },
+  {
+    "id": 2,
+    "title": "Electrical Reliability Revamp for Data Floors",
+    "excerpt": "Modernized power distribution and panel coordination to improve load balancing and business continuity.",
+    "image": "/images/project/portfolio2.jpg",
+    "service": "Electrical",
+    "industry": "IT Parks",
+    "path": "/portfolios"
+  },
+  {
+    "id": 3,
+    "title": "PHE Compliance Delivery for Healthcare Wing",
+    "excerpt": "Implemented hygienic plumbing, drainage redesign, and pressure balancing to meet infection-control protocols.",
+    "image": "/images/project/portfolio3.jpg",
+    "service": "PHE",
+    "industry": "Healthcare",
+    "path": "/portfolios"
+  },
+  {
+    "id": 4,
+    "title": "AMC-Led Stabilization Across Education Blocks",
+    "excerpt": "Introduced preventive schedules and fault-response SLAs to lift uptime and reduce emergency interventions.",
+    "image": "/images/project/portfolio4.jpg",
+    "service": "AMC",
+    "industry": "Education",
+    "path": "/portfolios"
+  },
+  {
+    "id": 5,
+    "title": "Energy-Smart HVAC Retrofit for Hospitality Chain",
+    "excerpt": "Delivered chiller optimization and airflow recalibration to improve guest comfort and cut operating cost.",
+    "image": "/images/project/h2-project-1.webp",
+    "service": "HVAC",
+    "industry": "Hospitality",
+    "path": "/portfolios"
+  },
+  {
+    "id": 6,
+    "title": "Industrial Plant Safety and Power Automation",
+    "excerpt": "Integrated smart relays and automation sequences to strengthen safety response and operational stability.",
+    "image": "/images/project/h2-project-2.webp",
+    "service": "Electrical",
+    "industry": "Industrial",
+    "path": "/portfolios"
+  },
+  {
+    "id": 7,
+    "title": "Water Efficiency Program for Mixed-Use Facility",
+    "excerpt": "Redesigned water systems with monitoring checkpoints to reduce wastage and improve maintenance visibility.",
+    "image": "/images/project/h2-project-3.webp",
+    "service": "PHE",
+    "industry": "Commercial",
+    "path": "/portfolios"
+  },
+  {
+    "id": 8,
+    "title": "24x7 AMC for Critical Business Operations",
+    "excerpt": "Set up predictive checks and cross-discipline support to sustain system uptime through extended operations.",
+    "image": "/images/project/h2-project-4.webp",
+    "service": "AMC",
+    "industry": "Corporate",
+    "path": "/portfolios"
+  },
+  {
+    "id": 9,
+    "title": "Design-to-Uptime Delivery for Enterprise HQ",
+    "excerpt": "Unified HVAC, electrical, and PHE execution under a single lifecycle plan for performance and comfort outcomes.",
+    "image": "/images/project/tj-project-1.webp",
+    "service": "Integrated",
+    "industry": "Corporate",
+    "path": "/portfolios"
+  }
+]

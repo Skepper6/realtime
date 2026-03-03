@@ -1,0 +1,66 @@
+.toolbar {
+	display: grid;
+	grid-template-columns: 220px 170px 1fr;
+	gap: 14px;
+	margin-bottom: 28px;
+}
+
+.control {
+	height: 54px;
+	border: 1px solid #dce3ef;
+	border-radius: 10px;
+	background: #ffffff;
+	padding: 0 14px;
+	font-size: 15px;
+	color: #051229;
+	outline: none;
+}
+
+.control:focus {
+	border-color: #80c466;
+}
+
+.resetBtn {
+	height: 54px;
+	border: 1px solid #dce3ef;
+	border-radius: 10px;
+	background: #f4f7fb;
+	color: #051229;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.resetBtn:hover {
+	background: #eaf2ff;
+}
+
+.searchWrap {
+	position: relative;
+}
+
+.searchIcon {
+	position: absolute;
+	top: 50%;
+	left: 14px;
+	transform: translateY(-50%);
+	color: #7b879c;
+	pointer-events: none;
+}
+
+.searchInput {
+	padding-left: 40px;
+}
+
+.emptyState {
+	padding: 18px 20px;
+	border: 1px dashed #dce3ef;
+	border-radius: 10px;
+	background: #f9fbff;
+	color: #364052;
+}
+
+@media (max-width: 991px) {
+	.toolbar {
+		grid-template-columns: 1fr;
+	}
+}

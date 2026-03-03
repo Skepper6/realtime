@@ -1,9 +1,5 @@
 [
-  {
-    "id": 1,
-    "name": "Home",
-    "path": "/"
-  },
+
   {
     "id": 2,
     "name": "About Us",
@@ -80,22 +76,22 @@
   {
     "id": 7,
     "name": "Insights / Knowledge Center",
-    "path": "/blogs",
+    "path": "/blog-grid",
     "submenu": [
       {
         "id": 1,
         "name": "Blog",
-        "path": "/blogs"
+        "path": "/blog-grid"
       },
       {
         "id": 2,
         "name": "Whitepapers",
-        "path": "/blogs#whitepapers"
+        "path": "/blog-grid#whitepapers"
       },
       {
         "id": 3,
         "name": "Industry best practices",
-        "path": "/blogs#industry-best-practices"
+        "path": "/blog-grid#industry-best-practices"
       },
       {
         "id": 4,
