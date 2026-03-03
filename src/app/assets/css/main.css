@@ -40512,7 +40512,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   /* background: rgba(0, 0, 0, 0.25); */
   /* backdrop-filter: blur(6px); */
   margin-bottom: 22px;
-  height: 36px;
+  /* height: 36px; */
   letter-spacing: 0.6px;
 }
 
