@@ -106,7 +106,7 @@ const Features = ({ type }) => {
 			),
 		},
 		{
-			title: "Electrical Systemsss",
+			title: "Electrical Systems",
 			desc: "Powering your spaces with safe, efficient, and scalable energy design.",
 			icon: (
 						<img src="https://theskepper.com/000_Skepper_test/real/es.svg" />
@@ -118,7 +118,7 @@ const Features = ({ type }) => {
 			desc: "Preventive care and proactive monitoring for guaranteed uptime.",
 			icon: (
 			 <>
-			 						<img src="https://theskepper.com/000_Skepper_test/real/am.svg" />
+			 <img src="https://theskepper.com/000_Skepper_test/real/am.svg" />
 
 		{/* <img src="images/home/green_bg.png" alt="" className="w-100" />
 	 
@@ -128,7 +128,22 @@ const Features = ({ type }) => {
 		{/* </div> */}
   </>
 			),
-		},
+		},{
+			title: "Building Management Systems ",
+			desc: "Centralise your building’s critical systems: HVAC, electrical, and safety, into one platform.  ",
+			icon: (
+			 <>
+			 <img src="https://theskepper.com/000_Skepper_test/real/am.svg" />
+
+		{/* <img src="images/home/green_bg.png" alt="" className="w-100" />
+	 
+		<div className="icon_wrapper">
+		<img src="images/home/icon1.svg" alt="" />
+		<img src="images/home/icon01.svg" alt="" /> */}
+		{/* </div> */}
+  </>
+			),
+		}
 	];
 
 	return (
@@ -170,7 +185,7 @@ const Features = ({ type }) => {
 
 					<div className="row rg-30">
 						{features.map((feature, idx) => (
-							<div key={idx} className="col-lg-6 col-xl-3 col-sm-6">
+							<div key={idx} className="col-lg-6 col-xl-4 col-sm-6">
 								<FeatureCard feature={feature} idx={idx} />
 							</div>
 						))}

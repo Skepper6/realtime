@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'American_Typewriter_SemiBold';
-    src: url(../fonts/American_Typewriter_Bold.ttf) format('truetype');
+    src: url(../fonts/American_Typewriter_SemiBold.otf) format('opentype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -43,7 +43,8 @@
     font-size: 65px;
     line-height: 1.2;
     letter-spacing: -1px;
-    /* font-weight: 600; */
+    font-weight: 500;
+    font-synthesis: none;
 }
 .font20 {
   font-size: 17px;
@@ -9367,7 +9368,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
-  max-width: 400px;
+  /* max-width: 400px; */
   width: 100%;
   height: 423px;
   -webkit-mask-image: url(/images/about/counter_bg.png);
@@ -9391,11 +9392,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 60px;
+  font-size: 45px;
   color: #80C466;
   font-weight: var(--tj-fw-medium);
   line-height: 1;
   justify-content: end;
+      z-index: 99;
+    position: relative;
 }
 
 .funfact-item-two .number span {
@@ -40281,7 +40284,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .built_sec .desc {
-  max-width: 400px;
+  max-width: 420px;
 }
 
 .center_full_img .desc {
@@ -41023,11 +41026,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .impact-highlight-card {
   position: relative;
   z-index: 2;
-  width: 1100px;
+  width: 1000px;
   background: #071427;
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 35px 90px rgba(0, 0, 0, 0.55);
-  padding: 60px 60px;
+  padding: 60px 60px 0px 80px;
+  display: flex;
+  padding-bottom: 0px;
 }
 
 .impact-highlight-card--three {
@@ -41085,9 +41090,13 @@ padding-right: 20px;
 /* left */
 .impact-highlight-left {
   padding-right: 10px;
-  margin-top: -40px;
+  margin-top: 70px;
+      width: 100%;
 }
-
+.impact-highlight-right{
+      display: inline-block;
+    width: 100%;
+}
 .impact-title {
   color: #ffffff;
   /* font-size: 44px; */
@@ -41129,12 +41138,12 @@ padding-right: 20px;
 
 /* right (ONLY position/size; funfact CSS remains from theme) */
 .impact-highlight-right {
-  display: none;
+  /* display: none; */
 }
 
 /* wrapper only */
 .impact-blob {
-  display: none;
+  /* display: none; */
 }
 
 .hs-wrap {
@@ -41184,8 +41193,8 @@ padding-right: 20px;
 .hs-pill {
   display: inline-flex;
   align-items: center;
-  height: 31px;
-  padding: 0 12px;
+  /* height: 31px; */
+  padding: 8 35px;
   border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.28);
   background: rgba(0, 0, 0, 0.28);
@@ -41223,7 +41232,7 @@ padding-right: 20px;
 }
 
 .dark_bg_section {
-  background-color: #051229 !important;
+  background-color: #051229;
 }
 
 .rt-hero__fade-overlay {
@@ -42048,14 +42057,14 @@ sup {
 }
 
 .rtx-portrait {
-  width: 40%;
+  width: 31%;
   display: block;
 }
 
 /* ---------- NAVY BAND + QUOTE ---------- */
 .rtx-band {
   background: var(--navy);
-  height: 670px;
+  height: 690px;
   /* navy block height like screenshot */
   display: flex;
   align-items: center;
@@ -42079,7 +42088,7 @@ sup {
   text-align: center;
   max-width: 1300px;
   width: 100%;
-  margin-top: -30px;
+  margin-top: 40px;
   /* padding: 70px; */
 
 }
@@ -42156,7 +42165,7 @@ sup {
 
 .rtx-imgBig img {
   width: 100%;
-  height: 670px;
+  height: 800px;
   object-fit: cover;
   display: block;
 }
@@ -42186,17 +42195,21 @@ sup {
 
 /* note box under the right image */
 .rtx-note {
-  width: 78%;
-  /* background:#f2f2f2; */
-  padding: 50px 20px;
-  margin-left: 40px;
-  /* margin-top: 0px; */
+    width: 88%;
+    /* margin-left: 40px; */
+    padding: 70px 20px;
+    padding-left: 90px;
 }
-
+.feature_card img {
+    width: 60px;
+}
 .founder-section .section-label {
   margin-left: 35px;
 }
-
+.explore_sec .feature-item{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .rtx-note p {
   margin: 0;
   font-size: 28px;
@@ -42598,7 +42611,7 @@ sup {
 }
 
 .explore_sec .feature-item .feature-icon {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .explore_sec .feature-item.hover-bg::before {
@@ -42729,7 +42742,7 @@ sup {
 
 .about_card_wrap {
   padding-bottom: 0px;
-  margin-bottom: -140px;
+  margin-bottom: -200px;
 }
 
 .tj-service-section .service-item .service-images {

@@ -36,7 +36,7 @@ const ElectricalFAQ = () => {
 										>
 											<div className="accordion-body">
 												<p>
-													Yes, we handle complete HVAC design. This includes heat load calculations, equipment selection, ducting layouts, piping design, and system optimization, ensuring efficiency, compliance, and long-term performance.
+												We deliver end-to-end electrical solutions, including system design, power distribution, metering, automation, testing & commissioning, upgrades, and annual maintenance services for commercial, industrial, and institutional projects. 
 												</p>
 											</div>
 										</div>
@@ -53,7 +53,7 @@ const ElectricalFAQ = () => {
 												data-bs-target="#collapseOne-2"
 												aria-expanded="false"
 											>
-												What electrical services does Realtime Infra provide?
+												How do you ensure energy efficiency in electrical systems?
 											</button>
 										</h2>
 										{/* <!-- content --> */}
@@ -64,7 +64,7 @@ const ElectricalFAQ = () => {
 										>
 											<div className="accordion-body">
 												<p>
-													We follow structured project planning with clear timelines, site coordination, and cross-team alignment. This ensures smooth execution alongside civil, electrical, and other MEP services.
+											Energy efficiency is addressed at the design stage through accurate load calculations, optimized transformer sizing, balanced distribution, advanced metering, and smart controls, minimizing losses before they occur. 
 												</p>
 											</div>
 										</div>
@@ -92,7 +92,7 @@ const ElectricalFAQ = () => {
 										>
 											<div className="accordion-body">
 												<p>
-													Our installations follow strict quality checks at every stage - material inspection, execution standards, safety compliance, and performance testing. Every system undergoes proper testing and commissioning before handover.
+										Yes. We upgrade and optimize existing electrical systems to improve performance, safety, and efficiency while minimizing downtime and avoiding unnecessary replacements. 
 												</p>
 											</div>
 										</div>
@@ -120,7 +120,7 @@ const ElectricalFAQ = () => {
 										>
 											<div className="accordion-body">
 												<p>
-													We serve a wide range of sectors, including commercial buildings & offices, industrial facilities, hospitals & healthcare spaces, retail & hospitality and educational institutions. 
+												Absolutely. Our systems are designed with scalability in mind, allowing for future capacity additions, automation integration, and evolving operational needs. 
 												</p>
 											</div>
 										</div>
@@ -137,7 +137,7 @@ const ElectricalFAQ = () => {
 												data-bs-target="#collapseOne-5"
 												aria-expanded="false"
 											>
-												How do you ensure safety and compliance?
+												 How do you ensure safety and compliance? 
 											</button>
 										</h2>
 										{/* <!-- content --> */}
@@ -148,7 +148,7 @@ const ElectricalFAQ = () => {
 										>
 											<div className="accordion-body">
 												<p>
-													You can reach out to us for a consultation. Our team will understand your requirement, assess the site (if needed), and propose the most efficient HVAC solution aligned with your project goals. 
+													All our electrical installations follow applicable safety standards, statutory requirements, and quality checks, with thorough testing and commissioning before handover. 
 												</p>
 											</div>
 										</div>

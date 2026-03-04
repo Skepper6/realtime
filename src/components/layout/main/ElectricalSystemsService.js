@@ -14,6 +14,7 @@ import ElectricalBottomText from "../../sections/electrical-systems/ElectricalBo
 import ElectricalFAQ from "../../sections/electrical-systems/ElectricalFAQ";
 import ElectricalThreeCards from "../../sections/electrical-systems/ElectricalThreeCards";
 import RoundShape from "../../sections/RoundShape";
+import ElectricalTestimonial from "../../sections/electrical-systems/ElectricalTestimonial";
 
 const ElectricalSystemsService = () => {
     return (
@@ -22,6 +23,7 @@ const ElectricalSystemsService = () => {
             <PowerEfficiency />
             <TeamTrust />
             <ElectricalPortfolio/>
+        <ElectricalTestimonial/>
                 <ElectricalCenterZoomCards/>
             <ElectricalCenterImage/>
         <ElectricalHoverCardImage/>

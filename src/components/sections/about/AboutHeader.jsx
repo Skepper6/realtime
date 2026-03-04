@@ -37,11 +37,10 @@ export default function AboutHeader() {
             </h1>
 
             <p className="rt-hero__desc font18 desc wow fadeInUp" data-wow-delay="0.3s">
-             Every building tells a story. Some speak of structure, steel, and glass.
-Ours whisper of people, the ones who breathe, move, and create within those walls.
+             Every building tells a story. Some speak of structure, steel, and glass. Ours whisper of people, the ones who breathe, move, and create within those walls.
             </p>
 
-            <div className="wow fadeInUp " data-wow-delay="0.4s">
+            <div className="wow fadeInUp mt-4" data-wow-delay="0.4s">
               <ButtonPrimary text={"Explore Our Work"} url={"/contact"} className={"hero-button"} />
             </div>
           </div>

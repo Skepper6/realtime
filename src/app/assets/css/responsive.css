@@ -32,6 +32,18 @@
 
 @media only screen and (min-width:576px) and (max-width:767.98px){
 
+  .svcCard{
+    width: 70%;
+      margin-left: auto;
+    margin-right: auto;
+}
+.center_full_img.built_sec .pricing-left-content{
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+.design{
+  padding-top: 50px;
+}
 .hs-wrap .hs-inner .hs-title br{
   display: block !important;
 }
@@ -60,7 +72,7 @@ text-align: center;
 }
 
      .h10-service-section.hover_img_card {
-        margin-top: 180px;
+        /* margin-top: 180px; */
     }
   .explore_faq .case-item .icon, .explore_faq .case-item .icon.active{
     line-height: 36px ;
@@ -131,7 +143,15 @@ text-align: center;
 
 @media only screen and (min-width:768px) and (max-width:991.98px){
 
-
+.bg_height{
+  height: 90px;
+}
+.tj-history-area {
+    margin-top: 90px;
+}
+.svcGridWrap {
+  padding-top: 100px;
+}
   .phe-service_page .design_wrap {
     margin-top: 50px;
 }
@@ -340,10 +360,11 @@ position: unset;
 .rtx-bottom {
     margin-top: 28px;
     margin-bottom: 50px;
+      padding: 50px 18px 74px;
 }
   .rtx-note p{
-        font-size: 23px;
-    line-height: 29px;
+        font-size: 20px;
+    line-height: 26px;
   }
 .rtx-note br{
   display: none;
@@ -367,13 +388,14 @@ position: unset;
         margin-top: 120px;
   }
 .rtx-band{
-  height: 460px;
+        height: 640px;
+        padding-bottom: 30px;
 }
   .rtx-quote  br{
   display: none;
 }
 .rtx-portrait {
-    width: 80%;
+    width: 50%;
 }
   .funfact-item-two {
     max-width: 340px;
@@ -447,9 +469,13 @@ margin-top: 0px;
   .impact-highlight-left{
     padding-right: 0px;
     padding-left: 26px;
+  margin-top: 0px;
+  }
+  .impact-title{
+    font-size: 37px;
   }
 .impact-highlight-card{
-  padding: 46px 35px 60px;
+  padding: 46px 35px 0px;
 }
 .impact-green-box{
   min-height: 200px;
@@ -511,10 +537,14 @@ margin-top: 0px;
   .built_sec .rg-30 {
     row-gap: 0px;
 }
+.built_sec .desc{
+  width: 100%;
+  max-width: 100%;
+}
   .built_sec .pricing-left-content {
     padding-top: 35px;
     padding-bottom: 80px;
-    padding-left: 45px;
+    padding-left: 15px;
     position: unset;
   transform: unset;
 }
@@ -550,6 +580,7 @@ margin-top: 0px;
   }
   .hover_img_card .service-content-wrap{
     height: auto;
+    flex-wrap: nowrap;
   }
   .h10-service-item{
     height: auto;
@@ -625,6 +656,28 @@ padding-bottom: 100px;
 }
 
 @media only screen and (min-width:992px) and (max-width:1299.98px){
+
+.rt-hero__title{
+  margin-top: 25px;
+
+}
+.hvacHero__pill{
+  padding-left: 36px;
+  padding-right: 36px;
+
+}
+.bg_height {
+    height: 90px;
+}
+.built_sec .col-lg-6:first-child{
+  padding-left: 0px;
+}
+.hover_img_card .service-content-wrap, .h10-service-item {
+    height: auto;
+}
+  .phe_testimonial br{
+    display: none;
+  }
 
   .rt-hero__content .hvacHero__pill{
     display: inline;
@@ -800,19 +853,21 @@ gap: 20px;
 }
 .rtx-bottom{
   margin: 80px 0px;
+  padding: 30px 18px 114px;
 }
 .rtx-imgBig img {
     height: 550px;
 }
 .rtx-note p{
-  line-height: 38px;
+  font-size: 23px;
+  line-height: 30px;
 }
   .rtx-note br{
     display: none;
   }
 .rtx-note {
-    width: 100%;
-    padding: 0px;
+    /* width: 100%; */
+    padding: 0 0px 0px 20px;
     margin-top: 20px;
     margin-left: 0px;
 }
@@ -821,16 +876,16 @@ gap: 20px;
   max-width: 80%;
 }
   .rtx-band{
-    /* height: 460px; */
+    height: 590px;
   }
 .rtx-portrait {
-    width: 70%;
+    width: 40%;
 }
 .szc-left{
   left: 12%;
 }
   .szc-overlay{
-    bottom: 255px;
+    bottom: 225px;
   }
   .szc-center{
     height: auto;
@@ -1011,7 +1066,19 @@ gap: 20px;
 }
 
 @media only screen and (min-width:1301px) and (max-width:1400px){
-  
+
+  .h10-service-item{
+    height: auto;
+  }
+  .szc-right {
+    right: -8%;
+  }
+.hover_img_card .service-content-wrap {
+    height: auto;
+}
+.phe_testimonial br{
+    display: none;
+  }
 .rt-hero-career .rt-hero__shade, .rt-hero__b, .rt-hero-career {
     height: 52vh;
 }
@@ -1043,7 +1110,7 @@ gap: 20px;
   }
 .rtx-note {
     width: 100%;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-left: 20px;
     padding: 50px 60px;
 }
@@ -1151,7 +1218,24 @@ gap: 20px;
 
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
-
+.hs-cardLabel{
+  bottom: 25px;
+}
+.hs-cardLabel br{
+  display: block;
+}
+.impact-highlight-right{
+  margin-top: 60px;
+}
+  .impact-highlight-left {
+    margin-top: 0px;
+  }
+  .impact-highlight-card{
+    display: block;
+  }
+.svcGridWrap.grey_bg{
+  background-color: #fff;
+}
 .phe-service_page .design_wrap {
     margin-top: 60px;
 }
@@ -1448,7 +1532,7 @@ height: auto;
     margin-top: 0px;
 }
 .about_bottom{
-  padding-top: 0px;
+  padding-top: 100px;
 }
   .hs-inner .hs-rightGrid article:last-child {
     margin-top: 25px;
@@ -1749,7 +1833,7 @@ margin-top: 0px;
   }
 
   .rt-hero__bg {
-    top: 76px;
+    top: 66px;
 }
 .design{
   padding-bottom: 80px;
@@ -1831,7 +1915,8 @@ margin-top: 0px;
 }
 
   .svcGrid .svcCard:nth-child(2){
-    margin: 30px 0px;
+    margin-top: 30px;
+      margin-bottom: 30px;
   }
 .is-draw{
   display: none;
@@ -1906,19 +1991,23 @@ padding-right: 15px;
     margin: 27px 0px 10px !important;
   }
   .center_full_img .pricing-left-content{
+    /* padding: 40px 15px 30px 70px; */
             margin-top: 0px;
           background: #fff;
        right: 0px;
           left: 0%;
-    padding: 40px 15px 30px 15px;
     position: relative;
         }
 .sub_service_page {
     /* overflow-x: hidden; */
 }
   .hover_img_card{
-  margin-top: 130px;
+  /* margin-top: 130px; */
 
+}
+.center_full_img {
+  padding-bottom: 0px;
+  background-color: #fff !important;
 }
 .impact-highlight-card--three .impact-highlight-grid .impact-green-box:nth-child(2){
   margin: 20px 0px;
@@ -2072,6 +2161,44 @@ padding-right: 15px;
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 
+
+.tj-brand-section {
+        padding-top: 90px;
+    }
+.about_bottom{
+  padding-top: 250px;
+}
+.h9-team-item .team_content{
+  padding-left: 20px;
+}
+.h9-team-item .team_content .name {
+    font-size: 15px;
+}
+.h9-team-item .team_content .designation {
+    font-size: 11px;
+}
+.team_content .arrow-btn {
+    width: 45px;
+    height: 45px;
+}
+.info-left h2{
+  margin-bottom: 10px;
+}
+.info-left, .info-right{
+    width: 100%;
+  text-align: center;
+}
+.feature-box{
+padding-right: 0px !important;
+margin-right: 0px !important;
+}
+  .impact-highlight-card{
+    display: flex;
+  }
+ .center_full_img .pricing-left-content{
+  
+    padding-left:0px;
+        }
 .why-card--wide .why-card__overlay {
         width: 410px;
 }
@@ -2136,7 +2263,7 @@ padding-right: 15px;
         -ms-flex-order: 2;
             order: 2;
     max-width: 350px;
-    height: 350px;
+    height: 330px;
     -webkit-margin-start: auto;
             margin-inline-start: auto;
     -webkit-margin-end: auto;
@@ -2158,6 +2285,13 @@ padding-right: 15px;
   }
 }
 @media (max-width: 575px) {
+
+.site-logo .logo {
+    max-width: 150px;
+}
+    .center_full_img .pricing-left-content{
+    padding:45px 15px 75px 15px;
+    }
   .funfact-item-two {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;

@@ -55,7 +55,7 @@ const TeamTrust = () => {
             <div className="pricing-left-content ">
               <div className="sec-heading mb-0">
                 <h2 className="sec-title text-anim">
-                  Automation <span className="d-block">That Responds in</span> Real Time
+                  Automation <span className="d-xl-block ">That Responds in</span> Real Time
                 </h2>
                 <div className="desc mb-30 wow fadeInUp" data-wow-delay="0.3s">
                   <p>

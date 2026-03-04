@@ -23,7 +23,7 @@ export default function PowerEfficiency() {
             </h3>
 
             <p className="design__body">
-              Electricity may be invisible, but its reliability defines everything<br/> around us. From uninterrupted workspaces to critical hospital corridors, power must flow consistently, safely, and without failure
+              Electricity may be invisible, but its reliability defines everything<br/> around us. From uninterrupted workspaces to critical hospital corridors, power must flow consistently, safely, and without failure.
             </p>
             </div>
           </div>

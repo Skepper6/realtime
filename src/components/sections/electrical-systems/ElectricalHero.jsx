@@ -65,7 +65,7 @@ export default function ElectricalHero() {
           </div>
 
           <div className="rt-hero__content" style={{ zIndex: 3, position: 'relative' }}>
-            <span className="hvacHero__pill font12">Electrical Systems Service</span>
+            <span className="hvacHero__pill font12">Electrical Systems Services</span>
             <h1 className="rt-hero__title font72 sec-title text-anim">
               Power with<br />Purpose
             </h1>

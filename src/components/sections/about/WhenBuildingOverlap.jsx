@@ -28,7 +28,7 @@ const WhenBuildingOverlap = () => {
 
             <div className="rtx-grid">
               <div className="rtx-imgBig">
-                <img src="https://theskepper.com/000_Skepper_test/real/uptime_feature.jpg" alt="Left" />
+                <img src="images/about/uptime_leader.jpg" alt="Left" />
               </div>
 
               <div className="rtx-rightCol">
@@ -38,15 +38,7 @@ const WhenBuildingOverlap = () => {
 
                 <div className="rtx-note">
                   <p>
-                    “We start with a feeling,
-                    <br />
-                    engineer the flow, and build
-                    <br />
-                    systems that stay silent,
-                    <br />
-                    seamless, and always in sync
-                    <br />
-                    with the environment.”
+                    “Our Design to Uptime <br/>philosophy ensures that<br/> every system we create - air,<br/> water, or energy- continues to<br/> perform long after installation.”
                   </p>
                 </div>
               </div>

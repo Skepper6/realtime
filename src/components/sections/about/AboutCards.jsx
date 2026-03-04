@@ -40,7 +40,7 @@ const AboutCards = () => {
         <article className="hs-leftCard" style={{ backgroundImage: `url(${leftBg})` }}>
           <div className="hs-leftOverlay" />
           <div className="hs-leftContent">
-            <span className="hs-pill font12">Smart Systems. Real Comfort.</span>
+            <span className="hs-pill font12">Engineered Smart</span>
 
             <h2 className="hs-title font48 text-white">
               Sustainable <br/>Practices for a<br/> Better Future
@@ -61,7 +61,7 @@ const AboutCards = () => {
 
           <article className="hs-card" style={{ backgroundImage: `url(${img2})` }}>
             <div className="hs-cardShade" />
-            <h3 className="hs-cardLabel font32">Renewable energy solutions</h3>
+            <h3 className="hs-cardLabel font32">Renewable <br/>energy solutions</h3>
           </article>
 
           <article className="hs-card " style={{ backgroundImage: `url(${img3})` }}>
