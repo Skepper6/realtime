@@ -168,7 +168,7 @@ const Features2 = () => {
 					<div className="col-12">
 						<div className="sec-heading style-2">
 							<span className="sub-title wow fadeInUp" data-wow-delay="0.1s">
-								Why chose us
+								Why choose us
 							</span>
 							<h2 className="sec-title text-anim">Explore our core features</h2>
 						</div>

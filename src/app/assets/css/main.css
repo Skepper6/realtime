@@ -42057,7 +42057,7 @@ sup {
 }
 
 .rtx-portrait {
-  width: 31%;
+  width: 29%;
   display: block;
 }
 
@@ -44791,3 +44791,6 @@ padding-bottom: 0px; */
   letter-spacing: 0.1px;
 }
 
+.service-wrapper .pin-spacer:nth-child(2) .service-item .service-content, .service-wrapper .pin-spacer:nth-child(2) .service-item, .service-wrapper .pin-spacer:nth-child(4) .service-item {
+  background-color:#051229;
+}

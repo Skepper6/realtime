@@ -37,6 +37,7 @@ export default function FieldCards() {
   return (
     <section ref={animContainerRef} className="field-cards-section section-space grey_bg" >
       <div className="container">
+        <h4 className="aleo_semibold font32">Key Elements</h4>
         <div className="service-wrapper">
           {cardData.map((item, index) => {
             // Logic to apply animation class to all but the last item

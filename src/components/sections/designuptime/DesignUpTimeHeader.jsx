@@ -64,7 +64,7 @@ export default function DesignUpTimeHeader() {
               Every great space begins with air - invisible, constant, and essential. At Realtime Infra, we don’t just move air; we shape experiences through it. Because comfort isn’t created by chance,  it’s engineered.
             </p>
 
-            <div className="wow fadeInUp " data-wow-delay="0.4s">
+            <div className="wow fadeInUp mt-4" data-wow-delay="0.4s">
               <ButtonPrimary text={"Consult Now"} url={"/contact"} className={"hero-button"} />
             </div>
           </div>

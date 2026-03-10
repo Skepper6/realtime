@@ -51,7 +51,7 @@ const WhyChoose = () => {
 					<div className="col-12">
 						<div className="sec-heading style-2">
 							<span className="sub-title wow fadeInUp" data-wow-delay="0.1s">
-								Why chose us
+								Why choose us
 							</span>
 							 
 							<h2 className="sec-title text-anim font48 letter-spcaeaing">
@@ -72,7 +72,7 @@ const WhyChoose = () => {
 				</div>
 			</div>
 			<div className="feature-bg-images">
-				<img src="https://theskepper.com/000_Skepper_test/real/feature_img.jpg" alt="feature_img" />
+				<img src="https://theskepper.com/000_Skepper_test/real/feature_img.jpg" alt="feature_img" className="w-100"/>
 			</div>
 		</section>
 		<div className="bg_height"></div>
