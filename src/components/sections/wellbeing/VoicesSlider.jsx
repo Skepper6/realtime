@@ -13,19 +13,19 @@ const VoicesSlider = () => {
             quote: "We've seen surprisingly low absenteeism since the retrofit. Employees often comment on the 'freshness' in the office.",
             role: "HR Lead",
             location: "Bangalore Office",
-            image: "https://theskepper.com/000_Skepper_test/real/voicehr.png"
+            image: "https://skepper.in/000_Skepper_test/real/voicehr.png"
         },
         {
             quote: "The acoustic comfort has significantly improved our team's focus during critical meeting hours.",
             role: "Operations Manager",
             location: "Mumbai HQ",
-            image: "https://theskepper.com/000_Skepper_test/real/voicehr.png"
+            image: "https://skepper.in/000_Skepper_test/real/voicehr.png"
         },
         {
             quote: "Energy efficiency and employee comfort finally coexist perfectly in our new workspace.",
             role: "Facility Head",
             location: "Delhi Branch",
-            image: "https://theskepper.com/000_Skepper_test/real/voicehr.png"
+            image: "https://skepper.in/000_Skepper_test/real/voicehr.png"
         }
     ];
 

@@ -64,9 +64,7 @@ const Navbar = ({ option, isStickyHeader }) => {
 				{navItems?.map((item, idx) => {
 					const hasSubmenu = item?.submenu?.length > 0;
 					const isServiceStyledMenu =
-						hasSubmenu &&
-						(item?.submenuStyle === "service" ||
-							item?.name?.toLowerCase() === "services");
+						hasSubmenu && item?.submenuStyle === "service";
 
 					return (
 						<li

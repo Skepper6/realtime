@@ -14,7 +14,7 @@ export default function DesignBuildMaintain() {
             </div>
             <div className="eq-image left-illustration">
               <img 
-                src="https://theskepper.com/000_Skepper_test/real/uptime1.png" 
+                src="https://skepper.in/000_Skepper_test/real/uptime1.png" 
                 alt="Design Illustration" 
               />
             </div>
@@ -27,7 +27,7 @@ export default function DesignBuildMaintain() {
             </div>
             <div className="eq-image right-illustration-top">
               <img 
-                src="https://theskepper.com/000_Skepper_test/real/uptime2.png" 
+                src="https://skepper.in/000_Skepper_test/real/uptime2.png" 
                 alt="Build Illustration" 
               />
             </div>
@@ -48,7 +48,7 @@ export default function DesignBuildMaintain() {
             </div>
             <div className="eq-image bottom-illustration">
               <img 
-                src="https://theskepper.com/000_Skepper_test/real/uptime3.png" 
+                src="https://skepper.in/000_Skepper_test/real/uptime3.png" 
                 alt="Optimize Illustration" 
               />
             </div>

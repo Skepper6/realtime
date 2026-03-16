@@ -104,9 +104,9 @@ const Contact1 = () => {
 														<FormSelect
 															id={"contact"}
 															className="nice-select"
-															defaultValue={"Chose a option"}
+															defaultValue={"Choose a option"}
 															items={[
-																{ value: "1", name: "Chose a option" },
+																{ value: "1", name: "Choose a option" },
 																{ value: "2", name: "IT consulting" },
 																{ value: "3", name: "Market research" },
 																{ value: "4", name: "Business process" },

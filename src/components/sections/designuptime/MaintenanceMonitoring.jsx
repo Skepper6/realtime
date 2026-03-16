@@ -24,22 +24,22 @@ export default function MaintenanceMonitoring() {
 
   const sliderItems = [
     {
-      img: "https://theskepper.com/000_Skepper_test/real/rec1.jpg",
+      img: "https://skepper.in/000_Skepper_test/real/rec1.jpg",
       title: "Tiered AMC packages:\n preventive, predictive,\n and full-service",
       isWide: false, // Standard size
     },
     {
-      img: "https://theskepper.com/000_Skepper_test/real/rec2.jpg",
+      img: "https://skepper.in/000_Skepper_test/real/rec2.jpg",
       title: "Scheduled inspections,\ncleaning, and calibrations",
       isWide: true, // WIDER size like the reference
     },
     {
-      img: "https://theskepper.com/000_Skepper_test/real/rec1.jpg",
+      img: "https://skepper.in/000_Skepper_test/real/designuptime/slider3.jpg",
       title: "Remote monitoring dashboards:\nreal-time, current, alarms",
       isWide: false,
     },
     {
-      img: "https://theskepper.com/000_Skepper_test/real/rec2.jpg",
+      img: "https://skepper.in/000_Skepper_test/real/rec2.jpg",
       title: "Emergency response \n& rapid repair protocols",
       isWide: true,
     },
@@ -49,7 +49,7 @@ export default function MaintenanceMonitoring() {
     <section className="phases-section maitenance_sec" >
            <div className="phases-hero">
         <img
-          src="https://theskepper.com/000_Skepper_test/real/design_think.jpg"
+          src="https://skepper.in/000_Skepper_test/real/designuptime/maintenance_monitoring.jpg"
           alt="Designer sketching"
           className="phases-hero-img"
         />
@@ -81,7 +81,7 @@ export default function MaintenanceMonitoring() {
       <div className="apple-slider-outer">
         <Swiper
           modules={[Navigation]}
-          spaceBetween={32}
+          spaceBetween={22}
           slidesPerView={"auto"}
           loop={true}
           navigation={{ nextEl: ".slide-next", prevEl: ".slide-prev" }}
@@ -119,7 +119,7 @@ export default function MaintenanceMonitoring() {
     {/* Left Card - Wide (Matching the 580px slider card) */}
     <div className="static-card-wrapper wide-static">
       <div className="apple-card static-card-height">
-        <img src="https://theskepper.com/000_Skepper_test/real/static1.png" alt="Fault detection" />
+        <img src="https://skepper.in/000_Skepper_test/real/designuptime/fault.jpg" alt="Fault detection" />
         <div className="apple-card-overlay">
           <div className="sub_title">
           <h4 className="text-white font32" style={{ whiteSpace: "pre-line" }}>
@@ -133,7 +133,7 @@ export default function MaintenanceMonitoring() {
     {/* Right Card - Standard (Matching the 380px slider card) */}
     <div className="static-card-wrapper standard-static">
       <div className="apple-card static-card-height">
-        <img src="https://theskepper.com/000_Skepper_test/real/design5.jpg" alt="Energy audits" />
+        <img src="https://skepper.in/000_Skepper_test/real/designuptime/energy.jpg" alt="Energy audits" />
         <div className="apple-card-overlay">
                     <div className="sub_title">
           <h4 className="text-white font32" style={{ whiteSpace: "pre-line" }}>

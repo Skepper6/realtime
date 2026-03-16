@@ -11,7 +11,7 @@ const CleanAir = () => {
         {/* Left Side: Heading */}
         <div className="info-left">
           <h2 className="font48">
-            <span className="green_text">Clean Air, Quiet Rooms <br /></span>
+            <span className="green_text">Clean Air, Quiet Rooms, <br /></span>
             Bright Spaces
           </h2>
         </div>

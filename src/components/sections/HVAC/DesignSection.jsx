@@ -13,8 +13,9 @@ export default function DesignSection() {
         <div className="design__grid">
           {/* Left column */}
           <div className="design__col design__col--left">
+
             <div className="design__imgCard">
-              <img className="design__img" src="https://theskepper.com/000_Skepper_test/real/design_left.png" alt="Interior space" />
+              <img className="design__img" src="https://skepper.in/000_Skepper_test/real/hvac/hvac-left.jpg" alt="Interior space" />
             </div>
 
           <div className="design_wrap">
@@ -34,7 +35,7 @@ export default function DesignSection() {
           {/* Right column */}
           <div className="design__col design__col--right">
             <div className="design__imgCard design__imgCard--tall">
-              <img className="design__img" src="https://theskepper.com/000_Skepper_test/real/design_right.png" alt="Building exterior" />
+              <img className="design__img" src="https://skepper.in/000_Skepper_test/real/hvac/hvac-right.jpg" alt="Building exterior" />
             </div>
           </div>
         </div>

@@ -9,8 +9,8 @@ const BuiltByDesign = () => {
     	const testimonials = getTestimonials()?.slice(0, 4);
 	const { isRtl } = {};
   const slides = [
-	"https://theskepper.com/000_Skepper_test/real/we_slider1.jpg",
-	// "https://theskepper.com/000_Skepper_test/real/we_slider2.jpg"
+	"https://skepper.in/000_Skepper_test/real/hvac/hvac-slide1.jpg",
+	// "https://skepper.in/000_Skepper_test/real/we_slider2.jpg"
 ];
 
     return (

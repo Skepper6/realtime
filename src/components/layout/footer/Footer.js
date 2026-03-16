@@ -32,7 +32,7 @@ const Footer = ({ footerType, isRtl }) => {
 
 						<div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 our_office">
 							<div className="footer-widget footer_logo footer1-col-4 footer-newsletter-form px-0">
-								<img src="https://theskepper.com/000_Skepper_test/real/logo.png" alt="realtime_logo" />
+								<img src="https://skepper.in/000_Skepper_test/real/logo.png" alt="realtime_logo" />
 							</div>
 						</div> 
 
@@ -94,19 +94,19 @@ const Footer = ({ footerType, isRtl }) => {
 								<div className="widget-menu">
 									<ul>
 										<li>
-											<Link href="/services/1">HVAC Solutions</Link>
+											<Link href="/hvac-service">HVAC Solutions</Link>
 										</li>
 										<li>
-											<Link href="/services/2">Electrical Systems</Link>
+											<Link href="/electrical-systems-service">Electrical Systems</Link>
 										</li>
 										<li>
-											<Link href="/services/3">Public Health Engineering</Link>
+											<Link href="/phe-service">Public Health Engineering</Link>
 										</li>
 										<li>
-											<Link href="/services/4">Annual Maintenance</Link>
+											<Link href="/annual-maintenance-contracts">Annual Maintenance</Link>
 										</li>
 											<li>
-											<Link href="/services/4">Building Management System</Link>
+											<Link href="/building-management-service">Building Management System</Link>
 										</li>
 									</ul>
 								</div>

@@ -5,27 +5,27 @@ import React from "react";
 export default function FieldExecution() {
     const inclusions = [
         {
-            img: "https://theskepper.com/000_Skepper_test/real/design1.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/design1.jpg",
             text: "System selection (chillers, AHUs, ducts, controls)",
         },
         {
-            img: "https://theskepper.com/000_Skepper_test/real/design2.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/design2.jpg",
             text: "Load calculations & zoning strategy",
         },
         {
-            img: "https://theskepper.com/000_Skepper_test/real/design1.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/design1.jpg",
             text: "System selection (chillers, AHUs, ducts, controls)",
         },
         {
-            img: "https://theskepper.com/000_Skepper_test/real/design4.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/design4.jpg",
             text: "Energy simulation & predictive modeling",
         },
         {
-            img: "https://theskepper.com/000_Skepper_test/real/design5.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/design5.jpg",
             text: "IAQ (Indoor Air Quality) baseline strategies",
         },
         {
-            img: "https://theskepper.com/000_Skepper_test/real/design5.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/design5.jpg",
             text: "Maintenance-readiness built into the design",
         },
     ];
@@ -35,7 +35,7 @@ export default function FieldExecution() {
             {/* 1. Top Hero Image */}
             <div className="phases-hero">
                 <img
-                    src="https://theskepper.com/000_Skepper_test/real/design_think.jpg"
+                    src="https://skepper.in/000_Skepper_test/real/design_think.jpg"
                     alt="Designer sketching"
                     className="phases-hero-img"
                 />

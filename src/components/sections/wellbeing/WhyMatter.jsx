@@ -4,17 +4,17 @@ const WhyMatter = () => {
     const standardCards = [
         {
             title: "Comfort That Shows Up",
-            image: "https://theskepper.com/000_Skepper_test/real/matter1.jpg",
+            image: "https://skepper.in/000_Skepper_test/real/matter1.jpg",
             description: "stable temperatures, clean air,\nminimal distractions"
         },
         {
             title: "Performance You Can Trust",
-            image: "https://theskepper.com/000_Skepper_test/real/matter2.jpg",
+            image: "https://skepper.in/000_Skepper_test/real/matter2.jpg",
             description: "fewer breakdowns, longer\nequipment life"
         },
         {
             title: "Operational Value",
-            image: "https://theskepper.com/000_Skepper_test/real/matter3.jpg",
+            image: "https://skepper.in/000_Skepper_test/real/matter3.jpg",
             description: "energy savings, cost predictability,\ndata-driven decisions"
         }
     ];
@@ -50,7 +50,7 @@ const WhyMatter = () => {
             {/* Wide Card (Using a modifier sub-class) */}
             <div className="why-card why-card--wide">
                 <img
-                    src="https://theskepper.com/000_Skepper_test/real/why_matter.jpg"
+                    src="https://skepper.in/000_Skepper_test/real/why_matter.jpg"
                     alt="Credibility"
                     className="why-card__image"
                 />

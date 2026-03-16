@@ -98,10 +98,10 @@ const About1 = () => {
 				</div>
 				<div className="about-bg-images">
 					<div className="about-shape-1 hover:shine">
-						<img src="https://theskepper.com/000_Skepper_test/real/our_purpose.jpg" alt="our purpose" />
+						<img src="https://skepper.in/000_Skepper_test/real/our_purpose.jpg" alt="our purpose" />
 					</div>
 					<div className="about-shape-2 hover:shine">
-						<img src="https://theskepper.com/000_Skepper_test/real/logo.svg" alt="Logo" />
+						<img src="https://skepper.in/000_Skepper_test/real/logo.svg" alt="Logo" />
 					</div>
 					<div className="about-shape-3 zoominout">
 						{/* <img src="/images/icons/star.svg" alt="Shapes" /> */}

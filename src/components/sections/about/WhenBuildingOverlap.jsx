@@ -12,7 +12,7 @@ const WhenBuildingOverlap = () => {
         
           <img
             className="rtx-hvacBg"
-            src="https://theskepper.com/000_Skepper_test/real/hvac_header_img.jpg"
+            src="https://skepper.in/000_Skepper_test/real/hvac_header_img.jpg"
             alt="HVAC background"
           />
         </div>
@@ -33,7 +33,7 @@ const WhenBuildingOverlap = () => {
 
               <div className="rtx-rightCol">
                 <div className="rtx-imgSmall">
-                  <img src="https://theskepper.com/000_Skepper_test/real/uptime_small.jpg" alt="Right" />
+                  <img src="https://skepper.in/000_Skepper_test/real/about/engineer.jpg" alt="Right" />
                 </div>
 
                 <div className="rtx-note">

@@ -44,7 +44,7 @@ const GlobalBenchMark = () => {
           {/* Card 2: IGBC */}
           <div className="compliance-card">
             <div className="card-logo-circle">
-                <img src="https://theskepper.com/000_Skepper_test/real/igbc.png" />
+                <img src="https://skepper.in/000_Skepper_test/real/igbc.png" />
             </div>
             <h4 className="card-title">IGBC</h4>
             <p className="card-desc">Indian Green Building Council</p>
@@ -53,7 +53,7 @@ const GlobalBenchMark = () => {
           {/* Card 3: ASHRAE */}
           <div className="compliance-card">
             <div className="card-logo-circle">
-             <img src="https://theskepper.com/000_Skepper_test/real/ashrae.png" />
+             <img src="https://skepper.in/000_Skepper_test/real/ashrae.png" />
 
             </div>
             <h4 className="card-title">ASHRAE</h4>
@@ -63,7 +63,7 @@ const GlobalBenchMark = () => {
           {/* Card 4: CPHEEO */}
           <div className="compliance-card">
             <div className="card-logo-circle">
-          <img src="https://theskepper.com/000_Skepper_test/real/cheeo.png" />
+          <img src="https://skepper.in/000_Skepper_test/real/cheeo.png" />
 
             </div>
             <h4 className="card-title">CPHEEO</h4>

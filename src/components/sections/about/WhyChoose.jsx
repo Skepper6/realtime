@@ -72,7 +72,7 @@ const WhyChoose = () => {
 				</div>
 			</div>
 			<div className="feature-bg-images">
-				<img src="https://theskepper.com/000_Skepper_test/real/feature_img.jpg" alt="feature_img" className="w-100"/>
+				<img src="https://skepper.in/000_Skepper_test/real/feature_img.jpg" alt="feature_img" className="w-100"/>
 			</div>
 		</section>
 		<div className="bg_height"></div>

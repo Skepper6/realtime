@@ -8,43 +8,43 @@ const Team = () => {
 		"id": 1,
 		"name": "Savanah Nguyen",
 		"desig": "Manager",
-		"img": "https://theskepper.com/000_Skepper_test/real/emp1.png",
-		"imgLarge": "https://theskepper.com/000_Skepper_test/real/emp1.png"
+		"img": "https://skepper.in/000_Skepper_test/real/emp1.png",
+		"imgLarge": "https://skepper.in/000_Skepper_test/real/emp1.png"
 	},
 	{
 		"id": 2,
 		"name": "Esther Howard",
 		"desig": "Co. Founder",
-		"img": "https://theskepper.com/000_Skepper_test/real/emp1.png",
-		"imgLarge": "https://theskepper.com/000_Skepper_test/real/emp1.png"
+		"img": "https://skepper.in/000_Skepper_test/real/emp1.png",
+		"imgLarge": "https://skepper.in/000_Skepper_test/real/emp1.png"
 	},
 	{
 		"id": 3,
 		"name": "Kristin Watson",
 		"desig": "Sr. Manager",
-		"img": "https://theskepper.com/000_Skepper_test/real/emp1.png",
-		"imgLarge": "https://theskepper.com/000_Skepper_test/real/emp1.png"
+		"img": "https://skepper.in/000_Skepper_test/real/emp1.png",
+		"imgLarge": "https://skepper.in/000_Skepper_test/real/emp1.png"
 	},
 	{
 		"id": 4,
 		"name": "Guy Hawkins",
 		"desig": "Sr. Marketer",
-		"img": "https://theskepper.com/000_Skepper_test/real/emp1.png",
-		"imgLarge": "https://theskepper.com/000_Skepper_test/real/emp1.png"
+		"img": "https://skepper.in/000_Skepper_test/real/emp1.png",
+		"imgLarge": "https://skepper.in/000_Skepper_test/real/emp1.png"
 	},
 	{
 		"id": 5,
 		"name": "Darlene Robert",
 		"desig": "Sr. Dsigner",
-		"img": "https://theskepper.com/000_Skepper_test/real/emp1.png",
-		"imgLarge": "https://theskepper.com/000_Skepper_test/real/emp1.png"
+		"img": "https://skepper.in/000_Skepper_test/real/emp1.png",
+		"imgLarge": "https://skepper.in/000_Skepper_test/real/emp1.png"
 	},
 	{
 		"id": 6,
 		"name": "Ronald Richards",
 		"desig": "Sr. Marketer",
-		"img": "https://theskepper.com/000_Skepper_test/real/emp1.png",
-		"imgLarge": "https://theskepper.com/000_Skepper_test/real/emp1.png"
+		"img": "https://skepper.in/000_Skepper_test/real/emp1.png",
+		"imgLarge": "https://skepper.in/000_Skepper_test/real/emp1.png"
 	}
 ]
 

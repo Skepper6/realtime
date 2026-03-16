@@ -11,7 +11,7 @@ const TeamTrust = () => {
   const { isRtl } = {};
   const slides = [
     "images/slider1.jpg",
-    // "https://theskepper.com/000_Skepper_test/real/we_slider2.jpg"
+    // "https://skepper.in/000_Skepper_test/real/we_slider2.jpg"
   ];
 
   return (

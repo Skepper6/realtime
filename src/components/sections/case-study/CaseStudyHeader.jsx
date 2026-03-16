@@ -3,8 +3,8 @@ const CaseStudyHeader = () => {
 		<header className="rt-hero-career">
 			<img
 				className="rt-hero__b"
-				src="/images/project/portfolio1.jpg"
-				alt="Case study cover"
+				src="https://skepper.in/000_Skepper_test/real/casestudy/casestudy_header.jpg"
+				alt="Case study"
 			/>
 			<div className="rt-hero__shade" />
 

@@ -57,15 +57,14 @@ const Contact5 = () => {
 													<FormSelect
 														id={"contact"}
 														className="nice-select"
-														defaultValue={"Chose a option"}
+														defaultValue={"Choose a option"}
 														items={[
-															{ value: "1", name: "Chose a option" },
-															{ value: "2", name: "IT consulting" },
-															{ value: "3", name: "Market research" },
-															{ value: "4", name: "Business process" },
-															{ value: "5", name: "Business consultancy" },
-															{ value: "6", name: "Digital marketing" },
-															{ value: "7", name: "Branding design" },
+															{ value: "1", name: "Choose a option" },
+															{ value: "2", name: "HVAC Services" },
+															{ value: "3", name: "Electrical Systems Services" },
+															{ value: "4", name: "PHE Services" },
+															{ value: "5", name: "Annual Maintenance" },
+															{ value: "6", name: "Building Management Service" },
 														]}
 													/>
 												</div>
@@ -91,12 +90,9 @@ const Contact5 = () => {
 					{/* <!-- contact map --> */}
 					<div className="col-lg-6">
 						<div className="google-map wow fadeInUp" data-wow-delay="0.3s">
-							<iframe
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96840.74259815917!2d-74.21035326499913!3d40.66794886378488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1742025261462!5m2!1sen!2sbd"
-								style={{ border: 0 }}
-								allowFullScreen=""
-								loading="lazy"
-							></iframe>
+							
+
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.4899794157604!2d77.62402817795015!3d13.068103354397103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1917e9a71ead%3A0xa3b0d3236103836b!2sREALTIME%20INFRA!5e0!3m2!1sen!2sin!4v1773307092856!5m2!1sen!2sin"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 						</div>
 					</div>
 				</div>

@@ -31,7 +31,7 @@ export default function SubServiceHeader() {
       {/* Background image */}
       <img
         className="rt-hero__bg"
-        src="https://theskepper.com/000_Skepper_test/real/hvac_header_img.jpg"
+        src="https://skepper.in/000_Skepper_test/real/hvac/header.jpg"
         alt="HVAC unit"
       />
       <div className="rt-hero__shade" />
@@ -59,8 +59,8 @@ export default function SubServiceHeader() {
               <line className="rt-line rt-line--rightBottom" x1="880" y1="540" x2="880" y2="465" />
             </svg>
             <div className="sanim_img">
-              <img className="rt-floatIcon rt-floatIcon--down" src="https://theskepper.com/000_Skepper_test/real/sicon1.png" alt="" />
-              <img className="rt-floatIcon rt-floatIcon--up" src="https://theskepper.com/000_Skepper_test/real/sicon2.png" alt="" />
+              <img className="rt-floatIcon rt-floatIcon--down" src="https://skepper.in/000_Skepper_test/real/sicon1.png" alt="" />
+              <img className="rt-floatIcon rt-floatIcon--up" src="https://skepper.in/000_Skepper_test/real/sicon2.png" alt="" />
             </div>
           </div>
 

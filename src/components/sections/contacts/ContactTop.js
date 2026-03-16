@@ -21,17 +21,17 @@ const ContactTop = () => {
 							data-wow-delay="0.1s"
 						>
 							<div className="contact-icon">
-								<img src="https://theskepper.com/000_Skepper_test/real/white_svg.png" />
+								<img src="https://skepper.in/000_Skepper_test/real/white_svg.png" />
 							</div>
 							<div className="contact_desc">
 							<h3 className="contact-title">Email us</h3>
 							<ul className="contact-list">
 								<li>
-									<Link href="mailto:solvior@gmail.com">solvior@gmail.com</Link>
+									<Link href="mailto:info@realtimeinfra.com">Info@realtimeinfra.com</Link>
 								</li>
-								<li>
+								{/* <li>
 									<Link href="mailto:support@gmail.com">support@gmail.com</Link>
-								</li>
+								</li> */}
 							</ul>
 							</div>
 						</div>
@@ -42,18 +42,18 @@ const ContactTop = () => {
 							data-wow-delay="0.3s"
 						>
 							<div className="contact-icon">
-								<img src="https://theskepper.com/000_Skepper_test/real/white_svg.png" />
+								<img src="https://skepper.in/000_Skepper_test/real/white_svg.png" />
 							</div>
 							<div className="contact_desc">
 
 							<h3 className="contact-title">Call us</h3>
 							<ul className="contact-list">
 								<li>
-									<Link href="tel:52682145622">+526-8214-5622</Link>
+									<Link href="tel:+919886522207">+91 98865 22207</Link>
 								</li>
-								<li>
+								{/* <li>
 									<Link href="tel:22635652552">+226-3565-2552</Link>
-								</li>
+								</li> */}
 							</ul>
 								</div>
 						</div>
@@ -64,12 +64,12 @@ const ContactTop = () => {
 							data-wow-delay="0.5s"
 						>
 							<div className="contact-icon">
-								<img src="https://theskepper.com/000_Skepper_test/real/white_svg.png" />
+								<img src="https://skepper.in/000_Skepper_test/real/white_svg.png" />
 							</div>
 							<div className="contact_desc">
 
 							<h3 className="contact-title">Our Location</h3>
-							<p>993 Renner Burg, West Rond, MT 94251-030</p>
+							<p>#164, First Floor,<br/> Jakkur-Thanisandra Link Road, Dr Shivarama Karanth Nagar, Bengaluru, Karnataka-560077</p>
 						</div>
 							</div>
 					</div>

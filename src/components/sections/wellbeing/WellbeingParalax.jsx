@@ -38,7 +38,7 @@ const InfoSection = () => {
 
 function WellbeingParalax() {
     // Using placeholders similar to your images
-    const image1 = "https://theskepper.com/000_Skepper_test/real/paralax1.jpg";
+    const image1 = "https://skepper.in/000_Skepper_test/real/paralax1.jpg";
 
     return (
         <div className="uptime_paralax">

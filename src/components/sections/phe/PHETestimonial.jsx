@@ -7,7 +7,7 @@ const PHETestimonial = () => {
         
         {/* Quote Icon */}
         <div className="quote-icon">
-          <img src="https://theskepper.com/000_Skepper_test/real/quote.png" />
+          <img src="https://skepper.in/000_Skepper_test/real/quote.png" />
         </div>
 
         {/* Main Quote Text with exact line break matching the image */}

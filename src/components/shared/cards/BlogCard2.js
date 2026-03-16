@@ -59,7 +59,7 @@ const BlogCard2 = ({ blog, type, isSidebar, idx }) => {
 				<div className="blog-button">
 					<Link className="blog-btn text-btn" href={`/blogs/${id}`}>
 						{/* Read more <i className="tji-arrow-right"></i> */}
-						<ButtonPrimary url="/about" text={"Apply Now"} />
+						<ButtonPrimary url="/about" text={"Read More"} />
 					</Link>
 
 					{/* <div className="about-button" href={`/blogs/${id}`}>

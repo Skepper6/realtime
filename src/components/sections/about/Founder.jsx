@@ -16,7 +16,7 @@ const Founder = () => {
             {/* 1. White Image Area */}
             <div className="card-image-wrapper">
               <img 
-                src="https://theskepper.com/000_Skepper_test/real/emp1.png" 
+                src="https://skepper.in/000_Skepper_test/real/emp1.png" 
                 alt="Prasanth Thandayil" 
                 className="founder-img"
               />
@@ -49,7 +49,7 @@ const Founder = () => {
 
             <div className="quote-decoration">
               <span className="line"></span>
-              <span className="quote-mark"><img src="https://theskepper.com/000_Skepper_test/real/quote_symbol.svg" /></span>
+              <span className="quote-mark"><img src="https://skepper.in/000_Skepper_test/real/quote_symbol.svg" /></span>
               <span className="line"></span>
             </div>
 

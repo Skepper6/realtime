@@ -21,7 +21,7 @@ const ElectricalThreeCards = () => {
 
   return (
     <section className="impact-highlight-wrap" >
-      <div className="impact-highlight-bg" />
+      <div className="impact-highlight-bg electrical_bg"/>
 
       <div className="impact-highlight-card impact-highlight-card--three">
         <div className="impact-highlight-header w-100">

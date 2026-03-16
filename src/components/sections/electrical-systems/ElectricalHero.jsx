@@ -31,8 +31,8 @@ export default function ElectricalHero() {
       {/* Background image */}
       <img
         className="rt-hero__bg"
-        src="https://theskepper.com/000_Skepper_test/real/hvac_header_img.jpg"
-        alt="HVAC unit"
+        src="https://skepper.in/000_Skepper_test/real/electrical/electrical-header.jpg"
+        alt="electrical unit"
       />
       <div className="rt-hero__shade" />
 
@@ -59,8 +59,8 @@ export default function ElectricalHero() {
               <line className="rt-line rt-line--rightBottom" x1="880" y1="540" x2="880" y2="465" />
             </svg>
             <div className="sanim_img">
-              <img className="rt-floatIcon rt-floatIcon--down" src="https://theskepper.com/000_Skepper_test/real/sicon1.png" alt="" />
-              <img className="rt-floatIcon rt-floatIcon--up" src="https://theskepper.com/000_Skepper_test/real/sicon2.png" alt="" />
+              <img className="rt-floatIcon rt-floatIcon--down" src="https://skepper.in/000_Skepper_test/real/sicon1.png" alt="" />
+              <img className="rt-floatIcon rt-floatIcon--up" src="https://skepper.in/000_Skepper_test/real/sicon2.png" alt="" />
             </div>
           </div>
 

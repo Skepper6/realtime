@@ -4,8 +4,9 @@ import React from "react";
 const ParallaxImage = ({ imageUrl }) => {
   return (
     <div 
-      className="parallax-bg" 
+      className="parallax-bg w-100" 
       style={{ backgroundImage: `url(${imageUrl})` }}
+      
     ></div>
   );
 };
@@ -38,7 +39,7 @@ const InfoSection = () => {
 
 function DesignUpTimeParalax() {
   // Using placeholders similar to your images
-  const image1 = "https://theskepper.com/000_Skepper_test/real/paralax1.jpg"; 
+  const image1 = "https://skepper.in/000_Skepper_test/real/designuptime/uptime_paralax.jpg"; 
 
   return (
     <div className="uptime_paralax">

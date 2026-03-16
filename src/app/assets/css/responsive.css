@@ -143,6 +143,9 @@ text-align: center;
 
 @media only screen and (min-width:768px) and (max-width:991.98px){
 
+.tj-careers-section {
+    margin-top: 0px;
+}
 .bg_height{
   height: 90px;
 }
@@ -287,7 +290,7 @@ position: unset;
     margin-left: -50px;
 }
 .design_wrap {
-    max-width: 100%;
+    max-width: 50%;
 }
   .rt-hero-career{
     top: 0px;
@@ -657,6 +660,10 @@ padding-bottom: 100px;
 
 @media only screen and (min-width:992px) and (max-width:1299.98px){
 
+
+.inclusion-img-wrap {
+    height: 350px;
+}
 .rt-hero__title{
   margin-top: 25px;
 
@@ -1052,7 +1059,9 @@ gap: 20px;
 }
 
 @media only screen and (min-width:1201px) and  (max-width:1300px){
-
+.tj-careers-section {
+    margin-top: 0px;
+}
   .founder-section .section-label {
     margin-left: 100px;
   }
@@ -1067,6 +1076,9 @@ gap: 20px;
 
 @media only screen and (min-width:1301px) and (max-width:1400px){
 
+.rt-hero-career .rt-hero__b{
+  height: 52vh;
+}
   .h10-service-item{
     height: auto;
   }
@@ -1218,6 +1230,20 @@ gap: 20px;
 
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
+
+.tj-careers-section {
+    margin-top: 0px;
+}
+.field-cards-section .service-item{
+  background-color: transparent;
+}
+    .scheduling-banner {
+        margin: 10px 0;
+    }
+  .inclusions-section h3, .center_title {
+    margin-bottom: 5px;
+  margin-top: 10px;
+}
 .hs-cardLabel{
   bottom: 25px;
 }
@@ -2161,7 +2187,12 @@ padding-right: 15px;
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 
-
+.rt-hero-career .top_bar {
+    top: 60%;
+}
+    .banner-content {
+        max-width: 62%;
+    }
 .tj-brand-section {
         padding-top: 90px;
     }

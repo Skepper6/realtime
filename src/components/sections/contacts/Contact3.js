@@ -53,9 +53,9 @@ const Contact3 = () => {
 									<FormSelect
 										id={"contact"}
 										className="nice-select tj-nice-select tj-input"
-										defaultValue={"Chose a option"}
+										defaultValue={"Choose a option"}
 										items={[
-											{ value: "1", name: "Chose a option" },
+											{ value: "1", name: "Choose a option" },
 											{ value: "2", name: "Business Advertising" },
 											{ value: "3", name: "Social Media Marketing" },
 											{ value: "4", name: "Content Marketing" },

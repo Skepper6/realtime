@@ -18,16 +18,16 @@ const cards = [
     title: "Flawless On-Site\nExecution",
     desc: "Our on-site teams bring designs to life with precision and discipline. Every installation is controlled, safe, and effortlessly efficient.",
     cta: "Get optimization",
-    icon: "https://theskepper.com/000_Skepper_test/real/icons3.png",
-    bg: "https://theskepper.com/000_Skepper_test/real/built_design.jpg",
+    icon: "https://skepper.in/000_Skepper_test/real/icons3.png",
+    bg: "https://skepper.in/000_Skepper_test/real/built_design.jpg",
   },
   {
     number: "02",
     title: "Built on Imagination \n& Precision",
     desc: "Engineering is the bridge between creativity and execution. It begins with planning and delivers seamless performance.",
     cta: "Get optimization",
-    icon: "https://theskepper.com/000_Skepper_test/real/icons3.png",
-        bg: "https://theskepper.com/000_Skepper_test/real/built_design.jpg",
+    icon: "https://skepper.in/000_Skepper_test/real/icons3.png",
+        bg: "https://skepper.in/000_Skepper_test/real/built_design.jpg",
 
   },
   {
@@ -35,8 +35,8 @@ const cards = [
     title: "Integrated Systems\n That Disappear",
     desc: "We integrate HVAC with electrical, plumbing, and architectural systems  delivering installations so seamless, you forget they exist.",
     cta: "Get optimization",
-    icon: "https://theskepper.com/000_Skepper_test/real/icons3.png",
-        bg: "https://theskepper.com/000_Skepper_test/real/built_design.jpg",
+    icon: "https://skepper.in/000_Skepper_test/real/icons3.png",
+        bg: "https://skepper.in/000_Skepper_test/real/built_design.jpg",
 
   },
 ];

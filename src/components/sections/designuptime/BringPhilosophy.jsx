@@ -13,7 +13,7 @@ export default function BringPhilosophy() {
         <div className="design__imgCard">
           <img 
             className="design__img" 
-            src="https://theskepper.com/000_Skepper_test/real/philosophy_life.jpg" 
+            src="https://skepper.in/000_Skepper_test/real/designuptime/life_left.jpg" 
             alt="Philosophy in action" 
           />
         </div>
@@ -39,7 +39,7 @@ export default function BringPhilosophy() {
             <div className="design__imgCard">
               <img 
                 className="design__img" 
-                src="https://theskepper.com/000_Skepper_test/real/infra_leftimg.jpg" 
+                src="https://skepper.in/000_Skepper_test/real/designuptime/life_right.jpg" 
                 alt="Office meeting" 
               />
             </div>

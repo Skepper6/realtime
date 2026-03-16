@@ -6,20 +6,26 @@ import tjStackAnimation from "@/libs/tjStackAnimation";
 // 1. Define the object array
 const cardData = [
   {
-    image: "https://theskepper.com/000_Skepper_test/real/field1.png",
-    title: "Detailed project scheduling and site coordination",
-    color: "155, 138, 120",
+    image: "https://skepper.in/000_Skepper_test/real/designuptime/project-scheduling.jpg",
+    title: "Detailed project scheduling\n and site coordination",
+    // color: "155, 138, 120",
   },
   {
-    image: "https://theskepper.com/000_Skepper_test/real/field1.png", 
-    title: "Expert Load Calculations and Zoning Strategy",
-    color: "5, 18, 41", 
+    image: "https://skepper.in/000_Skepper_test/real/designuptime/Quality-checks.jpg", 
+    title: "Stringent safety &\n compliance protocols",
+    // color: "5, 18, 41", 
   },
   {
-    image: "https://theskepper.com/000_Skepper_test/real/field1.png", 
-    title: "Maintenance-readiness and Lifecycle Planning",
-    color: "128, 196, 102", 
+    image: "https://skepper.in/000_Skepper_test/real/designuptime/Stringent-safety.jpg", 
+    title: "Quality checks at every milestone ",
+    smalltitle: "(material testing, alignment, airflow validation)",
+    // color: "128, 196, 102", 
   },
+  {
+    image: "https://skepper.in/000_Skepper_test/real/designuptime/On-site.jpg", 
+    title: "On-site reporting\n and transparency ",
+    // color: "128, 196, 102", 
+  }
 ];
 
 export default function FieldCards() {
@@ -37,7 +43,7 @@ export default function FieldCards() {
   return (
     <section ref={animContainerRef} className="field-cards-section section-space grey_bg" >
       <div className="container">
-        <h4 className="aleo_semibold font32">Key Elements</h4>
+        <h4 className="aleo_semibold font32 center_title">Key Elements</h4>
         <div className="service-wrapper">
           {cardData.map((item, index) => {
             // Logic to apply animation class to all but the last item
@@ -67,9 +73,10 @@ export default function FieldCards() {
                   {/* Text Content Container */}
                   <div className="container banner-container">
                     <div className="banner-content">
-                      <h2 className="banner-title font32 aleo_semibold">
+                      <h2 className="banner-title font32 aleo_semibold" style={{whiteSpace:"pre-line"}}>
                         {item.title}
                       </h2>
+                      <p className="font18 fw-bold">{item.smalltitle}</p>
                     </div>
                   </div>
 

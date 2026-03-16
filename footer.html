@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #000000;
+      --band: #121212;
+      --line: rgba(255, 255, 255, 0.14);
+      --text: #ffffff;
+      --muted: #8d8d8d;
+      --copy: #9e9e9e;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Poppins", sans-serif;
+    }
+
+  
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .page {
+      width: 100%;
+      background: var(--bg);
+    }
+
+    .footer-top-band {
+      height: 56px;
+      background: var(--band);
+    }
+
+    .footer {
+      background: var(--bg);
+    }
+
+    .footer__inner {
+      width: min(100%, 1455px);
+      margin: 0 auto;
+      padding: 92px 36px 28px;
+    }
+
+    .footer__contact {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 48px;
+      padding-bottom: 84px;
+    }
+
+    .footer__heading {
+      margin: 0;
+      font-size: 29px;
+      line-height: 1.18;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+    }
+
+    .footer__heading span {
+      display: block;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    .footer__contact-list {
+      display: grid;
+      gap: 34px;
+      min-width: 330px;
+    }
+
+    .footer__contact-item {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 26px;
+      font-size: 18px;
+      line-height: 1.2;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .footer__icon {
+      width: 28px;
+      height: 28px;
+      flex: 0 0 38px;
+      color: var(--text);
+    }
+
+    .footer__divider {
+      height: 1px;
+      background: var(--line);
+    }
+
+    .footer__nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 36px;
+      padding: 36px 0 36px;
+    }
+
+    .footer__brand {
+      width: 170px;
+    }
+    .footer__brand img{
+      width: 130px;
+    }
+    .footer__links {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 48px;
+      flex-wrap: wrap;
+      font-size: 16px;
+      line-height: 1.2;
+      font-weight: 500;
+    }
+
+    .footer__copy {
+      padding-top: 55px;
+      text-align: center;
+      color: var(--copy);
+      font-size: 12px;
+      line-height: 1.35;
+      font-weight: 400;
+    }
+
+    @media (min-width: 768px) {
+      .footer__heading span {
+        margin-top: 2px;
+      }
+    }
+
+    @media (min-width: 576px) and (max-width: 767px) {
+      .footer-top-band {
+        height: 48px;
+      }
+
+      .footer__inner {
+        padding: 72px 30px 26px;
+      }
+
+      .footer__contact {
+        flex-direction: column;
+        gap: 38px;
+        padding-bottom: 54px;
+        text-align: center;
+      }
+
+      .footer__heading {
+        font-size: 26px;
+        line-height: 1.22;
+      }
+
+      .footer__heading span {
+        display: inline;
+        margin-left: 4px;
+      }
+
+      .footer__contact-list {
+        min-width: 0;
+        width: 100%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px;
+      }
+
+      .footer__contact-item {
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        font-size: 18px;
+      }
+
+      .footer__nav {
+        flex-direction: column;
+        gap: 34px;
+        padding: 46px 0 42px;
+      }
+
+      .footer__brand {
+        width: 164px;
+      }
+
+      .footer__links {
+        width: 100%;
+        justify-content: center;
+        gap: 34px;
+        font-size: 17px;
+      }
+
+      .footer__copy {
+        padding-top: 28px;
+        font-size: 17px;
+      }
+    }
+
+    @media (max-width: 575px) {
+      .footer-top-band {
+        height: 44px;
+      }
+
+      .footer__inner {
+        padding: 40px 16px 26px;
+      }
+
+      .footer__contact {
+        flex-direction: column;
+        gap: 28px;
+        padding-bottom: 40px;
+        text-align: center;
+      }
+
+      .footer__heading {
+        font-size: 24px;
+        line-height: 1.22;
+      }
+
+      .footer__heading span {
+        margin-top: 0;
+      }
+
+      .footer__contact-list {
+        min-width: 0;
+        width: 100%;
+        gap: 22px;
+      }
+
+      .footer__contact-item {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        font-size: 18px;
+        white-space: normal;
+      }
+
+      .footer__contact-item a {
+        overflow-wrap: anywhere;
+      }
+
+      .footer__icon {
+        width: 34px;
+        height: 34px;
+        flex-basis: 34px;
+      }
+
+      .footer__nav {
+        flex-direction: column;
+        gap: 34px;
+        padding: 42px 0 38px;
+      }
+
+      .footer__brand {
+        width: 160px;
+      }
+
+      .footer__links {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 34px 24px;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      .footer__copy {
+        padding-top: 24px;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="footer-top-band"></div>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <section class="footer__contact" aria-label="Project discussion and contact details">
+          <h2 class="footer__heading">
+            Have a Project in Mind?
+            <span>Let&rsquo;s Discuss</span>
+          </h2>
+
+          <div class="footer__contact-list">
+            <div class="footer__contact-item">
+              <svg class="footer__icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <rect x="6.5" y="10.5" width="35" height="25" stroke="currentColor" stroke-width="2"></rect>
+                <path d="M8 13L24 25L40 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              <a href="mailto:binu@skepper.in">binu@skepper.in</a>
+            </div>
+
+            <div class="footer__contact-item">
+              <svg class="footer__icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <path d="M15.624 9.5C16.775 8.702 18.326 8.887 19.262 9.95L23.796 15.097C24.724 16.151 24.776 17.721 23.921 18.834L20.222 23.652C20.022 23.912 19.993 24.264 20.15 24.554C21.923 27.827 24.496 30.401 27.77 32.173C28.059 32.33 28.412 32.302 28.671 32.102L33.49 28.403C34.602 27.548 36.173 27.6 37.227 28.528L42.374 33.062C43.437 33.998 43.621 35.55 42.824 36.7L40.186 40.507C39.468 41.543 38.272 42.143 37.012 42.105C29.436 41.876 21.077 37.812 14.888 31.623C8.698 25.433 4.635 17.074 4.405 9.498C4.367 8.238 4.968 7.042 6.004 6.324L9.81 3.686" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              <a href="tel:+918150002200">(+91) 8150 00 22 00</a>
+            </div>
+          </div>
+        </section>
+
+        <div class="footer__divider"></div>
+
+        <section class="footer__nav" aria-label="Footer navigation">
+          <a class="footer__brand" href="#">
+            <img src="https://cdn.prod.website-files.com/684d7cf05fe85b113c170ee9/6853a3742d14c5d1c73a77c5_logo%202.svg" alt="Skepper" />
+          </a>
+
+          <nav class="footer__links" aria-label="Quick links">
+            <a href="#">About</a>
+            <a href="#">Subscription Plan</a>
+            <a href="#">AI at Skepper</a>
+            <a href="#">Contact</a>
+          </nav>
+        </section>
+
+        <div class="footer__divider"></div>
+
+        <div class="footer__copy">
+          Copyright &copy; 2025 | All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

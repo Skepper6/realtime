@@ -6,17 +6,17 @@ import tjStackAnimation from "@/libs/tjStackAnimation";
 // 1. Define the object array
 const cardData = [
     {
-        image: "https://theskepper.com/000_Skepper_test/real/field1.png",
+        image: "https://skepper.in/000_Skepper_test/real/field1.png",
         title: "Detailed project scheduling and site coordination",
         color: "155, 138, 120",
     },
     {
-        image: "https://theskepper.com/000_Skepper_test/real/field1.png",
+        image: "https://skepper.in/000_Skepper_test/real/field1.png",
         title: "Expert Load Calculations and Zoning Strategy",
         color: "5, 18, 41",
     },
     {
-        image: "https://theskepper.com/000_Skepper_test/real/field1.png",
+        image: "https://skepper.in/000_Skepper_test/real/field1.png",
         title: "Maintenance-readiness and Lifecycle Planning",
         color: "128, 196, 102",
     },

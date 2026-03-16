@@ -5,13 +5,13 @@ import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 const CardBoxes = () => {
   // Replace these with your real images
   const leftBg =
-    "https://theskepper.com/000_Skepper_test/real/architectural-details.jpg"; // vent/ceiling style
+    "https://skepper.in/000_Skepper_test/real/hvac/left_card.jpg"; // vent/ceiling style
   const img1 =
-    "https://theskepper.com/000_Skepper_test/real/card1.jpg"; // think clearer
+    "https://skepper.in/000_Skepper_test/real/hvac/hvac-card1.jpg"; // think clearer
   const img2 =
-    "https://theskepper.com/000_Skepper_test/real/card1.jpg"; // stay balanced
+    "https://skepper.in/000_Skepper_test/real/hvac/hvac-card2.jpg"; // stay balanced
   const img3 =
-    "https://theskepper.com/000_Skepper_test/real/card1.jpg"; // feel better
+    "https://skepper.in/000_Skepper_test/real/hvac/hvac-card3.jpg"; // feel better
 
   return (
     <section className="hs-wrap section-space bg-white">

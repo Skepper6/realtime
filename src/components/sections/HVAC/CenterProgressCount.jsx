@@ -11,8 +11,8 @@ const CenterProgressCount = ({
   const sectionRef = useRef(null);
 
   return (
-    <section className="impact-highlight-wrap" ref={sectionRef}>
-      <div className="impact-highlight-bg" />
+    <section className="impact-highlight-wrap " ref={sectionRef}>
+      <div className="impact-highlight-bg hvac_impact" />
 
       <div className="impact-highlight-card">
         <div className="impact-highlight-left">

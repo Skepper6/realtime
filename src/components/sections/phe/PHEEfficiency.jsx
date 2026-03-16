@@ -27,7 +27,7 @@ export default function PHEEfficiency() {
                     {/* Right column */}
                     <div className="design__col design__col--right">
                         <div className="design__imgCard design__imgCard--tall">
-                            <img className="design__img" src="https://theskepper.com/000_Skepper_test/real/water_right.jpg" alt="Building exterior" />
+                            <img className="design__img" src="https://skepper.in/000_Skepper_test/real/water_right.jpg" alt="Building exterior" />
                         </div>
                     </div>
                 </div>

@@ -27,7 +27,7 @@ const CenterFullImage = () => {
                     </div>
                 
                  <div className="col-lg-6 col-md-12">
-                     <img src="https://theskepper.com/000_Skepper_test/real/engineer_air.jpg" alt="engineer air" className="w-100"/>
+                     <img src="https://skepper.in/000_Skepper_test/real/engineer_air.jpg" alt="engineer air" className="w-100"/>
                 </div>
 
                 </div>

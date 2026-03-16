@@ -76,13 +76,13 @@ const AnnualMaintenanceCenterZoomCards = () => {
   }, [open]);
 
   const images = {
-    left: "https://theskepper.com/000_Skepper_test/real/annual_leftcard.jpg",
-    center: "https://theskepper.com/000_Skepper_test/real/annual_centercard.jpg",
-    right: "https://theskepper.com/000_Skepper_test/real/annual_rightcard.jpg",
+    left: "https://skepper.in/000_Skepper_test/real/annual_leftcard.jpg",
+    center: "https://skepper.in/000_Skepper_test/real/amc/annual_centercard.jpg",
+    right: "https://skepper.in/000_Skepper_test/real/annual_rightcard.jpg",
   };
 
   // ✅ put your MP4 here
-  const videoSrc = "https://theskepper.com/public/images/uploads/home_page/4a981b766ec82f77261879a79c95c53f.mp4";
+  const videoSrc = "https://skepper.in/public/images/uploads/home_page/4a981b766ec82f77261879a79c95c53f.mp4";
   useEffect(() => {
     if (!open) return;
 

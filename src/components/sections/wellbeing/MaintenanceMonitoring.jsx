@@ -25,19 +25,19 @@ export default function MaintenanceMonitoring() {
         {
             title: "Indoor Air Quality (IAQ)",
             desc: "High-efficiency filters, UVGI, and smart\nfresh air exchange.",
-            img: "https://theskepper.com/000_Skepper_test/real/rec1.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/rec1.jpg",
             isWide: false,
         },
         {
             title: "Noise control",
             desc: "Duct and fan noise suppression, vibration\nisolation.",
-            img: "https://theskepper.com/000_Skepper_test/real/rec2.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/rec2.jpg",
             isWide: true,
         },
         {
             title: "Lighting integration",
             desc: "Integrated with HVAC control for\nVisual and Circadian health.",
-            img: "https://theskepper.com/000_Skepper_test/real/card1.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/hvac/hvac-card1.jpg",
             isWide: false,
         },
     ];
@@ -47,7 +47,7 @@ export default function MaintenanceMonitoring() {
             {/* Background Image with Gradient Fade to Bottom */}
             <div className="maintenance-bg-wrapper">
                 <img
-                    src="https://theskepper.com/000_Skepper_test/real/philosophy_life.jpg"
+                    src="https://skepper.in/000_Skepper_test/real/philosophy_life.jpg"
                     alt="Background"
                     className="maintenance-bg-img"
                 />

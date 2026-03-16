@@ -6,7 +6,7 @@ const Logo = ({ option, isStickyHeader }) => {
 	return (
 		<div className="site-logo">
 			<Link className="logo" href="/">
-			<img src="https://theskepper.com/000_Skepper_test/real/logo.png" />
+			<img src="https://skepper.in/000_Skepper_test/real/logo.png" />
 				{/* <img
 					src={`/images/home/${
 						(headerType === 3 ||
@@ -15,7 +15,7 @@ const Logo = ({ option, isStickyHeader }) => {
 							headerType === 6 ||
 							headerType === 9) &&
 						!isStickyHeader
-							? "https://theskepper.com/000_Skepper_test/real/logo.png"
+							? "https://skepper.in/000_Skepper_test/real/logo.png"
 							: headerType === 9
 							? "logo.png"
 							: "logo.png"

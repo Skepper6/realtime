@@ -18,7 +18,7 @@ const PHEHoverCardImage = () => {
             desc: "Our advanced metering solutions track real-time water usage, identify inefficiencies, and support accurate billing, auditing, and water optimization.",
             iconName: "tji-optimization",
             totalProject: 64,
-            img: "https://theskepper.com/000_Skepper_test/real/h1-service-2.webp",
+            img: "https://skepper.in/000_Skepper_test/real/h1-service-2.webp",
             svg: "",
         },
         {
@@ -27,7 +27,7 @@ const PHEHoverCardImage = () => {
             desc: "We analyze flow patterns, pressure behavior, and system performance to help reduce wastage, improve efficiency, and support informed water management decisions.",
             iconName: "tji-optimization",
             totalProject: 85,
-            img: "https://theskepper.com/000_Skepper_test/real/h1-service-2.webp",
+            img: "https://skepper.in/000_Skepper_test/real/h1-service-2.webp",
             svg: "",
         },
         {
@@ -36,7 +36,7 @@ const PHEHoverCardImage = () => {
             desc: "From automated valves to integrated monitoring, our smart automation solutions enhance reliability, responsiveness, and operational control across facilities.",
             iconName: "tji-optimization",
             totalProject: 64,
-            img: "https://theskepper.com/000_Skepper_test/real/h1-service-2.webp",
+            img: "https://skepper.in/000_Skepper_test/real/h1-service-2.webp",
             svg: "",
         }
 

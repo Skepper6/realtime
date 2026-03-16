@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const PHETeamTrust = () => {
     const slides = [
-        "https://theskepper.com/000_Skepper_test/real/drainage.jpg",
+        "https://skepper.in/000_Skepper_test/real/drainage.jpg",
     ];
 
     return (

@@ -7,19 +7,19 @@ const electricalPortfolioData = [
   {
     id: 1,
     title: "Safety",
-    img2: "https://nexalearning.com/wp-content/uploads/2024/08/employee-dissatisfaction-scaled.jpeg",
+    img2: "https://skepper.in/000_Skepper_test/real/electrical/electrical-card1.jpg",
     desc: "Rigorous adherence to international safety standards ensures protection for both personnel and infrastructure.",
   },
   {
     id: 2,
     title: "Quality",
-    img2: "https://nexalearning.com/wp-content/uploads/2024/08/employee-dissatisfaction-scaled.jpeg",
+    img2: "https://skepper.in/000_Skepper_test/real/electrical/electrical-card2.jpg",
     desc: "Premium components and precision engineering deliver consistent, high-performance power distribution.",
   },
   {
     id: 3,
     title: "Reliability",
-    img2: "https://nexalearning.com/wp-content/uploads/2024/08/employee-dissatisfaction-scaled.jpeg",
+    img2: "https://skepper.in/000_Skepper_test/real/electrical/electrical-card3.jpg",
     desc: "Robust system architecture designed for zero unplanned downtime and maximum operational continuity.",
   },
 ];

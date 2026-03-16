@@ -1,108 +1,73 @@
 [
-
+  {
+    "id": 1,
+    "name": "About",
+    "path": "/about"
+  },
   {
     "id": 2,
-    "name": "About Us",
-    "path": "/about",
-    "submenuStyle": "service",
+    "name": "Services",
+    "path": "/services",
     "submenu": [
       {
         "id": 1,
-        "name": "Client Testimonials",
-        "icon": "tji-leadership",
-        "path": "/wellbeing#voices-slider"
+        "name": "HVAC Services",
+        "path": "/hvac-service"
       },
       {
         "id": 2,
-        "name": "Careers",
-        "icon": "tji-business",
-        "path": "/careers"
+        "name": "Electrical Systems Services",
+        "path": "/electrical-systems-service"
+      },
+      {
+        "id": 3,
+        "name": "PHE Services",
+        "path": "/phe-service"
+      },
+      {
+        "id": 4,
+        "name": "Annual Maintenance",
+        "path": "/annual-maintenance-contracts"
       }
     ]
   },
   {
     "id": 3,
-    "name": "Services",
-    "path": "/services",
-    "submenuStyle": "service",
-    "submenu": [
-      {
-        "id": 1,
-        "name": "HVAC",
-        "icon": "tji-optimization",
-        "path": "/hvac-service"
-      },
-      {
-        "id": 2,
-        "name": "Electrical",
-        "icon": "tji-strategic",
-        "path": "/electrical-systems-service"
-      },
-      {
-        "id": 3,
-        "name": "Public Health Engineering (PHE)",
-        "icon": "tji-leadership",
-        "path": "/phe-service"
-      },
-      {
-        "id": 4,
-        "name": "Annual Maintenance Contracts (AMC)",
-        "icon": "tji-business",
-        "path": "/annual-maintenance-contracts"
-      },
-      {
-        "id": 5,
-        "name": "Service Lifecycle: Design to Uptime",
-        "icon": "tji-process",
-        "path": "/designuptime"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Projects",
-    "path": "/portfolios"
-  },
-  {
-    "id": 5,
     "name": "From Design to Uptime",
     "path": "/designuptime"
   },
   {
-    "id": 6,
-    "name": "Well-being & Comfort",
-    "path": "/wellbeing"
+    "id": 4,
+    "name": "Case Study",
+    "path": "/casestudy"
   },
   {
-    "id": 7,
-    "name": "Insights / Knowledge Center",
-    "path": "/blog-grid",
+    "id": 5,
+    "name": "Approach",
+    "path": "/wellbeing",
     "submenu": [
       {
         "id": 1,
-        "name": "Blog",
-        "path": "/blog-grid"
-      },
-      {
-        "id": 2,
-        "name": "Whitepapers",
-        "path": "/blog-grid#whitepapers"
-      },
-      {
-        "id": 3,
-        "name": "Industry best practices",
-        "path": "/blog-grid#industry-best-practices"
-      },
-      {
-        "id": 4,
-        "name": "FAQ",
-        "path": "/faq"
+        "name": "Well-being & Comfort",
+        "path": "/wellbeing"
       }
     ]
   },
   {
-    "id": 8,
-    "name": "Contact Us",
+    "id": 6,
+    "name": "Insights",
+    "path": "/blog-grid",
+    "submenu": [
+      {
+        "id": 1,
+        "name": "Knowledge Center",
+        "path": "/blog-grid"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Contact",
     "path": "/contact"
   }
 ]

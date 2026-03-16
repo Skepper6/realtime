@@ -14,7 +14,7 @@ export default function PowerEfficiency() {
           {/* Left column */}
           <div className="design__col design__col--left">
             <div className="design__imgCard">
-              <img className="design__img" src="/images/support_left.jpg" alt="Interior space" />
+              <img className="design__img" src="https://skepper.in/000_Skepper_test/real/amc/support_left.jpg" alt="Interior space" />
             </div>
 
           <div className="design_wrap">
@@ -31,7 +31,7 @@ export default function PowerEfficiency() {
           {/* Right column */}
           <div className="design__col design__col--right">
             <div className="design__imgCard design__imgCard--tall">
-              <img className="design__img" src="images/support_right.jpg" alt="Building exterior" />
+              <img className="design__img" src="https://skepper.in/000_Skepper_test/real/amc/support_right.jpg" alt="Building exterior" />
             </div>
           </div>
         </div>

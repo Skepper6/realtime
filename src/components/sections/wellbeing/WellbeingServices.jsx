@@ -44,7 +44,7 @@ const WellbeingServices = () => {
                                         {/* Image - Static (No Animation) */}
                                         <div className="health-image-container">
                                             <img
-                                                src="https://theskepper.com/000_Skepper_test/real/health_safty.jpg"
+                                                src="https://skepper.in/000_Skepper_test/real/health_safty.jpg"
                                                 alt="Health Safety Workspace"
                                                 className="health-img"
                                             />

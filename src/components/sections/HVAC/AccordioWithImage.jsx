@@ -13,25 +13,25 @@ const AccordioWithImage = () => {
     {
       id: 1,
       title: "Corporate Building",
-      img2: "https://theskepper.com/000_Skepper_test/real/corporate.jpg",
+      img2: "https://skepper.in/000_Skepper_test/real/hvac/fa1.jpg",
       tags: ["Strategy", "Growth"],
     },
     {
       id: 2,
       title: "Data Centers",
-      img2: "https://theskepper.com/000_Skepper_test/real/corporate.jpg",
+      img2: "https://skepper.in/000_Skepper_test/real/hvac/fa2.jpg",
       tags: ["Strategy", "Growth"],
     },
     {
       id: 3,
       title: "Manufacturing Unit",
-      img2: "https://theskepper.com/000_Skepper_test/real/corporate.jpg",
+      img2: "https://skepper.in/000_Skepper_test/real/hvac/fa3.jpg",
       tags: ["Strategy", "Growth"],
     },
     {
       id: 4,
       title: "Industrial Factory",
-      img2: "https://theskepper.com/000_Skepper_test/real/corporate.jpg",
+      img2: "https://skepper.in/000_Skepper_test/real/hvac/fa4.jpg",
       tags: ["Strategy", "Growth"],
     },
   ];

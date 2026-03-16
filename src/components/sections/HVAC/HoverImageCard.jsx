@@ -18,7 +18,7 @@ const HoverImageCard = () => {
 			desc: "Our systems remove dust, allergens, pollutants, and microscopic particles using advanced multi-stage filters. This ensures cleaner, healthier indoor environments with fewer airborne contaminants and improved breathing comfort.",
 			iconName: "tji-optimization",
 			totalProject: 120,
-			img: "https://theskepper.com/000_Skepper_test/real/h1-service-2.webp",
+			img: "https://skepper.in/000_Skepper_test/real/h1-service-2.webp",
 			svg: "",
 		},
 		{
@@ -27,7 +27,7 @@ const HoverImageCard = () => {
 			desc: "Engineered airflow pathways ensure a consistent supply of fresh outdoor air while maintaining energy efficiency. This helps prevent stale environments, reduces CO₂ buildup, and keeps indoor spaces feeling naturally ventilated.",
 			iconName: "tji-optimization",
 			totalProject: 85,
-			img: "https://theskepper.com/000_Skepper_test/real/h1-service-2.webp",
+			img: "https://skepper.in/000_Skepper_test/real/h1-service-2.webp",
 			svg: "",
 		},
 		{
@@ -36,7 +36,7 @@ const HoverImageCard = () => {
 			desc: "By maintaining a balanced humidity level, our systems prevent dryness, mold growth, and discomfort. The result is a space that feels naturally pleasant—not too dry and not too damp—no matter the season.",
 			iconName: "tji-optimization",
 			totalProject: 64,
-			img: "https://theskepper.com/000_Skepper_test/real/h1-service-2.webp",
+			img: "https://skepper.in/000_Skepper_test/real/h1-service-2.webp",
 			svg: "",
 		},
 		{
@@ -45,7 +45,7 @@ const HoverImageCard = () => {
 			desc: "The HVAC system filters dust, pollen, and fine particles, reduces indoor pollutants, balances humidity, and maintains steady airflow, delivering cleaner, healthier air for comfort, easier breathing, and better productivity.",
 			iconName: "tji-optimization",
 			totalProject: 40,
-			img: "https://theskepper.com/000_Skepper_test/real/h1-service-2.webp",
+			img: "https://skepper.in/000_Skepper_test/real/h1-service-2.webp",
 			svg: "",
 		},
 	].slice(0, 4);

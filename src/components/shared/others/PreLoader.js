@@ -24,7 +24,7 @@ const PreLoader = ({ isDefaultPreLoader }) => {
 			<div className="loading-container">
 				<div className="loading"></div>
 				<div id="loading-icon">
-					<img src="https://theskepper.com/000_Skepper_test/real/logo.svg" alt="loader" />
+					<img src="https://skepper.in/000_Skepper_test/real/logo.svg" alt="loader" />
 				</div>
 			</div>
 		</div>

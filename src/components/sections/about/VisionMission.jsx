@@ -20,7 +20,7 @@ const VisionMission = () => {
             {/* Vision Image Placeholder (Target/Ladder) */}
             <div className="vision-img-wrapper">
               <img 
-                src="https://theskepper.com/000_Skepper_test/real/ladder.png" 
+                src="https://skepper.in/000_Skepper_test/real/ladder.png" 
                 alt="Vision Target" 
                 className="vm-image"
               />
@@ -42,7 +42,7 @@ const VisionMission = () => {
             {/* Mission Image Placeholder (Rocket) */}
             <div className="mission-img-wrapper">
               <img 
-                src="https://theskepper.com/000_Skepper_test/real/fog.png" 
+                src="https://skepper.in/000_Skepper_test/real/fog.png" 
                 alt="Mission Rocket" 
                 className="vm-image"
               />

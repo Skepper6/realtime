@@ -14,7 +14,7 @@ const Skills1 = () => {
 			ref={animContainerRef}
 			className="tj-skill-section"
 			style={{
-				backgroundImage: "url('https://theskepper.com/000_Skepper_test/real/facts_bg.jpg')",
+				backgroundImage: "url('https://skepper.in/000_Skepper_test/real/facts_bg.jpg')",
 			}}
 		>
 			<div className="container">

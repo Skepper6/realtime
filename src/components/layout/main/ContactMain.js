@@ -13,7 +13,7 @@ const ContactMain = () => {
       {/* Background image */}
       <img
         className="rt-hero__b"
-        src="https://theskepper.com/000_Skepper_test/real/career_header.jpg"
+        src="https://skepper.in/000_Skepper_test/real/career_header.jpg"
         alt="Career image"
       />
       

@@ -90,30 +90,30 @@ useGSAP(() => {
 							
 
 								<div className="hero-shapes-1 move-anim">
-									<img src="https://theskepper.com/000_Skepper_test/real/hero-1.png" alt="Shapes" />
+									<img src="https://skepper.in/000_Skepper_test/real/hero-1.png" alt="Shapes" />
 								</div>
 								<div className="hero-shapes-2 zoominout">
-									<img src="https://theskepper.com/000_Skepper_test/real/hero-3.png" alt="Shapes" />
+									<img src="https://skepper.in/000_Skepper_test/real/hero-3.png" alt="Shapes" />
 								</div>
 							</div>
 							<div className="hero-images-box">
 								<div className="hero-images">
-									<img src="https://theskepper.com/000_Skepper_test/real/design_time.jpg" alt="design_time" />
+									<img src="https://skepper.in/000_Skepper_test/real/design_time.jpg" alt="design_time" />
 								</div>
 								<div className="images-shapes move-anim-2">
 									{/* <img src="/images/shapes/hero-2.png" alt="Shapes" /> */}
 								</div>
 								<div className="hero-circl animate_circle box_bg">
 									<div className="center_box">
-										<img src="https://theskepper.com/000_Skepper_test/real/header_centericon.png" />
+										<img src="https://skepper.in/000_Skepper_test/real/header_centericon.png" />
 									</div>
 									 <div className={`icon-wrapper ${active ? "active" : ""}`}>
-											{/* <img src="https://theskepper.com/000_Skepper_test/real/header_centericon.png" /> */}
+											{/* <img src="https://skepper.in/000_Skepper_test/real/header_centericon.png" /> */}
 										{/* <div className="left_icon">
-											<img src="https://theskepper.com/000_Skepper_test/real/home1.png" className="icon left-icon" />
+											<img src="https://skepper.in/000_Skepper_test/real/home1.png" className="icon left-icon" />
 										</div>
 										<div className="right_icon">
-												<img src="https://theskepper.com/000_Skepper_test/real/home2.png" className="icon right-icon" />
+												<img src="https://skepper.in/000_Skepper_test/real/home2.png" className="icon right-icon" />
 										</div> */}
 									</div>
 

@@ -13,7 +13,7 @@ const CareerCard = ({ careerSingle, idx }) => {
 			data-wow-delay={makeWowDelay(idx, 0.1)}
 		>
 			<div className="tj-careers-icon mb-30">
-				<img src={"https://theskepper.com/000_Skepper_test/real/green_logo.png"} alt="logo" />
+				<img src={"https://skepper.in/000_Skepper_test/real/green_logo.png"} alt="logo" />
 			</div>
 			
 			<div className="tj-careers-tag">

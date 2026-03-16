@@ -4,38 +4,38 @@ import React from "react";
 export default function WellbeingCards() {
 
     const leftBg =
-        "https://theskepper.com/000_Skepper_test/real/architectural-details.jpg"; // vent/ceiling style
+        "https://skepper.in/000_Skepper_test/real/hvac/left_card.jpg"; // vent/ceiling style
     const img1 =
-        "https://theskepper.com/000_Skepper_test/real/card1.jpg"; // think clearer
+        "https://skepper.in/000_Skepper_test/real/hvac/hvac-card1.jpg"; // think clearer
     const img2 =
-        "https://theskepper.com/000_Skepper_test/real/card1.jpg"; // stay balanced
+        "https://skepper.in/000_Skepper_test/real/hvac/hvac-card1.jpg"; // stay balanced
     const img3 =
-        "https://theskepper.com/000_Skepper_test/real/card1.jpg"; // feel better
+        "https://skepper.in/000_Skepper_test/real/hvac/hvac-card1.jpg"; // feel better
 
 
     const inclusions = [
         {
-            img: "https://theskepper.com/000_Skepper_test/real/design1.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/design1.jpg",
             text: "System selection (chillers, AHUs, ducts, controls)",
         },
         {
-            img: "https://theskepper.com/000_Skepper_test/real/design2.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/design2.jpg",
             text: "Load calculations & zoning strategy",
         },
         {
-            img: "https://theskepper.com/000_Skepper_test/real/design1.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/design1.jpg",
             text: "System selection (chillers, AHUs, ducts, controls)",
         },
         {
-            img: "https://theskepper.com/000_Skepper_test/real/design4.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/design4.jpg",
             text: "Energy simulation & predictive modeling",
         },
         {
-            img: "https://theskepper.com/000_Skepper_test/real/design5.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/design5.jpg",
             text: "IAQ (Indoor Air Quality) baseline strategies",
         },
         {
-            img: "https://theskepper.com/000_Skepper_test/real/design5.jpg",
+            img: "https://skepper.in/000_Skepper_test/real/design5.jpg",
             text: "Maintenance-readiness built into the design",
         },
     ];

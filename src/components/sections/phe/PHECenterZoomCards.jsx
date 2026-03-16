@@ -76,13 +76,13 @@ const PHECenterZoomCards = () => {
     }, [open]);
 
     const images = {
-        left: "https://theskepper.com/000_Skepper_test/real/phe_leftimg.png",
-        center: "https://theskepper.com/000_Skepper_test/real/phe_centerimg.png",
-        right: "https://theskepper.com/000_Skepper_test/real/phe_rightimg.png",
+        left: "https://skepper.in/000_Skepper_test/real/phe_leftimg.png",
+        center: "https://skepper.in/000_Skepper_test/real/phe_centerimg.png",
+        right: "https://skepper.in/000_Skepper_test/real/phe_rightimg.png",
     };
 
     // ✅ put your MP4 here
-    const videoSrc = "https://theskepper.com/public/images/uploads/home_page/4a981b766ec82f77261879a79c95c53f.mp4";
+    const videoSrc = "https://skepper.in/public/images/uploads/home_page/4a981b766ec82f77261879a79c95c53f.mp4";
     useEffect(() => {
         if (!open) return;
 

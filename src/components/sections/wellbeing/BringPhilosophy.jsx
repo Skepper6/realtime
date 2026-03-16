@@ -22,7 +22,7 @@ export default function BringPhilosophy() {
                     <div className="design__imgCard top-img">
                         <img
                             className="design__img"
-                            src="https://theskepper.com/000_Skepper_test/real/philosophy_life.jpg"
+                            src="https://skepper.in/000_Skepper_test/real/philosophy_life.jpg"
                             alt="Meeting in office"
                         />
                     </div>
@@ -34,7 +34,7 @@ export default function BringPhilosophy() {
                             <div className="design__imgCard">
                                 <img
                                     className="design__img"
-                                    src="https://theskepper.com/000_Skepper_test/real/infra_leftimg.jpg"
+                                    src="https://skepper.in/000_Skepper_test/real/infra_leftimg.jpg"
                                     alt="Casual office setting"
                                 />
                             </div>
@@ -64,24 +64,24 @@ export default function BringPhilosophy() {
                         <div className="feature-row">
                             <div className="feature-card feature-card--green">
                                 <div className="feature-card__icon">
-                                  <img src="https://theskepper.com/000_Skepper_test/real/comfort_icon.png" />
+                                  <img src="https://skepper.in/000_Skepper_test/real/comfort_icon.png" />
                                 </div>
                                 <h3 className="feature-card__title">Consistent Comfort<br />Across Every Zone</h3>
                                 <p className="feature-card__desc">Static temperatures in action, zones no<br />match hot or cold pockets</p>
                             </div>
                             <div className="feature-card feature-card--image">
-                                <img src="https://theskepper.com/000_Skepper_test/real/card1.jpg" alt="Meeting" />
+                                <img src="https://skepper.in/000_Skepper_test/real/hvac/hvac-card1.jpg" alt="Meeting" />
                             </div>
                         </div>
 
                         {/* Row 2 - Wide Card */}
                         <div className="feature-card-wide">
                             <div className="feature-card-wide__image">
-                                <img src="https://theskepper.com/000_Skepper_test/real/roi.jpg" alt="Discussion" />
+                                <img src="https://skepper.in/000_Skepper_test/real/roi.jpg" alt="Discussion" />
                             </div>
                             <div className="feature-card-wide__content bg-light-gray">
                                 <div className="feature-card__icon">
-                                                                     <img src="https://theskepper.com/000_Skepper_test/real/comfort_icon.png" />
+                                                                     <img src="https://skepper.in/000_Skepper_test/real/comfort_icon.png" />
 
                                 </div>
                                 <h3 className="feature-card__title">Breathing Comfort,<br />Perfectly Balanced</h3>
@@ -93,14 +93,14 @@ export default function BringPhilosophy() {
                         <div className="feature-row">
                             <div className="feature-card feature-card--dark">
                                 <div className="feature-card__icon">
-                               <img src="https://theskepper.com/000_Skepper_test/real/comfort_icon2.png" />
+                               <img src="https://skepper.in/000_Skepper_test/real/comfort_icon2.png" />
 
                                 </div>
                                 <h3 className="feature-card__title">Smarter Control,<br />Better Comfort.</h3>
                                 <p className="feature-card__desc">Smart demand controls to<br />prevent over-conditioning</p>
                             </div>
                             <div className="feature-card feature-card--image">
-                                <img src="https://theskepper.com/000_Skepper_test/real/full1.jpg" alt="Atrium" />
+                                <img src="https://skepper.in/000_Skepper_test/real/full1.jpg" alt="Atrium" />
                             </div>
                         </div>
                     </div>
