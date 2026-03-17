@@ -1231,6 +1231,9 @@ gap: 20px;
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
 
+.tj-counter-section .counter-wrapper{
+  flex-wrap: wrap;
+}
 .tj-careers-section {
     margin-top: 0px;
 }
@@ -2317,6 +2320,9 @@ margin-right: 0px !important;
 }
 @media (max-width: 575px) {
 
+  .hero-images-box img{
+    width: 100%;
+  }
 .site-logo .logo {
     max-width: 150px;
 }

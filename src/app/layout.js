@@ -34,6 +34,7 @@ import "./assets/css/main.css";
 import "./assets/css/shop.css";
 import "./assets/css/main-rtl.css";
 import "./assets/css/responsive.css";
+import "./assets/css/service-stack-fixes.css";
 export const metadata = {
 	title: "Real Time Infra",
 	description: "RTI - Business Consulting",
@@ -51,4 +52,3 @@ export default function RootLayout({ children }) {
 		</html>
 	);
 }
-

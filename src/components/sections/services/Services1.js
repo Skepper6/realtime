@@ -9,8 +9,8 @@ const Services1 = () => {
 	const animContainerRef = useRef();
 	const services = getALlServices()?.slice(0, 5);
 	useGSAP(
-		context => {
-			tjStackAnimation(".service-stack");
+		() => {
+			return tjStackAnimation(".service-stack", { enableOnMobile: true });
 		},
 		{ scope: animContainerRef }
 	);

@@ -4653,8 +4653,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media (max-width: 575px) {
   .footer-newsletter-form {
-    padding-top: 50px;
-    border-top: 1px solid var(--tj-color-border-1);
+    /* padding-top: 50px; */
+    /* border-top: 1px solid var(--tj-color-border-1); */
   }
 }
 
@@ -43208,7 +43208,7 @@ sup {
     width: 100%;
 }
 .service-wrapper .service-item{
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 .service-wrapper .fw-bold{
     color: #fff;
@@ -44820,6 +44820,8 @@ padding-bottom: 0px; */
   letter-spacing: 0.1px;
 }
 
-.service-wrapper .pin-spacer:nth-child(2) .service-item .service-content, .service-wrapper .pin-spacer:nth-child(2) .service-item, .service-wrapper .pin-spacer:nth-child(4) .service-item {
+.service-wrapper .pin-spacer:nth-child(2) .service-item .service-content, 
+.service-wrapper .pin-spacer:nth-child(2) .service-item,
+ .service-wrapper .pin-spacer:nth-child(4) .service-item {
   background-color:#051229;
 }
