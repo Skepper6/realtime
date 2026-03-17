@@ -99,7 +99,7 @@ const BlogSingle = ({ blog }) => {
 				<div className="tj-post-meta">
 					<ul>
 						<li>
-							<Link href={`/blogs?category=${makePath(category)}`}>
+							<Link href={`/resources/blogs?category=${makePath(category)}`}>
 								{category}
 							</Link>
 						</li>
@@ -109,7 +109,7 @@ const BlogSingle = ({ blog }) => {
 					</ul>
 				</div>
 				<h3 className="tj-post-title">
-					<Link href={`/blogs/${id}`}>{title}</Link>
+					<Link href={`/resources/blogs/${id}`}>{title}</Link>
 				</h3>
 				<div className="tj-post-excerpt">
 					Our mission is to empowers businesses size to thrive in an businesses
@@ -119,7 +119,7 @@ const BlogSingle = ({ blog }) => {
 					delivering...
 				</div>
 				<div className="tj-post-btn">
-					<ButtonPrimary text={"Read more"} url={`/blogs/${id}`} />
+					<ButtonPrimary text={"Read more"} url={`/resources/blogs/${id}`} />
 				</div>
 			</div>
 		</article>

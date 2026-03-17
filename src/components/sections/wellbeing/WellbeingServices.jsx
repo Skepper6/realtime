@@ -75,7 +75,7 @@ const WellbeingServices = () => {
                         </div>
                     </div>
                 </div>
-                  <div className="container maintenance-bottom-text-container">
+                  <div className="container maintenance-bottom-text-container fast_track">
                 <p className="font32 maintenance-bottom-text text-white" >
                     A client was able to fast-track their <span className="green_text">WELL Gold<br /> certification within 9 months</span> — thanks to the integrated<br /> climate, IAQ, and lighting systems we delivered.</p>
                                     <hr />

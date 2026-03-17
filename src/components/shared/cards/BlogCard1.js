@@ -6,7 +6,7 @@ const BlogCard1 = ({ blog, idx }) => {
 	return (
 		<div className="blog-item wow fadeInUp" data-wow-delay={`0.${idx + 1}s`}>
 			<div className="blog-images hover:shine">
-				<Link href={`/blogs/${id}`}>
+				<Link href={`/resources/blogs/${id}`}>
 					<img
 						src={img1 ? img1 : "/images/blog/blog-thumb-1.webp"}
 						alt="Images"
@@ -17,7 +17,7 @@ const BlogCard1 = ({ blog, idx }) => {
 				<div className="blog-meta">
 					<ul>
 						<li className="category">
-							<Link href={`/blogs?category=${makePath(category)}`}>
+							<Link href={`/resources/blogs?category=${makePath(category)}`}>
 								{category}
 							</Link>
 						</li>
@@ -26,7 +26,7 @@ const BlogCard1 = ({ blog, idx }) => {
 					</ul>
 				</div>
 				<h4 className="blog-title">
-					<Link href={`/blogs/${id}`}>{title}</Link>
+					<Link href={`/resources/blogs/${id}`}>{title}</Link>
 				</h4>
 				{idx === 0 ? (
 					<div className="desc">
@@ -36,7 +36,7 @@ const BlogCard1 = ({ blog, idx }) => {
 				) : (
 					""
 				)}
-				<Link className="blog-button text-btn" href={`/blogs/${id}`}>
+				<Link className="blog-button text-btn" href={`/resources/blogs/${id}`}>
 					Read more <i className="tji-arrow-right"></i>
 				</Link>
 				<div className="blog-meta meta-2 mb-0">

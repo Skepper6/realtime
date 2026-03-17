@@ -11,7 +11,7 @@ const BlogTagsWidget = () => {
 			<div className="tagcloud">
 				{tags?.length
 					? tags?.map((tag, idx) => (
-							<Link key={idx} href={`/blogs?tag=${makePath(tag)}`}>
+							<Link key={idx} href={`/resources/blogs?tag=${makePath(tag)}`}>
 								{" "}
 								{tag}
 							</Link>

@@ -48,7 +48,7 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 										<div className="cate-text">
 											<span className="degination">Authored by</span>
 											<h6 className="title">
-												<Link href={`/blogs/${id}`}>Burdee Nicolas</Link>
+												<Link href={`/resources/blogs/${id}`}>Burdee Nicolas</Link>
 											</h6>
 										</div>
 									</div>
@@ -173,7 +173,7 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 									<span className="tag__title">Tags:</span>
 									{tags?.length
 										? tags?.map((tag, idx) => (
-												<Link key={idx} href={`/blogs?tag=${makePath(tag)}`}>
+												<Link key={idx} href={`/resources/blogs?tag=${makePath(tag)}`}>
 													{tag}
 												</Link>
 										  ))
@@ -206,7 +206,7 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 									style={{ visibility: isPrevItem ? "visible" : "hidden" }}
 								>
 									<div className="tj-nav-post__nav prev_post">
-										<Link href={isPrevItem ? `/blogs/${prevId}` : "#"}>
+										<Link href={isPrevItem ? `/resources/blogs/${prevId}` : "#"}>
 											<span>
 												<i className="tji-arrow-left"></i>
 											</span>
@@ -214,7 +214,7 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 										</Link>
 									</div>
 								</div>
-								<Link href={"/blogs"} className="tj-nav-post__grid">
+								<Link href={"/resources/blogs"} className="tj-nav-post__grid">
 									<i className="tji-square-cube"></i>
 								</Link>
 								{/* <!-- next post --> */}
@@ -223,7 +223,7 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 									style={{ visibility: isNextItem ? "visible" : "hidden" }}
 								>
 									<div className="tj-nav-post__nav next_post">
-										<Link href={isNextItem ? `/blogs/${nextId}` : "#"}>
+										<Link href={isNextItem ? `/resources/blogs/${nextId}` : "#"}>
 											Next
 											<span>
 												<i className="tji-arrow-right"></i>
@@ -247,12 +247,12 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 													<div className="comments-header">
 														<div className="avatar-name">
 															<h5 className="title">
-																<Link href={`/blogs/${id}`}>Jami Simth</Link>
+																<Link href={`/resources/blogs/${id}`}>Jami Simth</Link>
 															</h5>
 														</div>
 														<div className="comment-text">
 															<span className="date">February 03, 2024</span>
-															<Link className="reply" href={`/blogs/${id}`}>
+															<Link className="reply" href={`/resources/blogs/${id}`}>
 																<i className="tji-reply"></i>Reply
 															</Link>
 														</div>
@@ -282,14 +282,14 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 															<div className="comments-header">
 																<div className="avatar-name">
 																	<h5 className="title">
-																		<Link href={`/blogs/${id}`}>
+																		<Link href={`/resources/blogs/${id}`}>
 																			Marden Smith
 																		</Link>
 																	</h5>
 																</div>
 																<div className="comment-text">
 																	<span className="date">March 12. 2024</span>
-																	<Link className="reply" href={`/blogs/${id}`}>
+																	<Link className="reply" href={`/resources/blogs/${id}`}>
 																		<i className="tji-reply"></i>Reply
 																	</Link>
 																</div>
@@ -316,12 +316,12 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 													<div className="comments-header">
 														<div className="avatar-name">
 															<h5 className="title">
-																<Link href={`/blogs/${id}`}>Mahin Deen</Link>
+																<Link href={`/resources/blogs/${id}`}>Mahin Deen</Link>
 															</h5>
 														</div>
 														<div className="comment-text">
 															<span className="date">June 22. 2024</span>
-															<Link className="reply" href={`/blogs/${id}`}>
+															<Link className="reply" href={`/resources/blogs/${id}`}>
 																<i className="tji-reply"></i>Reply
 															</Link>
 														</div>

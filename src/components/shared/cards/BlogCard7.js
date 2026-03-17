@@ -9,7 +9,7 @@ const BlogCard7 = ({ blog, idx }) => {
 			data-wow-delay={`0.${idx + 1 + idx}s`}
 		>
 			<div className="blog-images hover:shine">
-				<Link href={`/blogs/${id}`}>
+				<Link href={`/resources/blogs/${id}`}>
 					<img
 						src={img3 ? img3 : "/images/blog/blog-thumb-5.webp"}
 						alt="Images"
@@ -20,7 +20,7 @@ const BlogCard7 = ({ blog, idx }) => {
 				<div className="blog-meta">
 					<ul>
 						<li className="category">
-							<Link href={`/blogs?category=${makePath(category)}`}>
+							<Link href={`/resources/blogs?category=${makePath(category)}`}>
 								{category}
 							</Link>
 						</li>
@@ -28,7 +28,7 @@ const BlogCard7 = ({ blog, idx }) => {
 					</ul>
 				</div>
 				<h4 className="blog-title">
-					<Link href={`/blogs/${id}`}>{title}</Link>
+					<Link href={`/resources/blogs/${id}`}>{title}</Link>
 				</h4>
 
 				<div className="desc">

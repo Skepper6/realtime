@@ -25,7 +25,7 @@ const Blogs7 = () => {
 								className="blog-button d-none d-lg-inline-flex wow fadeInDown"
 								data-wow-delay="0.3s"
 							>
-								<ButtonPrimary text={"Explore more"} url={`/blogs`} />
+								<ButtonPrimary text={"Explore more"} url={`/resources/blogs`} />
 							</div>
 						</div>
 					</div>
@@ -43,7 +43,7 @@ const Blogs7 = () => {
 							className="blog-button d-lg-none text-center wow fadeInUp"
 							data-wow-delay="0.9s"
 						>
-							<ButtonPrimary text={"Explore more"} url={`/blogs`} />
+							<ButtonPrimary text={"Explore more"} url={`/resources/blogs`} />
 						</div>
 					</div>
 				</div>

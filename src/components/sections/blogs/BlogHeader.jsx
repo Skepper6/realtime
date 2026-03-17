@@ -19,7 +19,7 @@ const BlogHeader = () => {
         <div className="top_bar">
           {/* Content (z-index 2 in CSS, so it stays bright/visible longer) */}
           <div className="rt-hero__content">
-            <span className="hvacHero__pill font12">Insights</span>
+            <span className="hvacHero__pill font12">Resources</span>
  
             <h1 className="rt-hero__title font72 sec-title text-anim">
             Stories Behind the
@@ -28,7 +28,7 @@ const BlogHeader = () => {
             </h1>
 
             <p className="rt-hero__desc font18 desc wow fadeInUp" data-wow-delay="0.3s">
-             Insights from real projects, real constraints,<br /> and real outcomes.
+             Resources from real projects, real constraints,<br /> and real outcomes.
             </p>
 
           </div>

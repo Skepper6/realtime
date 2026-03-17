@@ -33,40 +33,33 @@
   },
   {
     "id": 3,
-    "name": "From Design to Uptime",
-    "path": "/designuptime"
+    "name": "Our Process",
+    "path": "/our-process"
   },
   {
     "id": 4,
-    "name": "Case Study",
-    "path": "/casestudy"
+    "name": "Well-being & Comfort",
+    "path": "/well-being-comfort"
   },
   {
     "id": 5,
-    "name": "Approach",
-    "path": "/wellbeing",
+    "name": "Resources",
+    "path": "/resources",
     "submenu": [
       {
         "id": 1,
-        "name": "Well-being & Comfort",
-        "path": "/wellbeing"
+        "name": "Case Study",
+        "path": "/resources/case-study"
+      },
+      {
+        "id": 2,
+        "name": "Blogs",
+        "path": "/resources/blogs"
       }
     ]
   },
   {
     "id": 6,
-    "name": "Insights",
-    "path": "/blog-grid",
-    "submenu": [
-      {
-        "id": 1,
-        "name": "Knowledge Center",
-        "path": "/blog-grid"
-      }
-    ]
-  },
-  {
-    "id": 7,
     "name": "Contact",
     "path": "/contact"
   }

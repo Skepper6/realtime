@@ -19,7 +19,7 @@ const RecentBlogWidget = () => {
 									className="single-post d-flex align-items-center"
 								>
 									<div className="post-image">
-										<Link href={`/blogs/${id}`}>
+										<Link href={`/resources/blogs/${id}`}>
 											<img
 												src={
 													detailsImg
@@ -32,7 +32,7 @@ const RecentBlogWidget = () => {
 									</div>
 									<div className="post-header">
 										<h6 className="title-link">
-											<Link href={`/blogs/${id}`}>
+											<Link href={`/resources/blogs/${id}`}>
 												{sliceText(title, 32, true)}
 											</Link>
 										</h6>

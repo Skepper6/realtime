@@ -1,10 +1,5 @@
-import DesignUpTime from "@/components/layout/main/DesignUpTime";
-import PageWrapper from "@/components/shared/wrappers/PageWrapper";
+import { redirect } from "next/navigation";
 
 export default function DesignTime() {
-	return (
-		<PageWrapper isHeaderTop={true} footerType={"inner"}>
-			<DesignUpTime />
-		</PageWrapper>
-	);
+	redirect("/our-process");
 }

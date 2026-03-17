@@ -18,7 +18,7 @@ const BlogCategoriesWidget = () => {
 				{categories?.length
 					? categories?.map((category, idx) => (
 							<li key={idx}>
-								<Link href={`/blogs?category=${makePath(category)}`}>
+								<Link href={`/resources/blogs?category=${makePath(category)}`}>
 									{category}
 								</Link>{" "}
 								(

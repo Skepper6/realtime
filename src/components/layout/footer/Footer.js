@@ -65,16 +65,16 @@ const Footer = ({ footerType, isRtl }) => {
 											<Link href="/contact">About Us</Link>
 										</li>
 										<li>
-											<Link href="/contact">Blog</Link>
+											<Link href="/resources/blogs">Blog</Link>
 										</li>
 										<li>
-											<Link href="/about">Case Study</Link>
+											<Link href="/resources/case-study">Case Study</Link>
 										</li>
 										<li>
 											<Link href="/careers">Contact Us</Link>
 										</li>
 										{/* <li>
-											<Link href="/blogs">Blog</Link>
+											<Link href="/resources/blogs">Blog</Link>
 										</li> */}
 										{/* <li>
 											<Link href="/team">Feedback</Link>

@@ -39,7 +39,7 @@ const BlogCard2 = ({ blog, type, isSidebar, idx }) => {
 						<li>
 							<Link
 								className="meta-link"
-								href={`/blogs?category=${makePath(category)}`}
+								href={`/resources/blogs?category=${makePath(category)}`}
 							>
 								{category}
 							</Link>
@@ -48,7 +48,7 @@ const BlogCard2 = ({ blog, type, isSidebar, idx }) => {
 					</ul>
 				</div>
 				<h4 className="title under-line">
-					<Link href={`/blogs/${id}`}>{title}</Link>
+					<Link href={`/resources/blogs/${id}`}>{title}</Link>
 				</h4>
 				<div className="desc">
 					<p>
@@ -57,12 +57,12 @@ const BlogCard2 = ({ blog, type, isSidebar, idx }) => {
 					</p>
 				</div>
 				<div className="blog-button">
-					<Link className="blog-btn text-btn" href={`/blogs/${id}`}>
+					<Link className="blog-btn text-btn" href={`/resources/blogs/${id}`}>
 						{/* Read more <i className="tji-arrow-right"></i> */}
 						<ButtonPrimary url="/about" text={"Read More"} />
 					</Link>
 
-					{/* <div className="about-button" href={`/blogs/${id}`}>
+					{/* <div className="about-button" href={`/resources/blogs/${id}`}>
 						<ButtonPrimary url="/about" text={"Read more"} />
 					</div> */}
 				</div>

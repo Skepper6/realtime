@@ -16,7 +16,7 @@ const BlogCard9 = ({ blog, idx }) => {
 				</div>
 				<div className="blog_content">
 					<h3 className="blog_title">
-						<Link href={`/blogs/${id}`}>{title}</Link>
+						<Link href={`/resources/blogs/${id}`}>{title}</Link>
 					</h3>
 					<div className="excerpt">
 						Our consultant specialize in delivering rapid, actionable solutions
@@ -28,7 +28,7 @@ const BlogCard9 = ({ blog, idx }) => {
 							<li>
 								<Link
 									className="meta-link"
-									href={`/blogs?category=${makePath(category)}`}
+									href={`/resources/blogs?category=${makePath(category)}`}
 								>
 									{category}
 								</Link>

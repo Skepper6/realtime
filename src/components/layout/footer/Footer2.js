@@ -83,7 +83,7 @@ const Footer2 = () => {
 											</Link>
 										</li>
 										<li>
-											<Link href="/blog-grid">Blog</Link>
+											<Link href="/resources/blogs">Blog</Link>
 										</li>
 										<li>
 											<Link href="/team">Feedback</Link>

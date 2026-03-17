@@ -63,7 +63,7 @@ const BlogMain = () => {
 				}
 				breadcrums={
 					category || tag || author_role || search
-						? [{ name: "Blogs", path: "/blogs" }]
+						? [{ name: "Blogs", path: "/resources/blogs" }]
 						: []
 				}
 			/>

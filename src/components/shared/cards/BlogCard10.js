@@ -41,7 +41,7 @@ const BlogCard10 = ({ blog, idx }) => {
 						<li>
 							<Link
 								className="meta-link"
-								href={`/blogs?category=${makePath(category)}`}
+								href={`/resources/blogs?category=${makePath(category)}`}
 							>
 								{category}
 							</Link>
@@ -50,10 +50,10 @@ const BlogCard10 = ({ blog, idx }) => {
 					</ul>
 				</div>
 				<h4 className="blog_title">
-					<Link href={`/blogs/${id}`}>{title}</Link>
+					<Link href={`/resources/blogs/${id}`}>{title}</Link>
 				</h4>
 				{idx === 1 ? (
-					<Link className="blog_btn text-btn-2" href={`/blogs/${id}`}>
+					<Link className="blog_btn text-btn-2" href={`/resources/blogs/${id}`}>
 						<span className="icon">
 							<i className="tji-angle-right"></i>
 						</span>

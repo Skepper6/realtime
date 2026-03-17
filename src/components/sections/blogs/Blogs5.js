@@ -25,7 +25,7 @@ const Blogs5 = () => {
 								</p>
 							</div>
 							<div className="blog-button wow fadeInUp" data-wow-delay="0.6s">
-								<ButtonPrimary text={"More blog"} url={"/blogs"} />
+								<ButtonPrimary text={"More blog"} url={"/resources/blogs"} />
 							</div>
 						</div>
 					</div>

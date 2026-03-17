@@ -43978,7 +43978,7 @@ sup {
   align-items: center;
   border-radius: 30px;
   text-align: center;
-  width: 450px;
+  width: 530px;
   margin-left: -60px;
   z-index: 99;
 }
@@ -44005,7 +44005,7 @@ sup {
 
 
 .indoor-climate {
-  padding-bottom: 850px;
+  padding-bottom: 990px;
   /* Reduce padding so cut is higher */
   background-color: #051229;
   position: relative;
@@ -44014,7 +44014,7 @@ sup {
 }
 
 .features-grid {
-  margin-top: -681px;
+  margin-top: -811px;
   position: relative;
   z-index: 20;
   display: flex;
@@ -44026,16 +44026,16 @@ sup {
 .features-grid .feature-row .feature-card--green,
 .features-grid .feature-row .feature-card--dark {
   width: 420px;
-  height: 420px;
+  height: 470px;
 }
 
 .features-grid .feature-row {
-  grid-template-columns: 1fr 1.8fr;
-  gap: 36px;
+  grid-template-columns: 1fr 1.9fr;
+  gap: 0px;
 }
 
 .feature-card--image {
-  height: 420px;
+  height: 470px;
   padding: 0px;
 }
 
@@ -44189,10 +44189,12 @@ sup {
   top: 0;
   left: 0;
   width: 100%;
-  height: 60vh;
+  height: 80vh;
   z-index: 0;
 }
-
+.h8-services-section .fast_track{
+  margin-top: 200px;
+}
 .maintenance-bg-img {
   width: 100%;
   height: 100%;
@@ -44565,11 +44567,13 @@ hr {
   padding: 130px 0px;
 }
 
-.wellbeing_card .hs-cardShade,
-.wellbeing_card .hs-leftOverlay {
+.wellbeing_card .hs-cardShade {
   background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0) 100%);
 }
 
+.wellbeing_card .hs-leftOverlay{
+  background: linear-gradient(135deg, #000000f2 0%, rgb(0 0 0 / 88%) 35%, rgb(0 0 0 / 0%) 100%);
+}
 .maintenance-bottom-text-container p:nth-child(3) {
   font-size: 18px;
   font-weight: 600;

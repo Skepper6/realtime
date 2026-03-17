@@ -4,13 +4,15 @@ import React from "react";
 export default function WellbeingCards() {
 
     const leftBg =
-        "https://skepper.in/000_Skepper_test/real/hvac/left_card.jpg"; // vent/ceiling style
+        "https://skepper.in/000_Skepper_test/real/wellbeing/left_card.jpg"; // vent/ceiling style
     const img1 =
-        "https://skepper.in/000_Skepper_test/real/hvac/hvac-card1.jpg"; // think clearer
+        "https://skepper.in/000_Skepper_test/real/wellbeing/right_card1.jpg"; // think clearer
     const img2 =
-        "https://skepper.in/000_Skepper_test/real/hvac/hvac-card1.jpg"; // stay balanced
+        "https://skepper.in/000_Skepper_test/real/wellbeing/right_card2.jpg"; // stay balanced
     const img3 =
-        "https://skepper.in/000_Skepper_test/real/hvac/hvac-card1.jpg"; // feel better
+        "https://skepper.in/000_Skepper_test/real/wellbeing/right_card3.jpg"; // feel better
+  const img4 =
+        "https://skepper.in/000_Skepper_test/real/wellbeing/right_card4.jpg"; // feel better
 
 
     const inclusions = [
@@ -82,7 +84,7 @@ When employees feel well, everything else flows better:
                                 <h3 className="hs-cardLabel font32">Retention and<br/> morale</h3>
                             </article>
 
-                            <article className="hs-card" style={{ backgroundImage: `url(${img3})` }}>
+                            <article className="hs-card" style={{ backgroundImage: `url(${img4})` }}>
                                 <div className="hs-cardShade" />
                                 <h3 className="hs-cardLabel font32">Positive brand &<br/> client perception</h3>
                             </article>

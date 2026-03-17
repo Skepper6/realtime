@@ -159,7 +159,7 @@ const Footer6 = () => {
 										<Link href="/portfolios">Portfolio</Link>
 									</li>
 									<li>
-										<Link href="/blogs">News</Link>
+										<Link href="/resources/blogs">News</Link>
 									</li>
 									<li>
 										<Link href="/contact">Contact</Link>

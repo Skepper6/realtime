@@ -12,9 +12,8 @@ const makeForcelyInactive = (pathname, currentPathname) => {
 		"/services/1",
 		"/portfolios",
 		"/portfolios/1",
-		"/blogs",
-		"/blogs/1",
-		"/blog-grid",
+		"/resources/blogs",
+		"/resources/blogs/1",
 		"/blog-sidebar",
 		"/contact",
 	].includes(normalizedPathname);
@@ -24,7 +23,19 @@ const makeForcelyInactive = (pathname, currentPathname) => {
 const isPathMatch = (pathname, currentPathname, isRestricted) =>
 	isRestricted
 		? makeForcelyInactive(pathname, currentPathname)
-		: normalizePath(pathname) === normalizePath(currentPathname);
+		: (() => {
+				const normalizedPathname = normalizePath(pathname);
+				const normalizedCurrentPathname = normalizePath(currentPathname);
+
+				if (!normalizedPathname || normalizedPathname === "/") {
+					return normalizedPathname === normalizedCurrentPathname;
+				}
+
+				return (
+					normalizedPathname === normalizedCurrentPathname ||
+					normalizedCurrentPathname.startsWith(`${normalizedPathname}/`)
+				);
+		  })();
 
 // check active link
 const checkActive = (mainObject, currentPathname, isRestricted) => {

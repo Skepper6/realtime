@@ -27,7 +27,7 @@ const BlogCard8 = ({ blog, idx, currentIndex, handleCurrentIndex }) => {
 							<li>
 								<Link
 									className="meta-link"
-									href={`/blogs?category=${makePath(category)}`}
+									href={`/resources/blogs?category=${makePath(category)}`}
 								>
 									{category}
 								</Link>
@@ -36,7 +36,7 @@ const BlogCard8 = ({ blog, idx, currentIndex, handleCurrentIndex }) => {
 						</ul>
 					</div>
 					<h4 className="title  under-line">
-						<Link href={`/blogs/${id}`}>{title}</Link>
+						<Link href={`/resources/blogs/${id}`}>{title}</Link>
 					</h4>
 					<div className="desc">
 						<p>
@@ -45,7 +45,7 @@ const BlogCard8 = ({ blog, idx, currentIndex, handleCurrentIndex }) => {
 						</p>
 					</div>
 					<div className="blog-button">
-						<ButtonPrimary text={"Read more"} url={`/blogs/${id}`} />
+						<ButtonPrimary text={"Read more"} url={`/resources/blogs/${id}`} />
 					</div>
 				</div>
 			</div>
