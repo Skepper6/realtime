@@ -2179,7 +2179,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .mainmenu ul>li.current-menu-ancestor>a,
 .mainmenu ul>li.current-menu-item>a,
-.mainmenu ul>li:hover>a {
+.mainmenu ul>li:hover>a, .hamburger_menu .mean-nav ul li.dropdown-opened > a {
   color: #80C466;
 }
 
@@ -3849,7 +3849,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .hamburger_menu .mean-nav ul li a:hover {
-  color: var(--tj-color-text-body);
+  color: #80C466;
 }
 
 .hamburger_menu .mean-nav ul li a.mean-expand {
@@ -3879,7 +3879,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .hamburger_menu .mean-nav ul li a.mean-expand.mean-clicked {
-  color: var(--tj-color-theme-primary);
+  color: #80C466;
   -webkit-transform: rotate(-180deg);
   -ms-transform: rotate(-180deg);
   transform: rotate(-180deg);
@@ -3903,7 +3903,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .hamburger_menu .mean-nav ul li.dropdown-opened>a {
-  color: var(--tj-color-theme-primary);
+  /* color: var(--tj-color-theme-primary); */
 }
 
 .hamburger-title {

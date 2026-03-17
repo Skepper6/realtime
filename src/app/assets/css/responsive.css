@@ -1230,7 +1230,9 @@ gap: 20px;
 
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
-
+.hover_img_card .service-content-wrap {
+    height: auto;
+}
 .tj-counter-section .counter-wrapper{
   flex-wrap: wrap;
 }
@@ -1261,6 +1263,7 @@ gap: 20px;
   }
   .impact-highlight-card{
     display: block;
+    width: 100%;
   }
 .svcGridWrap.grey_bg{
   background-color: #fff;
