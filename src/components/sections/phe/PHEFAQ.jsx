@@ -36,7 +36,7 @@ const PHEFAQ = () => {
                                         >
                                             <div className="accordion-body">
                                                 <p>
-                                                    PHE services cover the design, installation, and maintenance of water supply, drainage, sewage, stormwater, and water treatment systems that ensure safe and efficient building operations. 
+                                                    PHE services cover the design, installation, and maintenance of water supply, drainage, sewage, stormwater, and wastewater treatment systems that ensure safe and efficient building operations. 
                                                 </p>
                                             </div>
                                         </div>

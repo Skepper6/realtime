@@ -37,7 +37,7 @@ const HeaderTop = ({ type }) => {
 									<i className="tji-check"></i>
 								)}{" "}
 								Your Partner in Keeping Buildings Breathing
-								{/* <Link href="/contact">
+								{/* <Link href="/contact-us">
 									<span>Join us now</span>
 									<i className="tji-angle-right"></i>
 								</Link> */}
@@ -80,7 +80,7 @@ const HeaderTop = ({ type }) => {
 										<span>
 											<i className="tji-clock"></i>
 										</span>
-										<span>Mon - Friday : 9:00 - 18:00</span>
+										<span>Mon - Friday : 9:00AM - 07:00PM</span>
 									</div>
 									<div className="info_item">
 										<span>

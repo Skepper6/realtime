@@ -73,7 +73,7 @@ export default function AnnualMaintenanceHero() {
             Every great system deserves a partner who stays long after the project ends. At Realtime Infra, our job doesn’t stop when the installation is complete,  it begins when your operations do.
             </p>
             <div className="mt-4">
-              <ButtonPrimary text={"Start a Project"} url={"/contact"} className={"hero-button"} />
+              <ButtonPrimary text={"Consult Now"} url={"/contact-us"} className={"hero-button"} />
             </div>
           </div>
         </div>

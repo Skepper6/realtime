@@ -4,7 +4,7 @@ import { useRef } from "react";
 import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
 
 const CenterProgressCount = ({
-  currentValue = 20,
+  currentValue = 60,
   symbol = "%",
   subTitle = "Drop in PM2.5 levels\nafter installation",
 }) => {

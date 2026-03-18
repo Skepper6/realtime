@@ -1,10 +1,5 @@
-import AboutMain from "@/components/layout/main/AboutMain";
-import PageWrapper from "@/components/shared/wrappers/PageWrapper";
+import { permanentRedirect } from "next/navigation";
 
-export default function About() {
-	return (
-		<PageWrapper isHeaderTop={true} footerType={"inner"}>
-			<AboutMain />
-		</PageWrapper>
-	);
+export default function AboutPage() {
+	permanentRedirect("/about-us");
 }

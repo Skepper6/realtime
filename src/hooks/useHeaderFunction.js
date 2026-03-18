@@ -107,8 +107,21 @@ const useHeaderFunction = isStickyHeader => {
 
 	// sticky header related
 	useEffect(() => {
+		if (!isStickyHeader) {
+			return undefined;
+		}
+
+		const stickyDisabledQuery = window.matchMedia(
+			"(min-width: 576px) and (max-width: 767.98px)"
+		);
 		let lastScrollTop = 0;
+
 		const handleScroll = () => {
+			if (stickyDisabledQuery.matches) {
+				setIsSticky(false);
+				return;
+			}
+
 			const st = window.scrollY;
 			if (st > 500) {
 				if (st > lastScrollTop) {
@@ -124,17 +137,34 @@ const useHeaderFunction = isStickyHeader => {
 			}
 			lastScrollTop = st;
 		};
-		if (isStickyHeader) {
+
+		const handleBreakpointChange = () => {
+			lastScrollTop = window.scrollY;
 			handleScroll();
-			window.addEventListener("scroll", handleScroll);
+		};
+
+		handleScroll();
+		window.addEventListener("scroll", handleScroll);
+
+		if (stickyDisabledQuery.addEventListener) {
+			stickyDisabledQuery.addEventListener("change", handleBreakpointChange);
+		} else {
+			stickyDisabledQuery.addListener(handleBreakpointChange);
 		}
 
 		return () => {
-			if (isStickyHeader) {
-				window.removeEventListener("scroll", handleScroll);
+			window.removeEventListener("scroll", handleScroll);
+
+			if (stickyDisabledQuery.removeEventListener) {
+				stickyDisabledQuery.removeEventListener(
+					"change",
+					handleBreakpointChange
+				);
+			} else {
+				stickyDisabledQuery.removeListener(handleBreakpointChange);
 			}
 		};
-	}, []);
+	}, [isStickyHeader]);
 
 	return isSticky;
 };

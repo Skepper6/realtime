@@ -64,7 +64,7 @@ const About2 = () => {
 												<div className="about-button">
 													<ButtonPrimary
 														text={"Free consultation"}
-														url={"/about"}
+														url={"/about-us"}
 													/>
 												</div>
 											</div>

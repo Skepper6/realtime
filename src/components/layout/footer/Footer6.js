@@ -18,7 +18,7 @@ const Footer6 = () => {
 									<div className="h6-footer-widget-btn">
 										<ButtonPrimary
 											text={"Get started now"}
-											url={"/contact"}
+											url={"/contact-us"}
 											className={"white-btn"}
 										/>
 									</div>
@@ -150,7 +150,7 @@ const Footer6 = () => {
 										<Link href="/">Home</Link>
 									</li>
 									<li>
-										<Link href="/about">About us</Link>
+										<Link href="/about-us">About us</Link>
 									</li>
 									<li>
 										<Link href="/services">Services</Link>
@@ -162,7 +162,7 @@ const Footer6 = () => {
 										<Link href="/resources/blogs">News</Link>
 									</li>
 									<li>
-										<Link href="/contact">Contact</Link>
+										<Link href="/contact-us">Contact</Link>
 									</li>
 								</ul>
 							</div>
@@ -207,10 +207,10 @@ const Footer6 = () => {
 								<div className="copyright-menu">
 									<ul>
 										<li>
-											<Link href="/contact">Policy & privacy</Link>
+											<Link href="/privacy-policy">Policy & privacy</Link>
 										</li>
 										<li>
-											<Link href="/contact">Terms & conditions</Link>
+											<Link href="/terms-condition">Terms & conditions</Link>
 										</li>
 									</ul>
 								</div>

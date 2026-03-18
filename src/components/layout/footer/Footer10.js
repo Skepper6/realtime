@@ -44,12 +44,12 @@ const Footer10 = () => {
 									<div className="col-12">
 										<div className="h10-footer-cta">
 											<h1 className="h10-footer-cta-title text-anim">
-												<Link href="/contact">Let’s talk business?</Link>
+												<Link href="/contact-us">Let’s talk business?</Link>
 											</h1>
 											<Link
 												className="icon-btn h10-footer-cta-btn wow fadeInRight"
 												data-wow-delay=".7s"
-												href="/contact"
+												href="/contact-us"
 											>
 												<i className="tji-arrow-right"></i>
 											</Link>
@@ -131,10 +131,10 @@ const Footer10 = () => {
 								<div className="copyright-menu">
 									<ul>
 										<li>
-											<Link href="/contact">Policy & privacy</Link>
+											<Link href="/privacy-policy">Policy & privacy</Link>
 										</li>
 										<li>
-											<Link href="/contact">Terms & conditions</Link>
+											<Link href="/terms-condition">Terms & conditions</Link>
 										</li>
 									</ul>
 								</div>

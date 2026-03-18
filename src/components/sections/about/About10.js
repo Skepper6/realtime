@@ -111,7 +111,7 @@ const About10 = () => {
 							</Accordion>
 
 							<div className="btn-area wow fadeInUp" data-wow-delay="0.5s">
-								<ButtonPrimary text={"Know more us"} url={"/about"} />
+								<ButtonPrimary text={"Know more us"} url={"/about-us"} />
 							</div>
 						</div>
 					</div>

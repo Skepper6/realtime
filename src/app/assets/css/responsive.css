@@ -32,6 +32,17 @@
 
 @media only screen and (min-width:576px) and (max-width:767.98px){
 
+  .tj-header-area.header-duplicate,
+  .tj-header-area.header-duplicate.header-sticky,
+  .tj-header-area.header-duplicate.sticky,
+  .tj-header-area.header-duplicate.header-sticky.sticky{
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    transform: translateY(-120%) !important;
+    pointer-events: none !important;
+  }
+
   .svcCard{
     width: 70%;
       margin-left: auto;
@@ -88,6 +99,9 @@ text-align: center;
     display: block !important;
   }
 .rt-hero{
+    position: relative !important;
+    top: auto !important;
+    z-index: 0 !important;
     height: 600px;
 }
  .rt-hero__bg{
@@ -114,8 +128,9 @@ text-align: center;
 }
 .hero-images-box img {
     width: 60%;
-    margin: auto;
+    margin-right: auto;
     display: block;
+    float: left;
 }
 .design__grid {
     grid-template-columns: 1fr;
@@ -143,6 +158,12 @@ text-align: center;
 
 @media only screen and (min-width:768px) and (max-width:991.98px){
 
+.project-style-3.card-accordion .project-thumb .image img {
+    transform: scale(1.1);
+}
+ .built_sec.center_full_img img {
+        height: 100%;
+    }
 .tj-careers-section {
     margin-top: 0px;
 }
@@ -179,10 +200,18 @@ text-align: center;
     grid-template-columns: repeat(2, 1fr);
 }
 .szc-overlay{
-  bottom: 0px;
+  bottom: 35px;
+  /* inset: auto 0 50px 0;
+  top: auto !important;
+  bottom: 50px !important;
+  display: block;
+  text-align: center; */
 }
   .szc-overlayInner {
     width: 100%;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
   }
 .phe_testimonial{
   padding-bottom: 100px;
@@ -291,6 +320,9 @@ position: unset;
 }
 .design_wrap {
     max-width: 50%;
+}
+.design .design_wrap {
+  max-width: 100%;
 }
   .rt-hero-career{
     top: 0px;
@@ -515,6 +547,7 @@ margin-top: 0px;
 }
   .szc-center{
         transform: translate(-50%, calc(-50% + (-20px * var(--p)))) scale(calc(((1 + (0.8 * var(--p))) * (1 - var(--q))) + ((var(--s)) * (var(--q)))));
+             height: 60%; 
   }
 
   .project-default-content .sec-title:nth-child(2){
@@ -566,7 +599,7 @@ margin-top: 0px;
   /* display: block; */
 }
  .rt-hero__bg{
-  top: 164px;
+  top: 124px;
 }
 .rt-hero__content{
   /* position: absolute;
@@ -635,6 +668,15 @@ margin-top: 0px;
     width: 80%;
     margin-right: auto;
     display: block;
+      float: left;
+}
+.header-topbar_wrap{
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+.tj-service-section .service-item .service-images{
+  max-width: 100%;
 }
 h1{
     font-size: 66px;
@@ -661,6 +703,12 @@ padding-bottom: 100px;
 @media only screen and (min-width:992px) and (max-width:1299.98px){
 
 
+.explore_sec .feature_card {
+    width: 30%;
+}
+.tj-service-section .service-item .service-images{
+  max-width: 100%;
+}
 .inclusion-img-wrap {
     height: 350px;
 }
@@ -818,8 +866,8 @@ gap: 20px;
     display: none;
   }
 .hs-wrap .hs-inner .hs-leftCard, .roi_sec .hs-leftCard {
-    width: 400px;
-    height: 654px;
+    width: 100%;
+    /* height: 654px; */
 }
   .mission-card .card-content p {
     max-width: 330px;
@@ -892,10 +940,13 @@ gap: 20px;
   left: 12%;
 }
   .szc-overlay{
-    bottom: 225px;
+    bottom: 205px;
   }
+  .built_sec.center_full_img img {
+        height: 100%;
+    }
   .szc-center{
-    height: auto;
+    height:100%;
     width: auto;
   }
   .hs-cardLabel{
@@ -930,10 +981,14 @@ gap: 20px;
   }
   .hs-wrap .hs-inner {
     gap: 20px;
+    display: block;
+}
+.hs-rightGrid{
+  margin-top: 20px;
 }
   .hs-wrap .container .hs-rightGrid {
-      grid-auto-rows: 342px;
-      gap: 20px;
+      /* grid-auto-rows: 342px; */
+      gap: 22px;
       width: 100%;
   }
   .impact-highlight-card{
@@ -1076,6 +1131,15 @@ gap: 20px;
 
 @media only screen and (min-width:1301px) and (max-width:1400px){
 
+.hs-wrap .hs-inner .hs-leftCard {
+    height: 794px;
+}
+  .home_header .tj-hero-section {
+    padding-bottom: 70px;
+  }
+.tj-service-section .service-item .service-images{
+  max-width: 100%;
+}
 .rt-hero-career .rt-hero__b{
   height: 52vh;
 }
@@ -1230,6 +1294,10 @@ gap: 20px;
 
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
+
+  .fast_track{
+  max-width: 100%;
+}
 .hover_img_card .service-content-wrap {
     height: auto;
 }
@@ -1766,9 +1834,9 @@ margin-top: 0px;
             padding: 42px 24px 0px;
     }
   .font72{
-    font-size: 45px;
+    font-size: 38px;
     letter-spacing: 1px;
-    margin: 25px 0px;
+    margin: 25px 0px 15px;
   }
   .font48{
     font-size:30px;

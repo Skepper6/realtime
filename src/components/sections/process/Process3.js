@@ -16,7 +16,7 @@ const Process3 = () => {
 								</h2>
 							</div>
 							<div className="case-btn wow fadeInUp" data-wow-delay="0.4s">
-								<ButtonPrimary text={"Know more"} url={"/contact"} />
+								<ButtonPrimary text={"Know more"} url={"/contact-us"} />
 							</div>
 
 							{/* <!-- banner img --> */}

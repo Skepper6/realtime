@@ -22,7 +22,7 @@ const CtaSidebar = () => {
 			<div className="cta-btn">
 				<ButtonPrimary
 					text={"Get in touch"}
-					url={"/contact"}
+					url={"/contact-us"}
 					className={"white-btn"}
 				/>
 

@@ -26,7 +26,7 @@ const PHECenterImage = () => {
                                     </p>
                                 </div>
                                 {/* <div className="about-button">
-                                         <ButtonPrimary url="/about" text={"Contact Us"} />
+                                         <ButtonPrimary url="/contact-us" text={"Contact Us"} />
                                    </div> */}
                             </div>
                         </div>

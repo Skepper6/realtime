@@ -56,7 +56,7 @@ const AboutCards = () => {
         <div className="hs-rightGrid">
           <article className="hs-card" style={{ backgroundImage: `url(${img1})` }}>
             <div className="hs-cardShade" />
-            <h3 className="hs-cardLabel font32">Energy-efficient HVAC systems</h3>
+            <h3 className="hs-cardLabel font32">Energy-efficient<br/> HVAC systems</h3>
           </article>
 
           <article className="hs-card" style={{ backgroundImage: `url(${img2})` }}>
@@ -66,12 +66,12 @@ const AboutCards = () => {
 
           <article className="hs-card " style={{ backgroundImage: `url(${img3})` }}>
             <div className="hs-cardShade" />
-            <h3 className="hs-cardLabel font32">Sustainable water management practices</h3>
+            <h3 className="hs-cardLabel font32">Sustainable water <br/>management practices</h3>
           </article>
 
              <article className="hs-card" style={{ backgroundImage: `url(${img3})` }}>
             <div className="hs-cardShade" />
-            <h3 className="hs-cardLabel font32">Waste reduction in project execution</h3>
+            <h3 className="hs-cardLabel font32">Waste reduction <br/>in project execution</h3>
           </article>
         </div>
       </div>

@@ -71,7 +71,7 @@ const PricingPlan2 = () => {
 										Save <strong>20% offer</strong> of business consulting for
 										our <strong>93K clients</strong> worldwide.
 									</p>
-									<ButtonPrimary text={"Choose package"} url={"/contact"} />
+									<ButtonPrimary text={"Choose package"} url={"/contact-us"} />
 								</div>
 								<div className="pricing-right">
 									<h4>Includes</h4>
@@ -124,7 +124,7 @@ const PricingPlan2 = () => {
 										Save <strong>20% offer</strong> of business consulting for
 										our <strong>93K clients</strong> worldwide.
 									</p>
-									<ButtonPrimary text={"Choose package"} url={"/contact"} />
+									<ButtonPrimary text={"Choose package"} url={"/contact-us"} />
 								</div>
 								<div className="pricing-right">
 									<h4>Includes</h4>
@@ -169,7 +169,7 @@ const PricingPlan2 = () => {
 										Save <strong>20% offer</strong> of business consulting for
 										our <strong>93K clients</strong> worldwide.
 									</p>
-									<ButtonPrimary text={"Choose package"} url={"/contact"} />
+									<ButtonPrimary text={"Choose package"} url={"/contact-us"} />
 								</div>
 								<div className="pricing-right">
 									<h4>Includes</h4>

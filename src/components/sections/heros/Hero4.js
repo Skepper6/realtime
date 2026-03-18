@@ -24,7 +24,7 @@ const Hero4 = () => {
 								<div className="btn-area wow fadeInUp" data-wow-delay="0.3s">
 									<ButtonPrimary
 										text={"Free consultation"}
-										url={"/contact"}
+										url={"/contact-us"}
 										className={"hero-button"}
 									/>
 									<div className="client-experience">
@@ -70,7 +70,7 @@ const Hero4 = () => {
 											src="/images/shapes/h4-circle.webp"
 											alt="image"
 										/>
-										<Link className="circle" href="/about">
+										<Link className="circle" href="/about-us">
 											<i className="tji-arrow-right"></i>
 										</Link>
 									</div>
@@ -104,7 +104,7 @@ const Hero4 = () => {
 										src="/images/shapes/h4-circle.webp"
 										alt="image"
 									/>
-									<Link className="circle" href="/about">
+									<Link className="circle" href="/about-us">
 										<i className="tji-arrow-right"></i>
 									</Link>
 								</div>

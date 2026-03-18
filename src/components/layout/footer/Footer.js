@@ -62,7 +62,7 @@ const Footer = ({ footerType, isRtl }) => {
 								<div className="widget-menu">
 									<ul>
 										<li>
-											<Link href="/contact">About Us</Link>
+											<Link href="/about-us">About Us</Link>
 										</li>
 										<li>
 											<Link href="/resources/blogs">Blog</Link>
@@ -71,7 +71,7 @@ const Footer = ({ footerType, isRtl }) => {
 											<Link href="/resources/case-study">Case Study</Link>
 										</li>
 										<li>
-											<Link href="/careers">Contact Us</Link>
+											<Link href="/contact-us">Contact Us</Link>
 										</li>
 										{/* <li>
 											<Link href="/resources/blogs">Blog</Link>
@@ -80,7 +80,7 @@ const Footer = ({ footerType, isRtl }) => {
 											<Link href="/team">Feedback</Link>
 										</li> */}
 										{/* <li>
-											<Link href="/contact">Error 404</Link>
+											<Link href="/contact-us">Error 404</Link>
 										</li> */}
 									</ul>
 								</div>
@@ -180,10 +180,10 @@ const Footer = ({ footerType, isRtl }) => {
 								<div className="copyright-menu">
 									<ul>
 										<li>
-											<Link href="contact" className="font16">Privacy Policy</Link>
+											<Link href="/privacy-policy" className="font16">Privacy Policy</Link>
 										</li>
 										<li>
-											<Link href="contact" className="font16">Terms & Conditions</Link>
+											<Link href="/terms-condition" className="font16">Terms & Conditions</Link>
 										</li>
 									</ul>
 								</div>

@@ -18,20 +18,31 @@ const createStackTween = item => {
 };
 
 const tjStackAnimation = (selector, options = {}) => {
-	const { enableOnMobile = false } = options;
+	const { enableOnMobile = false, disableQueries = [] } = options;
 	const serviceStack = gsap.utils.toArray(selector);
 
 	if (!serviceStack.length) {
 		return undefined;
 	}
 
-	if (enableOnMobile) {
-		serviceStack.forEach(createStackTween);
-		return undefined;
-	}
-
 	const mediaMatch = gsap.matchMedia();
-	mediaMatch.add("(min-width: 992px)", () => {
+
+	const conditions = {
+		isEnabledRange: enableOnMobile ? "(min-width: 0px)" : "(min-width: 992px)",
+	};
+
+	disableQueries.forEach((query, idx) => {
+		conditions[`isDisabled${idx}`] = query;
+	});
+
+	mediaMatch.add(conditions, context => {
+		const { isEnabledRange, ...restConditions } = context.conditions;
+		const isDisabled = Object.values(restConditions).some(Boolean);
+
+		if (!isEnabledRange || isDisabled) {
+			return undefined;
+		}
+
 		serviceStack.forEach(createStackTween);
 	});
 

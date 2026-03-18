@@ -36,7 +36,7 @@ export default function SubServiceHeader() {
       <div className="wow fadeInUp " data-wow-delay="0.4s">
 									<ButtonPrimary
 										text={"Consult Now"}
-										url={"/contact"}
+										url={"/contact-us"}
 										className={"hero-button"}
 									/>
 								</div>

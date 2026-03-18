@@ -74,7 +74,7 @@ const Hero2 = () => {
 											<h1 className="slider-title">{title}</h1>
 											<ButtonPrimary
 												text={"Free consultation"}
-												url={"/contact"}
+												url={"/contact-us"}
 												className={"slider-button"}
 											/>
 										</div>

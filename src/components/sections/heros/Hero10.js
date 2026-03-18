@@ -68,7 +68,7 @@ const Hero10 = () => {
 									<div className="h10-hero-stat-action">
 										<ButtonPrimary
 											text={"Get free consultation"}
-											url={"/about"}
+											url={"/about-us"}
 										/>
 									</div>
 								</div>
@@ -90,7 +90,7 @@ const Hero10 = () => {
 								<div className="h10-hero-stat-action">
 									<ButtonPrimary
 										text={"Get free consultation"}
-										url={"/about"}
+										url={"/about-us"}
 									/>
 								</div>
 							</div>

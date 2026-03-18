@@ -64,7 +64,7 @@ const TeamTrust = () => {
                   <p>Using IoT-based monitoring, performance analytics, and benchmark tracking, we detect deviations long before they impact operations. From chillers and AHUs to electrical panels and water systems, every asset is logged, tracked, and optimised for extended life.</p>
                 </div>
                 <div className="about-button">
-                  <ButtonPrimary url="/about" text={"Contact Us"} />
+                  <ButtonPrimary url="/contact-us" text={"Contact Us"} />
                 </div>
               </div>
             </div>

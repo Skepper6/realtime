@@ -59,7 +59,7 @@ const About4 = () => {
 											className="about-button wow fadeInUp"
 											data-wow-delay="0.9s"
 										>
-											<ButtonPrimary text={"Read more"} url={"/contact"} />
+											<ButtonPrimary text={"Read more"} url={"/contact-us"} />
 										</div>
 									</div>
 									<div className="feature-box">

@@ -53,13 +53,13 @@ const Footer5 = () => {
 								<div className="widget-menu">
 									<ul>
 										<li>
-											<Link href="/contact">Contact us</Link>
+											<Link href="/contact-us">Contact us</Link>
 										</li>
 										<li>
-											<Link href="/contact">Privacy policy</Link>
+											<Link href="/privacy-policy">Privacy policy</Link>
 										</li>
 										<li>
-											<Link href="/about">Recognitions</Link>
+											<Link href="/about-us">Recognitions</Link>
 										</li>
 										<li>
 											<Link href="/careers">
@@ -73,7 +73,7 @@ const Footer5 = () => {
 											<Link href="/team">Feedback</Link>
 										</li>
 										<li>
-											<Link href="/contact">Error 404</Link>
+											<Link href="/contact-us">Error 404</Link>
 										</li>
 									</ul>
 								</div>
@@ -164,10 +164,10 @@ const Footer5 = () => {
 								<div className="copyright-menu">
 									<ul>
 										<li>
-											<Link href="/contact">Policy & privacy</Link>
+											<Link href="/privacy-policy">Policy & privacy</Link>
 										</li>
 										<li>
-											<Link href="/contact">Terms & conditions</Link>
+											<Link href="/terms-condition">Terms & conditions</Link>
 										</li>
 									</ul>
 								</div>

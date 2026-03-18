@@ -74,7 +74,7 @@ const About3 = () => {
 									>
 										<ButtonPrimary
 											text={"Free consultation"}
-											url={"/contact"}
+											url={"/contact-us"}
 										/>
 									</div>
 								</div>

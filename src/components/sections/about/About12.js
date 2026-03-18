@@ -34,7 +34,7 @@ const About12 = () => {
 							className="history-btn mt-30 wow fadeInUp"
 							data-wow-delay="0.5s"
 						>
-							<ButtonPrimary text={"Learn more"} url={"/about"} />
+							<ButtonPrimary text={"Learn more"} url={"/about-us"} />
 						</div>
 					</div>
 				</div>

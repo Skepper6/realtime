@@ -32,7 +32,7 @@ const Cta5 = () => {
 								>
 									<ButtonPrimary
 										text={"Join with us"}
-										url={"/contact"}
+										url={"/contact-us"}
 										className={"white-btn"}
 									/>
 

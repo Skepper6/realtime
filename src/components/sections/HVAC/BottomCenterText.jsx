@@ -14,7 +14,7 @@ const BottomCenterText = () => {
 							className="service-btn-area text-center wow fadeInUp"
 							data-wow-delay=".3s"
 						>
-							<ButtonPrimary text={"Schedule a Call"} url={"/services"} />
+							<ButtonPrimary text={"Schedule a Call"} url={"/contact-us"} />
 						</div>
             </div>
         </div>

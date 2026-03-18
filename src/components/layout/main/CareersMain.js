@@ -54,7 +54,7 @@ const CareersMain = () => {
             </p>
 
             {/* <div className="wow fadeInUp " data-wow-delay="0.4s">
-              <ButtonPrimary text={"Explore Our Work"} url={"/contact"} className={"hero-button"} />
+              <ButtonPrimary text={"Explore Our Work"} url={"/contact-us"} className={"hero-button"} />
             </div> */}
           </div>
         </div>

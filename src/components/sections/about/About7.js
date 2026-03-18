@@ -75,7 +75,7 @@ const About7 = () => {
 											className="btn-area wow fadeInUp"
 											data-wow-delay="0.5s"
 										>
-											<ButtonPrimary text={"Know more"} url={"/about"} />
+											<ButtonPrimary text={"Know more"} url={"/about-us"} />
 											<div className="client-experience">
 												<ul className="images-thumb">
 													<li className="wow fadeInLeft" data-wow-delay="0.6s">

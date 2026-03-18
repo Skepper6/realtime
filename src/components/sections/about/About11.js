@@ -32,7 +32,7 @@ const About11 = () => {
 							</p>
 						</div>
 						<div className="about-btn wow fadeInUp" data-wow-delay="0.5s">
-							<ButtonPrimary text={"Learn more"} url={"/contact"} />
+							<ButtonPrimary text={"Learn more"} url={"/contact-us"} />
 						</div>
 					</div>
 				</div>

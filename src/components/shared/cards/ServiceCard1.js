@@ -1,8 +1,9 @@
 import Link from "next/link";
 import ButtonPrimary from "../buttons/ButtonPrimary";
 
-const ServiceCard1 = ({ service, idx, lastItem }) => {
+const ServiceCard1 = ({ service, idx, lastItem, serviceUrl }) => {
 	const { title, desc, id, totalProject, img, svg } = service || {};
+	const resolvedServiceUrl = serviceUrl || (id ? `/services/${id}` : "/services");
 	return (
 		<div className={`service-item ${idx < lastItem ? "service-stack" : ""}`}>
 			<div className="service-content">
@@ -18,7 +19,7 @@ const ServiceCard1 = ({ service, idx, lastItem }) => {
 						/>
 					</div>
 					<h3 className="title">
-						<Link href={`/services/${id}`} className="aleo_semibold"> {title.split("\n").map((line, i) => (
+						<Link href={resolvedServiceUrl} className="aleo_semibold"> {title.split("\n").map((line, i) => (
 						<span key={i} className="aleo_semibold">
 							{line}
 							<br />
@@ -30,8 +31,8 @@ const ServiceCard1 = ({ service, idx, lastItem }) => {
 						<p className="aleo_regular">{desc}</p>
 					</div>
 					<ButtonPrimary
-						text={"Get started"}
-						url={`/services/${id}`}
+						text={"Explore More"}
+						url={resolvedServiceUrl}
 						className={"service-btn"}
 					/>
 				</div>

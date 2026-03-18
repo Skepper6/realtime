@@ -24,7 +24,7 @@ const Hero5 = () => {
 								</p>
 							</div>
 							<div className="wow fadeInUp" data-wow-delay="0.3s">
-								<ButtonPrimary text={"Free consultation"} url={"/contact"} />
+								<ButtonPrimary text={"Free consultation"} url={"/contact-us"} />
 							</div>
 						</div>
 						<div className="hero-images-box-four">

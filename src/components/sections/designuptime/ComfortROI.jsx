@@ -72,7 +72,7 @@ export default function ComfortROI() {
 
             <div className="right-content roi_leading">
               <p className="font18 text-white leading-relaxed ">
-              Our ultimate goal is to ensure your<br/> systems run seamlessly — delivering comfort, indoor quality, and operational savings. Optimization is an ongoing effort, not a onetime handover.
+              Our ultimate goal is to ensure your<br/> systems run seamlessly — delivering comfort, indoor quality, and operational savings. Optimization is an ongoing effort, not a one-time handover.
               </p>
               
             </div>

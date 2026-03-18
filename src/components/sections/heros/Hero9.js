@@ -92,10 +92,10 @@ const Hero9 = () => {
 									>
 										<ButtonPrimary
 											text={"Free consultation"}
-											url={"/contact"}
+											url={"/contact-us"}
 											className={"hero-button"}
 										/>
-										<Link className="service-button text-btn" href="/contact">
+										<Link className="service-button text-btn" href="/contact-us">
 											Learn more here<i className="tji-angle-right"></i>
 										</Link>
 									</div>

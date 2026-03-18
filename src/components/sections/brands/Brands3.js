@@ -35,7 +35,7 @@ const Brands3 = () => {
 								Join over <span>1000+</span> companies with Solvior
 							</h2>
 
-							<Link className="service-button text-btn" href="/contact">
+							<Link className="service-button text-btn" href="/contact-us">
 								Join us now <i className="tji-angle-right"></i>
 							</Link>
 						</div>

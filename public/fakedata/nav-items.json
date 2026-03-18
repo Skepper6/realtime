@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "About",
-    "path": "/about"
+    "path": "/about-us"
   },
   {
     "id": 2,
@@ -28,6 +28,11 @@
         "id": 4,
         "name": "Annual Maintenance",
         "path": "/annual-maintenance-contracts"
+      },
+      {
+        "id": 5,
+        "name": "Building Management System",
+        "path": "/building-management-system"
       }
     ]
   },
@@ -61,6 +66,6 @@
   {
     "id": 6,
     "name": "Contact",
-    "path": "/contact"
+    "path": "/contact-us"
   }
 ]

@@ -145,7 +145,7 @@ const AnnualMaintenanceCenterZoomCards = () => {
                   <ButtonPrimary text={"Watch the Full Video"} url={"#"} className={"hero-button"} />
                 </div>
                 {/* <div className="szc-step szc-step3"  onClick={() => setOpen(true)}>
-                               <ButtonPrimary text={"Watch the Full Video"} url={"/contact"} className={"hero-button"} />
+                               <ButtonPrimary text={"Watch the Full Video"} url={"/contact-us"} className={"hero-button"} />
                 </div> */}
 
                 {/* <button

@@ -11,10 +11,7 @@ export default function DesingThinkPlan() {
       img: "https://skepper.in/000_Skepper_test/real/design2.jpg",
       text: "Load calculations & zoning strategy",
     },
-    {
-      img: "https://skepper.in/000_Skepper_test/real/designuptime/sytem-election.jpg",
-      text: "System selection (chillers, AHUs, ducts, controls)",
-    },
+    
     {
       img: "https://skepper.in/000_Skepper_test/real/design4.jpg",
       text: "Energy simulation & predictive modeling",

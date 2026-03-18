@@ -110,7 +110,8 @@
 }
 
 .font18 {
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 18px;
   /* letter-spacing: 0.6; */
 
 }
@@ -40588,7 +40589,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 /* Wrapper */
 .svcGridWrap {
-  /* padding: 40px 16px; */
+  padding: 100px 16px 60px;
   /* background: #fff; */
 }
 
@@ -40632,8 +40633,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg,
-      rgba(5, 18, 41, 0.8));
+  background: linear-gradient(to top, rgb(0 0 0 / 65%) 0%, rgb(0 0 0 / 86%) 35%, rgb(0 0 0 / 43%) 65%, rgb(0 0 0 / 19%) 85%, rgb(0 0 0 / 9%) 100%);
   opacity: 0;
   transition: opacity 240ms ease;
 }
@@ -40743,11 +40743,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .svcCard:hover h3,
 .svcCard:hover .svcCard__desc,
 .svcCard:hover .svcCard__cta {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255);
 }
 
 .svcCard:hover .svcCard__desc {
-  color: rgba(255, 255, 255, 0.72);
+  /* color: rgba(255, 255, 255, 0.72); */
 }
 
 .svcCard:hover .svcCard__arrow {
@@ -41015,6 +41015,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .amc_impact_bg{
      background-image: url("/images/amc_impact.jpg");
 }
+.hvac_impact::after, .electrical_bg::after{
+  display: none;
+}
 .hvac_impact{
        background-image: url("https://skepper.in/000_Skepper_test/real/hvac/hvac_bg.jpg");
 }
@@ -41062,8 +41065,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
   display: none;
 }
 .smart_system_phe .electircal_leftcard .hs-pill{
-padding-left: 20px;
-padding-right: 20px;
+/* padding-left: 20px;
+padding-right: 20px; */
 }
 .impact-green-box {
   background: #80C466;
@@ -41184,7 +41187,7 @@ padding-right: 20px;
 .hs-leftOverlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgb(0 0 0) 0%, rgb(0 0 0 / 90%) 35%, rgb(0 0 0 / 27%) 100%);
+  background: linear-gradient(to bottom, rgb(0 0 0 / 89%) 0%, rgb(0 0 0 / 82%) 35%, rgb(0 0 0 / 40%) 65%, rgb(0 0 0 / 17%) 85%, rgb(0 0 0 / 12%) 100%);
 }
 
 .hs-leftContent {
@@ -41198,20 +41201,21 @@ padding-right: 20px;
 .hs-pill {
   display: inline-flex;
   align-items: center;
-  /* height: 31px; */
-  padding: 8 35px;
+  height: 31px;
+  padding: 7px 15px;
   border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.28);
   background: rgba(0, 0, 0, 0.28);
-  /* font-size: 11px; */
-  /* letter-spacing: 0.2px; */
-  /* line-height: 1; */
+min-width: 160px;
+    width: auto;
+    text-align: center;
+    display: inline-block;
   margin-bottom: 18px;
   white-space: nowrap;
 }
 
 .hs-title {
-  margin: 15 0 8px;
+  margin: 11px 0px 8px;
   font-size: 39px;
   /* line-height: 1.05; */
   /* font-weight: 600; */
@@ -41325,7 +41329,7 @@ padding-right: 20px;
 }
 
 .hs-wrap .hs-inner .hs-leftCard {
-  height: 800px;
+  height: 796px;
   width: 450px;
 }
 
@@ -41346,7 +41350,7 @@ padding-right: 20px;
 }
 
 .bottom_center_desc {
-  max-width: 450px;
+  max-width: 490px;
   margin: auto;
 }
 
@@ -42971,16 +42975,17 @@ sup {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 40px;
+  gap: 0px;
 }
 
 .strategic-card-content .left-content {
-  flex: 2;
+  /* flex: 2; */
+      width: 70%;
 }
 
 .strategic-card-content .right-content {
-  flex: 1;
-  max-width: 280px;
+  /* flex: 1; */
+  max-width: 400px;
 }
 
 .title-wrapper {
@@ -43775,7 +43780,7 @@ sup {
 }
 
 .strategic-card-content .roi_leading {
-  max-width: unset;
+  /* max-width: unset; */
 }
 
 .sub_text_desc .hs-cardLabel:nth-child(1) {
@@ -44213,6 +44218,38 @@ sup {
   margin-top: 440px;
 }
 
+.process-maintenance-slider-outer {
+  margin-top: 110px;
+}
+
+.process-maintenance-standard {
+  width: 255px;
+}
+
+.process-maintenance-wide {
+  width: 405px;
+}
+
+.process-maintenance-slider-outer .apple-card {
+  border-radius: 28px;
+}
+
+.process-maintenance-slider-outer .apple-card-overlay {
+  padding: 28px;
+}
+
+.process-maintenance-slider-outer .sub_title {
+  left: 28px;
+  right: 28px;
+  bottom: 24px;
+}
+
+.process-maintenance-slider-outer .apple-card-overlay h4 {
+  font-size: 21px;
+  line-height: 1.15;
+  margin-bottom: 0;
+}
+
 .maintenance-subtitle-pos {
   bottom: 40px;
   left: 40px;
@@ -44240,6 +44277,29 @@ sup {
   margin: 0 auto 30px;
   color: rgb(255, 255, 255, 50%);
   line-height: 38px;
+}
+
+@media (max-width: 991px) {
+  .process-maintenance-slider-outer {
+    margin-top: 70px;
+  }
+
+  .process-maintenance-standard {
+    width: 300px;
+  }
+
+  .process-maintenance-wide {
+    width: 450px;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .process-maintenance-standard,
+  .process-maintenance-wide {
+    width: 85vw;
+  }
+
 }
 
 /* REVISED VOICES SLIDER STYLES TO MATCH SCREENSHOT EXACTLY */
@@ -44620,8 +44680,8 @@ hr {
     height: 174px;
 }
 .electircal_leftcard .hs-pill{
-  padding-left: 36px;
-  padding-right: 36px;
+  /* padding-left: 36px;
+  padding-right: 36px; */
 
 }
 .electrical_automation .pricing-left-content{
@@ -44824,4 +44884,22 @@ padding-bottom: 0px; */
 .service-wrapper .pin-spacer:nth-child(2) .service-item,
  .service-wrapper .pin-spacer:nth-child(4) .service-item {
   background-color:#051229;
+}
+
+.tj-service-section .service-wrapper > .service-item:nth-child(2) .service-content,
+.tj-service-section .service-wrapper > .service-item:nth-child(2),
+.tj-service-section .service-wrapper > .service-item:nth-child(4) {
+  background-color: #051229;
+}
+
+.tj-service-section .service-wrapper > .service-item:nth-child(2) .desc p {
+  color: #a9b0b8;
+}
+
+.hvac_testimonial{
+      padding: 150px 0px;
+}
+.fast_track{
+  max-width: 930px;
+    margin: auto;
 }

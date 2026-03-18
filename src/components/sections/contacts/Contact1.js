@@ -37,7 +37,7 @@ const Contact1 = () => {
 									>
 										<ButtonPrimary
 											text={"Contact us"}
-											url={"/contact"}
+											url={"/contact-us"}
 											className={"white-btn"}
 										/>
 									</div>

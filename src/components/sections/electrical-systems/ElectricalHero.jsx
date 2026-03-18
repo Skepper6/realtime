@@ -65,7 +65,7 @@ export default function ElectricalHero() {
           </div>
 
           <div className="rt-hero__content" style={{ zIndex: 3, position: 'relative' }}>
-            <span className="hvacHero__pill font12">Electrical Systems Services</span>
+            <span className="hvacHero__pill font12">Electrical Systems</span>
             <h1 className="rt-hero__title font72 sec-title text-anim">
               Power with<br />Purpose
             </h1>
@@ -73,7 +73,7 @@ export default function ElectricalHero() {
              Every building depends on power, not just to function, but to perform. At Realtime Infra, we engineer electrical systems that deliver stability, safety, and intelligence at every level.
             </p>
             <div className="mt-4">
-              <ButtonPrimary text={"Consult Now"} url={"/contact"} className={"hero-button"} />
+              <ButtonPrimary text={"Consult Now"} url={"/contact-us"} className={"hero-button"} />
             </div>
           </div>
         </div>

@@ -53,7 +53,7 @@ const PHETeamTrust = () => {
                                         The best drainage systems are never noticed. They simply work. We engineer sanitary, stormwater, and wastewater networks that operate silently behind the scenes, optimized for flow capacity, safety, and long-term durability.</p>
                                 </div>
                                 <div className="about-button">
-                                    <ButtonPrimary url="/about" text={"Contact Us"} />
+                                    <ButtonPrimary url="/contact-us" text={"Contact Us"} />
                                 </div>
                             </div>
                         </div>

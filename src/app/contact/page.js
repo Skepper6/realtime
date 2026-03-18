@@ -1,10 +1,5 @@
-import ContactMain from "@/components/layout/main/ContactMain";
-import PageWrapper from "@/components/shared/wrappers/PageWrapper";
+import { permanentRedirect } from "next/navigation";
 
-export default function Contact() {
-	return (
-		<PageWrapper isHeaderTop={true} footerType={"inner"}>
-			<ContactMain />
-		</PageWrapper>
-	);
+export default function ContactPage() {
+	permanentRedirect("/contact-us");
 }

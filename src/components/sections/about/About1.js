@@ -62,7 +62,7 @@ const About1 = () => {
 												</ul>
 											</div>
 											<div className="about-button">
-												<ButtonPrimary url="/about" text={"Read more"} />
+												<ButtonPrimary url="/our-process" text={"Read more"} />
 											</div>
 										</div>
 									</div>

@@ -24,8 +24,8 @@ const Hero6 = () => {
 								</p>
 							</div>
 							<div className="hero-btn-area wow fadeInUp" data-wow-delay="0.5s">
-								<ButtonPrimary text={"Free consultation"} url={"/contact"} />
-								<ButtonPrimary text={"Learn more"} url={"/about"} />
+								<ButtonPrimary text={"Free consultation"} url={"/contact-us"} />
+								<ButtonPrimary text={"Learn more"} url={"/about-us"} />
 							</div>
 						</div>
 					</div>

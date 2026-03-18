@@ -17,7 +17,7 @@ const Brands5 = () => {
 								backgroundImage: "url('/images/brand/brand-bg-1.webp')",
 							}}
 						>
-							<Link href="/contact">
+							<Link href="/contact-us">
 								<div>
 									<img
 										src={img2 ? img2 : "/images/brand/brand-black-1.png"}

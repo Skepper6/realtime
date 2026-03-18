@@ -8,19 +8,19 @@ const electricalPortfolioData = [
     id: 1,
     title: "Safety",
     img2: "https://skepper.in/000_Skepper_test/real/electrical/electrical-card1.jpg",
-    desc: "Rigorous adherence to international safety standards ensures protection for both personnel and infrastructure.",
+    desc: "We design electrical systems that comply with stringent safety standards, covering earthing, lightning protection, fault isolation, surge protection, and emergency backup, so risks are controlled before they arise.",
   },
   {
     id: 2,
     title: "Quality",
     img2: "https://skepper.in/000_Skepper_test/real/electrical/electrical-card2.jpg",
-    desc: "Premium components and precision engineering deliver consistent, high-performance power distribution.",
+    desc: "Precision in every circuit, consistency in every outcome. From material selection to installation and testing, our electrical work follows rigorous quality benchmarks to ensure long-term performance.",
   },
   {
     id: 3,
     title: "Reliability",
     img2: "https://skepper.in/000_Skepper_test/real/electrical/electrical-card3.jpg",
-    desc: "Robust system architecture designed for zero unplanned downtime and maximum operational continuity.",
+    desc: "Power that performs, without interruption. Our systems are built for uptime, with robust design, redundancy planning, and reliable execution that ensure uninterrupted power delivery.",
   },
 ];
 

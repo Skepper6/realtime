@@ -65,15 +65,15 @@ export default function PHEHero() {
                     </div>
 
                     <div className="rt-hero__content" style={{ zIndex: 3, position: 'relative' }}>
-                        <span className="hvacHero__pill font12">PHE Services</span>
+                        <span className="hvacHero__pill font12">Public Health Engineering</span>
                         <h1 className="rt-hero__title font72 sec-title text-anim">
                             The Flow That<br />Sustains Life
                         </h1>
                         <p className="rt-hero__desc font18 desc">
-                           Every building depends on a quiet, continuous system, clean water flowing in, waste moving out, balance-maintained day after day.At Realtime Infra, we engineer that flow with precision and responsibility.
+                           Every building depends on a quiet, continuous system, clean water flowing in, waste moving out, balance-maintained day after day. At Realtime Infra, we engineer that flow with precision and responsibility.
                         </p>
                         <div className="mt-4">
-                            <ButtonPrimary text={"Start a Project"} url={"/contact"} className={"hero-button"} />
+                            <ButtonPrimary text={"Consult Now"} url={"/contact-us"} className={"hero-button"} />
                         </div>
                     </div>
                 </div>

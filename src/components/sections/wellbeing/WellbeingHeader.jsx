@@ -65,7 +65,7 @@ export default function WellbeingHeader() {
                         </p>
 
                         <div className="wow fadeInUp  mt-4" data-wow-delay="0.4s">
-                            <ButtonPrimary text={"Consult Now"} url={"/contact"} className={"hero-button"} />
+                            <ButtonPrimary text={"Consult Now"} url={"/contact-us"} className={"hero-button"} />
                         </div>
                     </div>
                 </div>

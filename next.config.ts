@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  distDir: process.env.NEXT_DIST_DIR || ".next",
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -15,6 +16,16 @@ const nextConfig: NextConfig = {
       {
         source: "/wellbeing",
         destination: "/well-being-comfort",
+        permanent: true,
+      },
+      {
+        source: "/about",
+        destination: "/about-us",
+        permanent: true,
+      },
+      {
+        source: "/contact",
+        destination: "/contact-us",
         permanent: true,
       },
       {

@@ -8,9 +8,24 @@ import { useRef } from "react";
 const Services1 = () => {
 	const animContainerRef = useRef();
 	const services = getALlServices()?.slice(0, 5);
+	const serviceLinkMap = {
+		1: "/hvac-service",
+		2: "/phe-service",
+		3: "/electrical-systems-service",
+		4: "/annual-maintenance-contracts",
+		5: "/building-management-system",
+	};
 	useGSAP(
 		() => {
-			return tjStackAnimation(".service-stack", { enableOnMobile: true });
+			return tjStackAnimation(".service-stack", {
+				enableOnMobile: true,
+				disableQueries: [
+					"(min-width: 576px) and (max-width: 767.98px)",
+					"(min-width: 768px) and (max-width: 991.98px)",
+					"(min-width: 992px) and (max-width: 1299.98px)",
+					"(min-width: 1301px) and (max-width: 1400px)",
+				],
+			});
 		},
 		{ scope: animContainerRef }
 	);
@@ -57,6 +72,7 @@ const Services1 = () => {
 										<ServiceCard1
 											key={idx}
 											service={service}
+											serviceUrl={serviceLinkMap[service?.id]}
 											idx={idx}
 											lastItem={services?.length - 1}
 										/>

@@ -63,7 +63,7 @@ const Hero7 = () => {
 											<div className="hero-action">
 												<ButtonPrimary
 													text={"Free consultation"}
-													url={"/contact"}
+													url={"/contact-us"}
 													className={"slider-button"}
 												/>
 												<Link

@@ -15,7 +15,7 @@ const makeForcelyInactive = (pathname, currentPathname) => {
 		"/resources/blogs",
 		"/resources/blogs/1",
 		"/blog-sidebar",
-		"/contact",
+		"/contact-us",
 	].includes(normalizedPathname);
 	return isInactive ? false : normalizedPathname === normalizedCurrentPathname;
 };

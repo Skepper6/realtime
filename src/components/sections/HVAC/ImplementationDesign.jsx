@@ -19,7 +19,7 @@ const cards = [
     desc: "Our on-site teams bring designs to life with precision and discipline. Every installation is controlled, safe, and effortlessly efficient.",
     cta: "Get optimization",
     icon: "https://skepper.in/000_Skepper_test/real/icons3.png",
-    bg: "https://skepper.in/000_Skepper_test/real/built_design.jpg",
+    bg: "https://skepper.in/000_Skepper_test/real/hvac/hvac_hover1.jpg",
   },
   {
     number: "02",
@@ -27,7 +27,7 @@ const cards = [
     desc: "Engineering is the bridge between creativity and execution. It begins with planning and delivers seamless performance.",
     cta: "Get optimization",
     icon: "https://skepper.in/000_Skepper_test/real/icons3.png",
-        bg: "https://skepper.in/000_Skepper_test/real/built_design.jpg",
+        bg: "https://skepper.in/000_Skepper_test/real/hvac/hvac_hover2.jpg",
 
   },
   {
@@ -36,7 +36,7 @@ const cards = [
     desc: "We integrate HVAC with electrical, plumbing, and architectural systems  delivering installations so seamless, you forget they exist.",
     cta: "Get optimization",
     icon: "https://skepper.in/000_Skepper_test/real/icons3.png",
-        bg: "https://skepper.in/000_Skepper_test/real/built_design.jpg",
+        bg: "https://skepper.in/000_Skepper_test/real/hvac/hvac_hover3.jpg",
 
   },
 ];
@@ -72,7 +72,7 @@ export default function ImplementationDesign() {
         </div>
 
          <div className="about-button">
-              <ButtonPrimary url="/about" text={"See Our Projects"} />
+              <ButtonPrimary url="/contact-us" text={"Start Project"} />
          </div>
       </div>
     </section>

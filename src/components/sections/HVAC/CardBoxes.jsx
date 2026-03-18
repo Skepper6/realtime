@@ -64,7 +64,7 @@ const CardBoxes = () => {
 							className="service-btn-area text-center wow fadeInUp"
 							data-wow-delay=".3s"
 						>
-							<ButtonPrimary text={"Schedule a Consultation"} url={"/services"} />
+							<ButtonPrimary text={"Schedule a Consultation"} url={"/contact-us"} />
 						</div>
       </div>
 

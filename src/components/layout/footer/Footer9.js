@@ -60,13 +60,13 @@ const Footer9 = () => {
 								<div className="widget-menu">
 									<ul>
 										<li>
-											<Link href="/contact">Contact us</Link>
+											<Link href="/contact-us">Contact us</Link>
 										</li>
 										<li>
-											<Link href="/contact">Privacy policy</Link>
+											<Link href="/privacy-policy">Privacy policy</Link>
 										</li>
 										<li>
-											<Link href="/about">Recognitions</Link>
+											<Link href="/about-us">Recognitions</Link>
 										</li>
 										<li>
 											<Link href="/careers">
@@ -80,7 +80,7 @@ const Footer9 = () => {
 											<Link href="/team">Feedback</Link>
 										</li>
 										<li>
-											<Link href="/contact">Error 404</Link>
+											<Link href="/contact-us">Error 404</Link>
 										</li>
 									</ul>
 								</div>

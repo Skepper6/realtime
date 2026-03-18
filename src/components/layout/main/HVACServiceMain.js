@@ -23,6 +23,8 @@ import AllPortfolio from "../../sections/HVAC/AllPortfolio";
 import BottomCenterText from "../../sections/HVAC/BottomCenterText";
 import FAQ from "../../sections/HVAC/FAQ"
 import CenterZoomCards from "../../sections/HVAC/CenterZoomCards";
+import HVACTestimonial from "../../sections/HVAC/HVACTestimonial";
+
 import RoundShape from "../../sections/RoundShape";
 
 const HVACServiceMain = () => {
@@ -33,6 +35,7 @@ const HVACServiceMain = () => {
 			<DesignSection/>
 			<BuiltByDesign/>
 			<JourneyCards />
+			<HVACTestimonial/>
 			<ImplementationDesign/>
 			<CenterZoomCards/>
 			<AccordioWithImage/>

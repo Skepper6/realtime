@@ -75,7 +75,7 @@ export default function SubServiceHeader() {
               it. Because comfort isn’t created by chance — it’s engineered.
             </p>
             <div className="mt-4">
-              <ButtonPrimary text={"Consult Now"} url={"/contact"} className={"hero-button"} />
+              <ButtonPrimary text={"Consult Now"} url={"/contact-us"} className={"hero-button"} />
             </div>
           </div>
         </div>

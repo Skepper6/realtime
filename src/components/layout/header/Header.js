@@ -87,7 +87,7 @@ const Header = ({ option, isStickyHeader }) => {
 										// 	text={
 										// 		headerType === 8 ? "Free consultation" : "Schedule a Consultation"
 										// 	}
-										// 	url={"/contact"}
+										// 	url={"/contact-us"}
 										// 	className={
 										// 		(headerType === 3 ||
 										// 			headerType == 4 ||
