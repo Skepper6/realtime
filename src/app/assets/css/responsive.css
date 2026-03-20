@@ -1297,7 +1297,12 @@ gap: 20px;
 
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
-
+    .funfact-item-two {
+      right: 0px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
 
   .fast_track{
   max-width: 100%;
@@ -1328,14 +1333,19 @@ gap: 20px;
   display: block;
 }
 .impact-highlight-right{
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
   .impact-highlight-left {
     margin-top: 0px;
   }
   .impact-highlight-card{
-    display: block;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
+    gap: 62px;
+  height: 800px;
+            grid-template-columns: 1fr;
+            padding: 42px 24px 0px;
   }
 .svcGridWrap.grey_bg{
   background-color: #fff;
@@ -1832,11 +1842,7 @@ margin-top: 0px;
     transform: unset;
       padding: 0px 10px;
   }
-  .impact-highlight-card {
-        gap: 62px;
-            grid-template-columns: 1fr;
-            padding: 42px 24px 0px;
-    }
+ 
   .font72{
     font-size: 38px;
     letter-spacing: 1px;
@@ -2303,6 +2309,7 @@ margin-right: 0px !important;
 }
   .impact-highlight-card{
     display: flex;
+
   }
  .center_full_img .pricing-left-content{
   
