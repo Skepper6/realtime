@@ -1297,7 +1297,11 @@ gap: 20px;
 
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
-    .funfact-item-two {
+
+  .hvac_service_boble .impact-highlight-card{
+    /* height: 100%; */
+  }
+    .hvac_service_boble .funfact-item-two {
       right: 0px;
         position: absolute;
         bottom: 0px;
@@ -1338,12 +1342,15 @@ gap: 20px;
   .impact-highlight-left {
     margin-top: 0px;
   }
+  .hvac_service_boble .impact-highlight-card{
+ height: 800px;
+  }
   .impact-highlight-card{
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
     gap: 62px;
-  height: 800px;
+ 
             grid-template-columns: 1fr;
             padding: 42px 24px 0px;
   }
