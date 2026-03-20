@@ -44281,7 +44281,7 @@ sup {
 
 @media (max-width: 991px) {
   .process-maintenance-slider-outer {
-    margin-top: 70px;
+    /* margin-top: 70px; */
   }
 
   .process-maintenance-standard {
@@ -44289,7 +44289,7 @@ sup {
   }
 
   .process-maintenance-wide {
-    width: 450px;
+    /* width: 450px; */
   }
 
 }
@@ -44297,7 +44297,7 @@ sup {
 @media (max-width: 575px) {
   .process-maintenance-standard,
   .process-maintenance-wide {
-    width: 85vw;
+    width: 100% !important;
   }
 
 }

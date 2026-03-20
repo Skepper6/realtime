@@ -26,7 +26,7 @@ const WellbeingServices = () => {
     ];
 
     return (
-        <section className="h8-services-section section-space">
+        <section className="h8-services-section section-space well_health">
             <div className="container">
                 <div className="row">
                     <div className="col">
