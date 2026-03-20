@@ -22,7 +22,7 @@ const ContactAdminPage = ({ submissions = [], errorMessage = "" }) => {
 				<div className="container">
 					<div className="contact-admin-hero__content">
 						<span className="hvacHero__pill font12">Admin Panel</span>
-						<h1 className="sec-title text-anim contact-admin-hero__title">
+						<h1 className="sec-title font72 text-anim contact-admin-hero__title">
 							Contact Form Details
 						</h1>
 					</div>
@@ -51,8 +51,17 @@ const ContactAdminPage = ({ submissions = [], errorMessage = "" }) => {
 
 					{submissions.length ? (
 						<div className="contact-admin-table-wrap">
-							<div className="table-responsive">
+							<div className="table-responsive contact-admin-table-scroll">
 								<table className="table contact-admin-table mb-0">
+									<colgroup>
+										<col style={{ width: "7%" }} />
+										<col style={{ width: "14%" }} />
+										<col style={{ width: "18%" }} />
+										<col style={{ width: "14%" }} />
+										<col style={{ width: "14%" }} />
+										<col style={{ width: "18%" }} />
+										<col style={{ width: "15%" }} />
+									</colgroup>
 									<thead>
 										<tr>
 											<th>S.No</th>
