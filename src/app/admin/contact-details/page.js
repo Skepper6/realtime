@@ -50,8 +50,7 @@ const getContactSubmissions = async () => {
 			errorMessage: "",
 		};
 	} catch (error) {
-		const fallbackMessage =
-			"PHP backend is not reachable at http://localhost/realtime-contact-api.";
+		const fallbackMessage = `PHP backend is not reachable at ${apiBaseUrl}.`;
 		const errorMessage =
 			error instanceof Error ? error.message.trim() : "";
 

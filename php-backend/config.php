@@ -14,6 +14,7 @@ return [
         'http://127.0.0.1:3000',
         'http://localhost:3001',
         'http://127.0.0.1:3001',
+        'https://realtime-three-zeta.vercel.app',
     ],
 
     // Keep empty if you do not want admin API protection for now.

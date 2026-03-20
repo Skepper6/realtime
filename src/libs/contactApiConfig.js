@@ -1,5 +1,5 @@
 const contactApiConfig = {
-	baseUrl: "http://localhost/realtime-contact-api",
+	baseUrl: "https://skepper.in/realtime-backend",
 	adminApiKey: "",
 };
 

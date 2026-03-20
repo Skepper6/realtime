@@ -65,6 +65,7 @@
 .contact-form-feedback--error {
 	background: rgba(197, 53, 53, 0.14);
 	color: #7a1f1f;
+	margin-bottom: 40px;
 }
 
 .contact-field-error {

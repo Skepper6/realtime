@@ -189,8 +189,7 @@ const Contact5 = () => {
 					"Thanks, your contact request has been saved successfully.",
 			});
 		} catch (error) {
-			const fallbackMessage =
-				"PHP backend is not reachable at http://localhost/realtime-contact-api.";
+			const fallbackMessage = `PHP backend is not reachable at ${contactApiBaseUrl}.`;
 			const errorMessage =
 				error instanceof Error ? error.message.trim() : "";
 
