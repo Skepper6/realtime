@@ -14,7 +14,7 @@ const PHEBottomText = () => {
                             className="service-btn-area text-center wow fadeInUp"
                             data-wow-delay=".3s"
                         >
-                            <ButtonPrimary text={"Schedule a Call"} url={"/contact-us"} />
+                            <ButtonPrimary text={"Start project"} url={"/contact-us"} />
                         </div>
                     </div>
                 </div>

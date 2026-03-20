@@ -10,7 +10,10 @@ const resolveMenuPath = path => {
 const Navbar = ({ option, isStickyHeader }) => {
 	const { headerType } = option;
 	const makeActiveLink = useActiveLink();
-	const navItems = getNavItems()?.map(item => makeActiveLink(item)) || [];
+	const navItems =
+		getNavItems()
+			?.filter(item => !item?.isHidden)
+			?.map(item => makeActiveLink(item)) || [];
 
 	const renderStandardSubmenu = submenu =>
 		submenu?.map((item, idx) => {

@@ -90,12 +90,7 @@ export default function MaintenanceMonitoring() {
       img: "https://skepper.in/000_Skepper_test/real/designuptime/slider3.jpg",
       title: "Remote monitoring dashboards:\nreal-time, current, alarms",
       isWide: false,
-    },
-    {
-      img: "https://skepper.in/000_Skepper_test/real/rec2.jpg",
-      title: "Emergency response \n& rapid repair protocols",
-      isWide: true,
-    },
+    }
   ];
 
   return (

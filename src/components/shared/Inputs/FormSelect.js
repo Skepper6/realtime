@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 
-const FormSelect = ({ id, name, className, defaultValue, items }) => {
+const FormSelect = ({ id, name, className, defaultValue, items, ...props }) => {
 	useEffect(() => {
 		let instance;
 
@@ -42,6 +42,7 @@ const FormSelect = ({ id, name, className, defaultValue, items }) => {
 			className={className || "nice-select"}
 			defaultValue={defaultValue || ""}
 			style={{ display: "none" }}
+			{...props}
 		>
 			{items?.map((item, idx) => (
 				<option key={idx} value={item?.value}>

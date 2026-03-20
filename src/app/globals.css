@@ -48,3 +48,246 @@
     line-height: 1.2;
     letter-spacing: -1px;
 } */
+
+.contact-form-feedback {
+	margin: 8px 0 0;
+	padding: 14px 18px;
+	border-radius: 16px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.contact-form-feedback--success {
+	background: rgba(120, 199, 81, 0.14);
+	color: #143a1e;
+}
+
+.contact-form-feedback--error {
+	background: rgba(197, 53, 53, 0.14);
+	color: #7a1f1f;
+}
+
+.contact-field-error {
+	margin: 8px 0 0;
+	min-height: 21px;
+	color: #b42318;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.contact-field-group {
+	display: flex;
+	flex-direction: column;
+	min-height: 104px;
+}
+
+.contact-field-group--textarea {
+	min-height: 220px;
+}
+
+.contact-form-one .form-input input.contact-input-error,
+.contact-form-one .form-input textarea.contact-input-error,
+.contact-form-one .contact-input-error + .nice-select,
+.contact-form-one .nice-select.contact-input-error {
+	/* border-color: #d92d20 !important;
+	box-shadow: 0 0 0 3px rgba(217, 45, 32, 0.12); */
+}
+
+.contact-admin-page {
+	background: linear-gradient(180deg, #f2f5fb 0%, #f8f9fc 100%);
+	min-height: 100vh;
+}
+
+.contact-admin-hero {
+	padding: 160px 0 56px;
+	background: linear-gradient(180deg, #07152f 0%, #0b1d3f 100%);
+}
+
+.contact-admin-hero__content {
+	max-width: 720px;
+	color: #fff;
+}
+
+.contact-admin-hero__title {
+	margin: 18px 0 0;
+	color: #fff !important;
+	font-size: clamp(52px, 6vw, 88px);
+	line-height: 0.95;
+}
+
+.contact-admin-summary {
+	margin: 0 0 28px;
+}
+
+.contact-admin-summary__card,
+.contact-admin-table-wrap,
+.contact-admin-empty {
+	background: #fff;
+	border-radius: 28px;
+	box-shadow: 0 24px 60px rgba(9, 23, 56, 0.08);
+}
+
+.contact-admin-summary__card {
+	max-width: 360px;
+	padding: 26px 30px;
+	background: linear-gradient(135deg, #ffffff 0%, #eef3ff 100%);
+}
+
+.contact-admin-summary__label {
+	display: block;
+	margin-bottom: 10px;
+	color: #5d6679;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+.contact-admin-summary__card strong {
+	color: #08183a;
+	font-size: 42px;
+	line-height: 1.2;
+}
+
+.contact-admin-summary__subtext {
+	display: block;
+	margin-top: 12px;
+	color: #5d6679;
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+.contact-admin-alert {
+	margin-bottom: 24px;
+	border-radius: 16px;
+}
+
+.contact-admin-table-wrap {
+	padding: 14px;
+	overflow: hidden;
+}
+
+.contact-admin-table {
+	margin-bottom: 0;
+	vertical-align: middle;
+}
+
+.contact-admin-table thead th {
+	padding: 18px 18px 20px;
+	border-bottom: 1px solid rgba(8, 24, 58, 0.08);
+	color: #6c7690;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.contact-admin-table tbody td {
+	padding: 20px 8px 20px 18px;
+	border-color: rgba(8, 24, 58, 0.08);
+	color: #08183a;
+	font-size: 14px;
+	line-height: 1.6;
+	vertical-align: top;
+}
+
+.contact-admin-table tbody tr:hover {
+	background: rgba(241, 245, 255, 0.65);
+}
+
+.contact-admin-table__serial {
+	min-width: 72px;
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+.contact-admin-table__name-cell {
+	min-width: 200px;
+}
+
+.contact-admin-table__name-cell strong {
+	display: block;
+	color: #08183a;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.contact-admin-table__email,
+.contact-admin-table__phone {
+	min-width: 190px;
+}
+
+.contact-admin-table__email a,
+.contact-admin-table__phone a,
+.contact-admin-table__page a {
+	color: #173a78;
+	word-break: break-word;
+}
+
+.contact-admin-table__service {
+	min-width: 170px;
+}
+
+.contact-admin-table__service span {
+	display: inline-flex;
+	padding: 8px 12px;
+	border-radius: 999px;
+	background: #eef4ff;
+	color: #173a78;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+.contact-admin-table__message {
+	min-width: 260px;
+	max-width: 320px;
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.contact-admin-table__submitted {
+	min-width: 170px;
+	white-space: nowrap;
+}
+
+.contact-admin-empty {
+	padding: 48px 24px;
+	color: #5d6679;
+	font-size: 18px;
+	text-align: center;
+}
+
+@media (max-width: 1199px) {
+	.contact-admin-table tbody td,
+	.contact-admin-table thead th {
+		padding-left: 14px;
+		padding-right: 14px;
+	}
+}
+
+@media (max-width: 767px) {
+	.contact-admin-hero {
+		padding: 130px 0 50px;
+	}
+
+	.contact-admin-hero__title {
+		font-size: 42px;
+		line-height: 1;
+	}
+
+	.contact-form-feedback {
+		font-size: 15px;
+	}
+
+	.contact-field-group,
+	.contact-field-group--textarea {
+		min-height: auto;
+	}
+
+	.contact-admin-table-wrap {
+		padding: 10px;
+	}
+}

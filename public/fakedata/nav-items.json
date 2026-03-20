@@ -49,6 +49,7 @@
   {
     "id": 5,
     "name": "Resources",
+    "isHidden": true,
     "path": "/resources",
     "submenu": [
       {

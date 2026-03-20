@@ -33,7 +33,7 @@ const Wellbeing = () => {
             {/* <FieldExecution /> */}
             {/* <FieldCards /> */}
             <MaintenanceMonitoring />
-            <VoicesSlider />
+            {/* <VoicesSlider /> */}
             <WellbeingServices />
             {/* <ComfortROI /> */}
             {/* <WhyMatter />

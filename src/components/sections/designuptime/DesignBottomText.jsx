@@ -9,12 +9,12 @@ const DesignBottomText = () => {
          <h2 className="sec-title text-anim text-center font48">Ready to Experience Uptime</h2>
          <div className="bottom_center_desc">
          
-            <p className='font18 text-center'>Let’s take your building from concept to continuous comfort — <br/>together.</p>
+            <p className='font18 text-center'>Let’s take your building from concept to continuous<br/> comfort — together.</p>
                         <div
                             className="service-btn-area text-center wow fadeInUp"
                             data-wow-delay=".3s"
                         >
-                            <ButtonPrimary text={"Explore Our Projects"} url={"/services"} />
+                            <ButtonPrimary text={"Start project"} url={"/contact-us"} />
                         </div>
             </div>
         </div>

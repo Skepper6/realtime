@@ -1,25 +1,80 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 
+import "swiper/css";
 import "swiper/css/navigation";
 
 export default function MaintenanceMonitoring() {
+    const [viewportWidth, setViewportWidth] = useState(0);
     const [offsetLeft, setOffsetLeft] = useState(0);
+    const contentContainerRef = useRef(null);
 
     useEffect(() => {
         const calculateOffset = () => {
-            const container = document.querySelector(".container");
+            const container = contentContainerRef.current;
             if (container) {
                 const rect = container.getBoundingClientRect();
-                setOffsetLeft(rect.left + 15);
+                const styles = window.getComputedStyle(container);
+                const paddingLeft = parseFloat(styles.paddingLeft || "0");
+                setOffsetLeft(rect.left + paddingLeft);
             }
+            setViewportWidth(window.innerWidth);
         };
         calculateOffset();
         window.addEventListener("resize", calculateOffset);
         return () => window.removeEventListener("resize", calculateOffset);
     }, []);
+
+    const getDesktopSlideMetrics = isWide => {
+        const desktopGap = 22;
+        const wideRatio = 1.62;
+        const availableTrackWidth = Math.max(viewportWidth - offsetLeft, 0);
+        const partialThirdCard = Math.max(88, Math.min(132, availableTrackWidth * 0.12));
+        const standardWidth = Math.max(
+            250,
+            Math.round(
+                (availableTrackWidth - partialThirdCard - desktopGap * 2) / (1 + wideRatio)
+            )
+        );
+        const wideWidth = Math.max(
+            390,
+            availableTrackWidth - partialThirdCard - desktopGap * 2 - standardWidth
+        );
+
+        return {
+            width: isWide ? wideWidth : standardWidth,
+            spaceBetween: desktopGap,
+        };
+    };
+
+    const getSlideMetrics = isWide => {
+        if (viewportWidth <= 575) {
+            return {
+                width: "85vw",
+                spaceBetween: 18,
+            };
+        }
+
+        if (viewportWidth <= 991) {
+            return {
+                width: isWide ? 450 : 300,
+                spaceBetween: 18,
+            };
+        }
+
+        return getDesktopSlideMetrics(isWide);
+    };
+
+    const isMobileViewport = viewportWidth <= 575;
+    const sliderStartOffset = isMobileViewport ? 0 : offsetLeft;
+    const sliderEndOffset = isMobileViewport
+        ? 0
+        : viewportWidth > 991
+        ? 0
+        : offsetLeft;
+    const sliderSpaceBetween = getSlideMetrics(false).spaceBetween;
 
     const sliderItems = [
         {
@@ -43,7 +98,7 @@ export default function MaintenanceMonitoring() {
     ];
 
     return (
-        <section className="phases-section maitenance_sec maintenance-section">
+        <section className="phases-section maitenance_sec maintenance-section process-maintenance-section">
             {/* Background Image with Gradient Fade to Bottom */}
             <div className="maintenance-bg-wrapper">
                 <img
@@ -55,21 +110,36 @@ export default function MaintenanceMonitoring() {
                 <div className="maintenance-bg-overlay"></div>
             </div>
 
-            <div className="apple-slider-outer maintenance-slider-outer">
+            <div className="container" ref={contentContainerRef}></div>
+
+            <div className="apple-slider-outer maintenance-slider-outer process-maintenance-slider-outer">
                 <Swiper
                     modules={[Navigation]}
-                    spaceBetween={32}
+                    spaceBetween={sliderSpaceBetween}
                     slidesPerView={"auto"}
                     loop={false}
                     navigation={{ nextEl: ".slide-next", prevEl: ".slide-prev" }}
-                    slidesOffsetBefore={offsetLeft}
-                    slidesOffsetAfter={offsetLeft}
-                    className="apple-swiper"
+                    slidesOffsetBefore={sliderStartOffset}
+                    slidesOffsetAfter={sliderEndOffset}
+                    className="apple-swiper process-maintenance-swiper"
                 >
-                    {sliderItems.map((item, idx) => (
+                    {sliderItems.map((item, idx) => {
+                        const metrics = getSlideMetrics(item.isWide);
+
+                        return (
                         <SwiperSlide
                             key={idx}
-                            className={`apple-slide-item ${item.isWide ? 'wide-card' : 'standard-card'}`}
+                            style={{
+                                width:
+                                    typeof metrics.width === "number"
+                                        ? `${metrics.width}px`
+                                        : metrics.width,
+                            }}
+                            className={`apple-slide-item process-maintenance-slide ${
+                                item.isWide
+                                    ? "process-maintenance-wide"
+                                    : "process-maintenance-standard"
+                            }`}
                         >
                             <div className="apple-card">
                                 <img src={item.img} alt={item.title} />
@@ -82,7 +152,7 @@ export default function MaintenanceMonitoring() {
                                 </div>
                             </div>
                         </SwiperSlide>
-                    ))}
+                    )})}
                 </Swiper>
 
                 <div className="container fullpagination d-flex justify-content-end gap-2">

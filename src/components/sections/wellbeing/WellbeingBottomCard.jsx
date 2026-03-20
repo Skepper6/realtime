@@ -14,7 +14,7 @@ const WellbeingBottomCard = () => {
                             className="service-btn-area text-center wow fadeInUp"
                             data-wow-delay=".3s"
                         >
-                            <ButtonPrimary text={"Explore Our Projects"} url={"/services"} />
+                            <ButtonPrimary text={"Start project"} url={"/contact-us"} />
                         </div>
                     </div>
                 </div>

@@ -44186,7 +44186,7 @@ sup {
 .maintenance-section {
   position: relative;
   overflow: hidden;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .maintenance-bg-wrapper {
@@ -44219,7 +44219,7 @@ sup {
 }
 
 .process-maintenance-slider-outer {
-  margin-top: 110px;
+  /* margin-top: 110px; */
 }
 
 .process-maintenance-standard {
