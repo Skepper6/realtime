@@ -1298,6 +1298,9 @@ gap: 20px;
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
 
+.inclusion-img-wrap{
+  height: 100%;
+}
   .hvac_service_boble .impact-highlight-card{
     /* height: 100%; */
   }
