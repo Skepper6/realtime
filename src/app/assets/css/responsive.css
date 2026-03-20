@@ -13,6 +13,9 @@
 }
 .hvac_journey .project-style-3 .project-content-box{
   bottom: 68px;
+  width: 100%;
+  left: 0px;
+  padding: 0px 20px !important;
 }
 .svcGridWrap .about-button{
   padding-bottom: 0px;
@@ -1295,6 +1298,7 @@ gap: 20px;
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
 
+
   .fast_track{
   max-width: 100%;
 }
@@ -1933,7 +1937,7 @@ margin-top: 0px;
   }
 
   .rt-hero__bg {
-    top: 66px;
+    top: 0px;
 }
 .design{
   padding-bottom: 80px;
