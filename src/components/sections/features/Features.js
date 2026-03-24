@@ -118,7 +118,7 @@ const Features = ({ type }) => {
 			desc: "Preventive care and proactive monitoring for guaranteed uptime.",
 			icon: (
 			 <>
-			 <img src="https://skepper.in/000_Skepper_test/real/am.svg" />
+			 <img src="https://skepper.in/000_Skepper_test/real/Annual-Maintenance_Icon.png" />
 
 		{/* <img src="images/home/green_bg.png" alt="" className="w-100" />
 	 

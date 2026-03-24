@@ -1,9 +1,43 @@
 "use client";
 
+import getNavItems from "@/libs/getNavItems";
 import meanmenu from "@/libs/meanmenu";
-import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { startTransition, useEffect, useState } from "react";
+
+const isInternalPath = path =>
+	typeof path === "string" &&
+	path.startsWith("/") &&
+	!path.startsWith("//");
+
+const getMenuPaths = menuItems => {
+	const paths = new Set();
+
+	const visitItems = items => {
+		items?.forEach(item => {
+			if (isInternalPath(item?.path)) {
+				paths.add(item.path);
+			}
+
+			if (item?.submenu?.length) {
+				visitItems(item.submenu);
+			}
+
+			if (item?.items?.length) {
+				visitItems(item.items);
+			}
+		});
+	};
+
+	visitItems(menuItems);
+
+	return [...paths];
+};
+
 const useHeaderFunction = isStickyHeader => {
 	const [isSticky, setIsSticky] = useState(false);
+	const router = useRouter();
+
 	useEffect(() => {
 		let destroy;
 		// mobile menu related
@@ -56,6 +90,39 @@ const useHeaderFunction = isStickyHeader => {
 			e.currentTarget.classList.remove("opened");
 		};
 
+		const handleMobileMenuNavigation = e => {
+			if (!(e.target instanceof Element)) {
+				return;
+			}
+
+			const link = e.target.closest(".mean-nav a[href]");
+			if (!link || link.classList.contains("mean-expand")) {
+				return;
+			}
+
+			const href = link.getAttribute("href")?.trim();
+			if (
+				!isInternalPath(href) ||
+				e.defaultPrevented ||
+				e.button !== 0 ||
+				e.metaKey ||
+				e.ctrlKey ||
+				e.shiftKey ||
+				e.altKey ||
+				link.target === "_blank" ||
+				link.hasAttribute("download")
+			) {
+				return;
+			}
+
+			e.preventDefault();
+			closeMenu();
+
+			startTransition(() => {
+				router.push(href);
+			});
+		};
+
 		// Attach
 		document
 			.querySelectorAll(".menu_btn")
@@ -77,6 +144,15 @@ const useHeaderFunction = isStickyHeader => {
 			.forEach(overlay =>
 				overlay.addEventListener("click", overlaySearchClose)
 			);
+		if (!isStickyHeader) {
+			document
+				.querySelector(".mobile_menu")
+				?.addEventListener("click", handleMobileMenuNavigation);
+
+			getMenuPaths(getNavItems()).forEach(path => {
+				router.prefetch(path);
+			});
+		}
 
 		// Cleanup
 		return () => {
@@ -102,8 +178,13 @@ const useHeaderFunction = isStickyHeader => {
 				.forEach(overlay =>
 					overlay.removeEventListener("click", overlaySearchClose)
 				);
+			if (!isStickyHeader) {
+				document
+					.querySelector(".mobile_menu")
+					?.removeEventListener("click", handleMobileMenuNavigation);
+			}
 		};
-	}, [isStickyHeader]);
+	}, [isStickyHeader, router]);
 
 	// sticky header related
 	useEffect(() => {

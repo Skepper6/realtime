@@ -7,8 +7,8 @@ const BlogHeader = () => {
       {/* Background image */}
       <img
         className="rt-hero__b"
-        src="https://skepper.in/000_Skepper_test/real/career_header.jpg"
-        alt="Career image"
+        src="https://skepper.in/000_Skepper_test/real/blog/blog_header.jpg"
+        alt="blog image"
       />
       
       {/* Existing Gradient Shade */}

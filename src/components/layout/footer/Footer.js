@@ -156,11 +156,11 @@ const Footer = ({ footerType, isRtl }) => {
 								<div className="copyright-socails">
 									<ul>
 										<li>
-											<Link href="https://www.facebook.com/">
+											<Link href="https://www.facebook.com/people/Realtime-Integrated-Infratech-Pvt-Ltd/100077924871204/#">
 												<i className="fa-brands fa-facebook-f"></i>
 											</Link>
 										</li>
-										<li>
+										{/* <li>
 											<Link href="https://www.instagram.com/">
 												<i className="fa-brands fa-instagram"></i>
 											</Link>
@@ -169,9 +169,9 @@ const Footer = ({ footerType, isRtl }) => {
 											<Link href="https://x.com/">
 												<i className="fa-brands fa-twitter"></i>
 											</Link>
-										</li>
+										</li> */}
 										<li>
-											<Link href="https://www.linkedin.com/">
+											<Link href="https://www.linkedin.com/company/realtimeinfra/about/">
 												<i className="fa-brands fa-linkedin-in"></i>
 											</Link>
 										</li>

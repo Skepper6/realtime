@@ -14,8 +14,11 @@ import { useEffect } from "react";
 const ClientWrapper = () => {
 	useEffect(() => {
 		import("wow.js").then(({ default: WOW }) => {
-			new WOW().init();
+			const wow = new WOW({ live: false });
+			wow.init();
+			wow.sync();
 		});
+
 		smoothScrollToTop();
 
 		const cleanup = tjMagicCursorAnimation();

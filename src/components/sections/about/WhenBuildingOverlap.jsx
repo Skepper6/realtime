@@ -12,7 +12,7 @@ const WhenBuildingOverlap = () => {
         
           <img
             className="rtx-hvacBg"
-            src="https://skepper.in/000_Skepper_test/real/hvac_header_img.jpg"
+            src="https://skepper.in/000_Skepper_test/real/about/about_header.jpg"
             alt="HVAC background"
           />
         </div>

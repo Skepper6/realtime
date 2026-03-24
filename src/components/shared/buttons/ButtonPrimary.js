@@ -1,12 +1,13 @@
 import Link from "next/link";
 
-const ButtonPrimary = ({ className, text, url, type, iconName }) => {
+const ButtonPrimary = ({ className, text, url, type, iconName, onClick }) => {
 	return (
 		<>
 			{type ? (
 				<button
 					type={type ? type : "submit"}
 					className={`tj-primary-btn ${className ? className : ""}`}
+					onClick={onClick}
 				>
 					<span className="btn_inner">
 						<span className="btn_icon">
@@ -24,6 +25,7 @@ const ButtonPrimary = ({ className, text, url, type, iconName }) => {
 				<Link
 					href={url ? url : "/"}
 					className={`tj-primary-btn ${className ? className : ""}`}
+					onClick={onClick}
 				>
 					<span className="btn_inner">
 						<span className="btn_icon">

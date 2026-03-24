@@ -4130,7 +4130,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .tj-footer-area {
   position: relative;
   background: var(--tj-color-theme-dark);
-  border-top: 1px solid var(--tj-color-border-1);
+  /* border-top: 1px solid var(--tj-color-border-1); */
   z-index: 1;
 }
 
@@ -43094,9 +43094,7 @@ sup {
 
 /* Responsive adjustments */
 @media (max-width: 991px) {
-  .font72 {
-    font-size: 50px;
-  }
+
 
   .left-illustration {
     width: 200px;
@@ -43123,9 +43121,7 @@ sup {
 }
 
 @media (max-width: 575px) {
-  .font72 {
-    font-size: 36px;
-  }
+
 
   .eq-image {
     position: relative;
@@ -44902,4 +44898,7 @@ padding-bottom: 0px; */
 .fast_track{
   max-width: 930px;
     margin: auto;
+}
+.client-testimonials-load-more-wrap{
+  margin-top: 100px;
 }

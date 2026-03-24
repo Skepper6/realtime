@@ -1,44 +1,56 @@
 const TestimonialsCard4 = ({ testimonial }) => {
-	const { authorName, authorDesig, desc, img, logoImg, logoImgLight } =
-		testimonial ? testimonial : {};
+	const {
+		profile,
+		name,
+		companyName,
+		desc,
+		img,
+		authorName,
+		authorDesig,
+		logoImg,
+		logoImgLight,
+	} = testimonial ? testimonial : {};
+
+	const imageSrc = profile || img || "/images/testimonial/h1-test-1.webp";
+	const displayName = name || authorName;
+	const displayCompanyName = companyName || authorDesig;
+
 	return (
 		<div className="h5-testimonial-item">
-			<div className="author">
-				<div className="author-images">
-					<img
-						src={img ? img : "/images/testimonial/h1-test-1.webp"}
-						alt="Images"
-					/>
-				</div>
+			<div className="content">
 				<div className="author-content">
 					<div className="author-rating">
 						<div className="star-ratings">
 							<div className="fill-ratings" style={{ width: "100%" }}>
-								<span>★★★★★</span>
+								<span>{"\u2605\u2605\u2605\u2605\u2605"}</span>
 							</div>
 							<div className="empty-ratings">
-								<span>★★★★★</span>
+								<span>{"\u2605\u2605\u2605\u2605\u2605"}</span>
 							</div>
 						</div>
 					</div>
-					<div className="author-text">
-						<h4 className="author-name">{authorName}</h4>
-						<span className="sub-title">{authorDesig}</span>
-					</div>
-				</div>
-			</div>
-			<div className="content">
-				<div className="quote-icon">
-					<i className="tji-right-quote"></i>
 				</div>
 				<div className="desc">
-					<p>
-						Their thorough market analysis and customized strategies helped us
-						streamline our operations and improve our overall efficiency. We saw
-						a significant increase in our bottom line and were able to make
-						data-driven decisions that positively impacted our business. The
-						consultants were not just advisors in our success
-					</p>
+					<p>{desc}</p>
+				</div>
+			</div>
+			<div className="author">
+				<div className="author-media">
+					<img
+						className="author-shape"
+						src="/images/shapes/client-testimonial-author-mask.svg"
+						alt=""
+						aria-hidden="true"
+					/>
+					<div className="author-images">
+						<img src={imageSrc} alt={displayName || "Profile"} />
+					</div>
+				</div>
+				<div className="author-content">
+					<div className="author-text">
+						<h4 className="author-name">{displayName}</h4>
+						<span className="sub-title">{displayCompanyName}</span>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -1,51 +1,181 @@
 [
-	{
-		"img": "https://skepper.in/000_Skepper_test/real/logo/Availity.jpg",
-		"img2": "https://skepper.in/000_Skepper_test/real/brand-black-1.png"
-	},
-	{
-		"img": "https://skepper.in/000_Skepper_test/real/logo/ABB.jpg",
-		"img2": "https://skepper.in/000_Skepper_test/real/brand-black-2.png"
-	},
-	{
-		"img": "https://skepper.in/000_Skepper_test/real/logo/Alliance%20data.jpg",
-		"img2": "https://skepper.in/000_Skepper_test/real/brand-black-3.png"
-	}
-	,
-	{
-		"img": "https://skepper.in/000_Skepper_test/real/brand-thumb-4.png",
-		"img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
-	},
-	{
-		"img": "https://skepper.in/000_Skepper_test/real/brand-thumb-5.png",
-		"img2": "https://skepper.in/000_Skepper_test/real/brand-black-5.png"
-	},
-	{
-		"img": "https://skepper.in/000_Skepper_test/real/brand-thumb-6.png",
-		"img2": "https://skepper.in/000_Skepper_test/real/brand-black-6.png"
-	},
-	{
-		"img": "https://skepper.in/000_Skepper_test/real/brand-thumb-1.png",
-		"img2": "https://skepper.in/000_Skepper_test/real/brand-black-7.png"
-	},
-	{
-		"img": "https://skepper.in/000_Skepper_test/real/brand-thumb-2.png",
-		"img2": "https://skepper.in/000_Skepper_test/real/brand-black-2.png"
-	},
-	{
-		"img": "https://skepper.in/000_Skepper_test/real/brand-thumb-3.png",
-		"img2": "https://skepper.in/000_Skepper_test/real/brand-black-3.png"
-	},
-	{
-		"img": "https://skepper.in/000_Skepper_test/real/brand-thumb-4.png",
-		"img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
-	},
-	{
-		"img": "https://skepper.in/000_Skepper_test/real/brand-thumb-5.png",
-		"img2": "https://skepper.in/000_Skepper_test/real/brand-black-5.png"
-	},
-	{
-		"img": "https://skepper.in/000_Skepper_test/real/brand-thumb-6.png",
-		"img2": "https://skepper.in/000_Skepper_test/real/brand-black-6.png"
-	}
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo1.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo2.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo3.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo4.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo5.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo6.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo7.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo8.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo9.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo10.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo11.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo12.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo13.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo14.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo15.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo16.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo17.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo18.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo19.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo20.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo21.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo22.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo23.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo24.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo25.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo26.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo27.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo28.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo29.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo30.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo31.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo32.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo33.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo34.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo35.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo36.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo37.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo38.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo39.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo40.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo41.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo42.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo43.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo44.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+},
+{
+  "img": "https://skepper.in/000_Skepper_test/real/logo/logo45.png",
+  "img2": "https://skepper.in/000_Skepper_test/real/brand-black-4.png"
+}
 ]
