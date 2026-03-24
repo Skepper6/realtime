@@ -118,7 +118,7 @@ const Features = ({ type }) => {
 			desc: "Preventive care and proactive monitoring for guaranteed uptime.",
 			icon: (
 			 <>
-			 <img src="https://skepper.in/000_Skepper_test/real/Annual-Maintenance_Icon.png" />
+			 <img src="https://skepper.in/000_Skepper_test/real/Annual-Maintenance_Icon1.png" />
 
 		{/* <img src="images/home/green_bg.png" alt="" className="w-100" />
 	 
@@ -133,7 +133,7 @@ const Features = ({ type }) => {
 			desc: "Centralize your building’s critical systems: HVAC, electrical, and safety, into one platform.  ",
 			icon: (
 			 <>
-			 <img src="https://skepper.in/000_Skepper_test/real/am.svg" />
+			 <img src="https://skepper.in/000_Skepper_test/real/bms-system_icon1.png" />
 
 		{/* <img src="images/home/green_bg.png" alt="" className="w-100" />
 	 

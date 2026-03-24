@@ -8,8 +8,8 @@ const PrivacyPolicy = () => {
       {/* Background image */}
       <img
         className="rt-hero__b"
-        src="https://skepper.in/000_Skepper_test/real/career_header.jpg"
-        alt="Career image"
+        src="https://skepper.in/000_Skepper_test/real/privacy-terms/Pivacy_Policy.jpg"
+        alt="privacy image"
       />
       
       {/* Existing Gradient Shade */}

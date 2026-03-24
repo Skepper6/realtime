@@ -161,6 +161,12 @@ text-align: center;
 
 @media only screen and (min-width:768px) and (max-width:991.98px){
 
+.client-testimonials-grid{
+      /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
+}
+  .client-testimonials-grid-section{
+    margin-top: 0px;
+  }
 .project-style-3.card-accordion .project-thumb .image img {
     transform: scale(1.1);
 }
@@ -705,7 +711,9 @@ padding-bottom: 100px;
 
 @media only screen and (min-width:992px) and (max-width:1299.98px){
 
-
+.client-testimonials-grid{
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 .explore_sec .feature_card {
     width: 30%;
 }

@@ -19,8 +19,8 @@ const TermsCondition = () => {
       {/* Background image */}
       <img
         className="rt-hero__b"
-        src="https://skepper.in/000_Skepper_test/real/career_header.jpg"
-        alt="Career image"
+        src="https://skepper.in/000_Skepper_test/real/privacy-terms/Terms_Conditions.jpg"
+        alt="Terms image"
       />
       
       {/* Existing Gradient Shade */}

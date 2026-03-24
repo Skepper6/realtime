@@ -18,7 +18,7 @@ const CareersMain = () => {
       {/* Background image */}
       <img
         className="rt-hero__b"
-        src="https://skepper.in/000_Skepper_test/real/career_header.jpg"
+        src="https://skepper.in/000_Skepper_test/real/privacy-terms/Career_Page.jpg"
         alt="Career image"
       />
       
