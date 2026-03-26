@@ -1306,7 +1306,9 @@ gap: 20px;
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
 
-
+.process-maintenance-slider-outer{
+  overflow: visible;
+}
 .annual-maintenance_page .rt-hero__title br{
   display: block;
 }
