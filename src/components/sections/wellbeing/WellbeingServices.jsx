@@ -38,7 +38,7 @@ const WellbeingServices = () => {
                                         <div className="health-green-card">
                                             <h3 className="health-card-title font48">Health & Safety<br/> Standards</h3>
                                             <p className="health-card-desc font18">
-                                                We align our solutions with global wellness standards and certifications:
+                                                We align our solutions with global wellness standards and certifications
                                             </p>
                                         </div>
                                         {/* Image - Static (No Animation) */}

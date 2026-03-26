@@ -24,7 +24,7 @@ const AnnualMaintenancePortfolioData = [
   },
   {
     id: 4,
-    title: "Optimise",
+    title: "Optimize",
     img2: "/images/amc_card4.jpg",
     desc: "Using data-driven analysis and ongoing performance reviews, we fine-tune systems for maximum efficiency. From energy optimisation to load balancing, we enhance output, extend asset life, and reduce long-term operational costs.",
   },

@@ -38,7 +38,7 @@ const Portfolios1 = () => {
 							<span className="sub-title wow fadeInUp" data-wow-delay="0.1s">
 								Our projects
 							</span>
-							<h2 className="sec-title text-anim">Breakthrough projects</h2>
+							<h2 className="sec-title text-anim">Breakthrough Projects</h2>
 						</div>
 					</div>
 				</div>

@@ -130,7 +130,7 @@ const Features = ({ type }) => {
 			),
 		},{
 			title: "Building Management System ",
-			desc: "Centralize your building’s critical systems: HVAC, electrical, and safety, into one platform.  ",
+			desc: "Centralize your building’s critical system: HVAC, electrical, and safety, into one platform.  ",
 			icon: (
 			 <>
 			 <img src="https://skepper.in/000_Skepper_test/real/bms-system_icon1.png" />

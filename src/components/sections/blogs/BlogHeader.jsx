@@ -19,7 +19,7 @@ const BlogHeader = () => {
         <div className="top_bar">
           {/* Content (z-index 2 in CSS, so it stays bright/visible longer) */}
           <div className="rt-hero__content">
-            <span className="hvacHero__pill font12">Resources</span>
+            <span className="hvacHero__pill font12">Blogs</span>
  
             <h1 className="rt-hero__title font72 sec-title text-anim">
             Stories Behind the

@@ -67,7 +67,7 @@ const BuiltByDesign = () => {
                                     {/* <span className="sm_title">Built By Design</span> */}
                                 {/* </div> */}
                                 <h2 className="sec-title text-anim">
-                                    We design for <span className="d-xl-block">precision but deliver</span> for people.
+                                    We Design For <span className="d-xl-block">Precision But Deliver</span> For People.
                                 </h2>
                                 <div className="desc mb-30 wow fadeInUp" data-wow-delay="0.3s">
                                     <p>

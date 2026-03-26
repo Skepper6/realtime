@@ -268,6 +268,7 @@ Description: Solvior - Business Consulting HTML Template
 body,
 html {
   position: relative;
+  background-color: #fff;
 }
 
 body {
@@ -10799,7 +10800,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .tji-double-check:before {
-  color: #80C466;
+  color: #051229;
 }
 
 .blog-category-two span {
@@ -32113,13 +32114,14 @@ only screen and (min-width: 576px) and (max-width: 767px),
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  padding: 37px 0;
+  padding: 57px 0;
 }
 
 .h8-services-list .service_item .no {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: flex;
+  align-items: center;
   font-family: var(--tj-ff-heading);
   font-weight: var(--tj-fw-sbold);
   font-size: 16px;
@@ -41011,6 +41013,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background-size: cover;
   background-position: center;
   transform: scale(1.02);
+  background-color: #051229;
 }
 .amc_impact_bg{
      background-image: url("/images/amc_impact.jpg");
@@ -41215,7 +41218,7 @@ min-width: 160px;
 }
 
 .hs-title {
-  margin: 11px 0px 8px;
+  margin: 17px 0px 28px;
   font-size: 39px;
   /* line-height: 1.05; */
   /* font-weight: 600; */
@@ -41329,8 +41332,8 @@ min-width: 160px;
 }
 
 .hs-wrap .hs-inner .hs-leftCard {
-  height: 796px;
-  width: 450px;
+  height: 800px;
+  width: 540px;
 }
 
 .hs-rightGrid .hs-card:nth-child(2), .hs-rightGrid .hs-card:nth-child(1){
@@ -41647,7 +41650,7 @@ min-width: 160px;
   /* padding: 24px; */
   background: transparent;
   z-index: 3;
-  bottom: 165px;
+  bottom: 135px;
   top: unset;
   /* show only when zoom stage begins */
   opacity: clamp(0, calc((var(--q) - 0.15) * 6), 1);
@@ -44596,7 +44599,7 @@ sup {
   color: #fff;
   margin-left: 10px;
   font-family: "Aleo-SemiBold", sans-serif;
-  margin-bottom: 4px;
+  margin-bottom: 0px;
   font-size: 26px;
 }
 
@@ -44667,7 +44670,7 @@ hr {
   margin: 18px 0px;
 }
 .electircal_leftcard .hs-title{
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .electrical_bottom .bottom_center_desc {
     max-width: 740px;
@@ -44901,4 +44904,7 @@ padding-bottom: 0px; */
 }
 .client-testimonials-load-more-wrap{
   margin-top: 100px;
+}
+.well_health .content, .service_porfolio .project-category, .service_porfolio .project-style-2:hover .project-images a{
+  display:none;
 }

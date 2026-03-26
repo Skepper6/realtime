@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-const AnnualMaintenanceProjectCard = ({ portfolio, idx }) => {
+const BuildingMaintenancePortfolioCard = ({ portfolio, idx }) => {
 	const { title, img2, id, tags } = portfolio ? portfolio : {};
 	return (
 		<div
-			className="project-style-2 wow fadeInUp"
+			className="project-style-2 vvssss wow fadeInUp"
 			data-wow-delay={`0.${idx + 1 + idx}s`}
 		>
 			<div className="project-images">
@@ -16,7 +16,9 @@ const AnnualMaintenanceProjectCard = ({ portfolio, idx }) => {
 			</div>
 			<div className="project-content">
 				<h4 className="title text-white">
-					{title}
+					{/* <Link href={`/portfolios/${id}`}> {title}</Link> */}
+					 {title}
+
 				</h4>
 				<div className="project-category">
 					<ul>
@@ -36,4 +38,4 @@ const AnnualMaintenanceProjectCard = ({ portfolio, idx }) => {
 	);
 };
 
-export default AnnualMaintenanceProjectCard;
+export default BuildingMaintenancePortfolioCard;

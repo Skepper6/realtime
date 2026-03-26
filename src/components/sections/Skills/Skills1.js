@@ -24,7 +24,7 @@ const Skills1 = () => {
 							<h2 className="title text-anim"><span className="d-lg-block">Where Comfort</span> Meets Engineering.</h2>
 							<div className="desc wow fadeInUp" data-wow-delay="0.1s">
 								<p className="text-white">
-									Buildings shouldn’t just operate — they should nurture.Our systems improve indoor air, light, and acoustic quality — creating spaces where focus, health, and happiness flourish.
+									Buildings shouldn’t just operate — they should nurture. Our systems improve indoor air, light, and acoustic quality — creating spaces where focus, health, and happiness flourish.
 								</p>
 							</div>
 							<div

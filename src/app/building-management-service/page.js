@@ -1,5 +1,10 @@
-import { redirect } from "next/navigation";
+import BuildingMaintenanceServiceMain from "@/components/layout/main/BuildingMaintenanceServiceMain";
+import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 
 export default function BuildingManagementServicePage() {
-	redirect("/building-management-system");
+	return (
+		<PageWrapper isHeaderTop={true} footerType={"inner"}>
+			<BuildingMaintenanceServiceMain />
+		</PageWrapper>
+	);
 }

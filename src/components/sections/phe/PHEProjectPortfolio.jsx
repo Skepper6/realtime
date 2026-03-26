@@ -2,7 +2,6 @@
 
 import data from "./PHEProjectPortfolioData";
 import PortfolioMarqee from "@/components/shared/portfolios/PortfolioMarqee";
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import PHEProjectCard from "./PHEProjectCard";
 
 const PHEProjectPortfolio = () => {
@@ -25,13 +24,6 @@ const PHEProjectPortfolio = () => {
                             )}
                         </div>
                     </div>
-                </div>
-                <div className="projects_button text-center wow fadeInUp" data-wow-delay="0.9s">
-                    <ButtonPrimary
-                        text={"Explore Case Studies"}
-                        url={"/portfolios"}
-                        className={"white-btn"}
-                    />
                 </div>
             </div>
         </section>

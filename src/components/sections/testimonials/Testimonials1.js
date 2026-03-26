@@ -18,7 +18,7 @@ const Testimonials1 = () => {
 									Testimonials
 								</span>
 								<h2 className="sec-title text-anim">
-									Listening to our clients
+									Listening To Our Clients
 								</h2>
 							</div>
 							<div className="swiper_navigations testimonial-navigation d-none d-md-inline-flex">

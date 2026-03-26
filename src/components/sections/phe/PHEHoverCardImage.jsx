@@ -69,7 +69,7 @@ const PHEHoverCardImage = () => {
                                             <div className="service-content-wrap">
                                                 <div className="service-title">
                                                     <h4 className="title font48">
-                                                        <Link href={`/services/${id}`}>{title}</Link>
+                                                        {title}
                                                     </h4>
                                                 </div>
 

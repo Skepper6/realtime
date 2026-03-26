@@ -14,9 +14,9 @@ const ElectricalProjectCard = ({ portfolio, idx }) => {
 				/>
 				<Link href={`/portfolios/${id}`}>View Project</Link>
 			</div>
-			<div className="project-content">
-				<h4 className="title">
-					<Link href={`/portfolios/${id}`}> {title}</Link>
+			<div className="project-content ">
+				<h4 className="title text-white">
+					 {title}
 				</h4>
 				<div className="project-category">
 					<ul>

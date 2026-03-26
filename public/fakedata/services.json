@@ -119,7 +119,7 @@
 		"bgImg": "/images/service/h1-service-4.webp",
 		"bgImg2": "/images/service/h3-service-4.webp",
 		"iconName": "tji-business",
-		"svg": "/images/icons/service-1.svg",
+		"svg": "https://skepper.in/000_Skepper_test/real/home_ams_icon.png",
 
 		"desc": "Ensuring peak performance, year-round reliability, and zero unexpected downtime. Proactive servicing, timely inspections, and preventive care designed to extend equipment life and keep your operations running smoothly. ",
 		"shortDesc": "Refresh outdated websites with modern, appealing designs that align with current brand goals and user expectations.",
@@ -149,14 +149,14 @@
 	},
 	{
 		"id": 5,
-		"title": "Building Maintenance System ",
+		"title": "Building Management System ",
 		"titleLarge": "Strategic planning and execution in the comprehensive process of formulating goals",
 		"img": "/images/service/h1-service-5.webp",
 		"imgSm": "/img/icons/services-10-icons-1.svg",
 		"bgImg": "/images/service/h1-service-5.webp",
 		"bgImg2": "/images/service/h3-service-1.webp",
 		"iconName": "tji-executive",
-		"svg": "/images/icons/service-1.svg",
+		"svg": "https://skepper.in/000_Skepper_test/real/home_bms_icon.png",
 
 		"desc": "Keeping your spaces running at their best, every day. From routine upkeep to complex system management, we ensure your facility operates efficiently, safely, and without disruption.",
 		"shortDesc": "Refresh outdated websites with modern, appealing designs that align with current brand goals and user expectations.",

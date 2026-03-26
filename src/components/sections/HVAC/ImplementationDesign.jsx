@@ -72,7 +72,7 @@ export default function ImplementationDesign() {
         </div>
 
          <div className="about-button">
-              <ButtonPrimary url="/contact-us" text={"Start Project"} />
+              <ButtonPrimary url="/contact-us" text={"Contact Us"} />
          </div>
       </div>
     </section>

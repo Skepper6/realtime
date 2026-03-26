@@ -14,7 +14,7 @@ export default function BringPhilosophy() {
                             Every degree, every airflow, every zone matters.
                         </p>
                         <p className="font18 greytext">
-                            Our HVAC and control systems are designed to respond intelligently to<br /> fluctuating loads and occupancy patterns:
+                            Our HVAC and control systems are designed to respond intelligently to<br /> fluctuating loads and occupancy patterns
                         </p>
                     </div>
 

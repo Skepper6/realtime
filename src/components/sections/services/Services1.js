@@ -40,7 +40,7 @@ const Services1 = () => {
 									TRANSFORMATIVE SOLUTION
 								</span>
 								<h2 className="sec-title aleo_semibold text-anim">
-									Get our exclusive service
+									Get Our Exclusive Service
 								</h2>
 							</div>
 							<div

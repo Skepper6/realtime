@@ -5,7 +5,7 @@ import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 
 const clamp01 = (n) => Math.max(0, Math.min(1, n));
 
-const ElectricalCenterZoomCards = () => {
+const BuildingMaintenanceCenterZoom = () => {
   const sectionRef = useRef(null);
   const centerRef = useRef(null);
 
@@ -76,9 +76,9 @@ const ElectricalCenterZoomCards = () => {
   }, [open]);
 
   const images = {
-    left: "https://skepper.in/000_Skepper_test/real/electrical/electrical_zoom1.jpg",
-    center: "https://skepper.in/000_Skepper_test/real/electrical/electrical_zoom2.jpg",
-    right: "https://skepper.in/000_Skepper_test/real/electrical/electrical_zoom3.jpg",
+    left: "https://skepper.in/000_Skepper_test/real/building%20maintanance/bms_hover1.jpg",
+    center: "https://skepper.in/000_Skepper_test/real/building%20maintanance/bms_hovercenter.jpg",
+    right: "https://skepper.in/000_Skepper_test/real/building%20maintanance/bms_right.jpg",
   };
 
   // ✅ put your MP4 here
@@ -128,11 +128,11 @@ const ElectricalCenterZoomCards = () => {
             <div className={`szc-overlay ${vars.q > 0.15 ? "is-active" : ""}`}>
               <div className="szc-overlayInner">
                 <h2 className="szc-title szc-step szc-step1 font48">
-                   Electrical Systems Built for Uninterrupted Performance 
+                  Reliability You Can Count On. Performance You Can See.
                 </h2>
 
                 <p className="szc-sub szc-step szc-step2 font18 text-white">
-                  We continuously inspect, test, and fine-tune electrical infrastructure to ensure stable power distribution, reduced risk, and consistent performance across every operating condition.
+                Our building maintenance approach ensures every system works in sync, minimizing downtime, improving efficiency, and keeping your facility running smoothly, day after day. 
                 </p>
                 <div
                   className="szc-step szc-step3"
@@ -192,4 +192,4 @@ const ElectricalCenterZoomCards = () => {
   );
 };
 
-export default ElectricalCenterZoomCards;
+export default BuildingMaintenanceCenterZoom;

@@ -30,13 +30,8 @@ const CardBoxes = () => {
             </h2>
 
             <p className="hs-desc font18">
-              Comfort may be invisible, but its impact isn’t.
-              <br />
-              The right air makes people think clearer, rest
-              <br />
-              deeper, and feel better — and that’s what drives
-              <br />
-              us to perfect every system we build.
+              Comfort may be invisible, but its impact isn’t. The right air makes people think clearer, rest
+              deeper, and feel better — and that’s what drives us to perfect every system we build.
             </p>
           </div>
         </article>

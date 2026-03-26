@@ -2,7 +2,6 @@
 
 import data from "./ElectricalProjectPortfolioData"; // <-- Fixed import path
 import PortfolioMarqee from "@/components/shared/portfolios/PortfolioMarqee";
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import ElectricalProjectCard from "./ElectricalProjectCard";
 
 const ElectricalProjectPortfolio = () => {
@@ -25,13 +24,6 @@ const ElectricalProjectPortfolio = () => {
               )}
             </div>
           </div>
-        </div>
-        <div className="projects_button text-center wow fadeInUp" data-wow-delay="0.9s">
-          <ButtonPrimary
-            text={"Explore Case Studies"}
-            url={"/portfolios"}
-            className={"white-btn"}
-          />
         </div>
       </div>
     </section>

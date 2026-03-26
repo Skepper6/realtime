@@ -14,7 +14,6 @@ import MobileMenu from "@/components/layout/header/MobileMenu";
 import CartContextProvider from "@/context_api/CartContext";
 import CurrentItemContextProvider from "@/context_api/CurrentItemContext";
 import WishlistContextProvider from "@/context_api/WshlistContext";
-import PreLoader from "../others/PreLoader";
 import RtlMaker from "../others/RtlMaker";
 import SmoothScroller from "../others/SmoothScroller";
 import TjMagicCursor from "../others/TjMagicCursor";
@@ -38,7 +37,6 @@ const PageWrapper = ({
 	return (
 		<div className={`${isEcommerce ? "ecommerce" : ""}`}>
 			<RtlMaker isRtl={isRtl} />
-			<PreLoader />
 			<TjMagicCursor type={cursorType} />
 			<HeaderSearchForm />
 			<MobileMenu />

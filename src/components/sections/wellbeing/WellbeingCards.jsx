@@ -61,7 +61,7 @@ export default function WellbeingCards() {
 
                                 <p className="hs-desc font18">
                                     Comfort and well‑being are not luxuries — they’re strategic assets.
-When employees feel well, everything else flows better:
+When employees feel well, everything else flows better
                                 </p>
                             </div>
                         </article>

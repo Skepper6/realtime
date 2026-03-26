@@ -6,7 +6,7 @@ import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import Link from "next/link";
 
-const ElectricalHoverCardImage = () => {
+const BuildingMaintenanceHoverCardImage = () => {
 	const animContainerRef = useRef();
 
 	// ✅ data INSIDE component (no getALlServices)
@@ -14,8 +14,8 @@ const ElectricalHoverCardImage = () => {
 	const services = [
 		{
 			id: 1,
-			title: "Advanced Metering",
-			desc: "Our advanced metering solutions track real-time usage, identify inefficiencies, and support accurate billing, auditing, and energy optimization.",
+			title: "Centralized Control",
+			desc: "Gain complete visibility over HVAC, electrical, and critical building systems through a single platform. Monitor performance in real time to enable faster decisions and seamless operations.",
 			iconName: "tji-optimization",
 			totalProject: 64,
 			img: "https://skepper.in/000_Skepper_test/real/h1-service-2.webp",
@@ -23,8 +23,8 @@ const ElectricalHoverCardImage = () => {
 		},
 		{
 			id: 2,
-			title: "Energy Insights",
-			desc: "We analyze load patterns, demand behavior, and system performance to help reduce wastage, improve efficiency, and support informed energy decisions.",
+			title: "Smart Efficiency",
+			desc: "Automate core building functions to reduce manual intervention and ensure consistent performance. Intelligent coordination across HVAC and electrical systems helps optimize energy use and operational efficiency.",
 			iconName: "tji-optimization",
 			totalProject: 85,
 			img: "https://skepper.in/000_Skepper_test/real/h1-service-2.webp",
@@ -32,8 +32,8 @@ const ElectricalHoverCardImage = () => {
 		},
 		{
 			id: 3,
-			title: "Smart Automation",
-			desc: "From automated switching to integrated monitoring, our smart automation solutions enhance reliability, responsiveness, and operational control across facilities.",
+			title: "System Optimization",
+			desc: "Turn real-time data into actionable insights. Identify inefficiencies, predict maintenance needs, and enhance the reliability and performance of essential building systems.",
 			iconName: "tji-optimization",
 			totalProject: 64,
 			img: "https://skepper.in/000_Skepper_test/real/h1-service-2.webp",
@@ -135,4 +135,4 @@ const ElectricalHoverCardImage = () => {
 	);
 };
 
-export default ElectricalHoverCardImage;
+export default BuildingMaintenanceHoverCardImage;

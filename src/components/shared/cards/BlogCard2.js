@@ -35,7 +35,7 @@ const BlogCard2 = ({ blog, type, isSidebar, idx }) => {
 			</div>
 			<div className="blog-content">
 				<div className="blog-two-meta">
-					<ul>
+					{/* <ul>
 						<li>
 							<Link
 								className="meta-link"
@@ -45,7 +45,7 @@ const BlogCard2 = ({ blog, type, isSidebar, idx }) => {
 							</Link>
 						</li>
 						<li>03 Comments</li>
-					</ul>
+					</ul> */}
 				</div>
 				<h4 className="title under-line">
 					<Link href={`/resources/blogs/${id}`}>{title}</Link>
