@@ -6,7 +6,7 @@ const Blogs1 = () => {
 	const blogs = getBlogs().slice(0, 4);
 	return (
 		<section className="tj-blog-section with-shape">
-			<div className="tj-blog-section-wrap py-0">
+			<div className="tj-blog-section-wrap pt-0">
 				<div className="container">
 					<div className="row">
 						<div className="col-12">

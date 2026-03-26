@@ -1949,6 +1949,11 @@ max-width: 100%;
     padding-left: 0px;
   padding-right: 0px;
   }
+  .rtx-quoteCard{
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
   .rtx-quoteCard, .rtx-hvacInner{
     margin-top: 0px;
     max-width: 100%;
