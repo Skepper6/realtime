@@ -1306,6 +1306,10 @@ gap: 20px;
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
 
+
+.annual-maintenance_page .rt-hero__title br{
+  display: block;
+}
 .testimonial-item .author-content {
     margin-left: 20px;
     margin-top: 20px;

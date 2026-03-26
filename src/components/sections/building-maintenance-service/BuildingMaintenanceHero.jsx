@@ -83,9 +83,9 @@ export default function BuildingMaintenanceHero() {
 							Building Management System
 						</span>
 						<h1 className="rt-hero__title font72 sec-title text-anim">
-							Smarter Buildings.e
+							Smarter Buildings.
 							<br />
-							Complete Control.
+							Complete Control
 						</h1>
 						<p className="rt-hero__desc font18 desc">
 							Centralize and monitor your building’s critical systems with intelligent automation that improves efficiency, safety, and operational stability.
