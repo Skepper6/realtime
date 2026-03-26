@@ -2309,12 +2309,20 @@ padding-right: 15px;
   .tj-primary-btn .btn_inner .btn_text > span{
     font-size: 13px;
   }
+  .impact-highlight-bg{
+    transform: scale(1.05);
+  }
   .szc-center:after{
     height: 100vh;
   }
   .szc-sub{
-        padding: 0px 30px;
+        padding: 0px 0px;
     max-width: 100%;
+  font-size: 16px;
+}
+.szc-title {
+  font-size: 27px;
+        margin-bottom: -10px;
 }
 .szc-section{
   height: 100%;
