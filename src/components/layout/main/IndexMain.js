@@ -18,7 +18,7 @@ const IndexMain = () => {
 			<Funfact1 />
 			<Skills1 />
 			<Testimonials1 />
-			<Portfolios1 />
+			{/* <Portfolios1 /> */}
 			<Blogs1 />
 		</main>
 	);

@@ -128,7 +128,7 @@ useEffect(() => {
 <div className={`szc-overlay ${vars.q > 0.15 ? "is-active" : ""}`}>
                   <div className="szc-overlayInner">
                 <h2 className="szc-title szc-step szc-step1 font48">
-                  Maintenance That Adapts to Every Condition
+                  Maintenance That Adapts <br/> to Every Condition
                 </h2>
 
                 <p className="szc-sub szc-step szc-step2 font18 text-white">

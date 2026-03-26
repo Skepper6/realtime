@@ -46,10 +46,7 @@ const BuildingMaintenanceFourCard = () => {
 						The Intelligence Behind Every Systems
 					</h2>
 					<p>
-						{/* Building maintenance is not a standalone task. It is part of a
-						larger system lifecycle. Every building maintenance service plan we
-						manage follows a continuous improvement loop that keeps buildings
-						responsive, efficient, and future-ready. */}
+					We bring HVAC, electrical, and core infrastructure together into one intelligent ecosystem, designed to perform, adapt, and improve. 
 					</p>
 				</div>
 				<div className="row">

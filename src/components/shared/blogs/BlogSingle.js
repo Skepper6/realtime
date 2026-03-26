@@ -1,4 +1,5 @@
 import makePath from "@/libs/makePath";
+import sliceText from "@/libs/sliceText";
 import Link from "next/link";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -21,6 +22,9 @@ const BlogSingle = ({ blog }) => {
 		date,
 		comments,
 	} = blog ? blog : {};
+	const excerpt = desc
+		? sliceText(desc.replace(/\s+/g, " ").trim(), 220, true)
+		: "";
 
 	return (
 		<article className="tj-post-item wow fadeInUp" data-wow-delay="0.1s">
@@ -111,13 +115,7 @@ const BlogSingle = ({ blog }) => {
 				<h3 className="tj-post-title">
 					<Link href={`/resources/blogs/${id}`}>{title}</Link>
 				</h3>
-				<div className="tj-post-excerpt">
-					Our mission is to empowers businesses size to thrive in an businesses
-					ever changing marketplace. We are committed to the delivering
-					exceptionals the value through strategic inset, innovative approaches.
-					Our consulting of our missing empower businesses of all sizes to
-					delivering...
-				</div>
+				<div className="tj-post-excerpt">{excerpt}</div>
 				<div className="tj-post-btn">
 					<ButtonPrimary text={"Read more"} url={`/resources/blogs/${id}`} />
 				</div>

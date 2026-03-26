@@ -7,12 +7,64 @@ import makePath from "@/libs/makePath";
 import Link from "next/link";
 import { useEffect } from "react";
 
+const forcedHeadingParagraphs = new Set([
+	"Moving from Reactive to Proactive",
+	"Reduced Operational Costs (Without Compromising Performance)",
+	"Extended Equipment Lifespan",
+	"Consistent Indoor Comfort",
+	"Improved Indoor Air Quality",
+	"Prevention of Unexpected Downtime",
+	"Smarter, Data-Driven Building Management",
+	"Sustainability and Compliance",
+	"The Bigger Picture",
+	"Conclusion",
+]);
+
+const getH4Content = (paragraph) => {
+	const match = paragraph?.trim().match(/^<h4>([\s\S]+)<\/h4>$/i);
+	return match ? match[1].trim() : "";
+};
+
+const isHeadingParagraph = (paragraph, nextParagraph) => {
+	if (!paragraph || !nextParagraph) return false;
+
+	const trimmed = paragraph.trim();
+	if (forcedHeadingParagraphs.has(trimmed)) return true;
+
+	const normalizedWords = trimmed
+		.replace(/[(),]/g, "")
+		.split(/\s+/)
+		.filter(Boolean);
+	const capitalizedWords = normalizedWords.filter((word) =>
+		/^[A-Z][A-Za-z-]*$/.test(word)
+	).length;
+	const isTitleLike =
+		(normalizedWords.length === 1 &&
+			/^[A-Z][A-Za-z-]*$/.test(normalizedWords[0])) ||
+		(normalizedWords.length > 1 &&
+			capitalizedWords >= 2 &&
+			capitalizedWords / normalizedWords.length >= 0.4);
+
+	return (
+		isTitleLike &&
+		!trimmed.includes(":") &&
+		!/[.!?]$/.test(trimmed) &&
+		(/[.!?]/.test(nextParagraph) || nextParagraph.length > 80)
+	);
+};
+
 const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 	const items = getBlogs();
 	const currentId = useCurrentItem();
 	const { prevId, nextId, currentItem, isPrevItem, isNextItem } =
 		getPreviousNextItem(items, currentId);
-	const { title, id, detailsImg, tags, innerCenterTitle, article_autor } = currentItem || {};
+	const { title, id, detailsImg, tags, innerCenterTitle, article_autor, desc } = currentItem || {};
+	const descriptionParagraphs = desc
+		? desc
+				.split(/\n+/)
+				.map((paragraph) => paragraph.trim())
+				.filter(Boolean)
+		: [];
 	useEffect(() => {
 		setCurrentTitle(title);
 	}, [currentId]);
@@ -36,11 +88,43 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 								</div>
 								<h3 className="tj-post-title text-anim">{title}</h3>
 								<div
+									className="blog-category_desc wow fadeInUp"
+									data-wow-delay="0.3s"
+								>
+									{descriptionParagraphs.map((paragraph, idx) => {
+										const headingContent = getH4Content(paragraph);
+										const shouldRenderHeading =
+											!!headingContent ||
+											isHeadingParagraph(
+												paragraph,
+												descriptionParagraphs[idx + 1]
+											);
+
+										return shouldRenderHeading ? (
+											<h4
+												key={idx}
+												className="text-anim wow fadeInUp"
+												data-wow-delay="0.1s"
+											>
+												{headingContent || paragraph}
+											</h4>
+										) : (
+											<p
+												key={idx}
+												className="wow fadeInUp"
+												data-wow-delay="0.1s"
+												dangerouslySetInnerHTML={{ __html: paragraph }}
+											>
+											</p>
+										);
+									})}
+								</div>
+								{/* <div
 									className="blog-category-two wow fadeInUp"
 									data-wow-delay="0.3s"
 								>
 									<h3>{innerCenterTitle}</h3>
-									<span>{article_autor}</span>
+									<span>{article_autor}</span> */}
 									{/* <div className="category-item">
 										<div className="cate-images">
 											<img src="/images/blog/author-1.png" alt="Images" />
@@ -70,9 +154,9 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 											<h6 className="text">03 Comments</h6>
 										</div>
 									</div> */}
-								</div>
+								{/* </div> */}
 								<div className="tj-entry-content">
-									<p className="wow fadeInUp" data-wow-delay="0.1s">
+									{/* <p className="wow fadeInUp" data-wow-delay="0.1s">
 										Our mission is to empowers businesses size to thrive in an
 										businesses ever changing marketplace. We are committed to
 										the delivering exceptionals the value through strategic
@@ -132,8 +216,8 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 												<i className="tji-double-check"></i> Meet our team
 											</li>
 										</ul>
-									</div>
-									{/* <div
+									</div> */}
+									<div
 										className="tj-post-thumb mb-0 hover:shine wow fadeInUp"
 										data-wow-delay="0.1s"
 									>
@@ -146,8 +230,8 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 												<i className="fa-sharp fa-solid fa-play"></i>
 											</Link>
 										</PopupVideo>
-									</div> */}
-									<h4 className="text-anim conclu_text">Conclusions</h4>
+									</div>
+									{/* <h4 className="text-anim conclu_text">Conclusions</h4>
 									<p className="wow fadeInUp" data-wow-delay="0.1s">
 										Our mission is to empowers businesses size to thrive in an
 										businesses ever changing marketplace. We are committed to
@@ -161,7 +245,7 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 										businesses ever changing marketplace. We are committed to
 										the delivering exceptionals the value through strategic
 										inset.
-									</p>
+									</p> */}
 								</div>
 							</article>
 							{/* <!-- post tag and share --> */}

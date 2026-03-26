@@ -1306,7 +1306,19 @@ gap: 20px;
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
 
-
+.testimonial-item .author-content {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.testimonial-item .tj-testimonial-author{
+  display: block;
+}
+.home_header .tj-hero-section{
+  padding-top: 40px;
+}
+.hero-content .hero-shapes-1{
+  top: 0px;
+}
   .client-testimonials-hero {
 		height: 56vh;
 		min-height: 360px;
@@ -2574,7 +2586,7 @@ margin-right: 0px !important;
   .tj-blog-section.with-shape::before {
     position: absolute;
     content: "";
-    bottom: -8px;
+    bottom: 1px;
   }
   .rt-hero{
     position: relative;

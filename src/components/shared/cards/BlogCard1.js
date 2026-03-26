@@ -1,8 +1,12 @@
 import makePath from "@/libs/makePath";
+import sliceText from "@/libs/sliceText";
 import Link from "next/link";
 
 const BlogCard1 = ({ blog, idx }) => {
 	const { title, desc, id, img1, category, date, day, month } = blog || {};
+	const previewText = desc
+		? sliceText(desc.replace(/\s+/g, " ").trim(), 140, true)
+		: "";
 	return (
 		<div className="blog-item wow fadeInUp" data-wow-delay={`0.${idx + 1}s`}>
 			<div className="blog-images hover:shine">
@@ -29,10 +33,7 @@ const BlogCard1 = ({ blog, idx }) => {
 					<Link href={`/resources/blogs/${id}`}>{title}</Link>
 				</h4>
 				{idx === 0 ? (
-					<div className="desc">
-						In {"today's"} dynamic business environment, the key to success lies
-						in strategic planning and operational execution organisations.
-					</div>
+					<div className="desc">{previewText}</div>
 				) : (
 					""
 				)}

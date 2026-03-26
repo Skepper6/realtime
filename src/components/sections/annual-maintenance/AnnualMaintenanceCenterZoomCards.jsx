@@ -126,7 +126,7 @@ const AnnualMaintenanceCenterZoomCards = () => {
             <img className="szc-img szc-centerImg" src={images.center} alt="Center visual" />
 
             <div className={`szc-overlay ${vars.q > 0.15 ? "is-active" : ""}`}>
-              <div className="szc-overlayInner">
+              <div className="szc-overlayInner annual_center_overlay">
                 <h2 className="szc-title szc-step szc-step1 font48">
                   The Power of Proactive Care
                 </h2>

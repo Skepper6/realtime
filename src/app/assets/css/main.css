@@ -38185,6 +38185,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .hover_img_card .h10-service-item .service-reveal-bg {
   left: 39%;
+  height: 174px;
 }
 
 .hover_img_card .h10-service-item:last-child .service-reveal-bg {
@@ -44907,4 +44908,7 @@ padding-bottom: 0px; */
 }
 .well_health .content, .service_porfolio .project-category, .service_porfolio .project-style-2:hover .project-images a{
   display:none;
+}
+.annual_center_overlay{
+      bottom: 90px
 }
