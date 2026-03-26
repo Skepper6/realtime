@@ -1306,6 +1306,9 @@ gap: 20px;
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
 
+  .tj-blog-section.with-shape{
+    margin-bottom: 22px;
+  }
 .process-maintenance-slider-outer{
   overflow: visible;
 }
