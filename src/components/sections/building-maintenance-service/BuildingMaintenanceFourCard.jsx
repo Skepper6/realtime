@@ -43,7 +43,7 @@ const BuildingMaintenanceFourCard = () => {
 				</div>
 				<div className="pill_text_desc">
 					<h2 className="aleo-semibold font48 text-center">
-						The Intelligence Behind Every Systemsss
+						The Intelligence Behind Every Systems
 					</h2>
 					<p>
 						{/* Building maintenance is not a standalone task. It is part of a

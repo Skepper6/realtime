@@ -4,15 +4,18 @@ import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 
 const AboutCards = () => {
   // Replace these with your real images
+ 
+
   const leftBg =
-    "https://skepper.in/000_Skepper_test/real/about/waste.jpg"; // vent/ceiling style
+    "https://skepper.in/000_Skepper_test/real/about/left_future.jpg"; // vent/ceiling style
   const img1 =
-    "https://skepper.in/000_Skepper_test/real/about/energy.jpg"; // think clearer
+    "https://skepper.in/000_Skepper_test/real/about/right_card1.jpg"; // think clearer
   const img2 =
     "https://skepper.in/000_Skepper_test/real/about/energy.jpg"; // stay balanced
   const img3 =
+    "https://skepper.in/000_Skepper_test/real/about/water_card.jpg"; // feel better
+  const img4 =
     "https://skepper.in/000_Skepper_test/real/about/waste.jpg"; // feel better
-
   return (
     <section className="hs-wrap section-space about_card_wrap" style={{backgroundColor: "#F7F7F7"}}>
       <div className="container">
@@ -69,7 +72,7 @@ const AboutCards = () => {
             <h3 className="hs-cardLabel font32">Sustainable water <br/>management practices</h3>
           </article>
 
-             <article className="hs-card" style={{ backgroundImage: `url(${img3})` }}>
+             <article className="hs-card" style={{ backgroundImage: `url(${img4})` }}>
             <div className="hs-cardShade" />
             <h3 className="hs-cardLabel font32">Waste reduction <br/>in project execution</h3>
           </article>

@@ -29,7 +29,7 @@ const AnnualMaintenanceContracts = () => {
             {/* <AnnualMaintenanceHoverCardImage /> */}
             <AnnualMaintenanceThreeCards />
             <AnnualMaintenanceCardBox />
-            <AnnualMaintenanceProjectPortfolio />
+            {/* <AnnualMaintenanceProjectPortfolio /> */}
             <AnnualMaintenanceBottomText />
             <AnnualMaintenanceFAQ />
             {/* <WhiteShape /> */}

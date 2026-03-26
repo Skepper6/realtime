@@ -29,7 +29,7 @@ const PHEService = () => {
             {/* <PHEHoverCardImage /> */}
             <PHEThreeCards />
             <PHECardBox />
-            <PHEProjectPortfolio />
+            {/* <PHEProjectPortfolio /> */}
             <PHEBottomText />
             <PHEFAQ />
             <RoundShape />

@@ -33,7 +33,7 @@ const BuildingMaintenanceServiceMain = () => {
 			<BuildingMaintenanceHoverCardImage/>
 			{/* <AnnualMaintenanceThreeCards /> */}
 			<BuildingMaintenanceCardBox />
-			<BuildingMaintananceProjectPortfolio />
+			{/* <BuildingMaintananceProjectPortfolio /> */}
 			<BuildingMaintenanceBottomText />
 			<BuildingMaintenanceFAQ />
 			<RoundShape />

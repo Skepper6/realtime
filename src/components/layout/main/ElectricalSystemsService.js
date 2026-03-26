@@ -29,7 +29,7 @@ const ElectricalSystemsService = () => {
         <ElectricalHoverCardImage/>
         <ElectricalThreeCards/>
     <ElectricalCardBox/>
-    <ElectricalProjectPortfolio/>
+    {/* <ElectricalProjectPortfolio/> */}
         <ElectricalBottomText/>
         <ElectricalFAQ/>
             {/* <WhiteShape /> */}
