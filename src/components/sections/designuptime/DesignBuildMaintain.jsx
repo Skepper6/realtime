@@ -3,7 +3,7 @@ import React from "react";
 
 export default function DesignBuildMaintain() {
   return (
-    <section className="equation-section section-space">
+    <section className="equation-section section-space process-uptime-equation">
       <div className="container">
         <div className="equation-wrapper">
           
