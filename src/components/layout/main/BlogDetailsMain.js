@@ -2,7 +2,9 @@
 import BlogDetailsPrimary from "@/components/sections/blogs/BlogDetailsPrimary";
 import Cta1 from "@/components/sections/cta/Cta1";
 import HeroInner from "@/components/sections/heros/HeroInner";
-import WhiteShape from "@/components/sections/WhiteShape";
+// import WhiteShape from "@/components/sections/WhiteShape";
+import BlogWhiteSpace from '../../sections/blogs/BlogWhiteSpace' 
+
 import sliceText from "@/libs/sliceText";
 import { useState } from "react";
 import { useCurrentItem } from "@/context_api/CurrentItemContext";
@@ -49,7 +51,8 @@ const BlogDetailsMain = () => {
 				</div>
 			</header>
 			<BlogDetailsPrimary setCurrentTitle={setCurrentTitle} />
-			<WhiteShape />
+			{/* <WhiteShape /> */}
+			<BlogWhiteSpace/>
 			{/* <Cta1 /> */}
 		</main>
 	);

@@ -51,7 +51,10 @@ const ContactAdminPage = ({ submissions = [], errorMessage = "" }) => {
 
 					{submissions.length ? (
 						<div className="contact-admin-table-wrap">
-							<div className="table-responsive contact-admin-table-scroll">
+							<div
+								data-lenis-prevent
+								className="table-responsive contact-admin-table-scroll"
+							>
 								<table className="table contact-admin-table mb-0">
 									<colgroup>
 										<col style={{ width: "7%" }} />

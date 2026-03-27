@@ -68,9 +68,6 @@ const Footer = ({ footerType, isRtl }) => {
 											<Link href="/resources/blogs">Blog</Link>
 										</li>
 										<li>
-											<Link href="/resources/case-study">Case Study</Link>
-										</li>
-										<li>
 											<Link href="/contact-us">Contact Us</Link>
 										</li>
 										{/* <li>

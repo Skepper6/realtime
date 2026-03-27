@@ -124,14 +124,35 @@
 
 .contact-admin-table-wrap {
 	padding: 14px;
-	overflow: hidden;
+	overflow: visible;
 }
 
 .contact-admin-table-scroll {
-	overflow-x: auto;
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	overflow-x: scroll;
 	overflow-y: hidden;
 	-webkit-overflow-scrolling: touch;
+	overscroll-behavior-x: contain;
+	scrollbar-gutter: stable both-edges;
+	padding-bottom: 8px;
+	touch-action: pan-x;
 }
+.contact-admin-table-scroll::-webkit-scrollbar {
+	height: 10px;
+}
+
+.contact-admin-table-scroll::-webkit-scrollbar-track {
+	background: rgba(8, 24, 58, 0.08);
+	border-radius: 999px;
+}
+
+.contact-admin-table-scroll::-webkit-scrollbar-thumb {
+	background: #80c466;
+	border-radius: 999px;
+}
+
 .contact-admin-table tr th:nth-child(3){
 	width: 6%;
 }
@@ -143,8 +164,9 @@
 }
 .contact-admin-table {
 	margin-bottom: 0;
-	min-width: 1380px;
-	table-layout: fixed;
+	width: max-content;
+	min-width: 1260px;
+	table-layout: auto;
 	vertical-align: middle;
 }
 
@@ -193,6 +215,13 @@
 	word-break: break-word;
 }
 
+.contact-admin-table__email,
+.contact-admin-table__phone,
+.contact-admin-table__service,
+.contact-admin-table__submitted {
+	white-space: nowrap;
+}
+
 .contact-admin-table__service span {
 	display: inline-flex;
 	padding: 8px 12px;
@@ -205,11 +234,13 @@
 }
 
 .contact-admin-table__message {
+	min-width: 260px;
 	white-space: pre-wrap;
 	word-break: break-word;
 }
 
 .contact-admin-table__submitted {
+	min-width: 190px;
 	word-break: break-word;
 }
 
@@ -252,7 +283,7 @@
 	}
 
 	.contact-admin-table {
-		min-width: 980px;
+		min-width: 1280px;
 	}
 }
 
@@ -680,5 +711,3 @@ margin-top:120px;
 
 	
 }
-
-
