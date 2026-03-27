@@ -161,6 +161,7 @@ text-align: center;
 
 @media only screen and (min-width:768px) and (max-width:991.98px){
 
+
 .well_health {
     padding-top:20px;
 }
@@ -758,6 +759,11 @@ padding-bottom: 100px;
 
 @media only screen and (min-width:992px) and (max-width:1299.98px){
 
+
+.uptime_paralax .parallax-bg {
+    height: 600px;
+  background-attachment: unset;
+}
 .client-testimonials-grid{
       grid-template-columns: repeat(2, minmax(0, 1fr));
 }
