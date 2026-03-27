@@ -1,12 +1,18 @@
 import React from "react";
+import styles from "./ParalaxImageSection.module.css";
 
 // 1. Simple Parallax Image Component (No text inside)
-const ParallaxImage = ({ imageUrl }) => {
+const ParallaxImage = ({ imageUrl, alt }) => {
   return (
-    <div 
-      className="parallax-bg" 
-      style={{ backgroundImage: `url(${imageUrl})` }}
-    ></div>
+    <div className={styles.parallaxBg}>
+      <img
+        className={styles.parallaxImage}
+        src={imageUrl}
+        alt={alt}
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
   );
 };
 
@@ -43,9 +49,15 @@ function ParalaxImageSection() {
 
   return (
     <div className="">
-      <ParallaxImage imageUrl={image1} />
+      <ParallaxImage
+        imageUrl={image1}
+        alt="Real Time leadership standing in front of a glass building"
+      />
       <InfoSection />
-      <ParallaxImage imageUrl={image2} />
+      <ParallaxImage
+        imageUrl={image2}
+        alt="Real Time team members in discussion"
+      />
     </div>
   );
 }
