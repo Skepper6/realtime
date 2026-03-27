@@ -32,7 +32,7 @@ const JourneyCards = () => {
   ].slice(0, 3);
 
   return (
-    <section className="project-section-three section-space grey_bg hvac_journey">
+    <section className="project-section-three section-space grey_bg hvac_journey hvac_journey--tablet-large">
       <div className="container-fluid">
         <div className="pill_wrap text-center">
           <span className="hvacHero__pill font12">The Art of Engineering</span>
