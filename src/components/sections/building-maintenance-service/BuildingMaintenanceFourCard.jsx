@@ -36,7 +36,7 @@ const BuildingMaintenanceFourCard = () => {
 	const [currentIndex, setCurrentIndex] = useState(-1);
 
 	return (
-		<section className="project-section-three section-space grey_bg hvac_journey">
+		<section className="project-section-three section-space grey_bg hvac_journey service-journey--tablet-large">
 			<div className="container-fluid AnnualMaintenance_safety">
 				<div className="pill_wrap text-center">
 					<span className="hvacHero__pill font12">Our Approach</span>

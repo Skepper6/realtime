@@ -73,7 +73,7 @@ const PHEPortfolio = () => {
 
     return (
         <section
-            className="project-section-three section-space grey_bg hvac_journey"
+            className="project-section-three section-space grey_bg hvac_journey service-journey--tablet-large"
         // style={{ backgroundImage: "url('/images/shapes/h3-project.png')" }}
         >
             <div className="container-fluid electrical_safety">

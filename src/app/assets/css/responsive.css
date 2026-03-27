@@ -2699,7 +2699,7 @@ margin-right: 0px !important;
 }
 
 @media only screen and (min-width:768px) and (max-width:1200px){
-  .hvac_journey--tablet-large .project-wrapper-two{
+  .service-journey--tablet-large .project-wrapper-two{
     display: block;
     max-width: 100%;
     margin-left: 0;
@@ -2707,34 +2707,34 @@ margin-right: 0px !important;
     gap: 0;
   }
 
-  .hvac_journey--tablet-large .project-style-3.card-accordion{
+  .service-journey--tablet-large .project-style-3.card-accordion{
     height: 565px;
     margin: 0 0 24px;
   }
 
-  .hvac_journey--tablet-large .project-style-3.card-accordion:last-child{
+  .service-journey--tablet-large .project-style-3.card-accordion:last-child{
     margin-bottom: 0;
   }
 
-  .hvac_journey--tablet-large .project-style-3.card-accordion .project-thumb{
+  .service-journey--tablet-large .project-style-3.card-accordion .project-thumb{
     width: 100%;
     height: 100%;
     padding-top: 0;
     border: 0;
   }
 
-  .hvac_journey--tablet-large .project-style-3.card-accordion .project-thumb .image{
+  .service-journey--tablet-large .project-style-3.card-accordion .project-thumb .image{
     width: 100%;
     height: 100%;
     opacity: 1 !important;
     visibility: visible !important;
   }
 
-  .hvac_journey--tablet-large .project-style-3.card-accordion .project-default-content{
+  .service-journey--tablet-large .project-style-3.card-accordion .project-default-content{
     display: none !important;
   }
 
-  .hvac_journey--tablet-large .project-style-3.card-accordion .project-content-box{
+  .service-journey--tablet-large .project-style-3.card-accordion .project-content-box{
     left: 0;
     right: 0;
     bottom: 68px;
@@ -2745,11 +2745,11 @@ margin-right: 0px !important;
     transform: translateY(0);
   }
 
-  .hvac_journey--tablet-large .project-style-3.card-accordion .project-text .title{
+  .service-journey--tablet-large .project-style-3.card-accordion .project-text .title{
     font-size: 30px;
   }
 
-  .hvac_journey--tablet-large .project-style-3.card-accordion .project-text .desc{
+  .service-journey--tablet-large .project-style-3.card-accordion .project-text .desc{
     width: 100%;
     max-width: 540px;
   }
