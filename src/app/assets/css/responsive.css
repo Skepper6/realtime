@@ -344,9 +344,16 @@ position: unset;
 .design_wrap {
     max-width: 50%;
 }
-.design .design_wrap {
-  /* max-width: 100%; */
+.design_uptime_page .design .design_wrap {
+  max-width: 50%;
 }
+.design_uptime_page .design__grid{
+  gap: 20px;
+}
+.design .design_wrap {
+  max-width: 100%;
+}
+
   .rt-hero-career{
     top: 0px;
   }
