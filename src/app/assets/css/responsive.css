@@ -892,7 +892,8 @@ gap: 20px;
     margin-bottom: 0px;
 }
 .title-wrapper h2{
-  font-size: 49px;
+  font-size: 42px;
+      line-height: 57px;
 }
 .field-cards-section, .maitenance_sec, .inclusions-section {
     padding-bottom: 100px;
