@@ -4,15 +4,22 @@ import styles from "./ParalaxImageSection.module.css";
 // 1. Simple Parallax Image Component (No text inside)
 const ParallaxImage = ({ imageUrl, alt }) => {
   return (
-    <div className={styles.parallaxBg}>
-      <img
-        className={styles.parallaxImage}
-        src={imageUrl}
-        alt={alt}
-        loading="lazy"
-        decoding="async"
+    <>
+      <div
+        className={styles.parallaxDesktop}
+        style={{ backgroundImage: `url(${imageUrl})` }}
+        aria-hidden="true"
       />
-    </div>
+      <div className={styles.parallaxMobile}>
+        <img
+          className={styles.parallaxImage}
+          src={imageUrl}
+          alt={alt}
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+    </>
   );
 };
 
