@@ -11,11 +11,38 @@
 .hvac_journey .project-content-box .project-text .desc{
   width: 100%;
 }
+
 .hvac_journey .project-style-3 .project-content-box{
   bottom: 68px;
   width: 100%;
   left: 0px;
   padding: 0px 20px !important;
+}
+
+.sidebar-recent-post .single-post {
+  align-items: flex-start !important;
+}
+
+.sidebar-recent-post .single-post .post-header.recent-post-copy {
+  flex: 1 1 0%;
+  min-width: 0;
+}
+
+.sidebar-recent-post .single-post .post-header.recent-post-copy .title-link {
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.sidebar-recent-post .single-post .post-header.recent-post-copy .title-link a {
+  display: block;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+
+.sidebar-recent-post .single-post .post-header.recent-post-copy .date {
+  margin-top: 0;
+  line-height: 1.4;
 }
 .svcGridWrap .about-button{
   padding-bottom: 0px;
@@ -1210,8 +1237,22 @@ gap: 20px;
 
 @media only screen and (min-width:1301px) and (max-width:1400px){
 
+
+  .features-grid .feature-row .feature-card--green, .features-grid .feature-row .feature-card--dark{
+  z-index: 1;
+}
+.feature-card--image {
+    margin-left: -30px;
+}
+.service-content-wrap .service-title .title{
+  font-size: 36px;
+}
+  .hover_img_card .h10-service-item .service-reveal-bg {
+    height: 100%;
+}
 .hs-wrap .hs-inner .hs-leftCard {
-    height: 796px;
+    /* height: 796px; */
+    width: 470px;
 }
   .home_header .tj-hero-section {
     padding-bottom: 70px;
@@ -1374,6 +1415,13 @@ gap: 20px;
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
 
+
+.mob_show {
+    display: block;
+}
+  .desk_show{
+    display: none;
+  }
 .detail_blog{
   margin-bottom: 21px;
 }

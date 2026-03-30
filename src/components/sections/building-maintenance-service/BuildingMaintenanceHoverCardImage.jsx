@@ -18,7 +18,7 @@ const BuildingMaintenanceHoverCardImage = () => {
 			desc: "Gain complete visibility over HVAC, electrical, and critical building systems through a single platform. Monitor performance in real time to enable faster decisions and seamless operations.",
 			iconName: "tji-optimization",
 			totalProject: 64,
-			img: "https://skepper.in/000_Skepper_test/real/h1-service-2.webp",
+			img: "https://skepper.in/000_Skepper_test/real/building%20maintanance/bms_hovercard1.jpg",
 			svg: "",
 		},
 		{
@@ -27,7 +27,7 @@ const BuildingMaintenanceHoverCardImage = () => {
 			desc: "Automate core building functions to reduce manual intervention and ensure consistent performance. Intelligent coordination across HVAC and electrical systems helps optimize energy use and operational efficiency.",
 			iconName: "tji-optimization",
 			totalProject: 85,
-			img: "https://skepper.in/000_Skepper_test/real/h1-service-2.webp",
+			img: "https://skepper.in/000_Skepper_test/real/building%20maintanance/bms_hovercard2.jpg",
 			svg: "",
 		},
 		{
@@ -36,7 +36,7 @@ const BuildingMaintenanceHoverCardImage = () => {
 			desc: "Turn real-time data into actionable insights. Identify inefficiencies, predict maintenance needs, and enhance the reliability and performance of essential building systems.",
 			iconName: "tji-optimization",
 			totalProject: 64,
-			img: "https://skepper.in/000_Skepper_test/real/h1-service-2.webp",
+			img: "https://skepper.in/000_Skepper_test/real/building%20maintanance/bms_hovercard3.jpg",
 			svg: "",
 		}
 		

@@ -30,10 +30,17 @@ export default function SubServiceHeader() {
     <header className="rt-hero">
       {/* Background image */}
       <img
-        className="rt-hero__bg"
+        className="rt-hero__bg desk_show"
         src="https://skepper.in/000_Skepper_test/real/hvac/header.jpg"
         alt="HVAC unit"
       />
+
+         <img
+        className="rt-hero__bg mob_show"
+        src="https://skepper.in/000_Skepper_test/real/hvac/hvac_mobile_header.jpg
+"
+        alt="HVAC unit"
+      /> 
       <div className="rt-hero__shade" />
 
       {/* Dynamic Fade Overlay */}

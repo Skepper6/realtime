@@ -51,6 +51,29 @@
 	box-shadow: 0 0 0 3px rgba(217, 45, 32, 0.12); */
 }
 
+.blog-category_desc ul,
+.blog-category_desc ol {
+	margin: 18px 0 24px 22px;
+	padding-left: 18px;
+}
+
+.blog-category_desc ul {
+	list-style: disc;
+}
+
+.blog-category_desc ol {
+	list-style: decimal;
+}
+
+.blog-category_desc li {
+	margin-bottom: 10px;
+	color: #364052;
+}
+
+.blog-category_desc li:last-child {
+	margin-bottom: 0;
+}
+
 .contact-admin-page {
 	background: linear-gradient(180deg, #f2f5fb 0%, #f8f9fc 100%);
 	min-height: 100vh;
@@ -710,4 +733,39 @@ margin-top:120px;
 	}
 
 	
+}
+
+/* About us: strengthen readability for cards below "Where Engineering Met Responsibility" */
+.about_card_wrap .hs-leftOverlay {
+	background: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.88) 0%,
+		rgba(0, 0, 0, 0.76) 32%,
+		rgba(0, 0, 0, 0.54) 58%,
+		rgba(0, 0, 0, 0.32) 82%,
+		rgba(0, 0, 0, 0.18) 100%
+	);
+}
+
+.about_card_wrap .hs-cardShade {
+	background: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.9) 0%,
+		rgba(0, 0, 0, 0.78) 28%,
+		rgba(0, 0, 0, 0.52) 58%,
+		rgba(0, 0, 0, 0.26) 82%,
+		rgba(0, 0, 0, 0.12) 100%
+	);
+}
+
+.about_card_wrap .hs-leftContent,
+.about_card_wrap .hs-cardLabel {
+	position: relative;
+	z-index: 2;
+	text-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+.about_card_wrap .hs-cardLabel {
+	max-width: calc(100% - 56px);
+	line-height: 1.15;
 }

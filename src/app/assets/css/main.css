@@ -268,7 +268,7 @@ Description: Solvior - Business Consulting HTML Template
 body,
 html {
   position: relative;
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 
 body {
@@ -11617,6 +11617,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .sidebar-recent-post .single-post .post-header .title-link {
   margin-bottom: 10px;
+  font-size: 16px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -40583,7 +40584,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
   font-weight: 700;
   line-height: 1;
 }
-
+.design_uptime_page .design_wrap{
+  max-width: 580px;
+}
 .design_wrap {
   max-width: 480px;
 }
@@ -42835,6 +42838,7 @@ sup {
   display: flex;
   align-items: center;
   margin-top: 40px;
+justify-content: space-between;
 }
 
 .design_uptime_page .design__body,
@@ -44911,4 +44915,11 @@ padding-bottom: 0px; */
 }
 .annual_center_overlay{
       bottom: 90px
+}
+.blog-category_desc h4{
+  margin: 50px 0px 20px 0px;
+    font-weight: 600;
+}
+.mob_show, .detail_blog::before{
+  display: none;
 }

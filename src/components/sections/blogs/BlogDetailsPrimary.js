@@ -25,6 +25,9 @@ const getH4Content = (paragraph) => {
 	return match ? match[1].trim() : "";
 };
 
+const isListParagraph = (paragraph) =>
+	/^<(ul|ol)>[\s\S]*<\/(ul|ol)>$/i.test(paragraph?.trim() || "");
+
 const isHeadingParagraph = (paragraph, nextParagraph) => {
 	if (!paragraph || !nextParagraph) return false;
 
@@ -92,6 +95,17 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 									data-wow-delay="0.3s"
 								>
 									{descriptionParagraphs.map((paragraph, idx) => {
+										if (isListParagraph(paragraph)) {
+											return (
+												<div
+													key={idx}
+													className="blog-category_desc__list wow fadeInUp"
+													data-wow-delay="0.1s"
+													dangerouslySetInnerHTML={{ __html: paragraph }}
+												></div>
+											);
+										}
+
 										const headingContent = getH4Content(paragraph);
 										const shouldRenderHeading =
 											!!headingContent ||
@@ -217,7 +231,7 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 											</li>
 										</ul>
 									</div> */}
-									<div
+									{/* <div
 										className="tj-post-thumb mb-0 hover:shine wow fadeInUp"
 										data-wow-delay="0.1s"
 									>
@@ -230,7 +244,7 @@ const BlogDetailsPrimary = ({ setCurrentTitle }) => {
 												<i className="fa-sharp fa-solid fa-play"></i>
 											</Link>
 										</PopupVideo>
-									</div>
+									</div> */}
 									{/* <h4 className="text-anim conclu_text">Conclusions</h4>
 									<p className="wow fadeInUp" data-wow-delay="0.1s">
 										Our mission is to empowers businesses size to thrive in an

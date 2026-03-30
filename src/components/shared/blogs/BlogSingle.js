@@ -23,7 +23,14 @@ const BlogSingle = ({ blog }) => {
 		comments,
 	} = blog ? blog : {};
 	const excerpt = desc
-		? sliceText(desc.replace(/\s+/g, " ").trim(), 220, true)
+		? sliceText(
+				desc
+					.replace(/<[^>]+>/g, " ")
+					.replace(/\s+/g, " ")
+					.trim(),
+				220,
+				true
+		  )
 		: "";
 
 	return (

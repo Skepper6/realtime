@@ -1,5 +1,4 @@
 import getBlogs from "@/libs/getBlogs";
-import sliceText from "@/libs/sliceText";
 import Link from "next/link";
 
 const RecentBlogWidget = () => {
@@ -12,11 +11,11 @@ const RecentBlogWidget = () => {
 			<h5 className="tj-sidebar-widget-title">Recent Post</h5>
 			<div className="sidebar-recent-post">
 				{recentBlogs?.length
-					? recentBlogs?.map(
-							({ id, detailsImg, title, blogTopList, comments, date }, idx) => (
+						? recentBlogs?.map(
+							({ id, detailsImg, title, date }, idx) => (
 								<div
 									key={idx}
-									className="single-post d-flex align-items-center"
+									className="single-post d-flex align-items-start"
 								>
 									<div className="post-image">
 										<Link href={`/resources/blogs/${id}`}>
@@ -30,10 +29,10 @@ const RecentBlogWidget = () => {
 											/>
 										</Link>
 									</div>
-									<div className="post-header">
+									<div className="post-header recent-post-copy">
 										<h6 className="title-link">
 											<Link href={`/resources/blogs/${id}`}>
-												{sliceText(title, 32, true)}
+												{title}
 											</Link>
 										</h6>
 										<span className="date">{date}</span>

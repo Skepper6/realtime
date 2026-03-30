@@ -1,11 +1,19 @@
-import makePath from "@/libs/makePath";
-import modifyNumber from "@/libs/modifyNumber";
-import Link from "next/link";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import sliceText from "@/libs/sliceText";
+import Link from "next/link";
 
 const BlogCard2 = ({ blog, type, isSidebar, idx }) => {
-	const { title, desc, id, img2, detailsImg, category, date, day, month } =
-		blog || {};
+	const { title, desc, id, img2, detailsImg } = blog || {};
+	const excerpt = desc
+		? sliceText(
+				desc
+					.replace(/<[^>]+>/g, " ")
+					.replace(/\s+/g, " ")
+					.trim(),
+				150,
+				true
+		  )
+		: "";
 	return (
 		<div
 			className={`blog-style-2  ${type === 2 ? "wow fadeInUp" : "left-swipe"}`}
@@ -51,20 +59,10 @@ const BlogCard2 = ({ blog, type, isSidebar, idx }) => {
 					<Link href={`/resources/blogs/${id}`}>{title}</Link>
 				</h4>
 				<div className="desc">
-					<p>
-						In today's dynamic business environment, the key to success lies in
-						strategic planning.
-					</p>
+					<p>{excerpt}</p>
 				</div>
 				<div className="blog-button">
-					<Link className="blog-btn text-btn" href={`/resources/blogs/${id}`}>
-						{/* Read more <i className="tji-arrow-right"></i> */}
-						<ButtonPrimary url="/about-us" text={"Read More"} />
-					</Link>
-
-					{/* <div className="about-button" href={`/resources/blogs/${id}`}>
-						<ButtonPrimary url="/about-us" text={"Read more"} />
-					</div> */}
+					<ButtonPrimary url={`/resources/blogs/${id}`} text={"Read More"} />
 				</div>
 			</div>
 		</div>

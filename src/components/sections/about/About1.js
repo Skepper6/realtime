@@ -70,17 +70,16 @@ const About1 = () => {
 										<div className="client-experience">
 											<ul className="images-thumb">
 												<li>
-													<img src="/images/about/thumb-1.png" alt="Images" />
+													<img src="https://skepper.in/000_Skepper_test/real/avatar2.jpg" alt="Images" />
 												</li>
 												<li>
-													<img src="/images/about/thumb-2.png" alt="Images" />
+													<img src="https://skepper.in/000_Skepper_test/real/avatar1.jpg" alt="Images" />
 												</li>
 												<li>
-													<img src="/images/about/thumb-3.png" alt="Images" />
+													<img src="https://skepper.in/000_Skepper_test/real/avatar3.jpg" alt="Images" />
 												</li>
-												<li className="plus">
-													<i className="fa-sharp fa-solid fa-plus"></i>
-												</li>
+												{/* <li className="plus">
+												</li> */}
 											</ul>
 											<div className="funfact-item-one">
 												{/* <p>80+</p> */}

@@ -5,25 +5,25 @@ const History = () => {
         {
             title: "The Beginnings",
             desc: "Realtime Infra was established in 2010 with a simple belief: “Engineering Should Serve People, Not Just Buildings.” ",
-            images: "https://skepper.in/000_Skepper_test/real/history1.jpg",
+            images: "https://skepper.in/000_Skepper_test/real/about/about_card1.jpg",
             year: 2010,
         },
         {
             title: "Growth Years",
             desc: "Over the past decade, we have grown into a trusted HVAC and process-cooling partner across South India, known for integrity, commitment, and quality-driven execution. We focus on systems that directly impact comfort, efficiency, and operational continuity in environments where performance truly matters. ",
-            images: "https://skepper.in/000_Skepper_test/real/history1.jpg",
+            images: "https://skepper.in/000_Skepper_test/real/about/about_card2.jpg",
             year: 2015,
         },
         {
             title: "Innovation-Led Excellence",
             desc: "Every project we undertake, regardless of scale, receives focused attention, from thoughtful design and precise execution to delivery within defined timelines and budgets.",
-            images: "https://skepper.in/000_Skepper_test/real/history1.jpg",
+            images: "https://skepper.in/000_Skepper_test/real/about/about_card3.jpg",
             year: 2020,
         },
         {
             title: "Built for the Long Run",
             desc: "What started as a conviction became a discipline. And that discipline became a company built around one idea: A building should get better with time, not weaker.",
-            images:"https://skepper.in/000_Skepper_test/real/history1.jpg",
+            images:"https://skepper.in/000_Skepper_test/real/about/about_card4.jpg",
             year: 2025,
         }
     ];

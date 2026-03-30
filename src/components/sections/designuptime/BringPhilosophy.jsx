@@ -23,13 +23,13 @@ export default function BringPhilosophy() {
           {/* Left column: Text */}
           <div className="design__col design_wrap">
             <p className="design__body font32 ">
-              At Realtime Infra, we’re not simply service providers, we’re your{" "}
-              <span className="green_text">lifecycle partner</span> in creating and
-              sustaining comfortable, efficient, and healthy built environments.
+              At Realtime Infra, we’re not simply<br/> service providers, we’re your{" "}
+              <span className="green_text">lifecycle <br/>partner</span> in creating and
+              sustaining<br/> comfortable, efficient, and healthy<br/> built environments.
             </p>
 
             <p className="font18 text-white-2">
-              From the first sketches to decades of reliable performance,
+              From the first sketches to decades of reliable performance,<br/>
               our philosophy is simple yet ambitious:
             </p>
           </div>
