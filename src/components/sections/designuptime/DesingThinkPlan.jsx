@@ -17,7 +17,7 @@ export default function DesingThinkPlan() {
       text: "Energy simulation & predictive modeling",
     },
     {
-      img: "https://skepper.in/000_Skepper_test/real/design5.jpg",
+      img: "https://skepper.in/000_Skepper_test/real/designuptime/design5.jpg",
       text: "IAQ (Indoor Air Quality) baseline strategies",
     },
     {

@@ -28,7 +28,7 @@ const WhenBuildingOverlap = () => {
 
             <div className="rtx-grid">
               <div className="rtx-imgBig">
-                <img src="images/about/uptime_leader.jpg" alt="Left" />
+                <img src="https://skepper.in/000_Skepper_test/real/about/uptime_leader.jpg" alt="Left" />
               </div>
 
               <div className="rtx-rightCol">

@@ -28,7 +28,7 @@ const History = () => {
         }
     ];
     return (
-        <section className="tj-history-area section-bottom-space ">
+        <section className="tj-history-area section-bottom-space about_scroll_sec">
             <div className="container">
                 <div className="row">
                     <div className="col-12">

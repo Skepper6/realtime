@@ -32,8 +32,8 @@ const BlogCard1 = ({ blog, idx }) => {
 								{category}
 							</Link>
 						</li>
-						<li>{date}</li>
-						<li>02 Comments</li>
+						{/* <li>{date}</li>
+						<li>02 Comments</li> */}
 					</ul>
 				</div>
 				<h4 className="blog-title">
@@ -49,8 +49,8 @@ const BlogCard1 = ({ blog, idx }) => {
 				</Link>
 				<div className="blog-meta meta-2 mb-0">
 					<ul>
-						<li>{date}</li>
-						<li>02 Comments</li>
+						 <li>{date}</li>
+						{/*<li>02 Comments</li> */}
 					</ul>
 				</div>
 			</div>

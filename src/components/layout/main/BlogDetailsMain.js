@@ -17,21 +17,14 @@ const BlogDetailsMain = () => {
 	const items = getBlogs();
 	const currentId = useCurrentItem();
 	const { currentItem } = getPreviousNextItem(items, currentId);
-	const { title, detailsImg } = currentItem || {};
+	const { title } = currentItem || {};
 	return (
-		<main className="blog_page">
+		<main className="blog_page blog_detail_page">
 
-			<header className="rt-hero-career privacy_sec blog_detail_header ">
-				{/* Background image */}
-				<img
-					className="rt-hero__b"
-					src={detailsImg ? detailsImg : "https://skepper.in/000_Skepper_test/real/career_header.jpg"}
-					alt="Career image"
-				/>
-
-				{/* Existing Gradient Shade */}
-				<div className="rt-hero__shade" />
-
+			<header
+				className="rt-hero-career privacy_sec blog_detail_header "
+				style={{ backgroundColor: "#051229" }}
+			>
 				<div className="container">
 					<div className="top_bar">
 						{/* Content (z-index 2 in CSS, so it stays bright/visible longer) */}
