@@ -40,7 +40,7 @@ const InfoSection = () => {
         {/* Right Side: Paragraph */}
         <div className="info-right">
           <p>
-          Guided by decades of on-ground engineering experience, Prasanth Thandayil remains closely involved in the work. They know where systems falter, what endures under pressure, and what ensures buildings continue to perform well beyond handover.
+          Guided by decades of on-ground engineering operations, Prasanth Tandayil’s team remains closely involved in the work. They know where systems falter, what endures under pressure, and what ensures buildings continue to perform well beyond handover.
           </p>
         </div>
 

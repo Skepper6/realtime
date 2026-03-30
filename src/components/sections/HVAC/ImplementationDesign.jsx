@@ -18,7 +18,7 @@ const cards = [
     title: "Flawless On-Site\nExecution",
     desc: "Our on-site teams bring designs to life with precision and discipline. Every installation is controlled, safe, and effortlessly efficient.",
     cta: "Get optimization",
-    icon: "https://skepper.in/000_Skepper_test/real/icons3.png",
+    icon: "https://skepper.in/000_Skepper_test/real/hvac/disappear.jpg",
     bg: "https://skepper.in/000_Skepper_test/real/hvac/hvac_hover1.jpg",
   },
   {
