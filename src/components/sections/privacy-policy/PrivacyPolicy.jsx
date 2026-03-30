@@ -1,56 +1,75 @@
-import React from 'react'
+import React from "react";
 
 const PrivacyPolicy = () => {
   return (
     <div>
+      <header className="rt-hero-career privacy_sec ">
+        <img
+          className="rt-hero__b"
+          src="https://skepper.in/000_Skepper_test/real/privacy-terms/Pivacy_Policy.jpg"
+          alt="privacy image"
+        />
 
-          <header className="rt-hero-career privacy_sec ">
-      {/* Background image */}
-      <img
-        className="rt-hero__b"
-        src="https://skepper.in/000_Skepper_test/real/privacy-terms/Pivacy_Policy.jpg"
-        alt="privacy image"
-      />
-      
-      {/* Existing Gradient Shade */}
-      <div className="rt-hero__shade" />
+        <div className="rt-hero__shade" />
 
+        <div className="container">
+          <div className="top_bar">
+            <div className="rt-hero__content">
+              <span className="hvacHero__pill font12">Privacy Policy</span>
 
-      <div className="container">
-        <div className="top_bar">
-          {/* Content (z-index 2 in CSS, so it stays bright/visible longer) */}
-          <div className="rt-hero__content">
-            <span className="hvacHero__pill font12">Privacy Policy</span>
+              <h1 className="rt-hero__title font72 sec-title text-anim">
+                Your Privacy
+                <br />
+                Matters to Us
+              </h1>
 
-            <h1 className="rt-hero__title font72 sec-title text-anim">
-            Your Privacy 
-              <br />
-              Matters to Us
-            </h1>
-
-            <p className="rt-hero__desc font18 desc wow fadeInUp" data-wow-delay="0.3s">
-              his policy explains how we collect, use,<br/> and safeguard your data.
-            </p>
-
+              <p
+                className="rt-hero__desc font18 desc wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+                This policy explains how we collect, use,
+                <br />
+                and safeguard your data.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
-    
-           <div className="privacy_desc">
+      </header>
+
+      <div className="privacy_desc">
         <div className="container">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-</div>
+          <p>
+            We understand that your privacy is important and that you care about
+            how your personal data is used and shared online. We respect privacy
+            of data entrusted with / received by us as you visit this website
+            and/or use our service(s).
+          </p>
+          <p>
+            We are committed to secure and protect your privacy and data of
+            whichever nature, including that of business data, personal data,
+            service data received in the capacity of a data processor etc., as
+            per International standard practices, Information Technology Act,
+            2000 of India and GDPR. We are also committed to be transparent
+            about what we collect and how we use it.
+          </p>
+          <p>
+            This privacy policy, which is legally binding Agreement between you
+            and RealTime Infratech through click-wrap contract, provides details
+            of both the parties rights and obligations regarding data being
+            collected by us of different nature, purposes of such data
+            collection, your right vis-a-vis such data collection, and how we
+            ensure your privacy is maintained etc.
+          </p>
+          <p>
+            Any word of this policy defined under the definition section shall
+            have the meaning provided herein, disregarding any contradictory
+            definitions provided in any other legal/ other documents/ prevailing
+            understanding of common people.
+          </p>
+        </div>
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default PrivacyPolicy
+export default PrivacyPolicy;

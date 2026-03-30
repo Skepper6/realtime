@@ -19,7 +19,7 @@ const BlogDetailsMain = () => {
 	const { currentItem } = getPreviousNextItem(items, currentId);
 	const { title, detailsImg } = currentItem || {};
 	return (
-		<main>
+		<main className="blog_page">
 
 			<header className="rt-hero-career privacy_sec blog_detail_header ">
 				{/* Background image */}
