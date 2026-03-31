@@ -52,7 +52,7 @@ const MobileMenu = () => {
 								<span className="subtitle">Phone</span>
 								<div className="text">
 									<Link className="link" href="tel:+919886522207">
-										9886522207
+										+91 98865 22207
 									</Link>
 								</div>
 							</div>
