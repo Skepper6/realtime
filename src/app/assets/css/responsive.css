@@ -2089,9 +2089,9 @@ max-width: 100%;
   height: 100%;
 }
   .rt-hero .top_bar{
-         top: 50%;
+         /* top: 50%;
         bottom: 0px;
-        transform: translateY(-50%);
+        transform: translateY(-50%); */
   }
   .rt-hero__content{
     /* position: relative; */
@@ -2735,12 +2735,13 @@ margin-right: 0px !important;
   }
 
   .rt-hero .top_bar{
-    position: relative;
+    /* position: relative;
     top: auto;
     bottom: auto;
-    transform: none;
+    transform: none; */
     width: 100%;
-    padding: 92px 0 24px;
+    padding: 92px 20px 17px 0px;
+     bottom: 70px;
   }
 
   .rt-hero__bg{
@@ -2782,8 +2783,8 @@ margin-right: 0px !important;
 
 @media only screen and (max-width:575.98px){
   .rt-hero .top_bar{
-    padding-top: 84px;
-    padding-bottom: 20px;
+    /* padding-top: 84px;
+    padding-bottom: 20px; */
   }
 
   .rt-hero__title{

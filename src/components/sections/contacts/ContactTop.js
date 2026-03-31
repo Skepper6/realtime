@@ -67,7 +67,7 @@ const ContactTop = () => {
 								<img src="https://skepper.in/000_Skepper_test/real/white_svg.png" />
 							</div>
 							<div className="contact_desc">
-
+										
 							<h3 className="contact-title">Our Location</h3>
 							<p>#164, First Floor,<br/> Jakkur-Thanisandra Link Road, Dr Shivarama Karanth Nagar, Bengaluru, Karnataka-560077</p>
 						</div>
