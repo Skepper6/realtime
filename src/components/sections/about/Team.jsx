@@ -99,7 +99,7 @@ const Team = () => {
 						</div>
 					</div> */}
 				</div>
-				<div className="row d-sm-none">
+				{/* <div className="row d-sm-none">
 					<div className="col text-center">
 						<ButtonPrimary
 							text={"More members"}
@@ -107,7 +107,7 @@ const Team = () => {
 							className={"more_team"}
 						/>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);
