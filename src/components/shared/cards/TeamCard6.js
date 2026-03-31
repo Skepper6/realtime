@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const TeamCard6 = ({ teamMember, idx }) => {
+const TeamCard6 = ({ teamMember, idx, disableDetails = false }) => {
 	const { id, name, desig, img } = teamMember || {};
 	return (
 		<div
@@ -12,7 +12,7 @@ const TeamCard6 = ({ teamMember, idx }) => {
 			</div>
 			<div className="team_content">
 				<h5 className="name">
-					<Link href={`/team/${id}`}>{name}</Link>
+					{disableDetails ? name : <Link href={`/team/${id}`}>{name}</Link>}
 				</h5>
 				<span className="designation">{desig}</span>
 				{/* <ul className="socials">
@@ -37,13 +37,24 @@ const TeamCard6 = ({ teamMember, idx }) => {
 						</Link>
 					</li>
 				</ul> */}
-				<Link href={`/team/${id}`}>
-				 <button className="arrow-btn">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M9 18l6-6-6-6"/>
-                </svg>
-              </button>
-			  </Link>
+				{disableDetails ? null : (
+					<Link href={`/team/${id}`}>
+						<button className="arrow-btn" type="button" aria-label={`View details for ${name}`}>
+							<svg
+								width="20"
+								height="20"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								strokeWidth="3"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+							>
+								<path d="M9 18l6-6-6-6" />
+							</svg>
+						</button>
+					</Link>
+				)}
 			</div>
 		</div>
 	);

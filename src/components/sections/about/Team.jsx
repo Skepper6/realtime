@@ -71,7 +71,7 @@ const Team = () => {
 									} order-xl-${idx === 0 ? 12 : idx + 1}`}
 								> */}
 
-									<TeamCard6 idx={idx} teamMember={teamMember} />
+									<TeamCard6 idx={idx} teamMember={teamMember} disableDetails />
 								</div>
 						  ))
 						: ""}

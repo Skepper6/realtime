@@ -36422,7 +36422,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .h9-team-item .team_content .name a:hover {
-  color: var(--tj-color-theme-primary);
+  /* color: var(--tj-color-theme-primary); */
 }
 
 .h9-team-item .team_content .designation {
@@ -42524,7 +42524,7 @@ sup {
 }
 
 .arrow-btn:hover {
-  transform: translateY(-50%) scale(1.1);
+  /* transform: translateY(-50%) scale(1.1); */
 }
 
 

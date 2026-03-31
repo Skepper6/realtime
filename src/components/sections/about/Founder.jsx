@@ -30,12 +30,12 @@ const Founder = () => {
                 <p className="founder-role libre">Managing Director</p>
               </div>
 
-              {/* 3. The Button (Placed in the top-right curve) */}
-              <button className="arrow-btn">
+              {/* Decorative arrow only: no founder detail page link */}
+              {/* <span className="arrow-btn" aria-hidden="true">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M9 18l6-6-6-6"/>
                 </svg>
-              </button>
+              </span> */}
             </div>
             
           </div>
