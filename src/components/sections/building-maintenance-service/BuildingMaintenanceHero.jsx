@@ -67,12 +67,12 @@ export default function BuildingMaintenanceHero() {
 						<div className="sanim_img">
 							<img
 								className="rt-floatIcon rt-floatIcon--down"
-								src="https://skepper.in/000_Skepper_test/real/sicon1.png"
+								src="https://skepper.in/000_Skepper_test/real/building%20maintanance/bms_white.png"
 								alt=""
 							/>
 							<img
 								className="rt-floatIcon rt-floatIcon--up"
-								src="https://skepper.in/000_Skepper_test/real/sicon2.png"
+								src="https://skepper.in/000_Skepper_test/real/building%20maintanance/bms_green.png"
 								alt=""
 							/>
 						</div>

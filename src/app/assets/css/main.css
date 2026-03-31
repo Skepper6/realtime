@@ -40664,9 +40664,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .svcCard__icon img {
-  width: 84px;
-  height: 115px;
-  object-fit: contain;
+  width: 94px;
+  /* height: 115px; */
+  /* object-fit: contain; */
 }
 
 /* number */
@@ -41961,20 +41961,20 @@ min-width: 160px;
   pointer-events: none;
   opacity: 0;
 
-  width: 70px;
+  width: 160px;
   height: auto;
 }
 
 /* Place them near the right-side gap area (tweak freely) */
 .rt-floatIcon--down {
-  top: 44%;
-  left: 56.5%;
+  top: 43%;
+  left: 52.2%;
   /* transform: translate(-50%, -18px); */
 }
 
 .rt-floatIcon--up {
   top: 42%;
-  left: 64.5%;
+  left: 59.9%;
   /* transform: translate(-50%, 18px); */
 }
 
@@ -42215,7 +42215,9 @@ sup {
     padding-left: 90px;
 }
 .feature_card img {
-    width: 60px;
+      height: 43px;
+    object-fit: cover;
+    /* width: 80px; */
 }
 .founder-section .section-label {
   margin-left: 35px;
@@ -43919,7 +43921,7 @@ justify-content: space-between;
 
 .feature-card__icon {
   width: 90px;
-  height: 90px;
+  /* height: 90px; */
   margin-bottom: 20px;
   margin-top: 20px;
 }

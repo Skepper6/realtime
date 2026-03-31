@@ -64,7 +64,7 @@ export default function BringPhilosophy() {
                         <div className="feature-row">
                             <div className="feature-card feature-card--green">
                                 <div className="feature-card__icon">
-                                  <img src="https://skepper.in/000_Skepper_test/real/comfort_icon.png" />
+                                  <img src="https://skepper.in/000_Skepper_test/real/wellbeing/comfort.png" />
                                 </div>
                                 <h3 className="feature-card__title">Consistent Comfort<br />Across Every Zone</h3>
                                 <p className="feature-card__desc">Stable temperatures action, zones no<br />more hot or cold pockets</p>
@@ -81,7 +81,7 @@ export default function BringPhilosophy() {
                             </div>
                             <div className="feature-card-wide__content bg-light-gray">
                                 <div className="feature-card__icon">
-                                       <img src="https://skepper.in/000_Skepper_test/real/comfort_icon.png" />
+                                       <img src="https://skepper.in/000_Skepper_test/real/wellbeing/Consistent_Comtort.png" />
 
                                 </div>
                                 <h3 className="feature-card__title">Breathing Comfort,<br />Perfectly Balanced</h3>
@@ -93,7 +93,7 @@ export default function BringPhilosophy() {
                         <div className="feature-row">
                             <div className="feature-card feature-card--dark">
                                 <div className="feature-card__icon">
-                               <img src="https://skepper.in/000_Skepper_test/real/comfort_icon2.png" alt="icon2" />
+                               <img src="https://skepper.in/000_Skepper_test/real/wellbeing/smarter_control.png" alt="icon2" />
 
                                 </div>
                                 <h3 className="feature-card__title">Smarter Control,<br />Better Comfort.</h3>

@@ -66,8 +66,8 @@ export default function SubServiceHeader() {
               <line className="rt-line rt-line--rightBottom" x1="880" y1="540" x2="880" y2="465" />
             </svg>
             <div className="sanim_img">
-              <img className="rt-floatIcon rt-floatIcon--down" src="https://skepper.in/000_Skepper_test/real/sicon1.png" alt="" />
-              <img className="rt-floatIcon rt-floatIcon--up" src="https://skepper.in/000_Skepper_test/real/sicon2.png" alt="" />
+              <img className="rt-floatIcon rt-floatIcon--down" src="https://skepper.in/000_Skepper_test/real/hvac/hvac_2.png" alt="" />
+              <img className="rt-floatIcon rt-floatIcon--up" src="https://skepper.in/000_Skepper_test/real/hvac/hvac_1.png" alt="" />
             </div>
           </div>
 

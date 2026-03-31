@@ -18,22 +18,23 @@ const WhyChoose = () => {
 			title: "Design & Engineering",
 			desc: "Our systems are designed for sustained performance, not just for day one.",
 			icon: (
-				<img src={"/images/about/idea_design.svg"} />
+				<img src={"https://skepper.in/000_Skepper_test/real/about/Design_Engineering.png"} />
 			),
 		},
 		{
 			title: "Ideas into Impact",
 			desc: "We build with precision, discipline, and accountability to prevent issues before they arise.",
 			icon: (
-							<img src={"/images/about/idea_design.svg"} />
+							<img src={"https://skepper.in/000_Skepper_test/real/about/Idea_Impact.png"} />
 
 			),
+
 		},
 		{
 			title: "Uptime & Optimization",
 			desc: "With data-informed systems, we help environments adapt, learn, and improve.",
 			icon: (
-							<img src={"/images/about/idea_design.svg"} />
+							<img src={"https://skepper.in/000_Skepper_test/real/about/uptime_optimization.png"} />
 
 			),
 		},
