@@ -1,6 +1,18 @@
 const TestimonialsCard1 = ({ testimonial }) => {
-	const { authorName, authorDesig, desc, img, logoImg, logoImgLight } =
+	const {
+		authorName,
+		authorDesig,
+		desc,
+		img,
+		profile,
+		name,
+		companyName,
+	} =
 		testimonial ? testimonial : {};
+
+	const imageSrc = profile || img || "/images/testimonial/h1-test-1.webp";
+	const displayName = name || authorName;
+	const displayDesignation = companyName || authorDesig;
 	return (
 		<div className="testimonial-item">
 			<div className="testimonial-content">
@@ -13,10 +25,7 @@ const TestimonialsCard1 = ({ testimonial }) => {
 			</div>
 			<div className="tj-testimonial-author">
 				<div className="author-images">
-					<img
-						src={img ? img : "/images/testimonial/h1-test-1.webp"}
-						alt="Images"
-					/>
+					<img src={imageSrc} alt={displayName || "Client"} />
 				</div>
 				<div className="author-content">
 					<div className="author-rating">
@@ -30,8 +39,8 @@ const TestimonialsCard1 = ({ testimonial }) => {
 						</div>
 					</div>
 					<div className="author-text">
-						<h4 className="author-name">{authorName}</h4>
-						<span className="sub-title">{authorDesig}</span>
+						<h4 className="author-name">{displayName}</h4>
+						<span className="sub-title">{displayDesignation}</span>
 					</div>
 				</div>
 			</div>

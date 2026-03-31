@@ -1,11 +1,11 @@
 "use client";
 import TestimonialsCard1 from "@/components/shared/cards/TestimonialsCard1";
-import getTestimonials from "@/libs/getTestimonials";
+import getClientTestimonials from "@/libs/getClientTestimonials";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Testimonials1 = () => {
-	const testimonials = getTestimonials()?.slice(0, 3);
+	const testimonials = getClientTestimonials()?.slice(0, 6);
 	const { isRtl } = {};
 	return (
 		<section className="tj-testimonial-section">

@@ -13,7 +13,7 @@ const Services1 = () => {
 		2: "/phe-service",
 		3: "/electrical-systems-service",
 		4: "/annual-maintenance-contracts",
-		5: "/building-management-system",
+		5: "/building-management-service",
 	};
 	useGSAP(
 		() => {

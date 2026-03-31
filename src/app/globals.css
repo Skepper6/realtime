@@ -2,6 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/typewriter?styles=150237');
 
+.about_page .rt-hero {
+	z-index: 0;
+	isolation: isolate;
+}
+
+.about_page .rt-hero__bg,
+.about_page .rt-hero__shade {
+	pointer-events: none;
+}
+
+.about_page .top_bar,
+.about_page .rt-hero__content {
+	z-index: 3;
+}
+
+.about_page .rt-hero__content .hvacHero__pill {
+	cursor: pointer;
+	text-decoration: none;
+}
+
 .contact-form-feedback {
 	margin: 8px 0 0;
 	padding: 14px 18px;

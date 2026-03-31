@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 
@@ -28,7 +29,9 @@ export default function AboutHeader() {
          
           {/* Content */}
           <div className="rt-hero__content">
-            <span className="hvacHero__pill font12">About Us</span>
+            <Link href="/about-us" className="hvacHero__pill font12" aria-current="page">
+              About Us
+            </Link>
 
             <h1 className="rt-hero__title font72 sec-title text-anim">
               The Story of 
