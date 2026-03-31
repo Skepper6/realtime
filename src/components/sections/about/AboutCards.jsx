@@ -56,7 +56,7 @@ const AboutCards = () => {
         </article>
 
         {/* RIGHT GRID */}
-        <div className="hs-rightGrid">
+        <div className="hs-rightGrid about_right_card">
           <article className="hs-card" style={{ backgroundImage: `url(${img1})` }}>
             <div className="hs-cardShade" />
             <h3 className="hs-cardLabel font32">Energy-efficient<br/> HVAC systems</h3>

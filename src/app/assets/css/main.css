@@ -44934,3 +44934,9 @@ border-radius:20px
 .blog_detail_page .rt-hero-career{
   height:400px
 }
+.about_right_card .hs-cardLabel {
+  position: absolute;
+}
+.wellbeing_page .features-grid .feature-row:nth-child(3){
+margin-top: 0px;
+}
