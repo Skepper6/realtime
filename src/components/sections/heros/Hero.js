@@ -74,16 +74,16 @@ useGSAP(() => {
 									</h4>
 								</div>
 								<div className="wow fadeInUp" data-wow-delay="0.3s">
-									<ButtonPrimary
+									{/* <ButtonPrimary
 										text={"Explore Projects"}
-										url={"/contact-us"}
+										url={"/our-process"}
 										className={"hero-button"}
-									/>
+									/> */}
 
 									<ButtonPrimary
 										text={"Schedule a Consultation"}
 										url={"/contact-us"}
-										className={"hero-button mx-xl-3"}
+										className={"hero-button "}
 									/>
 								</div>
 
