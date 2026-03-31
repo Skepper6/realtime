@@ -67,7 +67,7 @@ When employees feel well, everything else flows better
                         </article>
 
                         {/* RIGHT GRID */}
-                        <div className="hs-rightGrid">
+                        <div className="hs-rightGrid about_right_card">
                             <article className="hs-card" style={{ backgroundImage: `url(${img1})` }}>
                                 <div className="hs-cardShade" />
                                 <h3 className="hs-cardLabel font32">Focus & creative<br/> energy</h3>
