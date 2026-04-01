@@ -17766,15 +17766,15 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .contact-item.style-2 .contact-icon {
-  margin-top: 4px;
+  margin-top: -14px;
   position: absolute;
   top: 0px;
   left: 30px;
   right: 0px;
   margin-right: auto;
   /* margin-left: auto; */
-  width: 78px;
-  height: 78px;
+  width: 118px;
+  height: 118px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;

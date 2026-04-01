@@ -21,7 +21,7 @@ const ContactTop = () => {
 							data-wow-delay="0.1s"
 						>
 							<div className="contact-icon">
-								<img src="https://skepper.in/000_Skepper_test/real/white_svg.png" />
+								<img src="https://skepper.in/000_Skepper_test/real/contact/message.png" />
 							</div>
 							<div className="contact_desc">
 							<h3 className="contact-title">Email us</h3>
@@ -42,7 +42,7 @@ const ContactTop = () => {
 							data-wow-delay="0.3s"
 						>
 							<div className="contact-icon">
-								<img src="https://skepper.in/000_Skepper_test/real/white_svg.png" />
+								<img src="https://skepper.in/000_Skepper_test/real/contact/call.png" />
 							</div>
 							<div className="contact_desc">
 
@@ -64,7 +64,7 @@ const ContactTop = () => {
 							data-wow-delay="0.5s"
 						>
 							<div className="contact-icon">
-								<img src="https://skepper.in/000_Skepper_test/real/white_svg.png" />
+								<img src="https://skepper.in/000_Skepper_test/real/contact/location.png" />
 							</div>
 							<div className="contact_desc">
 										
