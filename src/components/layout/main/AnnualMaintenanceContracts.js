@@ -18,7 +18,7 @@ import AnnualMaintenanceTestimonial from "../../sections/annual-maintenance/Annu
 
 const AnnualMaintenanceContracts = () => {
     return (
-        <main className="annual-maintenance_page sub_service_page">
+        <main className="annual-maintenance_page sub_service_page service-overlap-page">
             <AnnualMaintenanceHero />
             <PowerEfficiency />
             <TeamTrust />

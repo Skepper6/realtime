@@ -18,7 +18,7 @@ import ElectricalTestimonial from "../../sections/electrical-systems/ElectricalT
 
 const ElectricalSystemsService = () => {
     return (
-        <main className="electrical-systems_page sub_service_page">
+        <main className="electrical-systems_page sub_service_page service-overlap-page">
             <ElectricalHero />
             <PowerEfficiency />
             <TeamTrust />

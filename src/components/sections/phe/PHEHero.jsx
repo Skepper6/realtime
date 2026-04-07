@@ -1,10 +1,12 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import useServiceOverlapHeader from "@/hooks/useServiceOverlapHeader";
 
 export default function PHEHero() {
     const [draw, setDraw] = useState(false);
     const [opacity, setOpacity] = useState(0);
+    useServiceOverlapHeader();
 
     useEffect(() => {
         const raf = requestAnimationFrame(() => setDraw(true));

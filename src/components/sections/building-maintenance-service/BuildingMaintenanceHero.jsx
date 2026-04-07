@@ -2,9 +2,11 @@
 
 import React, { useEffect, useState } from "react";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import useServiceOverlapHeader from "@/hooks/useServiceOverlapHeader";
 
 export default function BuildingMaintenanceHero() {
 	const [draw, setDraw] = useState(false);
+	useServiceOverlapHeader();
 
 	useEffect(() => {
 		const raf = requestAnimationFrame(() => setDraw(true));
@@ -88,7 +90,9 @@ export default function BuildingMaintenanceHero() {
 							Complete Control
 						</h1>
 						<p className="rt-hero__desc font18 desc">
-							Centralize and monitor your building’s critical systems with intelligent automation that improves efficiency, safety, and operational stability.
+						Unify and manage your building’s critical systems <br/>
+through intelligent automation, enhancing efficiency, <br/>
+strengthening safety and ensuring seamless operational performance.
 						</p>
 						<div className="mt-4">
 							<ButtonPrimary

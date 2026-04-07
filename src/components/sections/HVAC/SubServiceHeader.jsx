@@ -1,10 +1,12 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import useServiceOverlapHeader from "@/hooks/useServiceOverlapHeader";
 
 export default function SubServiceHeader() {
   const [draw, setDraw] = useState(false);
   const [opacity, setOpacity] = useState(0);
+  useServiceOverlapHeader();
 
   useEffect(() => {
     const raf = requestAnimationFrame(() => setDraw(true));
@@ -13,6 +15,7 @@ export default function SubServiceHeader() {
     const handleScroll = () => {
       const scrollY = window.scrollY;
       const vh = window.innerHeight;
+
       // Fade to black over the first 80% of the screen height
       const newOpacity = Math.min(scrollY / (vh * 0.8), 0.9);
       setOpacity(newOpacity);
@@ -79,7 +82,7 @@ export default function SubServiceHeader() {
             <p className="rt-hero__desc font18 desc">
               Every great space begins with air — invisible, constant, and essential.
               At Realtime Infra, we don’t just move air; we shape experiences through
-              it. Because comfort isn’t created by chance — it’s engineered.
+              it. Because comfort isn’t created by chance, it’s engineered.
             </p>
             <div className="mt-4">
               <ButtonPrimary text={"Consult Now"} url={"/contact-us"} className={"hero-button"} />

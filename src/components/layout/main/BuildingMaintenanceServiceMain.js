@@ -22,7 +22,7 @@ import BuildingMaintenanceTestimonial from "../../sections/building-maintenance-
 
 const BuildingMaintenanceServiceMain = () => {
 	return (
-		<main className="annual-maintenance_page sub_service_page">
+		<main className="annual-maintenance_page sub_service_page service-overlap-page">
 			<BuildingMaintenanceHero />
 			<BuildingMaintenanceControl />
 			<BuildingMaintenanceTeamTrust />

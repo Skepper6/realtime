@@ -17,7 +17,7 @@ import GlobalBenchMark from "../../sections/phe/GlobalBenchMark";
 
 const PHEService = () => {
     return (
-        <main className="phe-service_page sub_service_page">
+        <main className="phe-service_page sub_service_page service-overlap-page">
             <PHEHero />
             <PHEEfficiency />
             <PHETeamTrust />

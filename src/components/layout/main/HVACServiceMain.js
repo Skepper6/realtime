@@ -29,7 +29,7 @@ import RoundShape from "../../sections/RoundShape";
 
 const HVACServiceMain = () => {
 	return (
-		<main className="sub_service_page">
+		<main className="sub_service_page service-overlap-page hvac-service-page">
 			{/* <HeroInner title={"About"} text={"About"} /> */}
 			<SubServiceHeader/>
 			<DesignSection/>

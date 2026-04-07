@@ -1,10 +1,12 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import useServiceOverlapHeader from "@/hooks/useServiceOverlapHeader";
 
 export default function AnnualMaintenanceHero() {
   const [draw, setDraw] = useState(false);
   const [opacity, setOpacity] = useState(0);
+  useServiceOverlapHeader();
 
   useEffect(() => {
     const raf = requestAnimationFrame(() => setDraw(true));
@@ -70,7 +72,7 @@ export default function AnnualMaintenanceHero() {
               Maintenance That<br />Moves Ahead
             </h1>
             <p className="rt-hero__desc font18 desc">
-            Every great system deserves a partner who stays long after the project ends. At Realtime Infra, our job doesn’t stop when the installation is complete,  it begins when your operations do.
+           Every great system deserves a partner that stays beyond installation. At Realtime Infra, we go beyond delivery to ensure your operations run smoothly, efficiently, and reliably—day after day.
             </p>
             <div className="mt-4">
               <ButtonPrimary text={"Consult Now"} url={"/contact-us"} className={"hero-button"} />

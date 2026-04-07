@@ -1,10 +1,12 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import useServiceOverlapHeader from "@/hooks/useServiceOverlapHeader";
 
 export default function ElectricalHero() {
   const [draw, setDraw] = useState(false);
   const [opacity, setOpacity] = useState(0);
+  useServiceOverlapHeader();
 
   useEffect(() => {
     const raf = requestAnimationFrame(() => setDraw(true));
@@ -70,7 +72,7 @@ export default function ElectricalHero() {
               Power with<br />Purpose
             </h1>
             <p className="rt-hero__desc font18 desc">
-             Every building depends on power, not just to function, but to perform. At Realtime Infra, we engineer electrical systems that deliver stability, safety, and intelligence at every level.
+             Every building depends on power, not just to function, <br/> but to perform. At Realtime Infra, we engineer electrical<br/> systems that deliver stability, safety, and intelligence <br/>at every level.
             </p>
             <div className="mt-4">
               <ButtonPrimary text={"Consult Now"} url={"/contact-us"} className={"hero-button"} />
