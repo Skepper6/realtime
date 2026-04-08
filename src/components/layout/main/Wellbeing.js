@@ -22,7 +22,7 @@ import WellbeingBottomCard from "../../sections/wellbeing/WellbeingBottomCard";
 
 const Wellbeing = () => {
     return (
-        <main className="wellbeing_page">
+        <main className="wellbeing_page service-overlap-page">
             {/* <HeroInner title={"About"} text={"About"} /> */}
             <WellbeingHeader />
             <BringPhilosophy />

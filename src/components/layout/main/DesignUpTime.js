@@ -18,7 +18,7 @@ import WhyMatter from "../../sections/designuptime/WhyMatter";
 
 const DesignUpTime = () => {
 	return (
-		<main className="design_uptime_page">
+		<main className="design_uptime_page service-overlap-page">
 			{/* <HeroInner title={"About"} text={"About"} /> */}
 			<DesignUpTimeHeader/>
 				<BringPhilosophy/>

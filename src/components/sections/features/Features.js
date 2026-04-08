@@ -115,6 +115,7 @@ const Features = ({ type }) => {
 		},
 		{
 			title: "Annual Maintenance ",
+			xlClass: "col-xl-6",
 			desc: "Preventive care and proactive monitoring for guaranteed uptime.",
 			icon: (
 			 <>
@@ -130,6 +131,7 @@ const Features = ({ type }) => {
 			),
 		},{
 			title: "Building Management System ",
+			xlClass: "col-xl-6",
 			desc: "Centralize your building’s critical system: HVAC, electrical, and safety, into one platform.  ",
 			icon: (
 			 <>
@@ -185,7 +187,10 @@ const Features = ({ type }) => {
 
 					<div className="row rg-30">
 						{features.map((feature, idx) => (
-							<div key={idx} className="col-lg-6 col-xl-4 col-sm-6">
+							<div
+								key={idx}
+								className={`col-lg-6 col-sm-6 ${feature.xlClass || "col-xl-4"}`}
+							>
 								<FeatureCard feature={feature} idx={idx} />
 							</div>
 						))}

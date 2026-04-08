@@ -1,9 +1,11 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import useServiceOverlapHeader from "@/hooks/useServiceOverlapHeader";
 
 export default function WellbeingHeader() {
     const [opacity, setOpacity] = useState(0);
+    useServiceOverlapHeader();
 
     // Handle scroll to calculate opacity for the fade effect
     useEffect(() => {
