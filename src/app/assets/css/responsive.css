@@ -169,6 +169,7 @@ text-align: center;
 
 @media only screen and (min-width:768px) and (max-width:991.98px){
 
+ 
 .blog_detail_page .rt-hero-career {
     height: 550px;
 }
@@ -764,10 +765,32 @@ padding-bottom: 100px;
  .blog_lists {
     margin-top: 0px;
   }
-
+.design_uptime_page .design__body br{
+  display: none;
+}
+.inclusion-img-wrap {
+    height: 400px;
+}
+.static-img-box.wide-box, .static-img-box.standard-box{
+  height: 100%;
+}
 }
 
 @media only screen and (min-width:992px) and (max-width:1299.98px){
+
+
+.design_uptime_page .design_wrap {
+    max-width: 450px;
+}
+.design_uptime_page .design__body br{
+  display: none;
+}
+   .desk_show{
+    display: none;
+  }
+  .tab_show{
+  display: block;
+}
 
  .wellbeing_page .design_bottom_text {
         padding-top: 150px;

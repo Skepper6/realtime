@@ -44940,3 +44940,6 @@ border-radius:20px
 .wellbeing_page .features-grid .feature-row:nth-child(3){
 margin-top: 0px;
 }
+.tab_show{
+  display: none;
+}

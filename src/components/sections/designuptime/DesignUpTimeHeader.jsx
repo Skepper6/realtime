@@ -28,11 +28,17 @@ export default function DesignUpTimeHeader() {
     <header className="rt-hero designup">
       {/* Background image */}
       <img
-        className="rt-hero__bg"
+        className="rt-hero__bg desk_show"
         src="https://skepper.in/000_Skepper_test/real/designuptime/uptime-header.jpg"
         alt="design unit"
       />
       
+       <img
+        className="rt-hero__bg tab_show"
+        src="https://skepper.in/000_Skepper_test/real/designuptime/tab-uptime-header.jpg"
+        alt="design unit"
+      />
+
       {/* Existing Gradient Shade */}
       <div className="rt-hero__shade" />
 
