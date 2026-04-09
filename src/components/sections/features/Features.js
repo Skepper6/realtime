@@ -115,7 +115,6 @@ const Features = ({ type }) => {
 		},
 		{
 			title: "Annual Maintenance ",
-			xlClass: "col-xl-6",
 			desc: "Preventive care and proactive monitoring for guaranteed uptime.",
 			icon: (
 			 <>
@@ -131,7 +130,6 @@ const Features = ({ type }) => {
 			),
 		},{
 			title: "Building Management System ",
-			xlClass: "col-xl-6",
 			desc: "Centralize your building’s critical system: HVAC, electrical, and safety, into one platform.  ",
 			icon: (
 			 <>

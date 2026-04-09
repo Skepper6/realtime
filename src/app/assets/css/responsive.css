@@ -200,12 +200,26 @@ text-align: center;
   width: 150px;
 }
 .rt-hero-career{
-  height: 450px;
+  height: 460px;
 }
   .rt-hero-career .rt-hero__shade {
     /* top: 121px; */
-    height: 580px;
+    height: auto;
 }
+  .career-page-hero{
+    height: 450px;
+    overflow: hidden;
+  }
+  .career-page-hero .rt-hero__bg{
+    top: 0;
+    height: 100%;
+    transform: none;
+    object-position: center center;
+  }
+  .career-page-hero .rt-hero__shade{
+    inset: 0;
+    height: 100%;
+  }
     .designmob_show{
     display: block;
   }
@@ -270,7 +284,7 @@ text-align: center;
         height: 100%;
     }
 .tj-careers-section {
-    margin-top: 0px;
+    margin-top: 90px;
 }
 .bg_height{
   height: 90px;
@@ -436,7 +450,7 @@ position: unset;
 }
 
   .rt-hero-career{
-    top: 0px;
+    top: 110px;
   }
 .termcondition_sec .container .hvacHero__pill {
     width: 29%;
@@ -445,8 +459,8 @@ position: unset;
     margin: 80px 15px 140px;
 }
 .rt-hero-career .top_bar{
-      top: 50%;
-    transform: translateY(0%);
+      /* top: 50%;
+    transform: translateY(0%); */
 }
   .font72{
     font-size: 55px;
@@ -709,8 +723,8 @@ margin-top: 0px;
 .design .design__grid{
   /* display: block; */
 }
- .rt-hero__bg{
-  top: 124px;
+ .rt-hero__bg, .rt-hero-career .rt-hero__bg{
+  top: 0px;
 }
 .rt-hero__content{
   /* position: absolute;
@@ -825,9 +839,11 @@ padding-bottom: 100px;
 }
 }
 
-@media only screen and (min-width:992px) and (max-width:1299.98px){
+@media only screen and (min-width:992px) and (max-width:1300.98px){
 
-
+.tj-careers-section {
+    margin-top: 90px;
+}
 .design_uptime_page .design_wrap {
     max-width: 450px;
 }
@@ -1325,6 +1341,14 @@ gap: 20px;
 
 @media only screen and (min-width:1301px) and (max-width:1400px){
 
+
+ 
+  .tj-contact-area .col-lg-6 {
+    padding-right: 0px;
+}
+.contact-item.style-2 {
+    height: 305px;
+}
   .rt-hero__bg{
     top:0px;
   }
@@ -1357,7 +1381,7 @@ gap: 20px;
   max-width: 100%;
 }
 .rt-hero-career .rt-hero__b{
-  height: 52vh;
+  height: 100%;
 }
   .h10-service-item{
     height: auto;
@@ -2810,7 +2834,9 @@ margin-right: 0px !important; */
 }
 @media (max-width: 575px) {
 
-
+.rt-hero-career .rt-hero__b {
+    height: 100%;
+}
   body main{
     top: 0px;
   }
@@ -2964,6 +2990,15 @@ margin-right: 0px !important; */
 }
 
 @media only screen and (min-width:768px) and (max-width:1200px){
+
+
+  .contact-item.style-2 .contact-icon {
+        width: 100px;
+        height: 102px;
+    }
+  .rt-hero-career .rt-hero__b {
+    height: 100%;
+}
   .service-journey--tablet-large .project-wrapper-two{
     display: block;
     max-width: 100%;

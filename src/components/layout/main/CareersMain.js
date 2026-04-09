@@ -14,13 +14,25 @@ const CareersMain = () => {
 
 	return (
 		<main >
-			   <header className="rt-hero-career">
+			   <header className="rt-hero-career career-page-hero">
       {/* Background image */}
-      <img
-        className="rt-hero__b"
+     
+
+           <img
+        className="rt-hero__bg blogdesk_show"
         src="https://skepper.in/000_Skepper_test/real/privacy-terms/Career_Page.jpg"
-        alt="Career image"
+        alt="career image"
       />
+      <img
+        className="rt-hero__bg blogmob_show"
+        src="https://skepper.in/000_Skepper_test/real/privacy-terms/mob-career-header.jpg"
+        alt="career image"
+      />
+       {/* <img
+        className="rt-hero__bg blogtab_show"
+        src="https://skepper.in/000_Skepper_test/real/blog/blog_header.jpg"
+        alt="blog image"
+      /> */}
       
       {/* Existing Gradient Shade */}
       <div className="rt-hero__shade" />
