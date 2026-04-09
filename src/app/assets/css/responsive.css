@@ -1,5 +1,9 @@
 
 @media only screen and (max-width:575.98px){
+
+  .rt-hero-career{
+    /* height: 510px; */
+  }
  .project-wrapper-two .project-style-3.active .project-thumb {
     padding-top: 0;
     height: 495px;
@@ -37,6 +41,12 @@
 
 @media only screen and (min-width:576px) and (max-width:767.98px){
 
+   .blogdesk_show{
+    display: block;
+  }
+   .blogmob_show, .blogtab_show{
+    display: none;
+  }
 .contact-item.style-2 .contact-icon {
         width: 80px;
         height: 90px;
@@ -175,6 +185,20 @@ text-align: center;
 
 @media only screen and (min-width:768px) and (max-width:991.98px){
 
+
+  .blog-style-2 .blog-content{
+        min-height: 420px
+  }
+.logo img{
+  width: 150px;
+}
+.rt-hero-career{
+  height: 450px;
+}
+  .rt-hero-career .rt-hero__shade {
+    /* top: 121px; */
+    height: 580px;
+}
    .designmob_show{
     display: block;
   }
@@ -414,8 +438,8 @@ position: unset;
     margin: 80px 15px 140px;
 }
 .rt-hero-career .top_bar{
-      top: 56%;
-    transform: translateY(-40%);
+      top: 50%;
+    transform: translateY(0%);
 }
   .font72{
     font-size: 55px;
@@ -775,7 +799,7 @@ padding-bottom: 100px;
         top: 2px;
 }
  .blog_lists {
-    margin-top: 0px;
+    /* margin-top: 0px; */
   }
 .design_uptime_page .design__body br{
   display: none;
@@ -2743,6 +2767,22 @@ margin-right: 0px !important; */
 }
 @media (max-width: 575px) {
 
+
+  body main{
+    top: 0px;
+  }
+  .rt-hero-career .rt-hero__shade{
+    height: 640px !important;  
+  }
+  .blogmob_show,  .rt-hero-career{
+    height: 633px !important;
+  }
+    .blogmob_show{
+    display: block;
+  }
+   .blogdesk_show, .blogtab_show{
+    display: none;
+  }
 .blog_detail_page .rt-hero-career{
   height:50vh
 }

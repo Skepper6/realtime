@@ -5,9 +5,21 @@ const BlogHeader = () => {
     <div>
         	   <header className="rt-hero-career ">
       {/* Background image */}
-      <img
-        className="rt-hero__b"
+    
+
+         <img
+        className="rt-hero__bg blogdesk_show"
         src="https://skepper.in/000_Skepper_test/real/blog/blog_header.jpg"
+        alt="blog image"
+      />
+      <img
+        className="rt-hero__bg blogmob_show"
+        src="https://skepper.in/000_Skepper_test/real/blog/mob-blog-header.jpg"
+        alt="blog image"
+      />
+       <img
+        className="rt-hero__bg blogtab_show"
+        src="https://skepper.in/000_Skepper_test/real/designuptime/tab-uptime-header.jpg"
         alt="blog image"
       />
       
