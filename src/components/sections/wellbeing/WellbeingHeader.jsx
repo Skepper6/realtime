@@ -4,24 +4,15 @@ import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import useServiceOverlapHeader from "@/hooks/useServiceOverlapHeader";
 
 export default function WellbeingHeader() {
-    const [opacity, setOpacity] = useState(0);
+    const [draw, setDraw] = useState(false);
     useServiceOverlapHeader();
 
-    // Handle scroll to calculate opacity for the fade effect
     useEffect(() => {
-        const handleScroll = () => {
-            const scrollPosition = window.scrollY;
-            const windowHeight = window.innerHeight;
+        const raf = requestAnimationFrame(() => setDraw(true));
 
-            // Calculate opacity: starts at 0, goes up to 0.9 as you scroll down
-            // Divided by windowHeight * 0.8 ensures it gets dark before the next section fully covers it
-            const newOpacity = Math.min(scrollPosition / (windowHeight * 0.8), 0.9);
-
-            setOpacity(newOpacity);
+        return () => {
+            cancelAnimationFrame(raf);
         };
-
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
     return (
@@ -52,8 +43,29 @@ export default function WellbeingHeader() {
 
             <div className="container">
                 <div className="top_bar">
+                    <div className={`rt-hero__frame ${draw ? "is-draw" : ""}`} aria-hidden="true" style={{ zIndex: 2 }}>
+                        <svg className="rt-hero__frameSvg" viewBox="0 0 1000 600" preserveAspectRatio="none">
+                            <line className="rt-line rt-line--top" x1="120" y1="120" x2="880" y2="120" />
+                            <line className="rt-line rt-line--rightTop" x1="880" y1="120" x2="880" y2="200" />
+                            <line className="rt-line rt-line--bottom" x1="120" y1="540" x2="880" y2="540" />
+                            <line className="rt-line rt-line--rightBottom" x1="880" y1="540" x2="880" y2="465" />
+                        </svg>
+                        <div className="sanim_img">
+                            <img
+                                className="rt-floatIcon rt-floatIcon--down"
+                                src="https://skepper.in/000_Skepper_test/real/wellbeing/comfort.png"
+                                alt=""
+                            />
+                            <img
+                                className="rt-floatIcon rt-floatIcon--up"
+                                src="https://skepper.in/000_Skepper_test/real/wellbeing/smarter_control.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+
                     {/* Content (z-index 2 in CSS, so it stays bright/visible longer) */}
-                    <div className="rt-hero__content">
+                    <div className="rt-hero__content" style={{ zIndex: 3, position: "relative" }}>
                         <span className="hvacHero__pill font12">Built With Purpose</span>
 
                         <h1 className="rt-hero__title font72 sec-title text-anim">

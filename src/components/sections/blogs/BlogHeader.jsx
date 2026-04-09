@@ -3,7 +3,7 @@ import React from 'react'
 const BlogHeader = () => {
   return (
     <div>
-        	   <header className="rt-hero-career ">
+        	   <header className="rt-hero-career resource-blog-hero">
       {/* Background image */}
     
 
@@ -19,7 +19,7 @@ const BlogHeader = () => {
       />
        <img
         className="rt-hero__bg blogtab_show"
-        src="https://skepper.in/000_Skepper_test/real/designuptime/tab-uptime-header.jpg"
+        src="https://skepper.in/000_Skepper_test/real/blog/blog_header.jpg"
         alt="blog image"
       />
       

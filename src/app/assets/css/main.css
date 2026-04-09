@@ -41401,7 +41401,7 @@ min-width: 160px;
   object-fit: cover;
   object-position: center right;
   /* HVAC focus */
-  transform: scale(1.02);
+  transform: scale(1.0);
   /* margin-top: 130px; */
   filter: saturate(0.95) contrast(1.05);
 }

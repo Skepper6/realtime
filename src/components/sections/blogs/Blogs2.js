@@ -30,7 +30,7 @@ const Blogs2 = ({ type, isSidebar }) => {
 	return (
 		<>
 				<BlogHeader/>
-		<section className="tj-blog-section-two section-space blog_lists">
+		<section className="tj-blog-section-two section-space blog_lists resource-blog-list">
 			<div className="container">
 				{/* {type === 2 ? (
 					""

@@ -41,6 +41,10 @@
 
 @media only screen and (min-width:576px) and (max-width:767.98px){
 
+
+   .rt-hero-career .rt-hero__shade{
+    height: auto !important;  
+  }
    .blogdesk_show{
     display: block;
   }
@@ -106,7 +110,7 @@ text-align: center;
     margin: 140px 15px;
 }
 .privacy_sec, .privacy_sec .rt-hero__b, .rt-hero-career .rt-hero__shade{
-  height: 100vh;
+  height: 101vh;
 }
 
      .h10-service-section.hover_img_card {
@@ -185,9 +189,12 @@ text-align: center;
 
 @media only screen and (min-width:768px) and (max-width:991.98px){
 
-
+.rt-hero__bg{
+      /* transform: scale(1.0);
+      top: 0px; */
+}
   .blog-style-2 .blog-content{
-        min-height: 420px
+        /* min-height: 420px */
   }
 .logo img{
   width: 150px;
@@ -199,7 +206,7 @@ text-align: center;
     /* top: 121px; */
     height: 580px;
 }
-   .designmob_show{
+    .designmob_show{
     display: block;
   }
   .designdesk_show, .designtab_show{
@@ -824,6 +831,39 @@ padding-bottom: 100px;
 .design_uptime_page .design_wrap {
     max-width: 450px;
 }
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+  .resource-blog-hero{
+    height: 520px;
+    overflow: hidden;
+  }
+
+  .resource-blog-hero .blogtab_show{
+    display: block;
+  }
+
+  .resource-blog-hero .blogdesk_show,
+  .resource-blog-hero .blogmob_show{
+    display: none;
+  }
+
+  .resource-blog-hero .rt-hero__bg{
+    top: 0;
+    height: 100%;
+    transform: none;
+    object-position: center center;
+  }
+
+  .resource-blog-hero .rt-hero__shade{
+    inset: 0;
+    height: 100%;
+  }
+
+  .resource-blog-hero .top_bar{
+    /* left: 0;
+    right: 0; */
+  }
+}
 .design_uptime_page .design__body br{
   display: none;
 }
@@ -1285,6 +1325,9 @@ gap: 20px;
 
 @media only screen and (min-width:1301px) and (max-width:1400px){
 
+  .rt-hero__bg{
+    top:0px;
+  }
  .desk_show{
     display: none;
   }
@@ -1329,7 +1372,7 @@ gap: 20px;
     display: none;
   }
 .rt-hero-career .rt-hero__shade, .rt-hero__b, .rt-hero-career {
-    height: 52vh;
+    /* height: 52vh; */
 }
 
 .tj-contact-area {
@@ -2772,7 +2815,7 @@ margin-right: 0px !important; */
     top: 0px;
   }
   .rt-hero-career .rt-hero__shade{
-    height: 640px !important;  
+    height: auto !important;  
   }
   .blogmob_show,  .rt-hero-career{
     height: 633px !important;
