@@ -39,9 +39,8 @@ export default function SubServiceHeader() {
       />
 
          <img
-        className="rt-hero__bg mob_show"
-        src="https://skepper.in/000_Skepper_test/real/hvac/hvac_mobile_header.jpg
-"
+        className="rt-hero__bg mob_show tab_show"
+        src="https://skepper.in/000_Skepper_test/real/hvac/tab-hvac-header.jpg"
         alt="HVAC unit"
       /> 
       <div className="rt-hero__shade" />
