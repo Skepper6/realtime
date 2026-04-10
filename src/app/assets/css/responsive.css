@@ -194,7 +194,7 @@ text-align: center;
       top: 0px; */
 }
   .blog-style-2 .blog-content{
-        /* min-height: 420px */
+        min-height: 420px
   }
 .logo img{
   width: 150px;
@@ -366,7 +366,7 @@ text-align: center;
     width: 310px;
 }
 .tj-post-area {
-    margin-top: 0px;
+    /* margin-top: 0px; */
 }
  .contact_page .section-bottom-space{
     padding-bottom: 150px;
@@ -2991,7 +2991,9 @@ margin-right: 0px !important; */
 
 @media only screen and (min-width:768px) and (max-width:1200px){
 
-
+.phe_testimonial br {
+    display: none;
+}
   .contact-item.style-2 .contact-icon {
         width: 100px;
         height: 102px;
