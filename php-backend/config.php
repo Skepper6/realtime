@@ -8,6 +8,10 @@ return [
     'db_user' => 'root',
     'db_password' => '',
 
+    // PDF resumes from the careers form are stored here.
+    'job_application_upload_dir' => __DIR__ . '/uploads/job-applications',
+    'job_application_resume_max_mb' => 5,
+
     // Allow requests from your Next.js local site.
     'allowed_origins' => [
         'http://localhost:3000',

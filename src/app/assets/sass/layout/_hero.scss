@@ -274,12 +274,10 @@
 	@media #{$lg} {
 		max-width: 460px;
 		padding-inline-start: 40px;
-		padding-top: 0px;
 	}
 	@media #{$md, $sm, $xs} {
 		max-width: 100%;
 		padding-inline-start: 0px;
-		padding-top: 0px;
 		.hero-buuton {
 			margin-top: 25px;
 		}

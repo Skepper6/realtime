@@ -2,6 +2,7 @@ const fs = require("fs");
 const net = require("net");
 const path = require("path");
 const { spawn } = require("child_process");
+const { createDirectCssSyncManager } = require("./sync-direct-css");
 
 const rawArgs = process.argv.slice(2);
 const lockFilePath = path.join(process.cwd(), ".next-dev-server.json");
@@ -107,6 +108,10 @@ async function findFreePort(startPort) {
 }
 
 async function main() {
+	const directCssSyncManager = createDirectCssSyncManager(process.cwd());
+
+	directCssSyncManager.syncDirectCssAssets();
+
 	const runningServer = readServerLock();
 
 	if (runningServer) {
@@ -121,6 +126,7 @@ async function main() {
 	const port = await findFreePort(requestedPort);
 	const distDir = `.next-dev-${port}`;
 	const nextBin = require.resolve("next/dist/bin/next");
+	const stopDirectCssWatch = directCssSyncManager.watchDirectCssAssets();
 
 	process.env.PORT = String(port);
 	process.env.NEXT_DIST_DIR = distDir;
@@ -149,6 +155,8 @@ async function main() {
 
 	["SIGINT", "SIGTERM"].forEach(signal => {
 		process.on(signal, () => {
+			stopDirectCssWatch();
+
 			if (!child.killed) {
 				child.kill(signal);
 			}
@@ -156,11 +164,13 @@ async function main() {
 	});
 
 	child.on("exit", code => {
+		stopDirectCssWatch();
 		clearServerLock();
 		process.exit(code ?? 0);
 	});
 
 	child.on("error", error => {
+		stopDirectCssWatch();
 		clearServerLock();
 		console.error(error);
 		process.exit(1);

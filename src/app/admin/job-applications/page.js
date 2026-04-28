@@ -1,21 +1,21 @@
-import ContactAdminPage from "@/components/sections/contacts/ContactAdminPage";
+import JobApplicationsAdminPage from "@/components/sections/careers/JobApplicationsAdminPage";
 import contactApiConfig from "@/libs/contactApiConfig";
 
 export const metadata = {
-	title: "Contact Details | Real Time Infra",
-	description: "Admin view for contact form submissions.",
+	title: "Job Applications | Real Time Infra",
+	description: "Admin view for careers job applications.",
 };
 
 const getApiBaseUrl = () => {
-	return contactApiConfig.baseUrl.replace(/\/+$/, "");
+	return contactApiConfig.jobBaseUrl.replace(/\/+$/, "");
 };
 
-const getContactSubmissions = async () => {
+const getJobApplications = async () => {
 	const apiBaseUrl = getApiBaseUrl();
 
 	if (!apiBaseUrl) {
 		return {
-			submissions: [],
+			applications: [],
 			errorMessage: "Contact backend URL is missing in contactApiConfig.js.",
 		};
 	}
@@ -29,23 +29,26 @@ const getContactSubmissions = async () => {
 			headers["x-admin-key"] = contactApiConfig.adminApiKey;
 		}
 
-		const response = await fetch(`${apiBaseUrl}/contact-list.php?limit=200`, {
-			cache: "no-store",
-			headers,
-		});
+		const response = await fetch(
+			`${apiBaseUrl}/job-application-list.php?limit=200`,
+			{
+				cache: "no-store",
+				headers,
+			}
+		);
 		const result = await response.json().catch(() => null);
 
 		if (!response.ok || !result?.success) {
 			return {
-				submissions: [],
+				applications: [],
 				errorMessage:
 					result?.message ||
-					"Unable to fetch contact submissions from the PHP backend.",
+					"Unable to fetch job applications from the PHP backend.",
 			};
 		}
 
 		return {
-			submissions: Array.isArray(result?.data) ? result.data : [],
+			applications: Array.isArray(result?.data) ? result.data : [],
 			errorMessage: "",
 		};
 	} catch (error) {
@@ -54,7 +57,7 @@ const getContactSubmissions = async () => {
 			error instanceof Error ? error.message.trim() : "";
 
 		return {
-			submissions: [],
+			applications: [],
 			errorMessage:
 				!errorMessage || errorMessage === "Failed to fetch"
 					? fallbackMessage
@@ -63,12 +66,12 @@ const getContactSubmissions = async () => {
 	}
 };
 
-export default async function ContactDetailsPage() {
-	const { submissions, errorMessage } = await getContactSubmissions();
+export default async function JobApplicationsPage() {
+	const { applications, errorMessage } = await getJobApplications();
 
 	return (
-		<ContactAdminPage
-			submissions={submissions}
+		<JobApplicationsAdminPage
+			applications={applications}
 			errorMessage={errorMessage}
 		/>
 	);

@@ -1,0 +1,116 @@
+{
+	"project coordinator": {
+		"serviceId": 1,
+		"projectId": 1,
+		"descriptionLead": "You will coordinate installation activity from planning through handover, keeping site execution, material flow, and stakeholder communication aligned at every stage.",
+		"requirementIntro": "This opening needs someone who can keep HVAC delivery moving without losing track of safety, timelines, or site readiness.",
+		"responsibilityIntro": "You will own the daily coordination rhythm for the assigned scope and keep every moving part visible to the team.",
+		"requirements": [
+			"Experience coordinating site teams, vendors, drawings, and installation schedules.",
+			"Strong follow-up on materials, permits, safety checks, and handover documentation.",
+			"Confidence working with HVAC installation milestones and cross-functional teams.",
+			"Clear written and verbal communication for client and internal progress updates."
+		],
+		"responsibilities": [
+			"Track installation progress against plan and escalate delays before they affect delivery.",
+			"Coordinate site meetings, action logs, approvals, and readiness checkpoints.",
+			"Support procurement follow-up and make sure teams receive the right information on time.",
+			"Maintain accurate project records from kickoff through final submission."
+		]
+	},
+	"hvac design engineer": {
+		"serviceId": 1,
+		"projectId": 3,
+		"descriptionLead": "You will design efficient HVAC solutions that translate client needs and architectural constraints into practical, buildable systems.",
+		"requirementIntro": "This role fits an engineer who is comfortable turning technical inputs into coordinated drawings and performance-led design decisions.",
+		"responsibilityIntro": "You will shape the design package and keep it coordinated with execution, compliance, and performance targets.",
+		"requirements": [
+			"Experience with HVAC load calculations, equipment selection, and duct or piping layouts.",
+			"Working knowledge of design coordination with architecture, electrical, and plumbing teams.",
+			"Ability to produce clear design documentation, BOQs, and technical submittals.",
+			"Attention to efficiency, compliance, maintainability, and site practicality."
+		],
+		"responsibilities": [
+			"Prepare HVAC designs, technical calculations, and coordinated drawing packages.",
+			"Support project teams with design clarifications, revisions, and value engineering inputs.",
+			"Review specifications and ensure systems meet client expectations and operational targets.",
+			"Work closely with execution teams so design intent is carried through to installation."
+		]
+	},
+	"site engineer": {
+		"serviceId": 1,
+		"projectId": 1,
+		"descriptionLead": "You will drive site execution for HVAC works, making sure installation quality, sequencing, and safety stay under control on the ground.",
+		"requirementIntro": "This opening needs a hands-on engineer who can read drawings, supervise teams, and close issues quickly at site level.",
+		"responsibilityIntro": "You will translate plans into disciplined site progress and keep work fronts ready for uninterrupted execution.",
+		"requirements": [
+			"Site experience supervising HVAC installation, testing, and coordination activities.",
+			"Ability to interpret drawings, identify clashes, and follow approved execution methods.",
+			"Good control over measurements, quality checks, and daily progress reporting.",
+			"Comfort working closely with contractors, supervisors, and safety teams on site."
+		],
+		"responsibilities": [
+			"Monitor daily site work, manpower allocation, and installation quality.",
+			"Verify materials, clearances, and work fronts before execution starts.",
+			"Maintain site records, progress updates, and snag closure follow-up.",
+			"Coordinate testing, commissioning readiness, and final punch-list completion."
+		]
+	},
+	"project manager": {
+		"serviceId": 5,
+		"projectId": 2,
+		"descriptionLead": "You will lead project delivery across planning, execution, coordination, and client communication while keeping scope, time, and quality tightly managed.",
+		"requirementIntro": "This role suits someone who can balance commercial awareness, execution control, and stakeholder confidence across active project phases.",
+		"responsibilityIntro": "You will set the delivery rhythm, align teams, and keep major decisions moving with clarity and accountability.",
+		"requirements": [
+			"Experience managing MEP or facility delivery projects from kickoff to completion.",
+			"Strong control of schedules, resource planning, risk tracking, and client reporting.",
+			"Ability to align design, procurement, site execution, and maintenance considerations.",
+			"Calm decision-making under pressure with a clear sense of ownership."
+		],
+		"responsibilities": [
+			"Own project schedules, milestone reviews, and cross-team delivery planning.",
+			"Lead client communication, internal reviews, and issue-resolution follow-up.",
+			"Monitor budgets, risks, change requests, and overall execution quality.",
+			"Drive handover readiness with complete documentation and closure tracking."
+		]
+	},
+	"technical support": {
+		"serviceId": 5,
+		"projectId": 2,
+		"descriptionLead": "You will support ongoing system performance by responding quickly, troubleshooting accurately, and helping clients keep operations stable.",
+		"requirementIntro": "This opening is for someone who enjoys solving technical issues, guiding users, and maintaining dependable service continuity.",
+		"responsibilityIntro": "You will be one of the first lines of support for operational issues, system checks, and service follow-up.",
+		"requirements": [
+			"Experience handling technical support requests for HVAC, BMS, or facility systems.",
+			"Ability to diagnose issues, document findings, and coordinate timely resolutions.",
+			"Strong communication skills for explaining actions and updates to clients clearly.",
+			"Organized approach to ticket follow-up, preventive checks, and service records."
+		],
+		"responsibilities": [
+			"Respond to service issues, log diagnostics, and coordinate corrective action.",
+			"Support preventive maintenance planning and performance follow-up.",
+			"Work with site and vendor teams to restore systems with minimal downtime.",
+			"Maintain accurate service reports and communicate status to stakeholders."
+		]
+	},
+	"hvac engineer": {
+		"serviceId": 4,
+		"projectId": 2,
+		"descriptionLead": "You will support reliable HVAC performance through engineering review, maintenance planning, and practical improvements across active systems.",
+		"requirementIntro": "This role needs an engineer who understands both system behavior and the discipline required to keep operations efficient over time.",
+		"responsibilityIntro": "You will focus on system health, maintenance quality, and engineering support for long-term performance.",
+		"requirements": [
+			"Experience with HVAC system operation, maintenance review, and troubleshooting support.",
+			"Ability to assess equipment condition, performance trends, and service priorities.",
+			"Comfort coordinating with service teams, clients, and facility stakeholders.",
+			"Strong documentation habits for maintenance records and technical observations."
+		],
+		"responsibilities": [
+			"Review system performance and support maintenance planning across assigned assets.",
+			"Coordinate inspections, corrective actions, and engineering follow-up.",
+			"Help optimize uptime, reliability, and service response quality.",
+			"Document findings and recommend practical improvements for sustained performance."
+		]
+	}
+}

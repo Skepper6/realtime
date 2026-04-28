@@ -18,7 +18,7 @@ const formatSubmittedAt = value => {
 };
 
 const getLatestSubmission = items => {
-	const latestSubmission = items.reduce((latestItem, currentItem) => {
+	const latestApplication = items.reduce((latestItem, currentItem) => {
 		const latestTime = new Date(latestItem?.created_at || 0).getTime();
 		const currentTime = new Date(currentItem?.created_at || 0).getTime();
 
@@ -33,34 +33,34 @@ const getLatestSubmission = items => {
 		return latestItem;
 	}, null);
 
-	return latestSubmission ? formatSubmittedAt(latestSubmission.created_at) : "-";
+	return latestApplication ? formatSubmittedAt(latestApplication.created_at) : "-";
 };
 
-const ContactAdminPage = ({ submissions = [], errorMessage = "" }) => {
-	const totalSubmissions = submissions.length;
-	const uniqueServices = new Set(
-		submissions.map(item => item.service_interest || "General enquiry")
+const JobApplicationsAdminPage = ({ applications = [], errorMessage = "" }) => {
+	const totalApplications = applications.length;
+	const uniqueRoles = new Set(
+		applications.map(item => item.job_title || "Open position")
 	).size;
-	const uniqueContacts = new Set(
-		submissions.map(item => String(item.email || "").trim()).filter(Boolean)
+	const uniqueApplicants = new Set(
+		applications.map(item => String(item.email || "").trim()).filter(Boolean)
 	).size;
-	const latestSubmission = getLatestSubmission(submissions);
+	const latestSubmission = getLatestSubmission(applications);
 
 	return (
 		<main className="contact-admin-page">
 			<section className="contact-admin-hero">
 				<div className="contact-admin-hero__content">
 					<div>
-						<span className="contact-admin-hero__eyebrow">Leads dashboard</span>
-						<h1 className="contact-admin-hero__title">Contact enquiries</h1>
+						<span className="contact-admin-hero__eyebrow">Careers dashboard</span>
+						<h1 className="contact-admin-hero__title">Job applications</h1>
 					</div>
 
 					<div className="contact-admin-hero__actions">
 						<Link
-							href="/admin/job-applications"
+							href="/admin/contact-details"
 							className="contact-admin-toolbar__action"
 						>
-							Open job applications
+							Open contact enquiries
 						</Link>
 					</div>
 				</div>
@@ -68,16 +68,16 @@ const ContactAdminPage = ({ submissions = [], errorMessage = "" }) => {
 
 			<section className="contact-admin-summary">
 				<div className="contact-admin-summary__card">
-					<span className="contact-admin-summary__label">Total submissions</span>
-					<strong>{totalSubmissions}</strong>
+					<span className="contact-admin-summary__label">Total applications</span>
+					<strong>{totalApplications}</strong>
 				</div>
 				<div className="contact-admin-summary__card">
-					<span className="contact-admin-summary__label">Service interests</span>
-					<strong>{uniqueServices}</strong>
+					<span className="contact-admin-summary__label">Open roles</span>
+					<strong>{uniqueRoles}</strong>
 				</div>
 				<div className="contact-admin-summary__card">
-					<span className="contact-admin-summary__label">Unique contacts</span>
-					<strong>{uniqueContacts}</strong>
+					<span className="contact-admin-summary__label">Unique applicants</span>
+					<strong>{uniqueApplicants}</strong>
 				</div>
 				<div className="contact-admin-summary__card">
 					<span className="contact-admin-summary__label">Latest received</span>
@@ -94,48 +94,53 @@ const ContactAdminPage = ({ submissions = [], errorMessage = "" }) => {
 			<section className="contact-admin-panel">
 				<div className="contact-admin-panel__header">
 					<div>
-						<h2 className="contact-admin-panel__title">Lead records</h2>
+						<h2 className="contact-admin-panel__title">Application records</h2>
 					</div>
 					<span className="contact-admin-panel__count">
-						{totalSubmissions} {totalSubmissions === 1 ? "entry" : "entries"}
+						{totalApplications} {totalApplications === 1 ? "entry" : "entries"}
 					</span>
 				</div>
 
-				{submissions.length ? (
+				{applications.length ? (
 					<div className="contact-admin-table-wrap">
 						<div
 							data-lenis-prevent
 							className="table-responsive contact-admin-table-scroll"
 						>
-							<table className="table contact-admin-table mb-0">
+							<table className="table contact-admin-table contact-admin-table--jobs mb-0">
 								<colgroup>
-									<col style={{ width: "7%" }} />
-									<col style={{ width: "14%" }} />
-									<col style={{ width: "18%" }} />
-									<col style={{ width: "14%" }} />
-									<col style={{ width: "14%" }} />
-									<col style={{ width: "18%" }} />
-									<col style={{ width: "15%" }} />
+									<col style={{ width: "80px" }} />
+									<col style={{ width: "230px" }} />
+									<col style={{ width: "250px" }} />
+									<col style={{ width: "270px" }} />
+									<col style={{ width: "190px" }} />
+									<col style={{ width: "270px" }} />
+									<col style={{ width: "180px" }} />
+									<col style={{ width: "240px" }} />
 								</colgroup>
 								<thead>
 									<tr>
 										<th>S.No</th>
-										<th>Name</th>
+										<th>Job</th>
+										<th>Applicant</th>
 										<th>Email</th>
 										<th>Phone</th>
-										<th>Service</th>
-										<th>Message</th>
+										<th>Cover letter</th>
+										<th>Resume</th>
 										<th>Submitted</th>
 									</tr>
 								</thead>
 								<tbody>
-									{submissions.map((item, index) => (
+									{applications.map((item, index) => (
 										<tr key={item.id}>
 											<td className="contact-admin-table__serial">
 												{index + 1}
 											</td>
+											<td className="contact-admin-table__service">
+												<span>{item.job_title || "Open position"}</span>
+											</td>
 											<td className="contact-admin-table__name-cell">
-												<strong>{item.full_name || "Unknown Contact"}</strong>
+												<strong>{item.full_name || "Unknown applicant"}</strong>
 											</td>
 											<td className="contact-admin-table__email">
 												<a href={`mailto:${item.email}`}>{item.email || "-"}</a>
@@ -143,11 +148,20 @@ const ContactAdminPage = ({ submissions = [], errorMessage = "" }) => {
 											<td className="contact-admin-table__phone">
 												<a href={`tel:${item.phone}`}>{item.phone || "-"}</a>
 											</td>
-											<td className="contact-admin-table__service">
-												<span>{item.service_interest || "-"}</span>
-											</td>
 											<td className="contact-admin-table__message">
-												{item.message || "No message added."}
+												{item.cover_letter || "No cover letter added."}
+											</td>
+											<td className="contact-admin-table__resume">
+												{item.id ? (
+													<a
+														className="contact-admin-download-link"
+														href={`/admin/job-applications/download?id=${item.id}`}
+													>
+														Download PDF
+													</a>
+												) : (
+													<span>-</span>
+												)}
 											</td>
 											<td className="contact-admin-table__submitted">
 												{formatSubmittedAt(item.created_at)}
@@ -160,7 +174,7 @@ const ContactAdminPage = ({ submissions = [], errorMessage = "" }) => {
 					</div>
 				) : (
 					<div className="contact-admin-empty">
-						No contact enquiries have been stored yet.
+						No job applications have been stored yet.
 					</div>
 				)}
 			</section>
@@ -168,4 +182,4 @@ const ContactAdminPage = ({ submissions = [], errorMessage = "" }) => {
 	);
 };
 
-export default ContactAdminPage;
+export default JobApplicationsAdminPage;

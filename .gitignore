@@ -17,6 +17,7 @@
 # next.js
 /.next/
 /.next-dev-*/
+/.next-dev-*.zip
 /out/
 
 # production
@@ -28,6 +29,8 @@
 
 # debug
 npm-debug.log*
+dev-*.log
+dev-*.err.log
 dev-server.log
 dev-server-2.log
 .next-dev-server.json

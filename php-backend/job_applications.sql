@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS job_applications (
+    id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    job_id INT UNSIGNED NOT NULL,
+    job_title VARCHAR(160) NOT NULL,
+    full_name VARCHAR(120) NOT NULL,
+    email VARCHAR(160) NOT NULL,
+    phone VARCHAR(40) NOT NULL,
+    cover_letter TEXT NULL,
+    resume_original_name VARCHAR(255) NOT NULL,
+    resume_stored_name VARCHAR(255) NOT NULL,
+    resume_mime_type VARCHAR(100) NOT NULL,
+    resume_size_bytes BIGINT UNSIGNED NOT NULL,
+    page_url VARCHAR(255) NULL,
+    ip_address VARCHAR(45) NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id),
+    KEY idx_job_applications_created_at (created_at),
+    KEY idx_job_applications_job_id (job_id),
+    KEY idx_job_applications_email (email)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
