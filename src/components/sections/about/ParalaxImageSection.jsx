@@ -52,7 +52,7 @@ const InfoSection = () => {
 function ParalaxImageSection() {
   // Using placeholders similar to your images
   const image1 = "https://skepper.in/000_Skepper_test/real/about/paralax1.jpg"; 
-  const image2 = "https://skepper.in/000_Skepper_test/real/paralax2.jpg"; 
+  const image2 = "https://skepper.in/000_Skepper_test/real/about/about_paralax_2.jpg"; 
 
   return (
     <div className="">

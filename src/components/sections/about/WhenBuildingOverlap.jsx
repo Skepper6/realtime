@@ -38,7 +38,7 @@ const WhenBuildingOverlap = () => {
 
                 <div className="rtx-note">
                   <p>
-                    “Our Design to Uptime <br/>philosophy ensures that<br/> every system we create - air,<br/> water, or energy- continues to<br/> perform long after installation.”
+                    “At the core of our Design to<br/> Uptime philosophy is a <br/>simple promise: every system <br/>we build performs long after installation”
                   </p>
                 </div>
               </div>

@@ -16732,6 +16732,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   bottom: 50px;
   position: absolute;
   max-width: 80%;
+  z-index: 2;
 }
 
 .timeline-inner .content .top span {
@@ -16772,6 +16773,24 @@ only screen and (min-width: 576px) and (max-width: 767px),
   /* display: grid; */
   /* grid-template-columns: repeat(2, 1fr); */
   gap: 20px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.timeline-inner .content .bottom::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.66) 48%, rgba(0, 0, 0, 0.2) 100%);
+  pointer-events: none;
+}
+
+.timeline-inner .content .bottom img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
 }
 
 

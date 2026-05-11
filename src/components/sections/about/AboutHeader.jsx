@@ -18,7 +18,7 @@ export default function AboutHeader() {
         {/* Background image */}
         <img
           className="rt-hero__bg"
-          src="https://skepper.in/000_Skepper_test/real/hvac_header_img.jpg"
+          src="https://skepper.in/000_Skepper_test/real/about/about_header_img.jpg"
           alt="HVAC unit"
         />
           {/* Bottom→Top shadow overlay */}

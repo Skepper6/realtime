@@ -112,6 +112,7 @@
 	.top {
 		padding-inline-start: 40px;
 		position: relative;
+		z-index: 2;
 		span {
 			position: absolute;
 			top: 0;
@@ -137,6 +138,27 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 20px;
+		position: relative;
+		overflow: hidden;
+		border-radius: 30px;
+		&::after {
+			content: "";
+			position: absolute;
+			inset: 0;
+			background: linear-gradient(
+				to top,
+				rgba(0, 0, 0, 0.72) 0%,
+				rgba(0, 0, 0, 0.46) 48%,
+				rgba(0, 0, 0, 0.2) 100%
+			);
+			pointer-events: none;
+		}
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+			border-radius: 30px;
+		}
 	}
 }
 @media (max-width: 767.98px) {
