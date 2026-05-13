@@ -16,7 +16,7 @@ const Founder = () => {
             {/* 1. White Image Area */}
             <div className="card-image-wrapper">
               <img 
-                src="https://skepper.in/000_Skepper_test/real/emp1.png" 
+                src="https://skepper.in/000_Skepper_test/real/about/CEO_realtime.jpg" 
                 alt="Prasanth Thandayil" 
                 className="founder-img"
               />

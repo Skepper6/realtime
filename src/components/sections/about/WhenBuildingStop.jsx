@@ -18,8 +18,8 @@ export default function WhenBuildingStop() {
           <div className="rtx-portraitWrap">
             <img
               className="rtx-portrait"
-              src="images/about/manager.png"
-              alt="Portrait"
+              src="https://skepper.in/000_Skepper_test/real/about/manager.png"
+              alt="CEO"
             />
           </div>
         </section>
