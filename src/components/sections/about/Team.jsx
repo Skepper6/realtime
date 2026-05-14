@@ -6,10 +6,10 @@ const Team = () => {
     const getTeamMembers = [
 	{
 		"id": 1,
-		"name": "Savanah Nguyen",
+		"name": "Sajith",
 		"desig": "Manager",
-		"img": "https://skepper.in/000_Skepper_test/real/emp1.png",
-		"imgLarge": "https://skepper.in/000_Skepper_test/real/emp1.png"
+		"img": "https://skepper.in/000_Skepper_test/real/about/sajith.jpg",
+		"imgLarge": "https://skepper.in/000_Skepper_test/real/about/sajith.jpg"
 	},
 	{
 		"id": 2,
