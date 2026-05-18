@@ -1536,6 +1536,13 @@ gap: 20px;
 
 /* ✅ Disable ALL animations on responsive */
 @media (max-width: 767px) {
+
+  .about_mob{
+display:block;
+}
+.about_desk{
+display:none
+}
  .hero-content .hero-title{
     padding-top: 50px;
   }
@@ -2998,7 +3005,12 @@ margin-right: 0px !important; */
 }
 
 @media only screen and (min-width:768px) and (max-width:1200px){
-
+  .about_mob{
+display:block;
+}
+.about_desk{
+display:none
+}
 .phe_testimonial br {
     display: none;
 }

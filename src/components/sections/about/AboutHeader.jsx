@@ -17,8 +17,13 @@ export default function AboutHeader() {
       <header className="rt-hero">
         {/* Background image */}
         <img
-          className="rt-hero__bg"
+          className="rt-hero__bg about_desk"
           src="https://skepper.in/000_Skepper_test/real/about/about_header_img.jpg"
+          alt="HVAC unit"
+        />
+         <img
+          className="rt-hero__bg about_mob"
+          src="https://skepper.in/000_Skepper_test/real/about/about_mob.jpg"
           alt="HVAC unit"
         />
           {/* Bottom→Top shadow overlay */}

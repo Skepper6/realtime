@@ -6,7 +6,7 @@ const ParallaxImage = ({ imageUrl, alt }) => {
   return (
     <>
       <div
-        className={styles.parallaxDesktop}
+        className={`${styles.parallaxDesktop} about_paralax`}
         style={{ backgroundImage: `url(${imageUrl})` }}
         aria-hidden="true"
       />

@@ -41,6 +41,8 @@ import WhiteShape from "../../sections/WhiteShape";
 
 
 const AboutMain = () => {
+	const showTopManagement = false;
+
 	return (
 		<main className="about_page">
 			{/* <HeroInner title={"About"} text={"About"} /> */}
@@ -51,7 +53,7 @@ const AboutMain = () => {
 			<FadeText/>
 			<ParalaxImageSection/>
 			<Founder/>
-			<Team />
+			{showTopManagement ? <Team /> : null}
 			<WhyChoose/>
 			<VisionMission/>
 			<AboutCards/>
