@@ -1,10 +1,14 @@
 import JobApplicationsAdminPage from "@/components/sections/careers/JobApplicationsAdminPage";
 import contactApiConfig from "@/libs/contactApiConfig";
+import { buildMetadata } from "@/libs/seo";
 
-export const metadata = {
-	title: "Job Applications | Real Time Infra",
+export const metadata = buildMetadata({
+	title: "Job Applications",
 	description: "Admin view for careers job applications.",
-};
+	path: "/admin/job-applications",
+	index: false,
+	follow: false,
+});
 
 const getApiBaseUrl = () => {
 	return contactApiConfig.jobBaseUrl.replace(/\/+$/, "");

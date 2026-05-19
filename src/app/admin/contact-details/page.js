@@ -1,10 +1,14 @@
 import ContactAdminPage from "@/components/sections/contacts/ContactAdminPage";
 import contactApiConfig from "@/libs/contactApiConfig";
+import { buildMetadata } from "@/libs/seo";
 
-export const metadata = {
-	title: "Contact Details | Real Time Infra",
+export const metadata = buildMetadata({
+	title: "Contact Details",
 	description: "Admin view for contact form submissions.",
-};
+	path: "/admin/contact-details",
+	index: false,
+	follow: false,
+});
 
 const getApiBaseUrl = () => {
 	return contactApiConfig.baseUrl.replace(/\/+$/, "");
