@@ -9,16 +9,16 @@ const contactApiBaseUrl = contactApiConfig.baseUrl.replace(/\/+$/, "");
 
 const serviceOptions = [
 	{ value: "", name: "Choose an option" },
-	{ value: "HVAC Services", name: "HVAC Services" },
+	{ value: "HVAC Solutions", name: "HVAC Solutions" },
 	{
-		value: "Electrical Systems Services",
-		name: "Electrical Systems Services",
+		value: "Electrical Systems",
+		name: "Electrical Systems",
 	},
-	{ value: "PHE Services", name: "PHE Services" },
-	{ value: "Annual Maintenance", name: "Annual Maintenance" },
+	{ value: "Public Health Engineering", name: "Public Health Engineering" },
+	{ value: "Annual Maintenance Services", name: "Annual Maintenance Services" },
 	{
-		value: "Building Management Service",
-		name: "Building Management Service",
+		value: "Building Management System",
+		name: "Building Management System",
 	},
 ];
 

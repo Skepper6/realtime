@@ -100,7 +100,7 @@ const Footer = ({ footerType, isRtl }) => {
 											<Link href="/phe-service">Public Health Engineering</Link>
 										</li>
 										<li>
-											<Link href="/annual-maintenance-contracts">Annual Maintenance</Link>
+											<Link href="/annual-maintenance-contracts">Annual Maintenance Services</Link>
 										</li>
 											<li>
 											<Link href="/building-management-service">Building Management System</Link>

@@ -138,7 +138,7 @@ const BuildingMaintenanceFAQ = () => {
 										>
 											<div className="accordion-body">
 												<p>
-													What are the main benefits of implementing a BMS? 
+													BMS provides centralized control, improved energy efficiency, better indoor comfort, enhanced operational visibility, and longer equipment life through smarter system management.  
 												</p>
 											</div>
 										</div>
