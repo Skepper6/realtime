@@ -11,7 +11,7 @@ const Brands1 = () => {
 							data-wow-delay="0.1s"
 						>
 							<h6 className="sec-title">
-								Join the <span>1000+</span> companies benefiting from solvior
+								Join the <span>1000+</span> companies benefiting from Realtime Infra
 							</h6>
 						</div>
 					</div>

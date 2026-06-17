@@ -9,7 +9,7 @@ const TestimonialsCard2 = ({ testimonial }) => {
 				</div>
 				<div className="desc">
 					<p>
-						Partnering with solvior has been a transformative experience for our
+						Partnering with Realtime Infra has been a transformative experience for our
 						organization. Their expert guidance through our market expansion
 						strategy was invaluable. They helped us navigate complex regulatory
 						environments and develop a clear, actionable plan that has led to

@@ -15,7 +15,7 @@ const Cta7 = () => {
 							</div>
 							<h2 className="sec-title text-anim">
 								NEED MORE HELP?{" "}
-								<Link className="line-hover" href="mailto:support@solvior.com">
+								<Link className="line-hover" href="mailto:info@realtimeinfra.com">
 									CONTACT US
 								</Link>
 							</h2>

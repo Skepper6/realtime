@@ -3173,7 +3173,7 @@ a.cart-button.icon-btn.button.stock-out {
 .tj-shop-listing-popup .nice-select::after {
   border: 0;
   content: "\e91a";
-  font-family: "solvior-icons" !important;
+  font-family: "realtime-icons" !important;
   height: auto;
   width: auto;
   -webkit-transform: unset;
@@ -5710,7 +5710,7 @@ div.woocommerce .cart_totals table {
   inset-inline-end: 20px;
   content: "\e929";
   font-size: 20px;
-  font-family: "solvior-icons" !important;
+  font-family: "realtime-icons" !important;
   width: 40px;
   height: 40px;
   border-radius: 50%;

@@ -20,13 +20,13 @@ const CareerCard = ({ careerSingle, idx }) => {
 				<span>{category}</span> <span>{need}</span>
 			</div>
 			
-			<h4 className="tj-careers-title font24 aleo_semibold">
+			<h4 className="tj-careers-title  aleo_semibold">
 				<Link href={`/careers/${id}`}>{title}</Link>
 			</h4>
 			
-			<div className="tj-careers-salary font18">
+			{/* <div className="tj-careers-salary font18">
 				<span>{price}</span> / {duration}
-			</div>
+			</div> */}
 			
 			<div className="tj-careers-bottom">
 				<span className="location">

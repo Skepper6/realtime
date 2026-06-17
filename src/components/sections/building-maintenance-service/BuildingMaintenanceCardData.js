@@ -42,7 +42,7 @@ export default [
 			},
 			{
 				"title": "Designer",
-				"desc": "ThemeJunction"
+				"desc": "Realtime Infra"
 			}
 		],
 		"descItems": [
@@ -100,7 +100,7 @@ export default [
 			},
 			{
 				"title": "Designer",
-				"desc": "ThemeJunction"
+				"desc": "Realtime Infra"
 			}
 		],
 		"descItems": [
@@ -158,7 +158,7 @@ export default [
 			},
 			{
 				"title": "Designer",
-				"desc": "ThemeJunction"
+				"desc": "Realtime Infra"
 			}
 		],
 		"descItems": [
@@ -216,7 +216,7 @@ export default [
 			},
 			{
 				"title": "Designer",
-				"desc": "ThemeJunction"
+				"desc": "Realtime Infra"
 			}
 		],
 		"descItems": [

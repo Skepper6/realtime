@@ -423,7 +423,7 @@ const CheckoutPrimary = () => {
 																					name="billing_email"
 																					id="billing_email"
 																					placeholder=""
-																					defaultValue="admin@themejunction.net"
+																					defaultValue="info@realtimeinfra.com"
 																					aria-required="true"
 																					autoComplete="email"
 																				/>

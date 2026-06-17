@@ -177,7 +177,7 @@ const Footer6 = () => {
 							<div className="copyright-content-area">
 								<div className="copyright-text">
 									<p>
-										© 2025 <Link href="/"> Solvior </Link> All right reserved.
+										© 2025 <Link href="/"> Realtime Infra </Link> All right reserved.
 									</p>
 								</div>
 								<div className="copyright-socails">

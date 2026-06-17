@@ -375,7 +375,7 @@
 
 			&::before {
 				content: "\e927";
-				font-family: "solvior-icons";
+				font-family: "realtime-icons";
 			}
 
 			&::after {
@@ -384,7 +384,7 @@
 				width: auto;
 				border: none;
 				content: "\e91a";
-				font-family: "solvior-icons";
+				font-family: "realtime-icons";
 				transform: translateY(-50%) rotate(0);
 				margin-top: 0;
 				transform-origin: center;
@@ -487,7 +487,7 @@
 				> a {
 					&::after {
 						content: "\e91a";
-						font-family: "solvior-icons";
+						font-family: "realtime-icons";
 						transition: transform 0.4s;
 					}
 				}

@@ -1,9 +1,15 @@
 import type { NextConfig } from "next";
 
+const basePath = (process.env.NEXT_PUBLIC_BASE_PATH || "").replace(/\/+$/, "");
+
 const nextConfig: NextConfig = {
+  basePath: basePath || undefined,
   distDir: process.env.NEXT_DIST_DIR || ".next",
   eslint: {
     ignoreDuringBuilds: true,
+  },
+  experimental: {
+    cpus: 1,
   },
   reactStrictMode: false,
   async redirects() {

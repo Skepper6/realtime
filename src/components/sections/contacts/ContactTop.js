@@ -84,8 +84,8 @@ const ContactTop = () => {
 							<h3 className="contact-title">Live chat</h3>
 							<ul className="contact-list">
 								<li>
-									<Link href="mailto:livechat@solvior.com">
-										livechat@solvior.com
+									<Link href="mailto:info@realtimeinfra.com">
+										info@realtimeinfra.com
 									</Link>
 								</li>
 								<li className="active">

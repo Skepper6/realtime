@@ -207,11 +207,11 @@
 
 /*----------------------------------------------------------
 
-Theme Name: Solvior - Business Consulting HTML Template
-Theme URI: https://themejunction.net/html/Solvior/demo/
-Author: Theme-Junction
-Author URI: https://themeforest.net/user/theme-junction
-Description: Solvior - Business Consulting HTML Template
+Theme Name: Realtime Infra - Engineering Services Template
+Theme URI: /
+Author: Realtime Infra
+Author URI: /
+Description: Realtime Infra engineering services template
 
 -----------------------------------------------------------*/
 /*--------------- TABLE OF CONTENTS -------------
@@ -2014,7 +2014,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .topbar_infos .info_item select::before,
 .topbar_infos .info_item .nice-select::before {
   content: "\e927";
-  font-family: "solvior-icons";
+  font-family: "realtime-icons";
 }
 
 .topbar_infos .info_item select::after,
@@ -2024,7 +2024,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   width: auto;
   border: none;
   content: "\e91a";
-  font-family: "solvior-icons";
+  font-family: "realtime-icons";
   -webkit-transform: translateY(-50%) rotate(0);
   -ms-transform: translateY(-50%) rotate(0);
   transform: translateY(-50%) rotate(0);
@@ -2172,7 +2172,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .mainmenu ul>li.menu-item-has-children>a::after,
 .mainmenu ul>li.has-dropdown>a::after {
   content: "\e91a";
-  font-family: "solvior-icons";
+  font-family: "realtime-icons";
   -webkit-transition: -webkit-transform 0.4s;
   transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
@@ -8592,8 +8592,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
   position: absolute;
   top: -1px;
   inset-inline-start: 35%;
-  -webkit-mask-image: url("https://solvior-react.vercel.app/images/shapes/about-mark-2.svg");
-  mask-image: url("https://solvior-react.vercel.app/images/shapes/about-mark-2.svg");
+  -webkit-mask-image: url("/images/shapes/about-mark-2.svg");
+  mask-image: url("/images/shapes/about-mark-2.svg");
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: contain;
@@ -10990,7 +10990,7 @@ blockquote::before {
   position: absolute;
   inset-inline-start: 30px;
   top: 30px;
-  font-family: "solvior-icons" !important;
+  font-family: "realtime-icons" !important;
   font-size: 64px;
   color: var(--tj-color-theme-primary);
   line-height: 1;
@@ -17529,7 +17529,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contact-form-one .nice-select::before {
   position: absolute;
   content: "\e91a";
-  font-family: "solvior-icons";
+  font-family: "realtime-icons";
   top: 6px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
@@ -18076,7 +18076,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contact-team-details__form .tj-input.tj-nice-select::before {
   position: absolute;
   content: "\e91a";
-  font-family: "solvior-icons";
+  font-family: "realtime-icons";
   top: 10px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
@@ -30124,7 +30124,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .h7-faq-style .accordion-item .accordion-header .accordion-button::before {
   content: "";
   background: url("https://skepper.in/000_Skepper_test/real/plus-lg.svg") no-repeat center;
-  /* font-family: "solvior-icons"; */
+  /* font-family: "realtime-icons"; */
   /* border: 1px solid var(--tj-color-border-2); */
   height: 26px;
   width: 26px;
@@ -36314,7 +36314,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .form-group .nice-select::before {
   position: absolute;
   content: "\e91a";
-  font-family: "solvior-icons";
+  font-family: "realtime-icons";
   top: 17px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
@@ -37894,7 +37894,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .h6-insight_accordion.h10-about-accordion .accordion_item .accordion_title::before {
   content: "\e91e";
-  font-family: "solvior-icons" !important;
+  font-family: "realtime-icons" !important;
   font-style: normal;
   font-weight: normal;
   font-size: 19px;

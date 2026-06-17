@@ -25,7 +25,7 @@ const globalStylesheets = [
   "/assets/css/glightbox.min.css",
   "/assets/css/meanmenu.css",
   "/assets/css/odometer-theme-default.css",
-  "/assets/css/solvior-icons.css",
+  "/assets/css/realtime-icons.css",
   "/assets/css/nice-select2.css",
   "/assets/css/main.css",
   "/assets/css/shop.css",

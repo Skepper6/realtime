@@ -2858,7 +2858,10 @@ margin-right: 0px !important; */
   .rt-hero-career .rt-hero__shade{
     height: auto !important;  
   }
-  .blogmob_show,  .rt-hero-career{
+  .rt-hero-career{
+    height: 633px; 
+  }
+  .blogmob_show{
     height: 633px !important;
   }
     .blogmob_show{

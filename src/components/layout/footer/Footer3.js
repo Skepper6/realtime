@@ -11,7 +11,7 @@ const Footer3 = () => {
 							<div className="footer-widget footer1-col-1 ">
 								<div className="footer-logo">
 									<Link href="/">
-										<img src="/images/home/logo.png" alt="solvior" />
+										<img src="/images/home/logo.png" alt="Realtime Infra" />
 									</Link>
 								</div>
 								<p className="desc">
@@ -153,7 +153,7 @@ const Footer3 = () => {
 										© 2025{" "}
 										<Link href="/" target="_blank">
 											{" "}
-											Solvior{" "}
+											Realtime Infra{" "}
 										</Link>{" "}
 										All right reserved.
 									</p>
