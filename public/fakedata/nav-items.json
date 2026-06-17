@@ -55,6 +55,11 @@
         "id": 1,
         "name": "Blogs",
         "path": "/resources/blogs"
+      },
+       {
+        "id": 2,
+        "name": "Careers",
+        "path": "/resources/careers"
       }
     ]
   },
